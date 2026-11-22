@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Firstlight collector (built on MCT, the Media Collection Tool).
+"""Nascent collector (built on MCT, the Media Collection Tool).
 
 Pulls every public source listed in sources.json, normalises it into one schema,
 tags topics, and writes:
@@ -40,7 +40,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_DIR = os.path.join(ROOT, "site", "data")
 SOURCES = os.path.join(ROOT, "scripts", "sources.json")
 
-UA = "Firstlight-Collector/2.0 (open-source emerging-tech reader; built on MCT)"
+UA = "Nascent-Collector/2.0 (open-source emerging-tech reader; built on MCT)"
 TIMEOUT = 20
 MAX_BYTES = 6_000_000
 MAX_ITEMS = 2200
@@ -114,7 +114,7 @@ def fetch(url: str, headers: dict | None = None, data: bytes | None = None) -> b
         h["Authorization"] = "Bearer " + ENV("GITHUB_TOKEN")
     if host.endswith("reddit.com") and ENV("REDDIT_USERNAME"):
         # Reddit's API rules ask for "<platform>:<app id>:<version> (by /u/<username>)".
-        h["User-Agent"] = f"web:firstlight:2.0 (by /u/{ENV('REDDIT_USERNAME')})"
+        h["User-Agent"] = f"web:nascent:2.0 (by /u/{ENV('REDDIT_USERNAME')})"
     h.update(headers or {})
     with _sem(host):
         try:
@@ -548,7 +548,8 @@ def run_source(src):
 
 
 # How much a source's engagement number says about broad importance (default 1.0).
-TYPE_WEIGHT = {"youtube": 0.7, "openalex": 0.8, "hf_models": 0.85, "devto": 0.6, "rss": 0.7}
+TYPE_WEIGHT = {"youtube": 0.7, "openalex": 0.8, "hf_models": 0.85, "devto": 0.6, "rss": 0.7,
+               "bluesky": 0.6, "mastodon": 0.75}
 
 
 def add_heat(items, weights):
@@ -588,7 +589,7 @@ def trending(items):
 
 
 def digest(feed):
-    lines = [f"# Firstlight digest — {feed['generated']}", "",
+    lines = [f"# Nascent digest — {feed['generated']}", "",
              "Latest emerging-tech research, news, analysis and launches.", ""]
     for key, (label, _) in TOPICS.items():
         its = [i for i in feed["items"] if key in i["topics"]][:10]
@@ -639,7 +640,7 @@ def main():
     add_heat(items, {s['id']: s.get('weight', TYPE_WEIGHT.get(s['type'], 1.0)) for s in sources})
     feed = {
         "version": 2,
-        "name": "Firstlight",
+        "name": "Nascent",
         "generated": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "topics": {k: v[0] for k, v in TOPICS.items()},
         "trending": trending(items),

@@ -3,7 +3,7 @@
 // and every outbound link is checked to be http(s).
 "use strict";
 
-// MCT is the engine; Firstlight is the public face.
+// MCT is the engine; Nascent is the public face.
 const KINDS = {
   all: { label: "All" },
   research: { label: "Research", one: "Research", color: "var(--k-research)" },

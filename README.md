@@ -1,6 +1,6 @@
-# Firstlight
+# Nascent
 
-**Emerging tech, first.** A free, open-source media outlet for the frontier: the latest **research, news, analysis, open-source solutions, launches, learning material and community discussion** on emerging technology, collected from ~140 public sources every few hours and presented in one calm, fast feed.
+**Technology, at the moment it's born.** Catch it before it hits the mainstream at [nascent.news](https://nascent.news). A free, open-source media outlet for the frontier: the latest **research, news, analysis, open-source solutions, launches, learning material and community discussion** on emerging technology, collected from ~140 public sources every few hours and presented in one calm, fast feed.
 
 Built on **MCT (Media Collection Tool)**. No server, no database, no accounts, cookies, analytics or third-party scripts. It runs entirely on **GitHub Actions + GitHub Pages**, for free.
 
@@ -29,7 +29,7 @@ All defined in [`scripts/sources.json`](scripts/sources.json), grouped by conten
 
 Source types: `rss` (any RSS/Atom feed, including any Substack's `/feed`), `arxiv`, `openalex`, `biorxiv`, `youtube`, `reddit`, `hn`, `lobsters`, `hf_papers`, `hf_models`, `github`, `devto`, `producthunt`, `mastodon`, `bluesky`. General-interest sources use `require_topic` so only emerging-tech items get through. Every item is auto-tagged into topics (AI, Quantum, Space, Bio & Health, Energy & Climate, Robotics, Security, Chips & Hardware, Software, Materials & Physics, Education).
 
-**Why not Google Scholar?** It has no API and its terms forbid automated scraping (it also blocks it). Firstlight uses **OpenAlex** instead: an open index of 250M+ scholarly works covering the same journals, conferences and repositories, plus arXiv, bioRxiv and medRxiv for preprints.
+**Why not Google Scholar?** It has no API and its terms forbid automated scraping (it also blocks it). Nascent uses **OpenAlex** instead: an open index of 250M+ scholarly works covering the same journals, conferences and repositories, plus arXiv, bioRxiv and medRxiv for preprints.
 
 ### Optional keys (free)
 
@@ -43,10 +43,10 @@ Add these under **Settings → Secrets and variables → Actions**. They are onl
 
 ## Deploy (≈5 minutes)
 
-1. Create a new **public** GitHub repository (e.g. `firstlight`) and push this folder to `main`.
+1. Create a new **public** GitHub repository (e.g. `nascent`) and push this folder to `main`.
 2. Repo **Settings → Pages → Build and deployment → Source: GitHub Actions**.
 3. **Actions** tab → *Collect & publish* → **Run workflow**.
-4. Your portal is live at `https://<your-username>.github.io/firstlight/` and refreshes itself every 3 hours.
+4. Your portal is live at `https://<your-username>.github.io/nascent/` and refreshes itself every 3 hours.
 
 Optional: add a custom domain in Settings → Pages (GitHub provides free HTTPS).
 
@@ -62,8 +62,8 @@ python3 -m http.server -d site 8000 # open http://localhost:8000
 
 The portal never talks to Freya, and Freya's server is never exposed. Freya **pulls** the public files instead:
 
-- `https://<you>.github.io/firstlight/data/feed.json` — structured feed (schema below)
-- `https://<you>.github.io/firstlight/data/latest.md` — Markdown digest grouped by topic, ideal for RAG / summarisation
+- `https://<you>.github.io/nascent/data/feed.json` — structured feed (schema below)
+- `https://<you>.github.io/nascent/data/latest.md` — Markdown digest grouped by topic, ideal for RAG / summarisation
 
 Each card also has **Copy for Freya**, which copies a ready-made brief for pasting into a chat.
 
@@ -87,7 +87,7 @@ Minimal Freya ingestion (Python):
 
 ```python
 import json, urllib.request
-feed = json.load(urllib.request.urlopen("https://<you>.github.io/firstlight/data/feed.json", timeout=20))
+feed = json.load(urllib.request.urlopen("https://<you>.github.io/nascent/data/feed.json", timeout=20))
 docs = [f"{i['title']}\n{i['summary']}\n{i['url']}" for i in feed["items"]]
 # → embed / index `docs` in Freya's vector store on your own schedule
 ```
@@ -103,4 +103,4 @@ docs = [f"{i['title']}\n{i['summary']}\n{i['url']}" for i in feed["items"]]
 
 ## Licence
 
-MIT. Firstlight is built on MCT (Media Collection Tool). Articles remain the property of their publishers; MCT shows titles, short excerpts and links back to the original.
+MIT. Nascent is built on MCT (Media Collection Tool). Articles remain the property of their publishers; MCT shows titles, short excerpts and links back to the original.
