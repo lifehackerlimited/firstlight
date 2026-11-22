@@ -227,6 +227,7 @@ def build_pricing():
           <li>Nascent signals report: ideas rising across papers, code and discussion before the news</li>
           <li>Cancel anytime in two clicks</li>
         </ul>
+        {f'<p class="founder">Founding members: use code <b>{E(CFG["founder_code"])}</b> for {CUR}{P["pro_monthly"] - 2}/month for life (first 100 people, monthly plan).</p>' if CFG.get("founder_code") else ""}
         <span class="plan-btn" data-monthly-btn>{btn("pro_monthly", f"Start {t}-day free trial", True)}</span>
         <span class="plan-btn" data-yearly-btn hidden>{btn("pro_yearly", f"Start {t}-day free trial", True)}</span>
       </article>
@@ -261,7 +262,7 @@ def build_pricing():
       <h3>Is the website itself free?</h3>
       <p>Yes, always. Paid plans pay for the extras: personal email briefings, AI summaries and the team API. They also keep the site ad-free.</p>
       <h3>Who handles my payment?</h3>
-      <p>Stripe. Your card details go straight to Stripe and never touch {E(NAME)}. Prices include VAT where it applies.</p>
+      <p>Stripe. Your card details go straight to Stripe and never touch {E(NAME)}. For paid plans Stripe acts as the reseller (merchant of record), so your receipt comes from Stripe and VAT is handled correctly wherever you live. Prices include VAT where it applies.</p>
       <h3>Can I get a refund?</h3>
       <p>Yes. If you're charged and change your mind within 14 days, email us for a full refund. See the <a href="{ABS}terms/">terms</a>.</p>
     </section>"""
@@ -320,7 +321,7 @@ def build_legal():
       <h2>Subscriptions and email digests</h2>
       <p>If you sign up for a plan (including the free weekly digest), we process your name, email address, plan, digest keywords and billing history to provide the service. The lawful basis is <b>performance of a contract</b>. For the free digest, the basis is your <b>consent</b>, which you can withdraw at any time by unsubscribing.</p>
       <ul>
-        <li><b>Stripe</b> handles sign-up, payments, invoices and the account portal. Card details go directly to Stripe and are never seen or stored by us.</li>
+        <li><b>Stripe</b> handles sign-up, payments, invoices, tax and the account portal, and is the reseller (merchant of record) for paid plans. Card details go directly to Stripe and are never seen or stored by us.</li>
         <li><b>Resend</b> delivers digest emails on our behalf.</li>
         <li><b>GitHub</b> runs the automated jobs that build the site and send digests.</li>
       </ul>
@@ -340,6 +341,7 @@ def build_legal():
       <h2>The service</h2>
       <p>{E(NAME)} collects headlines, short excerpts and links from public sources and organises them. Articles, papers, videos and posts belong to their publishers and authors. Follow the link to read the original. We don't guarantee that third-party content is accurate, complete or available, and listing something isn't an endorsement. AI-written summaries can contain mistakes, so check the original before relying on it.</p>
       <h2>Plans, trials and billing</h2>
+      <p>Paid plans are sold through Stripe, which acts as the reseller (merchant of record) and collects any VAT or sales tax due. Stripe's own terms also apply to the payment.</p>
       <ul>
         <li>Paid plans (Pro, Student, Team) start with a {t}-day free trial. Unless you cancel before it ends, your subscription starts automatically and you're charged the price shown at sign-up, then again each month or year until you cancel.</li>
         <li>You can cancel at any time in the account portal. Cancelling stops future payments, and you keep access until the end of the period you've paid for.</li>
