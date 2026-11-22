@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nascent — Quantum</title>
+  <subtitle>Technology, at the moment it&#x27;s born.</subtitle>
+  <link href="https://lifehackerlimited.github.io/nascent/"/>
+  <link rel="self" href="https://lifehackerlimited.github.io/nascent/topics/quantum/feed.xml"/>
+  <id>https://lifehackerlimited.github.io/nascent/topics/quantum/feed.xml</id>
+  <updated>2026-11-22T18:25:29Z</updated>
+  <entry>
+    <title>Quantum Computing&#x27;s First Real-world Payoff May Come In Energy Solutions</title>
+    <link href="https://hardware.slashdot.org/story/26/11/22/078255/quantum-computings-first-real-world-payoff-may-come-in-energy-solutions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+    <id>https://hardware.slashdot.org/story/26/11/22/078255/quantum-computings-first-real-world-payoff-may-come-in-energy-solutions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+    <updated>2026-11-22T08:34:00Z</updated>
+    <author><name>Slashdot</name></author>
+    <category term="discussion"/>
+    <summary>While quantum computing&#x27;s biggest breakthroughs &quot;are still likely to be years, if not decades, away,&quot; CNBC reports the technology is already being tested in energy applications, &quot;from keeping power grids stable to finding better materials for solar cells and hydrogen production.&quot; Quantinuum, which was formed by the merger of Cambridge Quantum and Honeywell…</summary>
+  </entry>
+  <entry>
+    <title>TQI linking test v15 (delete me)</title>
+    <link href="https://thequantuminsider.com/2026/11/21/__trashed-5/"/>
+    <id>https://thequantuminsider.com/2026/11/21/__trashed-5/</id>
+    <updated>2026-11-21T21:45:27Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>IonQ announced a deal with Mastercard today. Analysts said IonQ’s roadmap is ambitious. Mastercard also commented. D-Wave Quantum and D-Wave were mentioned. The city of Chattanooga hosted it. Over a long time horizon, Horizon Europe funds research. Horizon Quantum Computing is different from Horizon raising money. IBM , Harvard , HSBC</summary>
+  </entry>
+  <entry>
+    <title>Time may be far stranger than we realize. Scientists have a way to test it</title>
+    <link href="https://www.sciencedaily.com/releases/2026/11/261120075558.htm"/>
+    <id>https://www.sciencedaily.com/releases/2026/11/261120075558.htm</id>
+    <updated>2026-11-21T15:09:46Z</updated>
+    <author><name>ScienceDaily · Technology</name></author>
+    <category term="news"/>
+    <summary>Time may be far stranger than we realize, and scientists have proposed a way to detect clocks experiencing multiple flows of time simultaneously. Using atomic clocks with dramatically enhanced sensitivity, researchers hope to reveal a never-before-observed quantum effect that could transform our understanding of time and gravity.</summary>
+  </entry>
+  <entry>
+    <title>Harvard-led team receives $12 million in federal funds to advance quantum computing with AI</title>
+    <link href="https://news.harvard.edu/gazette/story/2026/11/harvard-led-team-receives-12-million-in-federal-funds-to-advance-quantum-computing-with-ai/"/>
+    <id>https://news.harvard.edu/gazette/story/2026/11/harvard-led-team-receives-12-million-in-federal-funds-to-advance-quantum-computing-with-ai/</id>
+    <updated>2026-11-20T19:00:00Z</updated>
+    <author><name>Harvard Gazette</name></author>
+    <category term="news"/>
+    <summary>Project unites MIT, Cornell, three national labs, tech partners as part of Genesis Mission</summary>
+  </entry>
+  <entry>
+    <title>10-Member Team Drawn from Chinese Institutions Wins 2026 Gordon Bell Prize</title>
+    <link href="https://thequantuminsider.com/2026/11/20/10-member-team-drawn-from-chinese-institutions-wins-2026-gordon-bell-prize/"/>
+    <id>https://thequantuminsider.com/2026/11/20/10-member-team-drawn-from-chinese-institutions-wins-2026-gordon-bell-prize/</id>
+    <updated>2026-11-20T16:13:55Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Insider Brief PRESS RELEASE — ACM, the Association for Computing Machinery, named a ten-member team drawn from Chinese institutions as the winner of the 2026 ACM Gordon Bell Prize for their project “Closing the FeMo-Cofactor ‘Quantum-Advantage’ Gap with Exascale Supercomputers.” The ACM Gordon Bell Prize tracks the progress of parallel computing and rewards…</summary>
+  </entry>
+  <entry>
+    <title>How the Department of Commerce’s Quantum Awards Work and What Companies Give in Return</title>
+    <link href="https://thequantuminsider.com/2026/11/20/how-the-department-of-commerces-quantum-awards-work-and-what-companies-give-in-return/"/>
+    <id>https://thequantuminsider.com/2026/11/20/how-the-department-of-commerces-quantum-awards-work-and-what-companies-give-in-return/</id>
+    <updated>2026-11-20T16:05:47Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Insider Brief The U.S. Department of Commerce’s quantum computing awards combine research funding with government ownership, giving companies access to capital for specific engineering projects in exchange for shares and commitments governing how the work is completed. Agreements disclosed in SEC filings by Rigetti Computing, D-Wave Quantum and Quantinuum…</summary>
+  </entry>
+  <entry>
+    <title>Quantus Launches a Quantum-Secure Cold Wallet That Runs on Any Spare Phone</title>
+    <link href="https://thequantuminsider.com/2026/11/20/quantus-quantum-secure-cold-wallet-spare-phone/"/>
+    <id>https://thequantuminsider.com/2026/11/20/quantus-quantum-secure-cold-wallet-spare-phone/</id>
+    <updated>2026-11-20T12:58:37Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Insider Brief PRESS RELEASE — Quantus has released the Quantus Cold Wallet, an open-source mobile app that converts any spare smartphone into an entirely air-gapped, offline crypto wallet. The launch aims to eliminate the hidden vulnerabilities of traditional hardware wallets, which frequently expose buyers to both digital supply-chain tampering and…</summary>
+  </entry>
+  <entry>
+    <title>KT and LG Electronics Demonstrate Quantum Secure Direct Communication</title>
+    <link href="https://thequantuminsider.com/2026/11/20/kt-lg-electronics-quantum-secure-direct-communication/"/>
+    <id>https://thequantuminsider.com/2026/11/20/kt-lg-electronics-quantum-secure-direct-communication/</id>
+    <updated>2026-11-20T11:27:32Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Insider Brief Image and text data were sent and then recovered at the receiving end using a quantum secure direct communication (QSDC) system that KT developed jointly with LG Electronics, KT said on Thursday, according to Digital Today. Digital Today described QSDC as a next-generation quantum communications technology that carries the information itself…</summary>
+  </entry>
+  <entry>
+    <title>Mastercard Launches Quantum Advisory Practice for Financial Services</title>
+    <link href="https://thequantuminsider.com/2026/11/20/mastercard-quantum-advisory-practice-financial-services/"/>
+    <id>https://thequantuminsider.com/2026/11/20/mastercard-quantum-advisory-practice-financial-services/</id>
+    <updated>2026-11-20T09:51:04Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Insider Brief PRESS RELEASE — Quantum computing is not currently a mainstream technology, but cybersecurity experts and the financial services industry need to operate as if it’s here. Quantum computing has transformative potential, from strengthening fraud detection to optimizing financial operations and loyalty, to unlocking new forms of innovation. Yet…</summary>
+  </entry>
+  <entry>
+    <title>CNM and Sandia National Labs Sign MoU to Expand Technical Workforce Training</title>
+    <link href="https://thequantuminsider.com/2026/11/20/cnm-sandia-mou-technical-workforce-training/"/>
+    <id>https://thequantuminsider.com/2026/11/20/cnm-sandia-mou-technical-workforce-training/</id>
+    <updated>2026-11-20T09:42:54Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Insider Brief PRESS RELEASE — Leaders from Central New Mexico Community College and Sandia National Laboratories have signed a Memorandum of Understanding (MOU) to connect more New Mexicans to technical training and career pathways that address advanced manufacturing workforce needs in New Mexico while supporting Sandia’s national security mission. The…</summary>
+  </entry>
+  <entry>
+    <title>Guest Post: Building the Conditions for a Quantum Breakthrough</title>
+    <link href="https://thequantuminsider.com/2026/11/20/guest-post-building-the-conditions-for-a-quantum-breakthrough/"/>
+    <id>https://thequantuminsider.com/2026/11/20/guest-post-building-the-conditions-for-a-quantum-breakthrough/</id>
+    <updated>2026-11-20T09:09:29Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Guest Post by Dr. Juan Bernabé-Moreno and Ivan Houlihan There is a class of problems in materials science that classical computers cannot solve. The math involved grows exponentially more complex as the system being studied gets larger. Add more dimensions to a quantum system or introduce realistic interactions between particles, and the number of variables…</summary>
+  </entry>
+  <entry>
+    <title>Guest Post: When Will Quantum Computing Become Useful for Insurance?</title>
+    <link href="https://thequantuminsider.com/2026/11/20/guest-post-when-will-quantum-computing-become-useful-for-insurance/"/>
+    <id>https://thequantuminsider.com/2026/11/20/guest-post-when-will-quantum-computing-become-useful-for-insurance/</id>
+    <updated>2026-11-20T08:58:59Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Guest Post Dr. Kris Naudts, Zeynep Koruturk, and Donald Harmitt @ Firgun Ventures. Firgun Ventures is a VC firm investing in Series A/B quantum scale-ups globally. Insurance is, at its core, the business of putting a price on uncertainty, and computationally intensive simulations underpin much of how insurers assess risk. US insurer Allstate can run […]</summary>
+  </entry>
+  <entry>
+    <title>CMOS surprises</title>
+    <link href="https://www.nature.com/articles/s41928-026-01748-4"/>
+    <id>https://www.nature.com/articles/s41928-026-01748-4</id>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <author><name>Nature Electronics</name></author>
+    <category term="research"/>
+    <summary>Nature Electronics, Published online: 20 November 2026; doi:10.1038/s41928-026-01748-4 Unexpected effects are still being discovered in complementary metal–oxide–semiconductor (CMOS) circuits, and the results could have implications for the advance of quantum computing.</summary>
+  </entry>
+  <entry>
+    <title>Google’s Quantum Chip Beats Classical Limits in Tests of Teamwork</title>
+    <link href="https://thequantuminsider.com/2026/11/19/googles-quantum-chip-beats-classical-limits-in-tests-of-teamwork/"/>
+    <id>https://thequantuminsider.com/2026/11/19/googles-quantum-chip-beats-classical-limits-in-tests-of-teamwork/</id>
+    <updated>2026-11-19T20:31:49Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Insider Brief It turns out teamwork can indeed make the dream work, even when the team isn’t allowed to talk. It helps to have a few entangled qubits, though. In a study, a Google-led team of researchers used a quantum chip to beat the best classical strategies in games that barred players from communicating, demonstrating […]</summary>
+  </entry>
+  <entry>
+    <title>A game you cannot win unless you have a quantum computer</title>
+    <link href="https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/"/>
+    <id>https://research.google/blog/a-game-you-cannot-win-unless-you-have-a-quantum-computer/</id>
+    <updated>2026-11-19T20:03:00Z</updated>
+    <author><name>Google Research Blog</name></author>
+    <category term="insight"/>
+    <summary>Quantum</summary>
+  </entry>
+  <entry>
+    <title>High-temperature Gibbs states are uniformly Markovian and trivial</title>
+    <link href="https://arxiv.org/abs/2611.26626v1"/>
+    <id>https://arxiv.org/abs/2611.26626v1</id>
+    <updated>2026-11-19T18:59:49Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>We prove that, above a constant temperature threshold, Gibbs states of local noncommuting qudit Hamiltonians exhibit exponential decay of mutual information and conditional mutual information (CMI). Specifically, we prove exponential decay of the CMI for arbitrary spatial tripartitions $A \sqcup B \sqcup C$ which need not comprise the entire system, thereby…</summary>
+  </entry>
+  <entry>
+    <title>Local velocimetry for atomic superfluids: from Riemann rarefaction waves to quantized vortices</title>
+    <link href="https://arxiv.org/abs/2611.26608v1"/>
+    <id>https://arxiv.org/abs/2611.26608v1</id>
+    <updated>2026-11-19T18:56:37Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>We demonstrate local velocimetry for atomic superfluids in two dimensions (2D). Using matter-wave interferometry based on Raman--Bragg beam splitters, we map the local gradient of the phase of the superfluid&#x27;s wavefunction onto displacement of the interference fringes and reconstruct the 2D velocity field. We illustrate the capabilities of this technique by…</summary>
+  </entry>
+  <entry>
+    <title>Query-Optimal Quantum Minimum Finding from Numerical Estimators</title>
+    <link href="https://arxiv.org/abs/2611.26606v1"/>
+    <id>https://arxiv.org/abs/2611.26606v1</id>
+    <updated>2026-11-19T18:55:55Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>We propose a quantum minimum-finding algorithm for objectives accessed via numerical estimators that avoids the logarithmic query overhead of amplifying the confidence of estimates before the search. A coherent estimator that is $\varepsilon$-accurate with probability at least $2/3$ on each of $N$ labels suffices to find a $2\varepsilon$-optimal label using…</summary>
+  </entry>
+  <entry>
+    <title>Fast, in-place, and ancilla-free quantum algorithms for integer multiplication and inversion</title>
+    <link href="https://arxiv.org/abs/2611.26605v1"/>
+    <id>https://arxiv.org/abs/2611.26605v1</id>
+    <updated>2026-11-19T18:55:54Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Arithmetic operations are a fundamental building block in the design of quantum algorithms, with their implementation cost expected to have a significant impact on the viability of a wide variety of quantum applications. In this work, we present novel algorithms for a number of in-place quantum arithmetic operations that are highly efficient in terms of…</summary>
+  </entry>
+  <entry>
+    <title>Scalable Simulation of Strongly Correlated Fermions with Neural Gaussian Tensor Networks</title>
+    <link href="https://arxiv.org/abs/2611.26604v1"/>
+    <id>https://arxiv.org/abs/2611.26604v1</id>
+    <updated>2026-11-19T18:55:44Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Accurate simulations of strongly correlated electrons remain a central challenge in computational physics. We introduce neural-network Gaussian projected entangled-pair states (NN-GPEPS), which exploit the locally-entangled subspace of Gaussian states to give an architecture more compatible with modern neural networks and an exact contraction cost of…</summary>
+  </entry>
+  <entry>
+    <title>High-Accuracy Neural-Network Quantum States via Randomized Real-Time Dynamics</title>
+    <link href="https://arxiv.org/abs/2611.26587v1"/>
+    <id>https://arxiv.org/abs/2611.26587v1</id>
+    <updated>2026-11-19T18:45:45Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Neural-network quantum states (NQSs) exhibit a disparity in converging to the ground state during energy minimization: while the energy converges quadratically with the error in the variational wave function, other observables converge only linearly, which limits the accuracy of physical predictions. Here we show how to close this gap by introducing a new…</summary>
+  </entry>
+  <entry>
+    <title>End-to-End Quantum Algorithm for Differential Equations: Application to Simulating a Biomolecular System</title>
+    <link href="https://arxiv.org/abs/2611.26582v1"/>
+    <id>https://arxiv.org/abs/2611.26582v1</id>
+    <updated>2026-11-19T18:43:32Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Quantum algorithms for differential equations have the potential for substantial algorithmic speedups over classical methods. However, they rely on certain assumptions and abstract oracle specifications that leave their practical feasibility and computational advantages for realistic applications unclear. Here we formalize the concept of an end-to-end…</summary>
+  </entry>
+  <entry>
+    <title>Classically Trained Quantum Generative Models with Shared Training and Fine Tuning for Quantum Matter</title>
+    <link href="https://arxiv.org/abs/2611.26577v1"/>
+    <id>https://arxiv.org/abs/2611.26577v1</id>
+    <updated>2026-11-19T18:42:29Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Ground-state measurement statistics characterize quantum matter. Selected correlations can guide the classical training of a quantum sampler even when sampling the full distribution is difficult. We ask whether training across related ground-state distributions helps the sampler reproduce their correlations more accurately. We train a hypernetwork to map…</summary>
+  </entry>
+  <entry>
+    <title>Classical Oracle Separation of QMA from the QCMA Hierarchy and Quantum Cryptography Even When P = QCMA</title>
+    <link href="https://arxiv.org/abs/2611.26574v1"/>
+    <id>https://arxiv.org/abs/2611.26574v1</id>
+    <updated>2026-11-19T18:40:14Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Remark: This work is in submission at STOC&#x27;27 and thus the full manuscript has been publicly posted on the conference website since November 3rd, 2026. Inspired by the Codeword-Hash Structure problem recently introduced by Cakan (arXiV, 2026) to separate $\mathsf{QMA}$ from $\mathsf{QCIP}$, we introduce a new problem called Codeword-Hash pairs in Noise…</summary>
+  </entry>
+  <entry>
+    <title>Authenticating quantum key distribution through random position checks</title>
+    <link href="https://arxiv.org/abs/2611.26542v1"/>
+    <id>https://arxiv.org/abs/2611.26542v1</id>
+    <updated>2026-11-19T18:18:32Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Quantum key distribution (QKD) requires some form of authentication in order for the parties to be sure they are not unknowingly generating a key with an adversary pretending to be one of the honest parties. In this work, we propose a protocol in which the position of one of the parties is used as the authentication credential for key distribution. Our…</summary>
+  </entry>
+  <entry>
+    <title>On the design of sequential quantum repeaters with error detection</title>
+    <link href="https://arxiv.org/abs/2611.26537v1"/>
+    <id>https://arxiv.org/abs/2611.26537v1</id>
+    <updated>2026-11-19T18:16:24Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Long-distance, trust-free quantum communications rely on the development of scalable quantum repeater schemes. Sequential entanglement generation with error detection is a promising approach that combines manageable implementation requirements with a hop-by-hop architecture compatible with existing classical infrastructure. In this paper, we investigate key…</summary>
+  </entry>
+  <entry>
+    <title>Hamiltonian Stabilization of the Two-Photon Dicke Model</title>
+    <link href="https://arxiv.org/abs/2611.26523v1"/>
+    <id>https://arxiv.org/abs/2611.26523v1</id>
+    <updated>2026-11-19T18:00:36Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Collective two-photon light--matter interactions enable pair amplification but can destroy spectral confinement, preventing a stable thermodynamic bright phase. We show that a positive Kac-scaled number-Kerr interaction renders the two-photon Dicke Hamiltonian of \(N\) emitters lower-bounded at all couplings while preserving its generalized \(\mathbb Z_4\)…</summary>
+  </entry>
+  <entry>
+    <title>When the Noise Gets Noisy: Quantum Error Correction with Disordered Noise and Misinformed Decoding</title>
+    <link href="https://arxiv.org/abs/2611.26506v1"/>
+    <id>https://arxiv.org/abs/2611.26506v1</id>
+    <updated>2026-11-19T17:55:21Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Experimental demonstrations of quantum error correction often exhibit noise that varies across space and time, and attempting to characterize this disorder has been shown to substantially improve decoding performance. However, theoretical studies of quantum error correction typically assume fixed, perfectly known, homogeneous noise. Here we model decoding…</summary>
+  </entry>
+  <entry>
+    <title>Optimal Error corrected Hamiltonian estimation with nuisance parameters</title>
+    <link href="https://arxiv.org/abs/2611.26497v1"/>
+    <id>https://arxiv.org/abs/2611.26497v1</id>
+    <updated>2026-11-19T17:49:38Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Realistic quantum sensing is often affected by both noise and unknown nuisance parameters. Under Markovian dynamics, existing error correction approaches have often sought to suppress nuisance responses alongside environmental noise. Here we show that this local suppression of nuisance parameters is unnecessary and can be overly restrictive: nuisance…</summary>
+  </entry>
+  <entry>
+    <title>Scaling classical hardware for accurate real-time quantum error correction</title>
+    <link href="https://arxiv.org/abs/2611.26447v1"/>
+    <id>https://arxiv.org/abs/2611.26447v1</id>
+    <updated>2026-11-19T17:16:21Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Fault-tolerant quantum computation requires a classical decoder fast enough to process syndrome measurements at the rate at which they are generated, and to return its decisions with low latency. This is most demanding for superconducting processors, whose fast syndrome cycles force a trade-off between decoding speed and accuracy. Decoders fast enough to…</summary>
+  </entry>
+  <entry>
+    <title>When lies look like noise: certifying untrusted entanglement swapping</title>
+    <link href="https://arxiv.org/abs/2611.26436v1"/>
+    <id>https://arxiv.org/abs/2611.26436v1</id>
+    <updated>2026-11-19T17:10:09Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Entanglement swapping lets quantum repeaters distribute entanglement over long distances, a prerequisite for the quantum internet. We study its security in a noisy network whose intermediate nodes perform the quantum operations faithfully but may misreport the classical outcome that end users rely on. We show that the ideal functionality of entanglement…</summary>
+  </entry>
+  <entry>
+    <title>Tunable Ground-State Entanglement in Fully Connected Quantum Systems: From Logarithmic to Volume-Law Scaling</title>
+    <link href="https://arxiv.org/abs/2611.26430v1"/>
+    <id>https://arxiv.org/abs/2611.26430v1</id>
+    <updated>2026-11-19T17:08:10Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Entanglement scaling is a central probe of the complexity of quantum many-body ground states, yet once geometric locality is absent, it can depend sensitively on the structure and normalization of interactions. For fully connected Hamiltonians with the natural Kac normalization, nondegenerate gapped ground states are known to obey a logarithmic entanglement…</summary>
+  </entry>
+  <entry>
+    <title>Non-Binary Detector Error Models</title>
+    <link href="https://arxiv.org/abs/2611.26395v1"/>
+    <id>https://arxiv.org/abs/2611.26395v1</id>
+    <updated>2026-11-19T16:46:42Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>A key challenge in fault-tolerant quantum error correction (QEC) is that the syndrome extraction circuits are themselves faulty. Such circuit-level noise is commonly described by a detector error model (DEM). In Stim and in almost all related works, DEMs are binary: every non-binary circuit error (e.g., CNOT gate), is decomposed into independent binary…</summary>
+  </entry>
+  <entry>
+    <title>Efficient Classical Algorithms for Ground Energy Estimation of Fermions with Conjugate-Pair Orbital Interactions</title>
+    <link href="https://arxiv.org/abs/2611.26382v1"/>
+    <id>https://arxiv.org/abs/2611.26382v1</id>
+    <updated>2026-11-19T16:40:14Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Estimating the ground energy of interacting fermions is central to quantum many-body physics, and recent quantum algorithms provide polynomial-time guarantees for some structured families. Classical approaches commonly rely on quantum Monte Carlo, where the sign problem is a major obstacle. However, even when a nonnegative expansion without sign problem is…</summary>
+  </entry>
+  <entry>
+    <title>Imaginary-Time Density Correlations Encode Quantum Entropy and Free Energy</title>
+    <link href="https://arxiv.org/abs/2611.26381v1"/>
+    <id>https://arxiv.org/abs/2611.26381v1</id>
+    <updated>2026-11-19T16:40:04Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>In the classical limit, maximum-entropy inference yields an estimate of the excess entropy from the static structure factor through a single momentum sum. Quantum mechanically this estimate fails, because interactions also change the kinetic energy, while delocalization and exchange add information that equal-time correlations do not contain. We show that…</summary>
+  </entry>
+  <entry>
+    <title>Perfumer: A Large Language Model-based Agentic Framework Accelerating Structural Relaxation and Electronic Band Prediction for First-Principle Calculation</title>
+    <link href="https://arxiv.org/abs/2611.26349v1"/>
+    <id>https://arxiv.org/abs/2611.26349v1</id>
+    <updated>2026-11-19T16:23:33Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>First-principles structural relaxation and band calculations require substantial computation and expertise. Here we present Perfumer, a large language model-based agentic framework that couples Quantum ESPRESSO with two predictive models. Across tested structures, pre-relaxation with Perfumer-relax model followed by QE refinement yielded a 2.75-fold overall…</summary>
+  </entry>
+  <entry>
+    <title>CAVQS: Context-Aware Variational Quantum Circuit Synthesis via Unitary Redistribution and Dynamic Reconstruction</title>
+    <link href="https://arxiv.org/abs/2611.26219v1"/>
+    <id>https://arxiv.org/abs/2611.26219v1</id>
+    <updated>2026-11-19T14:57:16Z</updated>
+    <author><name>arXiv · Emerging Tech &amp; Hardware</name></author>
+    <category term="research"/>
+    <summary>Variational quantum circuit synthesis jointly searches circuit structure and continuous parameters to reduce costly two-qubit gates, but block-based workflows typically instantiate blocks independently, limiting simplification across block boundaries. Moreover, fully unitary synthesis does not exploit opportunities created by permitted output measurements…</summary>
+  </entry>
+  <entry>
+    <title>Topology-Enabled Self-Verification of Quantum Hall Resistance Standards</title>
+    <link href="https://arxiv.org/abs/2611.26016v1"/>
+    <id>https://arxiv.org/abs/2611.26016v1</id>
+    <updated>2026-11-19T12:33:15Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>The scaling of multi-element quantized Hall array resistance standards necessitates rigorous validation that internal quantization has not broken down without relying on the verification of dissipationless edge state transport. One proposed solution is to use a Symmetric Precision Quantization Reliability criterion, a mathematical framework that…</summary>
+  </entry>
+  <entry>
+    <title>Multicharged Kramers-Weyl Fermions, Quantum Geometric Hall Responses and de Haas-van Alphen Oscillations in WAl$_2$</title>
+    <link href="https://arxiv.org/abs/2611.25987v1"/>
+    <id>https://arxiv.org/abs/2611.25987v1</id>
+    <updated>2026-11-19T12:09:28Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>Quantum geometry of Bloch wave functions and crystalline symmetries play a central role in condensed matter physics, shaping the electronic topology and physical responses of solids. In particular, Kramers-Weyl fermions, spin-split Fermi surfaces probed through quantum oscillations and quantum geometric nonlinear Hall and intrinsic spin Hall responses have…</summary>
+  </entry>
+  <entry>
+    <title>Learning from Hypervectors: A Survey on Hyperdimensional Encoding</title>
+    <link href="https://doi.org/10.1145/3863975"/>
+    <id>https://doi.org/10.1145/3863975</id>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <author><name>OpenAlex · Quantum</name></author>
+    <category term="research"/>
+    <summary>Hyperdimensional computing (HDC) is an emerging computing paradigm that imitates the brain’s structure to offer a powerful and efficient processing and learning model. In HDC, the data are encoded with long vectors, called hypervectors , which typically range from 1, 000 to 10, 000 in length. The literature provides several encoding methods to generate…</summary>
+  </entry>
+  <entry>
+    <title>Quantum trick lets you share your location super securely</title>
+    <link href="https://www.newscientist.com/article/2599509-quantum-trick-lets-you-share-your-location-super-securely/?utm_campaign=RSS|NSNS&amp;utm_content=technology&amp;utm_medium=RSS&amp;utm_source=NSNS"/>
+    <id>https://www.newscientist.com/article/2599509-quantum-trick-lets-you-share-your-location-super-securely/?utm_campaign=RSS|NSNS&amp;utm_content=technology&amp;utm_medium=RSS&amp;utm_source=NSNS</id>
+    <updated>2026-11-18T16:00:00Z</updated>
+    <author><name>New Scientist · Technology</name></author>
+    <category term="news"/>
+    <summary>A new experiment demonstrates how quantum devices could verify a person’s position extremely securely, making it much harder to hack sensitive messages.</summary>
+  </entry>
+  <entry>
+    <title>Quantum Physics Can Verify a Person’s Location, NIST Researchers Show</title>
+    <link href="https://www.nist.gov/news-events/news/2026/11/quantum-physics-can-verify-persons-location-nist-researchers-show"/>
+    <id>https://www.nist.gov/news-events/news/2026/11/quantum-physics-can-verify-persons-location-nist-researchers-show</id>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <author><name>NIST</name></author>
+    <category term="news"/>
+    <summary>The technique offers the potential to protect infrastructure, safeguard financial institutions and prevent phishing.</summary>
+  </entry>
+  <entry>
+    <title>A material just one atom thick reveals a strange quantum secret</title>
+    <link href="https://www.sciencedaily.com/releases/2026/11/261115085554.htm"/>
+    <id>https://www.sciencedaily.com/releases/2026/11/261115085554.htm</id>
+    <updated>2026-11-17T01:25:39Z</updated>
+    <author><name>ScienceDaily · Computing</name></author>
+    <category term="news"/>
+    <summary>Researchers at the University of Osaka have discovered a remarkable quantum state forming at the boundary between a one-atom-thick material and a metal. They observed electrons behaving as though they were unusually heavy, including a previously unseen state created by interactions between the ultrathin layer and the copper beneath it. This…</summary>
+  </entry>
+  <entry>
+    <title>Quantum computers are getting too powerful to check. Scientists have a solution</title>
+    <link href="https://www.sciencedaily.com/releases/2026/11/261115085557.htm"/>
+    <id>https://www.sciencedaily.com/releases/2026/11/261115085557.htm</id>
+    <updated>2026-11-17T00:20:40Z</updated>
+    <author><name>ScienceDaily · Computing</name></author>
+    <category term="news"/>
+    <summary>Scientists have developed a new way to determine whether quantum simulations can be trusted, solving a growing problem as quantum computers become too powerful for conventional machines to check. Demonstrated on a 51-qubit system, the technique measures uncertainty and provides verifiable error margins that could help unlock the full potential of quantum…</summary>
+  </entry>
+  <entry>
+    <title>Physicists defy expectations by controlling the magnetic heart of a single atom</title>
+    <link href="https://www.sciencedaily.com/releases/2026/11/261114202232.htm"/>
+    <id>https://www.sciencedaily.com/releases/2026/11/261114202232.htm</id>
+    <updated>2026-11-16T02:56:02Z</updated>
+    <author><name>ScienceDaily · Computing</name></author>
+    <category term="news"/>
+    <summary>Scientists have unexpectedly discovered how to control the magnetic spin inside a single atom&#x27;s nucleus using radio waves, overturning previous assumptions about atomic behavior. The breakthrough could pave the way for more reliable quantum memory, although researchers are still trying to understand why it works.</summary>
+  </entry>
+  <entry>
+    <title>Holographic covering and the fortuity of black holes</title>
+    <link href="https://doi.org/10.21468/scipostphys.21.5.119"/>
+    <id>https://doi.org/10.21468/scipostphys.21.5.119</id>
+    <updated>2026-11-16T00:00:00Z</updated>
+    <author><name>OpenAlex · Quantum</name></author>
+    <category term="research"/>
+    <summary>We propose a classification of BPS states in holographic CFTs into monotone and fortuitous, based on their behaviors in the large N N limit. Intuitively, monotone BPS states form infinite sequences with increasing rank N N , while fortuitous ones exist within finite ranges of consecutive ranks. A precise definition is formulated using supercharge…</summary>
+  </entry>
+  <entry>
+    <title>Scientists capture electrons making seemingly impossible quantum jumps</title>
+    <link href="https://www.sciencedaily.com/releases/2026/11/261112025523.htm"/>
+    <id>https://www.sciencedaily.com/releases/2026/11/261112025523.htm</id>
+    <updated>2026-11-14T01:13:05Z</updated>
+    <author><name>ScienceDaily · Matter &amp; Energy</name></author>
+    <category term="news"/>
+    <summary>Scientists have captured electrons making seemingly impossible jumps across forbidden energy gaps in graphene, with some transitions occurring at a remarkable 100% probability. The breakthrough offers an unprecedented look at quantum behavior and could help unlock a new generation of ultrafast, light-controlled electronics.</summary>
+  </entry>
+  <entry>
+    <title>Caltech and Broadcom Gather to Map the Quantum Future</title>
+    <link href="https://www.caltech.edu/about/news/caltech-and-broadcom-gather-to-map-the-quantum-future"/>
+    <id>https://www.caltech.edu/about/news/caltech-and-broadcom-gather-to-map-the-quantum-future</id>
+    <updated>2026-11-13T19:32:41Z</updated>
+    <author><name>Caltech News</name></author>
+    <category term="news"/>
+    <summary>What is the future of computation? Will quantum computers help advance AI tools, or, conversely, will AI help build tomorrow&#x27;s quantum computers? These were just some of the topics bandied about at the third annual Caltech – Broadcom Technology symposium. The gathering was part of a larger partnership between Caltech and the tech giant Broadcom —a company…</summary>
+  </entry>
+  <entry>
+    <title>Tiny flaws in diamonds could unlock a quantum computing revolution</title>
+    <link href="https://www.sciencedaily.com/releases/2026/11/261111005855.htm"/>
+    <id>https://www.sciencedaily.com/releases/2026/11/261111005855.htm</id>
+    <updated>2026-11-13T05:26:41Z</updated>
+    <author><name>ScienceDaily · Computing</name></author>
+    <category term="news"/>
+    <summary>Scientists have discovered a faster way to identify diamond-based materials that could power quantum computers and sensors at room temperature. The breakthrough has already revealed promising new quantum building blocks that could help unlock computing capabilities far beyond those of today&#x27;s supercomputers.</summary>
+  </entry>
+  <entry>
+    <title>AI confirms a long-suspected limit on quantum computers’ advantages</title>
+    <link href="https://www.newscientist.com/article/2598418-ai-confirms-a-long-suspected-limit-on-quantum-computers-advantages/?utm_campaign=RSS|NSNS&amp;utm_content=technology&amp;utm_medium=RSS&amp;utm_source=NSNS"/>
+    <id>https://www.newscientist.com/article/2598418-ai-confirms-a-long-suspected-limit-on-quantum-computers-advantages/?utm_campaign=RSS|NSNS&amp;utm_content=technology&amp;utm_medium=RSS&amp;utm_source=NSNS</id>
+    <updated>2026-11-12T20:00:00Z</updated>
+    <author><name>New Scientist · Technology</name></author>
+    <category term="news"/>
+    <summary>An AI-powered proof has rigorously shown that using quantum computers wouldn&#x27;t have huge advantages for a whole class of mathematical problems, confirming a vastly influential conjecture</summary>
+  </entry>
+</feed>

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nascent — Security</title>
+  <subtitle>Technology, at the moment it&#x27;s born.</subtitle>
+  <link href="https://lifehackerlimited.github.io/nascent/"/>
+  <link rel="self" href="https://lifehackerlimited.github.io/nascent/topics/security/feed.xml"/>
+  <id>https://lifehackerlimited.github.io/nascent/topics/security/feed.xml</id>
+  <updated>2026-11-22T18:25:29Z</updated>
+  <entry>
+    <title>Some of our favorite Switch 2 games are cheaper through Black Friday</title>
+    <link href="https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale"/>
+    <id>https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale</id>
+    <updated>2026-11-22T17:00:00Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>Black Friday is a great time to expand your game library because it’s a chance to catch deals that aren’t normally happening throughout the year. That’s true for Nintendo Switch 2 games, as well. In addition to a $50 off sale on one of its console bundles, Nintendo is also knocking $20 off some of […]</summary>
+  </entry>
+  <entry>
+    <title>Python Devs Document &#x27;De-fanging Dangerous Triggers In GitHub Actions&#x27;</title>
+    <link href="https://it.slashdot.org/story/26/11/22/0625233/python-devs-document-de-fanging-dangerous-triggers-in-github-actions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+    <id>https://it.slashdot.org/story/26/11/22/0625233/python-devs-document-de-fanging-dangerous-triggers-in-github-actions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+    <updated>2026-11-22T16:34:00Z</updated>
+    <author><name>Slashdot</name></author>
+    <category term="discussion"/>
+    <summary>&quot;A handful of GitHub Actions triggers let a stranger on the internet start a workflow that may have access to your secrets,&quot; warn two security developers at the Python Software Foundation. Have dangerous triggers caused real incidents? Yes, repeatedly... The maintainers behind these projects weren&#x27;t careless. These triggers look harmless in a workflow file…</summary>
+  </entry>
+  <entry>
+    <title>Cleverbridge warns hackers stole credit card numbers, CVVs in data breach</title>
+    <link href="https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/"/>
+    <id>https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/</id>
+    <updated>2026-11-22T15:43:04Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers&#x27; payment card information, including credit card numbers and CVV security codes. [...]</summary>
+  </entry>
+  <entry>
+    <title>Signal to block Siri, Gemini AI from capturing chats on iOS, Android</title>
+    <link href="https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/"/>
+    <id>https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/</id>
+    <updated>2026-11-22T15:15:25Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]</summary>
+  </entry>
+  <entry>
+    <title>FBI investigating apparent hack of its key national criminal justice database</title>
+    <link href="https://techxplore.com/news/2026-11-fbi-apparent-hack-key-national.html"/>
+    <id>https://techxplore.com/news/2026-11-fbi-apparent-hack-key-national.html</id>
+    <updated>2026-11-22T15:04:37Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>The FBI is investigating an apparent hack of a national law enforcement database that it maintains, a person familiar with the matter said Saturday.</summary>
+  </entry>
+  <entry>
+    <title>Nintendo’s Switch 2 console is $50 off for Black Friday</title>
+    <link href="https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale"/>
+    <id>https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale</id>
+    <updated>2026-11-22T14:00:00Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>Those hoping to save some cash on a Nintendo Switch 2 can do so starting today, November 22nd, through Saturday, December 5th, giving you plenty of time to think about it after Cyber Monday has passed. For a limited time, Nintendo has knocked $50 off one of its two current console bundles, temporarily rolling back […]</summary>
+  </entry>
+  <entry>
+    <title>OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms</title>
+    <link href="https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"/>
+    <id>https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html</id>
+    <updated>2026-11-22T05:06:55Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes…</summary>
+  </entry>
+  <entry>
+    <title>Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps</title>
+    <link href="https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"/>
+    <id>https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html</id>
+    <updated>2026-11-22T05:03:41Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>A now-patched flaw in Ghostscript allows a crafted file to escape the program&#x27;s security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed…</summary>
+  </entry>
+  <entry>
+    <title>GhostScript CVE 2026-125396: &quot;Upload2Shell&quot;</title>
+    <link href="https://pwn.ai/upload2shell/research.html"/>
+    <id>https://pwn.ai/upload2shell/research.html</id>
+    <updated>2026-11-22T00:52:23Z</updated>
+    <author><name>Lobsters</name></author>
+    <category term="discussion"/>
+    <summary>[Here&#x27;s the NVD page for the CVE with some additional useful context](https://nvd.nist.gov/vuln/detail/cve-2026-125396).</summary>
+  </entry>
+  <entry>
+    <title>Thousands of UK fridges secured from hackers in secret operation</title>
+    <link href="https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o"/>
+    <id>https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o</id>
+    <updated>2026-11-22T00:00:00Z</updated>
+    <author><name>Mastodon · mastodon.social trending</name></author>
+    <category term="discussion"/>
+    <summary>Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe.</summary>
+  </entry>
+  <entry>
+    <title>Rackspace Spot breach let hackers access customer Kubernetes secrets</title>
+    <link href="https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"/>
+    <id>https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/</id>
+    <updated>2026-11-21T22:59:58Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]</summary>
+  </entry>
+  <entry>
+    <title>Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance</title>
+    <link href="https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"/>
+    <id>https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/</id>
+    <updated>2026-11-21T21:37:10Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>Signal is limiting users&#x27; ability to take screenshots in both its Android and iOS apps.</summary>
+  </entry>
+  <entry>
+    <title>LLM users: how do you feel about it?</title>
+    <link href="https://tildes.net/~comp/1x0p/llm_users_how_do_you_feel_about_it"/>
+    <id>https://tildes.net/~comp/1x0p/llm_users_how_do_you_feel_about_it</id>
+    <updated>2026-11-21T20:33:36Z</updated>
+    <author><name>Tildes · ~comp</name></author>
+    <category term="discussion"/>
+    <summary>I’ve been using LLMs more lately. For reference, I’m a PhD student (in computer science). I’ve been an LLM sceptic for a long time, and on pretty much all fronts: concern about their output quality, business practices of the companies that run them, data privacy and ethics concerns, and about their negative impact on our cognition and emotions (studies…</summary>
+  </entry>
+  <entry>
+    <title>Will AI-Fueled Cyberattacks Lead to Better Funding for Critical Open Source Projects?</title>
+    <link href="https://news.slashdot.org/story/26/11/21/0651203/will-ai-fueled-cyberattacks-lead-to-better-funding-for-critical-open-source-projects?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+    <id>https://news.slashdot.org/story/26/11/21/0651203/will-ai-fueled-cyberattacks-lead-to-better-funding-for-critical-open-source-projects?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+    <updated>2026-11-21T19:00:00Z</updated>
+    <author><name>Slashdot</name></author>
+    <category term="discussion"/>
+    <summary>Remember that famous XKCD comic joking that all modern digital infrastructure rests on &quot;a project some random person in Nebraska has been thanklessly maintaining since 2003.&quot; Politico Europe&#x27;s cybersecurity reporter wonders if this recent spate of outages suggests that supporting block is coming loose? (Especially after Politico reported Thursday that…</summary>
+  </entry>
+  <entry>
+    <title>Trump says reported FBI database hack is ‘not good’</title>
+    <link href="https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/"/>
+    <id>https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/</id>
+    <updated>2026-11-21T18:44:53Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>The FBI is reportedly investigating a hack of the National Crime Information Center.</summary>
+  </entry>
+  <entry>
+    <title>Microsoft Entra Connect Health flaw exploited to steal tenant data</title>
+    <link href="https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/"/>
+    <id>https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/</id>
+    <updated>2026-11-21T18:01:58Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information. [...]</summary>
+  </entry>
+  <entry>
+    <title>How 2 Security Research (MLG)</title>
+    <link href="https://www.youtube.com/watch?v=dXQ_9WN6KLQ"/>
+    <id>https://www.youtube.com/watch?v=dXQ_9WN6KLQ</id>
+    <updated>2026-11-21T16:57:15Z</updated>
+    <author><name>Lobsters</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>BADBOX botnet returns with record-breaking 40 billion daily ad requests</title>
+    <link href="https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/"/>
+    <id>https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/</id>
+    <updated>2026-11-21T15:17:27Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year&#x27;s disruptions. [...]</summary>
+  </entry>
+  <entry>
+    <title>FBI reportedly hacked again, this time targeting nationwide police database</title>
+    <link href="https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/"/>
+    <id>https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/</id>
+    <updated>2026-11-21T14:26:04Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>FBI systems have reportedly been breached for the second time in two months, this time targeting the agency&#x27;s National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]</summary>
+  </entry>
+  <entry>
+    <title>Reading List 11/21/2026</title>
+    <link href="https://www.construction-physics.com/p/reading-list-11212026"/>
+    <id>https://www.construction-physics.com/p/reading-list-11212026</id>
+    <updated>2026-11-21T13:04:03Z</updated>
+    <author><name>Construction Physics (Substack)</name></author>
+    <category term="insight"/>
+    <summary>BAAJA, rayon for missiles, US gas consumption, Cyberarmageddon, and more.</summary>
+  </entry>
+  <entry>
+    <title>The Outages Are Just Getting Started</title>
+    <link href="https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/"/>
+    <id>https://www.wired.com/story/brace-yourself-for-years-of-outage-chaos/</id>
+    <updated>2026-11-21T13:00:00Z</updated>
+    <author><name>WIRED · AI</name></author>
+    <category term="news"/>
+    <summary>AI is forcing companies to patch their systems faster as attackers race to exploit newly discovered vulnerabilities. Welcome to internet outage hell.</summary>
+  </entry>
+  <entry>
+    <title>A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats</title>
+    <link href="https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html"/>
+    <id>https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html</id>
+    <updated>2026-11-21T11:53:07Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>A malicious webpage could extract a Meta Muse user&#x27;s private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown. The same attack could be extended to reach the credentials Muse stores for the user&#x27;s connected accounts. The work was a laboratory demonstration, not an attack on real users, and…</summary>
+  </entry>
+  <entry>
+    <title>GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys</title>
+    <link href="https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"/>
+    <id>https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html</id>
+    <updated>2026-11-21T11:05:53Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that…</summary>
+  </entry>
+  <entry>
+    <title>Attackers&#x27; AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access</title>
+    <link href="https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"/>
+    <id>https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html</id>
+    <updated>2026-11-21T11:03:17Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server&#x27;s storage folder, and it affects MONAI Label…</summary>
+  </entry>
+  <entry>
+    <title>Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS</title>
+    <link href="https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html"/>
+    <id>https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html</id>
+    <updated>2026-11-21T08:49:20Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is &quot;incomplete.&quot; The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI…</summary>
+  </entry>
+  <entry>
+    <title>Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge</title>
+    <link href="https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"/>
+    <id>https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html</id>
+    <updated>2026-11-21T08:49:13Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation. The vulnerabilities are listed below - CVE-2026-129448 (CVSS score: 9.8) - A deserialization of…</summary>
+  </entry>
+  <entry>
+    <title>CTO of ‘RansomwareHelp’ Indicted for Wire Fraud</title>
+    <link href="https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/"/>
+    <id>https://krebsonsecurity.com/2026/11/cto-of-ransomwarehelp-indicted-for-wire-fraud/</id>
+    <updated>2026-11-21T00:36:39Z</updated>
+    <author><name>Krebs on Security</name></author>
+    <category term="news"/>
+    <summary>The chief technology officer and co-founder of ransomwarehelp.com, a six year old Florida business that claimed to use &quot;advanced cryptographic tools&quot; to restore data locked by ransomware, has been charged with wire fraud after an FBI sting operation found the company was simply paying the attackers for a decryption key and charging victims a markup for work…</summary>
+  </entry>
+  <entry>
+    <title>PHP 8.6: Things are gonna get a lot more strict around here</title>
+    <link href="https://www.theregister.com/devops/2026/11/20/php-86-things-are-gonna-get-a-lot-more-strict-around-here/5311486"/>
+    <id>https://www.theregister.com/devops/2026/11/20/php-86-things-are-gonna-get-a-lot-more-strict-around-here/5311486</id>
+    <updated>2026-11-20T23:28:47Z</updated>
+    <author><name>The Register</name></author>
+    <category term="news"/>
+    <summary>Like a parent disciplining a misbehaving child, PHP’s annual update clamps down on loose default behaviors to curb malicious hacker horseplay.</summary>
+  </entry>
+  <entry>
+    <title>Visa, Mastercard theft included info useful for phishing, but not draining bank accounts, say researchers</title>
+    <link href="https://www.theregister.com/cyber-crime/2026/11/20/visa-mastercard-theft-included-info-useful-for-phishing-but-not-draining-bank-accounts-say-researchers/5311478"/>
+    <id>https://www.theregister.com/cyber-crime/2026/11/20/visa-mastercard-theft-included-info-useful-for-phishing-but-not-draining-bank-accounts-say-researchers/5311478</id>
+    <updated>2026-11-20T21:27:56Z</updated>
+    <author><name>The Register</name></author>
+    <category term="news"/>
+    <summary>No financial details, but plenty of other clues</summary>
+  </entry>
+  <entry>
+    <title>Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.</title>
+    <link href="https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"/>
+    <id>https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/</id>
+    <updated>2026-11-20T20:59:08Z</updated>
+    <author><name>Ars Technica</name></author>
+    <category term="news"/>
+    <summary>Test using prompts with unique, trackable secrets proves that data doesn&#x27;t stay private.</summary>
+  </entry>
+  <entry>
+    <title>Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme right now</title>
+    <link href="https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/"/>
+    <id>https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/</id>
+    <updated>2026-11-20T20:58:29Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>Techies are building technology that can advance all aspects of the world — but can they protect their hearts? That&#x27;s the vulnerability that honey pots exploit.</summary>
+  </entry>
+  <entry>
+    <title>Signal slams door on prying AI agents to protect privacy</title>
+    <link href="https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466"/>
+    <id>https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466</id>
+    <updated>2026-11-20T20:42:04Z</updated>
+    <author><name>The Register</name></author>
+    <category term="news"/>
+    <summary>Apple, Google, and Microsoft called out for failing to provide developers with adequate AI agent controls</summary>
+  </entry>
+  <entry>
+    <title>If you’ve deployed anything since 2015, I have bad news...</title>
+    <link href="https://www.youtube.com/watch?v=rMaMe32qQkA"/>
+    <id>https://www.youtube.com/watch?v=rMaMe32qQkA</id>
+    <updated>2026-11-20T19:49:02Z</updated>
+    <author><name>Fireship (YouTube)</name></author>
+    <category term="learn"/>
+    <summary>Paper gives your coding agent a design canvas built on real HTML and CSS. Try it: Hackers hijacked 178 major websites through Optimizely, a single Base64 string took over Java servers, and a 10-year-old Nginx bug put 225 million websites at risk, all in three days. Let&#x27;s dive in. Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses…</summary>
+  </entry>
+  <entry>
+    <title>Signal is attempting to block AI screenshots on mobile phones</title>
+    <link href="https://signal.org/blog/protecting-your-privacy/"/>
+    <id>https://signal.org/blog/protecting-your-privacy/</id>
+    <updated>2026-11-20T19:42:11Z</updated>
+    <author><name>Tildes · ~tech</name></author>
+    <category term="discussion"/>
+    <summary>Link URL: https://signal.org/blog/protecting-your-privacy/ Comments URL: Votes: 36 Comments: 3</summary>
+  </entry>
+  <entry>
+    <title>Bell Canada says &#x27;agentic&#x27; hacker stole enterprise customer data</title>
+    <link href="https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/"/>
+    <id>https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/</id>
+    <updated>2026-11-20T18:51:43Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>Bell Canada has confirmed that an &quot;agentic&quot; threat actor breached its systems on November 17, 2026, and stole enterprise customer data, including information from a system used to order and provision telecommunications circuits. [...]</summary>
+  </entry>
+  <entry>
+    <title>One tiny optical sensor uses AI to pinpoint touch and measure movement</title>
+    <link href="https://techxplore.com/news/2026-11-tiny-optical-sensor-ai-movement.html"/>
+    <id>https://techxplore.com/news/2026-11-tiny-optical-sensor-ai-movement.html</id>
+    <updated>2026-11-20T18:20:08Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>Picture a keyboard that knows not only which key you pressed, but also how hard you pressed it, using just one tiny sensor. Research from Washington University in St. Louis is paving the way for smaller, smarter sensors that bring this idea closer to reality. The new work has potential applications for robotics, human health monitoring and cybersecurity.</summary>
+  </entry>
+  <entry>
+    <title>WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams</title>
+    <link href="https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html"/>
+    <id>https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html</id>
+    <updated>2026-11-20T17:57:20Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>Meta-owned WhatsApp has addressed security vulnerabilities, including one impacting its Android app that it suspects may have been exploited in connection with scam messages. The vulnerability, tracked as CVE-2026-23871 (CVSS score: 3.5), has been described as a case of incomplete validation of external ad-reply URLs in WhatsApp for Android and WhatsApp…</summary>
+  </entry>
+  <entry>
+    <title>China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server</title>
+    <link href="https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382"/>
+    <id>https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382</id>
+    <updated>2026-11-20T17:30:00Z</updated>
+    <author><name>The Register</name></author>
+    <category term="news"/>
+    <summary>&#x27;Agents kept adapting for nearly a full day without human direction,&#x27; Amazon CISO said</summary>
+  </entry>
+  <entry>
+    <title>Hackers use autonomous AI tool Cairn to find zero-day, take over server</title>
+    <link href="https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/"/>
+    <id>https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/</id>
+    <updated>2026-11-20T17:30:00Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]</summary>
+  </entry>
+  <entry>
+    <title>Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control</title>
+    <link href="https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html"/>
+    <id>https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html</id>
+    <updated>2026-11-20T16:58:16Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>Cybersecurity researchers have disclosed details of a previously unknown Android malware framework called Bazuka that offers large language model (LLM) integration for victim management and control at scale. Dutch mobile security company ThreatFabric said it discovered the threat in late October 2026 during an investigation into an NFC-relay banking Trojan…</summary>
+  </entry>
+  <entry>
+    <title>Dutch data watchdog highlights safety issues with AI glasses</title>
+    <link href="https://www.theregister.com/security/2026/11/20/dutch-data-watchdog-highlights-safety-issues-with-ai-glasses/5311345"/>
+    <id>https://www.theregister.com/security/2026/11/20/dutch-data-watchdog-highlights-safety-issues-with-ai-glasses/5311345</id>
+    <updated>2026-11-20T16:44:00Z</updated>
+    <author><name>The Register</name></author>
+    <category term="news"/>
+    <summary>Devices found to misinterpret medication instructions and other scenarios impacting human safety</summary>
+  </entry>
+  <entry>
+    <title>Vendor data breach exposes Chase, Visa, Mastercard customer info</title>
+    <link href="https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/"/>
+    <id>https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/</id>
+    <updated>2026-11-20T15:58:06Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>J.P. Morgan Chase warned it suffered a data breach after a cyberattack at a third-party service provider exposed customers&#x27; personal information and marketing data. [...]</summary>
+  </entry>
+  <entry>
+    <title>A transcription firm used by police, prosecutors, and tech giants exposed customer data online</title>
+    <link href="https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online/"/>
+    <id>https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online/</id>
+    <updated>2026-11-20T15:46:07Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>Exclusive: A simple security lapse exposed transcriptions of police interviews and bodycam footage on a cloud server without a password.</summary>
+  </entry>
+  <entry>
+    <title>Still tracking company passwords in spreadsheets? You’re flying blind.</title>
+    <link href="https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/"/>
+    <id>https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/</id>
+    <updated>2026-11-20T15:00:10Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>Tracking company passwords in spreadsheets can leave IT administrators unaware of weak, reused, or compromised credentials stored and shared outside approved systems. NordPass explains how centralized password management can improve credential visibility, identify security risks, and simplify secure password sharing. [...]</summary>
+  </entry>
+  <entry>
+    <title>Microsoft&#x27;s last non-security preview of 2026 packs a punch</title>
+    <link href="https://www.theregister.com/os-platforms/2026/11/20/microsofts-last-non-security-preview-of-2026-packs-a-punch/5311300"/>
+    <id>https://www.theregister.com/os-platforms/2026/11/20/microsofts-last-non-security-preview-of-2026-packs-a-punch/5311300</id>
+    <updated>2026-11-20T14:28:00Z</updated>
+    <author><name>The Register</name></author>
+    <category term="news"/>
+    <summary>Windows Search gets a makeover, while Hello lights up dim rooms</summary>
+  </entry>
+  <entry>
+    <title>Quantus Launches a Quantum-Secure Cold Wallet That Runs on Any Spare Phone</title>
+    <link href="https://thequantuminsider.com/2026/11/20/quantus-quantum-secure-cold-wallet-spare-phone/"/>
+    <id>https://thequantuminsider.com/2026/11/20/quantus-quantum-secure-cold-wallet-spare-phone/</id>
+    <updated>2026-11-20T12:58:37Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Insider Brief PRESS RELEASE — Quantus has released the Quantus Cold Wallet, an open-source mobile app that converts any spare smartphone into an entirely air-gapped, offline crypto wallet. The launch aims to eliminate the hidden vulnerabilities of traditional hardware wallets, which frequently expose buyers to both digital supply-chain tampering and…</summary>
+  </entry>
+  <entry>
+    <title>Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts</title>
+    <link href="https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html"/>
+    <id>https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html</id>
+    <updated>2026-11-20T12:20:00Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server&#x27;s memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers&#x27; virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested…</summary>
+  </entry>
+  <entry>
+    <title>KT and LG Electronics Demonstrate Quantum Secure Direct Communication</title>
+    <link href="https://thequantuminsider.com/2026/11/20/kt-lg-electronics-quantum-secure-direct-communication/"/>
+    <id>https://thequantuminsider.com/2026/11/20/kt-lg-electronics-quantum-secure-direct-communication/</id>
+    <updated>2026-11-20T11:27:32Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Insider Brief Image and text data were sent and then recovered at the receiving end using a quantum secure direct communication (QSDC) system that KT developed jointly with LG Electronics, KT said on Thursday, according to Digital Today. Digital Today described QSDC as a next-generation quantum communications technology that carries the information itself…</summary>
+  </entry>
+  <entry>
+    <title>Mastercard Launches Quantum Advisory Practice for Financial Services</title>
+    <link href="https://thequantuminsider.com/2026/11/20/mastercard-quantum-advisory-practice-financial-services/"/>
+    <id>https://thequantuminsider.com/2026/11/20/mastercard-quantum-advisory-practice-financial-services/</id>
+    <updated>2026-11-20T09:51:04Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Insider Brief PRESS RELEASE — Quantum computing is not currently a mainstream technology, but cybersecurity experts and the financial services industry need to operate as if it’s here. Quantum computing has transformative potential, from strengthening fraud detection to optimizing financial operations and loyalty, to unlocking new forms of innovation. Yet…</summary>
+  </entry>
+  <entry>
+    <title>CNM and Sandia National Labs Sign MoU to Expand Technical Workforce Training</title>
+    <link href="https://thequantuminsider.com/2026/11/20/cnm-sandia-mou-technical-workforce-training/"/>
+    <id>https://thequantuminsider.com/2026/11/20/cnm-sandia-mou-technical-workforce-training/</id>
+    <updated>2026-11-20T09:42:54Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Insider Brief PRESS RELEASE — Leaders from Central New Mexico Community College and Sandia National Laboratories have signed a Memorandum of Understanding (MOU) to connect more New Mexicans to technical training and career pathways that address advanced manufacturing workforce needs in New Mexico while supporting Sandia’s national security mission. The…</summary>
+  </entry>
+</feed>

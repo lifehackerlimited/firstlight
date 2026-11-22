@@ -1,0 +1,32 @@
+name: Suggest a source
+description: Recommend a feed, newsletter, lab blog, journal or channel for Nascent.
+title: "Source: "
+labels: ["source-suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Source name
+      placeholder: e.g. Quanta Magazine
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Website or feed URL
+      description: An RSS/Atom feed URL is ideal, but a homepage is fine.
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of content is it?
+      options: [Research, News, Insights / newsletter, Solutions / projects, Launches, Learn / courses / video, Discussions]
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it worth including?
+      description: What does it cover that Nascent doesn't already?

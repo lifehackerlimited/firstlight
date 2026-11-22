@@ -18,7 +18,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
         with:
@@ -26,17 +26,32 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install the Anthropic SDK (AI summaries)
+        run: pip install -r scripts/requirements.txt
       - name: Collect sources
         run: python scripts/collect.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}   # read-only; raises the GitHub search rate limit
-          # Optional. Sources that need these are skipped quietly until you add them
+          # Optional. Sources and features that need these are skipped quietly until you add them
           # (Settings → Secrets and variables → Actions). They never reach the website.
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
           REDDIT_USERNAME: ${{ secrets.REDDIT_USERNAME }}
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          ARCHIVE_KEY: ${{ secrets.ARCHIVE_KEY }}
+      - name: AI summaries
+        run: python scripts/summarize.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NASCENT_AI_MODEL: ${{ vars.NASCENT_AI_MODEL }}
+      - name: Team API feeds
+        run: python scripts/digest.py team-api
+        env:
+          STRIPE_KEY: ${{ secrets.STRIPE_KEY }}
+          ARCHIVE_KEY: ${{ secrets.ARCHIVE_KEY }}
+      - name: Build pages
+        run: python scripts/build.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

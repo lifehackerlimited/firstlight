@@ -31,15 +31,35 @@ Source types: `rss` (any RSS/Atom feed, including any Substack's `/feed`), `arxi
 
 **Why not Google Scholar?** It has no API and its terms forbid automated scraping (it also blocks it). Nascent uses **OpenAlex** instead: an open index of 250M+ scholarly works covering the same journals, conferences and repositories, plus arXiv, bioRxiv and medRxiv for preprints.
 
-### Optional keys (free)
+### Keys and settings
 
-Add these under **Settings → Secrets and variables → Actions**. They are only used by the collector and never reach the website.
+Secrets go in **Settings → Secrets and variables → Actions → Secrets**. They're only used by the GitHub jobs and never reach the website. Everything works without them; each one switches a feature on.
 
-| Secret | Unlocks | How to get it |
-|---|---|---|
-| `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USERNAME` | The 16 Reddit communities (Reddit blocks anonymous access). The username goes into the User-Agent Reddit's rules require | reddit.com/prefs/apps → *create app* → type **script**. Since Nov 2025 Reddit may require you to request API access and wait for approval |
-| `PRODUCTHUNT_TOKEN` | Product Hunt votes & topics (otherwise the public RSS feed is used) | api.producthunt.com/v2/oauth/applications → *Developer token* |
-| `OPENALEX_API_KEY` | Higher OpenAlex limits | openalex.org (free account) |
+| Secret | Switches on |
+|---|---|
+| `ANTHROPIC_API_KEY` | AI "why it matters" lines and the daily brief (`scripts/summarize.py`, Claude Opus 5.5 by default; set the variable `NASCENT_AI_MODEL` to change model) |
+| `STRIPE_KEY` | Email digests and Team API feeds. Use a Stripe **restricted key** with *read* access to Customers, Subscriptions, Checkout Sessions and Prices only |
+| `RESEND_API_KEY` + variable `DIGEST_FROM` | Sending digests (e.g. `Nascent <digest@nascent.news>`, on a domain verified in Resend) |
+| `ARCHIVE_KEY` | The private 180-day archive for Team plans. Any long random string: `openssl rand -hex 32 \| gh secret set ARCHIVE_KEY` |
+| `OPENALEX_API_KEY` | Reliable scholarly search (anonymous OpenAlex search is often throttled) |
+| `PRODUCTHUNT_TOKEN` | Product Hunt votes and topics (otherwise the public RSS feed) |
+| `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USERNAME` | The 16 Reddit communities. Reddit currently isn't issuing new keys to most accounts |
+
+Public settings (name, site address, company details, prices, Stripe payment links, optional cookieless GoatCounter analytics) live in [`config.json`](config.json).
+
+## How it fits together
+
+```
+collect.py   fetch ~140 sources → language filter, paywall badges, merge duplicates,
+             archive (30 days public, 180 days private for Team), Nascent signals
+summarize.py optional Claude "why it matters" + daily brief (cached; each story summarised once)
+digest.py    team-api: private Team feeds · daily: email digests (subscribers read from Stripe)
+build.py     pricing, account, legal, topic pages, Atom feeds, sitemap, PWA manifest
+```
+
+State between runs (archive, AI summaries, first-seen dates) is read back from the published site, so the workflow never needs write access to the repository.
+
+**Plans** (`/pricing/`): Free (weekly digest) · Pro £6/month or £60/year · Student £3/month · Team £29/month, each with a 30-day free trial. Checkout, billing and the customer portal are Stripe-hosted; Stripe is the subscriber list, so there's no database.
 
 ## Deploy (≈5 minutes)
 

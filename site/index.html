@@ -3,15 +3,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
+  <!-- meta:start -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'none'">
   <meta name="referrer" content="no-referrer">
   <meta name="color-scheme" content="dark light">
-  <title>Nascent — Technology, at the Moment It's Born</title>
-  <meta name="description" content="Nascent is a free, open-source media outlet: the latest emerging-tech news, research, solutions and launches from public sources, in one calm feed.">
-  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css">
-  <script src="assets/theme.js"></script>
+  <title>Nascent — Technology, at the moment it&#x27;s born</title>
+  <meta name="description" content="Free, open-source feed of the latest emerging-tech research, news, open-source projects, launches and learning, from 140+ public sources, refreshed every few hours.">
+  <link rel="canonical" href="https://lifehackerlimited.github.io/nascent/">
+  <meta property="og:site_name" content="Nascent">
+  <meta property="og:title" content="Nascent — Technology, at the moment it&#x27;s born">
+  <meta property="og:description" content="Free, open-source feed of the latest emerging-tech research, news, open-source projects, launches and learning, from 140+ public sources, refreshed every few hours.">
+  <meta property="og:url" content="https://lifehackerlimited.github.io/nascent/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="/nascent/assets/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/nascent/manifest.webmanifest">
+  <meta name="theme-color" content="#0a0c11">
+  <link rel="alternate" type="application/atom+xml" title="Nascent — latest" href="/nascent/feed.xml">
+  <link rel="stylesheet" href="/nascent/assets/styles.css">
+  <script src="/nascent/assets/theme.js"></script>
+  <script src="/nascent/assets/config.js"></script>
+  <meta property="og:image" content="https://lifehackerlimited.github.io/nascent/assets/og.png">
+  <!-- meta:end -->
   <script src="assets/app.js" defer></script>
+  <script src="assets/sw-register.js" defer></script>
 </head>
 <body>
   <a class="skip" href="#feed">Skip to feed</a>
@@ -29,6 +44,9 @@
         <input id="q" type="search" placeholder="Search papers, launches, topics…" autocomplete="off" spellcheck="false" maxlength="120">
         <kbd>/</kbd>
       </label>
+      <nav class="top-nav" aria-label="Main">
+        <a href="topics/">Topics</a><a href="pricing/">Pricing</a><a href="account/">Account</a>
+      </nav>
       <div class="top-actions">
         <button class="icon-btn" id="theme" type="button" aria-label="Toggle light and dark theme" title="Theme (t)">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
@@ -71,7 +89,12 @@
           <button type="button" data-sort="top" aria-pressed="false">Top</button>
         </div>
       </div>
-      <div id="active-filters" class="active-filters"></div>
+      <div class="filter-row">
+        <div id="active-filters" class="active-filters"></div>
+        <button type="button" id="follow" class="chip-btn" hidden>Follow topic</button>
+        <button type="button" id="archive-btn" class="chip-btn" hidden>Also search the last 30 days</button>
+      </div>
+      <section id="brief" class="brief" hidden aria-label="Today's brief"></section>
       <div id="list" class="list"></div>
       <button id="more" class="more" type="button" hidden>Show more</button>
       <div id="empty" class="empty" hidden>
@@ -82,6 +105,11 @@
     </section>
 
     <aside class="rail rail-right" aria-label="Pulse">
+      <section class="panel panel-signals">
+        <h2 class="rail-title">Nascent signals</h2>
+        <p class="panel-note">Ideas spreading across papers, code and discussion before mainstream news.</p>
+        <ol class="signals" id="signals"></ol>
+      </section>
       <section class="panel">
         <h2 class="rail-title">Trending terms</h2>
         <div class="chips" id="trending"></div>
@@ -99,9 +127,17 @@
     </aside>
   </main>
 
+  <!-- footer:start -->
   <footer class="footer">
-    <p>Nascent is open source, built on MCT (Media Collection Tool), and runs entirely on GitHub Pages. Content belongs to the original publishers; every card links to its source.</p>
+    <nav class="footer-links" aria-label="Site">
+      <a href="/nascent/topics/">Topics</a><a href="/nascent/pricing/">Pricing</a><a href="/nascent/account/">Account</a>
+      <a href="/nascent/feed.xml">RSS</a><a href="https://github.com/lifehackerlimited/nascent/issues/new?template=suggest-source.yml" rel="noopener">Suggest a source</a>
+      <a href="/nascent/privacy/">Privacy</a><a href="/nascent/terms/">Terms</a><a href="/nascent/contact/">Contact</a>
+      <a href="https://github.com/lifehackerlimited/nascent" rel="noopener">Open source</a>
+    </nav>
+    <p>Nascent is open source, built on MCT (Media Collection Tool), and run by Betttech Global Ventures Ltd.. Content belongs to the original publishers; every story links to its source.</p>
   </footer>
+  <!-- footer:end -->
 
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
@@ -110,11 +146,14 @@
       <h2>About Nascent</h2>
       <p>Nascent gathers the latest emerging-technology research, news, analysis, open-source projects, launches and learning material from public sources: preprint servers and journals, university and lab newsrooms, specialist outlets, Substack newsletters, Reddit, Hacker News, Product Hunt, GitHub, Hugging Face and educational channels. It is built on MCT, the Media Collection Tool.</p>
       <h3>Privacy</h3>
-      <p>No accounts, cookies, analytics or third-party scripts. Your saved items stay in this browser only. Your browser never contacts anything except this site until you open a link.</p>
+      <p>No cookies, ads or tracking scripts. Saved stories, followed topics, hidden sources and your <b>For you</b> view stay in this browser only. See the <a href="privacy/">privacy policy</a>.</p>
+      <h3>Nascent signals</h3>
+      <p>A signal is a term that's showing up across several independent source groups, in research papers or code as well as discussion, but not yet mostly in news. The score (0–99) rises with how many source groups and stages mention it, how recent the mentions are and how new the term is, and falls as mainstream outlets pick it up.</p>
       <h3>Shortcuts</h3>
       <ul class="keys">
         <li><kbd>/</kbd> search</li><li><kbd>j</kbd>/<kbd>k</kbd> next / previous</li>
         <li><kbd>o</kbd> open</li><li><kbd>s</kbd> save</li><li><kbd>t</kbd> theme</li><li><kbd>Esc</kbd> clear</li>
+        <li><kbd>f</kbd> For you</li>
       </ul>
       <button class="primary" value="close">Close</button>
     </form>
@@ -127,15 +166,19 @@
         <button type="button" class="source" title="Show only this source"></button>
         <span class="dot" aria-hidden="true">·</span>
         <time></time>
+        <span class="badges"></span>
         <span class="heat" hidden></span>
       </div>
       <h3 class="card-title"><a target="_blank" rel="noopener noreferrer nofollow"></a></h3>
+      <p class="card-why" hidden></p>
       <p class="card-summary"></p>
+      <div class="card-also" hidden></div>
       <div class="card-foot">
         <div class="card-topics"></div>
         <div class="card-actions">
           <a class="act act-discuss" target="_blank" rel="noopener noreferrer nofollow" hidden>Discuss</a>
           <a class="act act-alt" target="_blank" rel="noopener noreferrer nofollow" hidden>arXiv</a>
+          <button type="button" class="act act-mute" title="Hide stories from this source">Hide source</button>
           <button type="button" class="act act-freya" title="Copy a Freya-ready brief">Copy for Freya</button>
           <button type="button" class="act act-save" aria-pressed="false">Save</button>
         </div>

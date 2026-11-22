@@ -1,0 +1,35 @@
+{
+  "_readme": "Public site settings. Everything here ends up on the public website, so never put keys or secrets in this file (those go in GitHub Actions secrets).",
+  "site_name": "Nascent",
+  "tagline": "Technology, at the moment it's born.",
+  "hero": "Catch it before it hits the mainstream.",
+  "description": "Free, open-source feed of the latest emerging-tech research, news, open-source projects, launches and learning, from 140+ public sources, refreshed every few hours.",
+  "site_url": "https://lifehackerlimited.github.io/nascent",
+  "github_repo": "lifehackerlimited/nascent",
+  "company": {
+    "name": "Betttech Global Ventures Ltd.",
+    "number": "",
+    "registered_office": "",
+    "email": "info@betttech.co.uk"
+  },
+  "analytics": {
+    "goatcounter": ""
+  },
+  "plans": {
+    "currency": "£",
+    "trial_days": 30,
+    "pro_monthly": 6,
+    "pro_yearly": 60,
+    "student_monthly": 3,
+    "team_monthly": 29,
+    "team_seats": 5
+  },
+  "stripe": {
+    "free": "",
+    "pro_monthly": "",
+    "pro_yearly": "",
+    "student": "",
+    "team": "",
+    "portal": ""
+  }
+}

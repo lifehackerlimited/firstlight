@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nascent — Education</title>
+  <subtitle>Technology, at the moment it&#x27;s born.</subtitle>
+  <link href="https://lifehackerlimited.github.io/nascent/"/>
+  <link rel="self" href="https://lifehackerlimited.github.io/nascent/topics/education/feed.xml"/>
+  <id>https://lifehackerlimited.github.io/nascent/topics/education/feed.xml</id>
+  <updated>2026-11-22T18:25:29Z</updated>
+  <entry>
+    <title>“When researchers tested AI-detection software on essays written by nonnative English speakers, the software incorrectly flagged more than…</title>
+    <link href="https://bsky.app/profile/jennanewman.bsky.social/post/3n2vs5edlj22a"/>
+    <id>https://bsky.app/profile/jennanewman.bsky.social/post/3n2vs5edlj22a</id>
+    <updated>2026-11-22T14:09:30Z</updated>
+    <author><name>Bluesky · Science</name></author>
+    <category term="discussion"/>
+    <summary>“When researchers tested AI-detection software on essays written by nonnative English speakers, the software incorrectly flagged more than half as AI-generated. Now, guess how many essays by American students got the this-is-human stamp of approval? Go on, guess. Almost all of them.”🧪</summary>
+  </entry>
+  <entry>
+    <title>APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno</title>
+    <link href="https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/"/>
+    <id>https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/</id>
+    <updated>2026-11-22T05:05:00Z</updated>
+    <author><name>NASA</name></author>
+    <category term="news"/>
+    <summary>APOD Science APOD APOD: 2026 November 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Swirls and Colors […]</summary>
+  </entry>
+  <entry>
+    <title>this is up there with Gradient Descent by Grad Student</title>
+    <link href="https://bsky.app/profile/bekavalentine.bsky.social/post/3n2uelvop222d"/>
+    <id>https://bsky.app/profile/bekavalentine.bsky.social/post/3n2uelvop222d</id>
+    <updated>2026-11-22T00:34:26Z</updated>
+    <author><name>Bluesky · Machine Learning</name></author>
+    <category term="discussion"/>
+    <summary>this is up there with Gradient Descent by Grad Student</summary>
+  </entry>
+  <entry>
+    <title>LLM users: how do you feel about it?</title>
+    <link href="https://tildes.net/~comp/1x0p/llm_users_how_do_you_feel_about_it"/>
+    <id>https://tildes.net/~comp/1x0p/llm_users_how_do_you_feel_about_it</id>
+    <updated>2026-11-21T20:33:36Z</updated>
+    <author><name>Tildes · ~comp</name></author>
+    <category term="discussion"/>
+    <summary>I’ve been using LLMs more lately. For reference, I’m a PhD student (in computer science). I’ve been an LLM sceptic for a long time, and on pretty much all fronts: concern about their output quality, business practices of the companies that run them, data privacy and ethics concerns, and about their negative impact on our cognition and emotions (studies…</summary>
+  </entry>
+  <entry>
+    <title>cueback: What If Tutorials Waited for You?</title>
+    <link href="https://dev.to/arjuncodess/cueback-what-if-tutorials-waited-for-you-4fec"/>
+    <id>https://dev.to/arjuncodess/cueback-what-if-tutorials-waited-for-you-4fec</id>
+    <updated>2026-11-21T18:08:05Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>This is a submission for the Presage SmartSpectra SDK Challenge What I Built You&#x27;re...</summary>
+  </entry>
+  <entry>
+    <title>Right to Repair Starts at the Debug Header, Not at the Store</title>
+    <link href="https://dev.to/numbpill3d/right-to-repair-starts-at-the-debug-header-not-at-the-store-1lpm"/>
+    <id>https://dev.to/numbpill3d/right-to-repair-starts-at-the-debug-header-not-at-the-store-1lpm</id>
+    <updated>2026-11-21T09:09:48Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>Your device was never really yours. It was just leased to you with better branding. Let us...</summary>
+  </entry>
+  <entry>
+    <title>APOD: 2026 November 21 – Voyager’s Neptune</title>
+    <link href="https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/"/>
+    <id>https://science.nasa.gov/image-article/apod-2026-november-21-voyagers-neptune/</id>
+    <updated>2026-11-21T05:05:00Z</updated>
+    <author><name>NASA</name></author>
+    <category term="news"/>
+    <summary>APOD Science APOD APOD: 2026 November 21 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Voyager’s Neptune…</summary>
+  </entry>
+  <entry>
+    <title>Hidden cancellation buttons and fake urgency—consumers have grown accustomed to deceptive design online</title>
+    <link href="https://techxplore.com/news/2026-11-hidden-cancellation-buttons-fake-urgency.html"/>
+    <id>https://techxplore.com/news/2026-11-hidden-cancellation-buttons-fake-urgency.html</id>
+    <updated>2026-11-21T01:40:01Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>A doctoral thesis in information systems science, to be defended at the University of Vaasa, Finland, examines deceptive patterns from the perspectives of both designers and users. Laura Havinen&#x27;s doctoral research reveals the multifaceted reasons behind the use of these patterns, as well as how routinely consumers now respond to them.</summary>
+  </entry>
+  <entry>
+    <title>Stanford CME295 Transformers &amp; LLMs | Autumn 2026 | Lecture 7 - LLM Evaluation</title>
+    <link href="https://www.youtube.com/watch?v=uoSynlTDyMs"/>
+    <id>https://www.youtube.com/watch?v=uoSynlTDyMs</id>
+    <updated>2026-11-21T00:00:37Z</updated>
+    <author><name>Stanford Online (YouTube)</name></author>
+    <category term="learn"/>
+    <summary>For more information about Stanford’s graduate programs, visit: https://stanford.io/grad-ed-cme295-A2026 To follow along with the course schedule and syllabus, visit: https://cme295.stanford.edu/syllabus/ Chapters: 00:00:00 Introduction 00:06:11 Human ratings 00:08:53 Cohen’s kappa 00:14:41 Rule-based metrics 00:17:14 Pass@k 00:28:55 BLEU, METEOR ROUGE…</summary>
+  </entry>
+  <entry>
+    <title>ICE detention of Princeton scientist rattles academia</title>
+    <link href="https://www.statnews.com/2026/11/20/princeton-researcher-eva-yi-xie-ice-detention-rattles-interational-scholars/?utm_campaign=rss"/>
+    <id>https://www.statnews.com/2026/11/20/princeton-researcher-eva-yi-xie-ice-detention-rattles-interational-scholars/?utm_campaign=rss</id>
+    <updated>2026-11-20T21:19:27Z</updated>
+    <author><name>STAT</name></author>
+    <category term="news"/>
+    <summary>A graduate student who is a scientific researcher at Princeton was detained by ICE while traveling home after presenting at a neuroscience conference.</summary>
+  </entry>
+  <entry>
+    <title>If you’ve deployed anything since 2015, I have bad news...</title>
+    <link href="https://www.youtube.com/watch?v=rMaMe32qQkA"/>
+    <id>https://www.youtube.com/watch?v=rMaMe32qQkA</id>
+    <updated>2026-11-20T19:49:02Z</updated>
+    <author><name>Fireship (YouTube)</name></author>
+    <category term="learn"/>
+    <summary>Paper gives your coding agent a design canvas built on real HTML and CSS. Try it: Hackers hijacked 178 major websites through Optimizely, a single Base64 string took over Java servers, and a 10-year-old Nginx bug put 225 million websites at risk, all in three days. Let&#x27;s dive in. Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses…</summary>
+  </entry>
+  <entry>
+    <title>Stanford CS547 HCI Seminar | Autumn 2026 | One Developer, Two Decades, and 30 Million Users Later</title>
+    <link href="https://www.youtube.com/watch?v=GPk0nNuc8S0"/>
+    <id>https://www.youtube.com/watch?v=GPk0nNuc8S0</id>
+    <updated>2026-11-20T19:46:49Z</updated>
+    <author><name>Stanford Online (YouTube)</name></author>
+    <category term="learn"/>
+    <summary>For more information about Stanford’s graduate programs, visit: https://online.stanford.edu/graduate-education October 16, 2026 This lecture covers: • How Python Tutor, a browser-based tool that visualizes code step by step across Python, Java, C, C++, and JavaScript, helps students debug, teachers explain concepts, and programmers prepare for interviews •…</summary>
+  </entry>
+  <entry>
+    <title>How to Write an API Migration Guide (With a Real Example)</title>
+    <link href="https://www.freecodecamp.org/news/how-to-write-an-api-migration-guide/"/>
+    <id>https://www.freecodecamp.org/news/how-to-write-an-api-migration-guide/</id>
+    <updated>2026-11-20T18:40:04Z</updated>
+    <author><name>freeCodeCamp News</name></author>
+    <category term="learn"/>
+    <summary>When an API releases a new version, every developer using it has to update their code. If they only get a changelog entry that says “pagination now uses cursors,” then they’ll have to figure things ou</summary>
+  </entry>
+  <entry>
+    <title>Uneven by design: 3D-printed titanium alloy keeps hardening as distinct regions share deformation</title>
+    <link href="https://techxplore.com/news/2026-11-uneven-3d-titanium-alloy-hardening.html"/>
+    <id>https://techxplore.com/news/2026-11-uneven-3d-titanium-alloy-hardening.html</id>
+    <updated>2026-11-20T18:00:12Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>A research team led by Zhang Tianlong, assistant professor in the Department of Mechanical and Aerospace Engineering at The Hong Kong University of Science and Technology (HKUST), has developed a novel titanium alloy design strategy utilizing &quot;three-dimensional (3D) compositional waves enabled by additive manufacturing.&quot; By leveraging in situ alloying…</summary>
+  </entry>
+  <entry>
+    <title>China attackers deployed AI agents that autonomously found and exploited a 0-day to take over a university server</title>
+    <link href="https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382"/>
+    <id>https://www.theregister.com/security/2026/11/20/china-attackers-deployed-ai-agents-that-autonomously-found-and-exploited-a-0-day-to-take-over-a-university-server/5311382</id>
+    <updated>2026-11-20T17:30:00Z</updated>
+    <author><name>The Register</name></author>
+    <category term="news"/>
+    <summary>&#x27;Agents kept adapting for nearly a full day without human direction,&#x27; Amazon CISO said</summary>
+  </entry>
+  <entry>
+    <title>Development and preliminary psychometric evaluation of a Narrative Comprehension Assessment (NCA) for Indian children</title>
+    <link href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0363483"/>
+    <id>https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0363483</id>
+    <updated>2026-11-20T14:00:00Z</updated>
+    <author><name>PLOS ONE · Engineering</name></author>
+    <category term="research"/>
+    <summary>by Ramandeep Kaur, Darryl Jeethesh Dsouza, Dency Davis, Melicia Shainy Dsouza Narrative comprehension requires children to understand explicitly presented information and integrate events to derive implicit meanings. Despite its developmental and educational importance, English-language narrative assessments developed within the Indian cultural context…</summary>
+  </entry>
+  <entry>
+    <title>New Ph.D. Enrollment in the Sciences Dropped 10 Percent Under Trump</title>
+    <link href="https://www.nytimes.com/2026/11/20/us/phd-enrollment-sciences-declines.html"/>
+    <id>https://www.nytimes.com/2026/11/20/us/phd-enrollment-sciences-declines.html</id>
+    <updated>2026-11-20T10:02:27Z</updated>
+    <author><name>Mastodon · mstdn.science trending</name></author>
+    <category term="discussion"/>
+    <summary>Falling international enrollment drove most of the decline, but there were also fewer American students starting doctoral programs in 2025.</summary>
+  </entry>
+  <entry>
+    <title>How to Generate Synthetic Healthcare Data Using Synthea: A Hands On Tutorial</title>
+    <link href="https://www.freecodecamp.org/news/how-to-generate-synthetic-healthcare-data-using-synthea-a-hands-on-tutorial/"/>
+    <id>https://www.freecodecamp.org/news/how-to-generate-synthetic-healthcare-data-using-synthea-a-hands-on-tutorial/</id>
+    <updated>2026-11-19T22:00:42Z</updated>
+    <author><name>freeCodeCamp News</name></author>
+    <category term="learn"/>
+    <summary>Healthcare generates huge amounts of data every day, from patient visits and lab results to diagnoses, medications, and medical imaging. For developers and data engineers building healthcare applicati</summary>
+  </entry>
+  <entry>
+    <title>Dental students put Medicaid data on the map</title>
+    <link href="https://news.harvard.edu/gazette/story/2026/11/dental-students-put-medicaid-data-on-the-map/"/>
+    <id>https://news.harvard.edu/gazette/story/2026/11/dental-students-put-medicaid-data-on-the-map/</id>
+    <updated>2026-11-19T19:43:19Z</updated>
+    <author><name>Harvard Gazette</name></author>
+    <category term="news"/>
+    <summary>Open-source tool reveals ‘drastic’ gaps in U.S. care</summary>
+  </entry>
+  <entry>
+    <title>Community-Focused Academic Brings AI Tools to Colorado Farmers</title>
+    <link href="https://spectrum.ieee.org/ai-tools-for-rural-communities"/>
+    <id>https://spectrum.ieee.org/ai-tools-for-rural-communities</id>
+    <updated>2026-11-19T19:00:02Z</updated>
+    <author><name>IEEE Spectrum</name></author>
+    <category term="news"/>
+    <summary>Many farmers and ranchers in eastern Colorado are curious about artificial intelligence, but they don’t have a local tech-savvy person to show them how to use it. Xue “Alice” Dong has made that her job. Dong, an IEEE senior member, is an extension regional specialist with the Colorado State University Extension , CSU’s outreach arm. She works in Logan…</summary>
+  </entry>
+  <entry>
+    <title>Posterior Matching Distillation</title>
+    <link href="https://arxiv.org/abs/2611.26629v1"/>
+    <id>https://arxiv.org/abs/2611.26629v1</id>
+    <updated>2026-11-19T18:59:57Z</updated>
+    <author><name>arXiv · Computer Vision</name></author>
+    <category term="research"/>
+    <summary>Diffusion distillation accelerates image and video generation by compressing a pretrained teacher&#x27;s iterative sampling process into a few network evaluations. Distribution-based methods achieve this by matching the student&#x27;s output distribution to the teacher&#x27;s. This matching is often driven by reverse-KL objectives, whose mode-seeking bias favors dominant…</summary>
+  </entry>
+  <entry>
+    <title>A Tutorial on Complementarity-Based Contact Models for Robotics</title>
+    <link href="https://arxiv.org/abs/2611.26600v1"/>
+    <id>https://arxiv.org/abs/2611.26600v1</id>
+    <updated>2026-11-19T18:54:07Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Simulating rigid-body dynamics with contact is fundamental to robotics, from motion synthesis and control to mechanism design. Many widely used simulators rely on cone complementarity formulations, whose physical assumptions and numerical solution require substantial background. While excellent surveys, monographs, and course notes exist, they mostly…</summary>
+  </entry>
+  <entry>
+    <title>Active Feature Acquisition by Distilling an Oracle Teacher</title>
+    <link href="https://arxiv.org/abs/2611.26598v1"/>
+    <id>https://arxiv.org/abs/2611.26598v1</id>
+    <updated>2026-11-19T18:52:57Z</updated>
+    <author><name>arXiv · AI &amp; ML</name></author>
+    <category term="research"/>
+    <summary>Acquiring every feature of an instance is often costly: a measurement can carry a monetary price, a time delay, or a privacy cost. Active Feature Acquisition (AFA) addresses this by learning a policy that decides, per instance, which features to acquire under a budget. Existing AFA methods train this policy by optimizing a self-constructed utility target…</summary>
+  </entry>
+  <entry>
+    <title>AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher</title>
+    <link href="https://arxiv.org/abs/2611.26510v1"/>
+    <id>https://arxiv.org/abs/2611.26510v1</id>
+    <updated>2026-11-19T17:57:59Z</updated>
+    <author><name>arXiv · AI &amp; ML</name></author>
+    <category term="research"/>
+    <summary>Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to suppress undesirable habits and elicit underrepresented…</summary>
+  </entry>
+  <entry>
+    <title>How to Scrape Websites in Python with Olostep</title>
+    <link href="https://www.freecodecamp.org/news/how-to-scrape-websites-in-python-with-olostep/"/>
+    <id>https://www.freecodecamp.org/news/how-to-scrape-websites-in-python-with-olostep/</id>
+    <updated>2026-11-19T17:54:42Z</updated>
+    <author><name>freeCodeCamp News</name></author>
+    <category term="learn"/>
+    <summary>Web scraping in Python usually starts with requests and Beautiful Soup. While this works well for static pages, it gets harder when a site loads content with JavaScript, blocks repeated requests, or c</summary>
+  </entry>
+  <entry>
+    <title>The only software that didn’t break this week...</title>
+    <link href="https://www.youtube.com/watch?v=Qxor6jpfSiU"/>
+    <id>https://www.youtube.com/watch?v=Qxor6jpfSiU</id>
+    <updated>2026-11-19T17:40:33Z</updated>
+    <author><name>Fireship (YouTube)</name></author>
+    <category term="learn"/>
+    <summary>Use all your coding agents side by side in one IDE with JetBrains Air: https://jb.gg/https://jb.gg/JetBrainsAir-in-IDEs Solid 2.0 is the framework&#x27;s first major release in over five years. Why should you care? Let&#x27;s dive in. Want more Fireship? 🗞️ Newsletter: https://bytes.dev 🧠 Courses: https://fireship.dev</summary>
+  </entry>
+  <entry>
+    <title>How to Build a Browser-Based PDF Password Protector Using JavaScript</title>
+    <link href="https://www.freecodecamp.org/news/build-pdf-password-protector-javascript/"/>
+    <id>https://www.freecodecamp.org/news/build-pdf-password-protector-javascript/</id>
+    <updated>2026-11-19T17:20:58Z</updated>
+    <author><name>freeCodeCamp News</name></author>
+    <category term="learn"/>
+    <summary>Contracts, invoices, medical reports, and scanned ID cards are often converted to PDF files. And if one of them ends up in the wrong inbox or on a shared drive, anyone can open it. Adding a password f</summary>
+  </entry>
+  <entry>
+    <title>Stanford Online Graduate Information Session: Certificates, Individual Courses &amp; Master’s Degrees</title>
+    <link href="https://www.youtube.com/watch?v=Nr-c57iGbCs"/>
+    <id>https://www.youtube.com/watch?v=Nr-c57iGbCs</id>
+    <updated>2026-11-19T17:00:39Z</updated>
+    <author><name>Stanford Online (YouTube)</name></author>
+    <category term="learn"/>
+    <summary>Graduate courses open for winter enrollment: https://stanford.io/Winter-2026 Graduate certificates and how to apply as a non-degree student: https://stanford.io/grad-courses-certs Browse Master&#x27;s Degrees: https://stanford.io/grad-info-masters Can working professionals take Stanford graduate-level engineering classes without committing to a full degree? In…</summary>
+  </entry>
+  <entry>
+    <title>TacInno: Teaching Vision-Language-Action Models the Contact Dynamics Beyond Vision and Action</title>
+    <link href="https://arxiv.org/abs/2611.26405v1"/>
+    <id>https://arxiv.org/abs/2611.26405v1</id>
+    <updated>2026-11-19T16:53:19Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Vision-Language-Action (VLA) models have recently been equipped with tactile sensing to perceive visually subtle contact events in contact-rich manipulation. However, adding tactile input yields inconsistent gains, and some visuo-tactile VLA models rely little on tactile input, because much of the tactile change, such as the gel deformation during gripper…</summary>
+  </entry>
+  <entry>
+    <title>Ground Truth Bias in AI-Assisted Medical Annotation: A Crossover Study Using an Independent Radiologist Reference Standard</title>
+    <link href="https://arxiv.org/abs/2611.25924v1"/>
+    <id>https://arxiv.org/abs/2611.25924v1</id>
+    <updated>2026-11-19T11:08:39Z</updated>
+    <author><name>arXiv · Computers &amp; Society</name></author>
+    <category term="research"/>
+    <summary>Behavioural evaluations of artificial-intelligence-assisted annotation score every human decision against a reference standard, so their conclusions inherit that standard&#x27;s validity. We tested how far conclusions about assistance, reliance and individual differences depend on it. Fifty-one non-expert high-school students annotated 50 knee radiographs for…</summary>
+  </entry>
+  <entry>
+    <title>OPINION: For a well-prepared workforce, schools must rethink the kinds of skills that will be useful in a changing economy</title>
+    <link href="https://hechingerreport.org/workforce-preparation-changing-economy/"/>
+    <id>https://hechingerreport.org/workforce-preparation-changing-economy/</id>
+    <updated>2026-11-19T06:00:00Z</updated>
+    <author><name>The Hechinger Report</name></author>
+    <category term="learn"/>
+    <summary>For years, the debate about artificial intelligence and jobs has understandably focused on which workers machines will replace. People are worried about job security, and employers are seeking efficiencies. Yet as AI-supported tasks and outputs become increasingly commonplace in virtually every workplace, the conversation is shifting. It’s becoming clear…</summary>
+  </entry>
+  <entry>
+    <title>Sold a story: It’s up to us</title>
+    <link href="https://hechingerreport.org/sold-a-story-its-up-to-us/"/>
+    <id>https://hechingerreport.org/sold-a-story-its-up-to-us/</id>
+    <updated>2026-11-19T05:01:00Z</updated>
+    <author><name>The Hechinger Report</name></author>
+    <category term="learn"/>
+    <summary>This podcast, Sold a Story, was produced by APM Reports and reprinted with permission. Sold a Story is an investigative podcast about how kids learn — what works in the classroom, the science behind those insights and why that research often doesn’t make it into schools. Season 1 revealed why so many kids are struggling to learn […] The post Sold a story…</summary>
+  </entry>
+  <entry>
+    <title>AI Costs: Tokens, Energy, Model Choice &amp; API Keys | Stanford CS193T Lecture 7 with Cynthia Bailey</title>
+    <link href="https://www.youtube.com/watch?v=l07K2cdLofM"/>
+    <id>https://www.youtube.com/watch?v=l07K2cdLofM</id>
+    <updated>2026-11-19T00:00:19Z</updated>
+    <author><name>Stanford Online (YouTube)</name></author>
+    <category term="learn"/>
+    <summary>Explore AI courses and programs from Stanford Online: https://stanford.io/4BYTekh What does it cost to use AI in tokens, dollars, electricity, and water? In this Stanford CS193T: Thinking with AI lecture recording, Senior Lecturer Cynthia Bailey reads a real Claude Code usage report line by line, shows how caching saves money by reusing attention-mechanism…</summary>
+  </entry>
+  <entry>
+    <title>Teaching Vision-Language-Action Models to Stop Safely</title>
+    <link href="https://huggingface.co/papers/2611.26239"/>
+    <id>https://huggingface.co/papers/2611.26239</id>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <author><name>Hugging Face Papers</name></author>
+    <category term="research"/>
+    <summary>Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physical response remain challenging. Our evaluation reveals that policies which…</summary>
+  </entry>
+  <entry>
+    <title>Google Says Schools Can’t Have Search Without AI. Some Are Finding a Way.</title>
+    <link href="https://www.edsurge.com/news/google-says-schools-cant-have-search-without-ai-some-are-finding-a-way"/>
+    <id>https://www.edsurge.com/news/google-says-schools-cant-have-search-without-ai-some-are-finding-a-way</id>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <author><name>EdSurge</name></author>
+    <category term="learn"/>
+    <summary>Districts and filtering companies were blocking AI search results long before Google’s new policy.</summary>
+  </entry>
+  <entry>
+    <title>Terminal-Bench: Evaluating AI Agents | Stanford CS329Z Guest Lecture with Alex Shaw &amp; Ryan Marten</title>
+    <link href="https://www.youtube.com/watch?v=7GW-9ug2nvw"/>
+    <id>https://www.youtube.com/watch?v=7GW-9ug2nvw</id>
+    <updated>2026-11-18T21:00:35Z</updated>
+    <author><name>Stanford Online (YouTube)</name></author>
+    <category term="learn"/>
+    <summary>Browse Stanford&#x27;s online courses in Agentic AI: https://stanford.io/4AIRb2z Lecture Overview: How do frontier AI labs measure whether agents can do real work? In this Stanford CS329Z: Engineering AI Agents guest lecture, Alex Shaw and Ryan Marten of the Laude Institute, co-creators of Terminal-Bench, explain why evals have become the source of truth for…</summary>
+  </entry>
+  <entry>
+    <title>School of Social Welfare receives $10 million anonymous gift to elevate social work education</title>
+    <link href="https://news.berkeley.edu/2026/11/18/school-of-social-welfare-receives-10-million-anonymous-gift-to-elevate-social-work-education/"/>
+    <id>https://news.berkeley.edu/2026/11/18/school-of-social-welfare-receives-10-million-anonymous-gift-to-elevate-social-work-education/</id>
+    <updated>2026-11-18T18:00:00Z</updated>
+    <author><name>UC Berkeley News</name></author>
+    <category term="news"/>
+    <summary>Endowed funds will provide discretionary support beginning in fall 2027 to transform practicum education, enrich core curriculum and advance skill-based training. The post School of Social Welfare receives $10 million anonymous gift to elevate social work education appeared first on Berkeley News .</summary>
+  </entry>
+  <entry>
+    <title>Disagreement doesn’t have to be toxic</title>
+    <link href="https://news.harvard.edu/gazette/story/2026/11/disagreement-doesnt-have-to-be-toxic-podcast-harvard-thinking/"/>
+    <id>https://news.harvard.edu/gazette/story/2026/11/disagreement-doesnt-have-to-be-toxic-podcast-harvard-thinking/</id>
+    <updated>2026-11-18T17:20:20Z</updated>
+    <author><name>Harvard Gazette</name></author>
+    <category term="news"/>
+    <summary>Breaking out of your bubble and engaging with different points of view gets easier with practice, say experts, who offer tips on shaking off rust</summary>
+  </entry>
+  <entry>
+    <title>Post-Training Techniques: On-Policy Distillation | Afshine &amp; Shervine Amidi</title>
+    <link href="https://www.youtube.com/watch?v=1S5nJp-qRs8"/>
+    <id>https://www.youtube.com/watch?v=1S5nJp-qRs8</id>
+    <updated>2026-11-18T17:00:12Z</updated>
+    <author><name>Stanford Online (YouTube)</name></author>
+    <category term="learn"/>
+    <summary>Browse Stanford&#x27;s online computational and mathematical engineering graduate courses: https://stanford.io/grad-cme Enrollment for the winter quarter is open now! https://stanford.io/Winter-2026 Is making a model bigger still the only way to improve it? Adjunct Professors Afshine Amidi and Shervine Amidi explain how post-training techniques such as…</summary>
+  </entry>
+  <entry>
+    <title>How M.C. Escher’s Art Creates Bizarre Mathematical Worlds</title>
+    <link href="https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/"/>
+    <id>https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/</id>
+    <updated>2026-11-18T15:51:40Z</updated>
+    <author><name>Quanta Magazine</name></author>
+    <category term="news"/>
+    <summary>The artist had no formal math education, yet as a new exhibition shows, the insights revealed in his artwork became an enduring inspiration to mathematicians. The post How M.C. Escher’s Art Creates Bizarre Mathematical Worlds first appeared on Quanta Magazine</summary>
+  </entry>
+  <entry>
+    <title>Learn Data Structures and Algorithms in Python with Visualizations</title>
+    <link href="https://www.youtube.com/watch?v=ybe6EGe_wjo"/>
+    <id>https://www.youtube.com/watch?v=ybe6EGe_wjo</id>
+    <updated>2026-11-18T12:37:46Z</updated>
+    <author><name>freeCodeCamp (YouTube)</name></author>
+    <category term="learn"/>
+    <summary>Learn data structures and algorithms in Python in this beginner&#x27;s course. This course covers arrays, linked lists, stacks, queues, hash tables, trees, heaps, and graphs, plus recursion, searching, sorting, and interview prep. Each topic is explained with custom animations and visualizations alongside Python code examples. By the end, you will understand how…</summary>
+  </entry>
+  <entry>
+    <title>Job pipelines for Black and Latino students ‘dry up’ after attacks on DEI and affirmative action</title>
+    <link href="https://hechingerreport.org/job-pipelines-for-black-and-latino-students-dry-up-after-dei-and-affirmative-action-attacks/"/>
+    <id>https://hechingerreport.org/job-pipelines-for-black-and-latino-students-dry-up-after-dei-and-affirmative-action-attacks/</id>
+    <updated>2026-11-18T12:05:00Z</updated>
+    <author><name>The Hechinger Report</name></author>
+    <category term="learn"/>
+    <summary>This video story, by Soledad O’Brien Productions for TIME and The Hechinger Report, examines the consequences of the SCOTUS decision about affirmative action. LOS ANGELES — Jamila Chambers remembers when recruiters came to interview students at Occidental College with a clear mission: They wanted a diverse workforce. They interviewed juniors for internships…</summary>
+  </entry>
+  <entry>
+    <title>COLUMN: Will the blue wave reopen job opportunities for Black and Hispanic students?</title>
+    <link href="https://hechingerreport.org/column-will-the-blue-wave-reopen-job-opportunities-for-black-and-hispanic-students/"/>
+    <id>https://hechingerreport.org/column-will-the-blue-wave-reopen-job-opportunities-for-black-and-hispanic-students/</id>
+    <updated>2026-11-18T12:00:00Z</updated>
+    <author><name>The Hechinger Report</name></author>
+    <category term="learn"/>
+    <summary>WASHINGTON – Trinity Williams has some advice for prospective students visiting Howard University in the era since the Supreme Court banned colleges from considering race in admissions. “Always choose an HBCU,” Williams, a junior and tour guide at the historically Black university, told me on a recent October day, recounting the pep talk she loves […] The…</summary>
+  </entry>
+  <entry>
+    <title>Fewer students, more teachers: Districts balk at cutting staff even as enrollment falls</title>
+    <link href="https://hechingerreport.org/fewer-students-more-teachers-districts-balk-at-cutting-staff-even-as-enrollment-falls/"/>
+    <id>https://hechingerreport.org/fewer-students-more-teachers-districts-balk-at-cutting-staff-even-as-enrollment-falls/</id>
+    <updated>2026-11-18T05:01:00Z</updated>
+    <author><name>The Hechinger Report</name></author>
+    <category term="learn"/>
+    <summary>SEATTLE — Nearly four decades ago, state auditors delivered a stark warning to Seattle Public Schools. The district needed to close several campuses with low enrollment to avert a deepening budget crisis. But the recommendations generated fierce neighborhood outcry, so Seattle officials set the audit aside. Then, 34 years later, history repeated itself. In…</summary>
+  </entry>
+  <entry>
+    <title>AI Has a Place in Education, Just Not in My Classroom</title>
+    <link href="https://www.edsurge.com/news/ai-has-a-place-in-education-just-not-in-my-classroom"/>
+    <id>https://www.edsurge.com/news/ai-has-a-place-in-education-just-not-in-my-classroom</id>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <author><name>EdSurge</name></author>
+    <category term="learn"/>
+    <summary>Despite the rise of AI in schools, a seventh-grade literacy teacher argues for the irreplaceable value of a low-tech classroom centered on foundational ...</summary>
+  </entry>
+  <entry>
+    <title>A New Classroom Use for Artificial Intelligence: Grade the Chat, Not Just the Answer</title>
+    <link href="https://www.edsurge.com/news/a-new-classroom-use-for-artificial-intelligence-grade-the-chat-not-just-the-answer"/>
+    <id>https://www.edsurge.com/news/a-new-classroom-use-for-artificial-intelligence-grade-the-chat-not-just-the-answer</id>
+    <updated>2026-11-18T00:00:00Z</updated>
+    <author><name>EdSurge</name></author>
+    <category term="learn"/>
+    <summary>Two guests on “This Week with EdSurge” explain how AI can be used to assess when students think through their answers and when they talk with chatbots.</summary>
+  </entry>
+  <entry>
+    <title>Schools that ban cellphones see uptick in test scores</title>
+    <link href="https://news.harvard.edu/gazette/story/2026/11/schools-that-ban-cellphones-see-uptick-in-test-scores/"/>
+    <id>https://news.harvard.edu/gazette/story/2026/11/schools-that-ban-cellphones-see-uptick-in-test-scores/</id>
+    <updated>2026-11-17T20:26:40Z</updated>
+    <author><name>Harvard Gazette</name></author>
+    <category term="news"/>
+    <summary>First large national study of policies shows modest but meaningful boost to learning</summary>
+  </entry>
+  <entry>
+    <title>What gives New England fall foliage its rich palette?</title>
+    <link href="https://news.harvard.edu/gazette/story/2026/11/what-gives-new-england-foliage-its-rich-palette/"/>
+    <id>https://news.harvard.edu/gazette/story/2026/11/what-gives-new-england-foliage-its-rich-palette/</id>
+    <updated>2026-11-17T18:03:52Z</updated>
+    <author><name>Harvard Gazette</name></author>
+    <category term="news"/>
+    <summary>Postdoctoral fellow breaks down the chemical process that turns some leaves yellow and others orange or red</summary>
+  </entry>
+  <entry>
+    <title>Building Climate and Energy Resilience through Education Live Webcast</title>
+    <link href="https://www.youtube.com/watch?v=uqFwmaLoQcw"/>
+    <id>https://www.youtube.com/watch?v=uqFwmaLoQcw</id>
+    <updated>2026-11-17T15:23:41Z</updated>
+    <author><name>MIT OpenCourseWare (YouTube)</name></author>
+    <category term="learn"/>
+    <summary>An Open Conversation with Dr. Desirée Plata and Dr. Chris Raben Hosted by Curt Newton Understanding the connections between climate, energy, and economic growth is critical to shaping a future where thriving communities and economic prosperity are no longer tied to greenhouse gas emissions. How can we think differently about climate, energy, and…</summary>
+  </entry>
+  <entry>
+    <title>Preschool math blasts off in Mississippi</title>
+    <link href="https://hechingerreport.org/preschool-math-curriculum-mississippi/"/>
+    <id>https://hechingerreport.org/preschool-math-curriculum-mississippi/</id>
+    <updated>2026-11-17T14:00:00Z</updated>
+    <author><name>The Hechinger Report</name></author>
+    <category term="learn"/>
+    <summary>CORINTH, Miss. — Vaughn Dodd is using Magna-Tiles to make a rocketship, carefully selecting different shapes for the nose cone and the tail. The four-year-old pre-K student at Corinth Elementary School knows that a diamond shape is called a rhombus. She knows the sun is a circle. Proficiency with translucent plastic shapes may not lead […] The post…</summary>
+  </entry>
+</feed>

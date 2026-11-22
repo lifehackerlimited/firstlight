@@ -1,4 +1,4 @@
-// MCT portal. No frameworks, no third-party requests.
+// Nascent portal (built on MCT). No frameworks, no third-party requests.
 // Security: all feed content is rendered with textContent / setAttribute (never innerHTML),
 // and every outbound link is checked to be http(s).
 "use strict";
@@ -6,6 +6,7 @@
 // MCT is the engine; Nascent is the public face.
 const KINDS = {
   all: { label: "All" },
+  foryou: { label: "For you", color: "var(--accent)" },
   research: { label: "Research", one: "Research", color: "var(--k-research)" },
   news: { label: "News", one: "News", color: "var(--k-news)" },
   insight: { label: "Insights", one: "Insight", color: "var(--k-insight)" },
@@ -31,6 +32,10 @@ const store = {
 
 let feed = { items: [], topics: {}, trending: [], sources: [] };
 let saved = store.get("mct-saved", {});
+let follow = store.get("mct-follow", []);              // followed topic keys
+let mute = store.get("mct-mute", []);                  // hidden source ids
+let affinity = store.get("mct-affinity", { t: {}, s: {} }); // what you open and save (this device only)
+let archive = null;                                    // 30-day archive, loaded on demand for search
 const state = { kind: "all", topic: "", source: "", q: "", sort: "latest", limit: PAGE };
 const sourceName = (id) => (feed.sources.find((s) => s.id === id) || { name: id }).name;
 let focusIdx = -1;
@@ -48,12 +53,19 @@ function ago(iso) {
   for (const [n, u] of units) if (s >= n) return `${Math.floor(s / n)}${u} ago`;
   return "now";
 }
-function toast(msg) {
+function toast(msg, action, onAction) {
   const t = $("#toast");
-  t.textContent = msg;
+  t.replaceChildren(document.createTextNode(msg));
+  t.classList.toggle("has-action", !!action);
+  if (action) {
+    const b = el("button", "toast-action", action);
+    b.type = "button";
+    b.addEventListener("click", () => { t.classList.remove("show"); onAction(); });
+    t.append(b);
+  }
   t.classList.add("show");
   clearTimeout(toast._t);
-  toast._t = setTimeout(() => t.classList.remove("show"), 1800);
+  toast._t = setTimeout(() => t.classList.remove("show"), action ? 5000 : 1800);
 }
 function readHash() {
   const p = new URLSearchParams(location.hash.slice(1));
@@ -100,21 +112,43 @@ async function load() {
 }
 
 function matches(i, { skipKind = false, skipTopic = false } = {}) {
-  if (!skipKind && state.kind !== "all" && state.kind !== "saved" && i.kind !== state.kind) return false;
+  if (!skipKind && !["all", "saved", "foryou"].includes(state.kind) && i.kind !== state.kind) return false;
+  if (!state.source && state.kind !== "saved" && mute.includes(i.sourceId)) return false;
   if (!skipTopic && state.topic && !(i.topics || []).includes(state.topic)) return false;
   if (state.source && i.sourceId !== state.source) return false;
   if (state.q) {
-    const hay = `${i.title} ${i.summary} ${i.source} ${(i.tags || []).join(" ")} ${(i.authors || []).join(" ")}`.toLowerCase();
+    const hay = `${i.title} ${i.summary} ${i.ai || ""} ${i.source} ${(i.tags || []).join(" ")} ${(i.authors || []).join(" ")}`.toLowerCase();
     if (!state.q.toLowerCase().split(/\s+/).every((w) => hay.includes(w))) return false;
   }
   return true;
 }
-function pool() { return state.kind === "saved" ? Object.values(saved) : feed.items; }
+function pool() {
+  if (state.kind === "saved") return Object.values(saved);
+  if (state.q && archive) {
+    const have = new Set(feed.items.map((i) => i.id));
+    return feed.items.concat(archive.filter((a) => !have.has(a.id)));
+  }
+  return feed.items;
+}
+// Personal relevance from followed topics and what you open/save. Computed in the browser only.
+function forYou(i) {
+  let s = 0;
+  for (const k of i.topics || []) s += (follow.includes(k) ? 3 : 0) + Math.min(affinity.t[k] || 0, 20) * 0.25;
+  s += Math.min(affinity.s[i.sourceId] || 0, 20) * 0.35;
+  if (!s) return 0;
+  const age = (Date.now() - Date.parse(i.published)) / 8.64e7;
+  return (s + (i.heat || 0) / 50 + (i.coverage || 1) * 0.3) * Math.pow(0.5, age / 3);
+}
 function filtered() {
   const out = pool().filter((i) => matches(i));
+  if (state.kind === "foryou") {
+    const scored = out.map((i) => [forYou(i), i]).filter(([s]) => s > 0);
+    scored.sort((a, b) => b[0] - a[0]);
+    return scored.map(([, i]) => i);
+  }
   if (state.sort === "top") {
     // engagement percentile, gently decayed by age (half-life ~2 days)
-    const rank = (i) => (i.heat ?? 15) * Math.pow(0.5, (Date.now() - Date.parse(i.published)) / 1.728e8);
+    const rank = (i) => ((i.heat ?? 15) + 20 * ((i.coverage || 1) - 1)) * Math.pow(0.5, (Date.now() - Date.parse(i.published)) / 1.728e8);
     out.sort((a, b) => rank(b) - rank(a));
   } else {
     out.sort((a, b) => (a.published < b.published ? 1 : -1));
@@ -152,6 +186,7 @@ function renderSides() {
     tr.append(c);
   }
   if (!tr.children.length) tr.append(el("p", "feed-count", "Not enough signal yet."));
+  renderSignals();
   // sources, grouped by content type; click one to filter the feed to it
   const sl = $("#sources");
   sl.replaceChildren();
@@ -169,11 +204,13 @@ function renderSides() {
       const b = el("button");
       b.type = "button";
       b.dataset.src = s.id;
+      const hidden = mute.includes(s.id);
       const dot = el("span", "st" + (s.ok ? "" : s.off ? " off" : " bad"));
-      b.title = s.ok ? `Show only ${s.name}` : s.off ? `Not enabled yet: ${s.error}` : `Last fetch failed: ${s.error || "unknown"}`;
-      b.disabled = !s.ok;
-      b.append(dot, el("span", "name", s.name), el("span", "n", s.ok ? String(s.count) : s.off ? "key" : "—"));
-      b.addEventListener("click", () => setSource(s.id));
+      b.title = hidden ? `Hidden. Click to show ${s.name} again` : s.ok ? `Show only ${s.name}` : s.off ? `Not enabled yet: ${s.error}` : `Last fetch failed: ${s.error || "unknown"}`;
+      b.disabled = !s.ok && !hidden;
+      if (hidden) b.classList.add("is-muted");
+      b.append(dot, el("span", "name", s.name), el("span", "n", hidden ? "hidden" : s.ok ? String(s.count) : s.off ? "key" : "—"));
+      b.addEventListener("click", () => (mute.includes(s.id) ? toggleMute(s.id) : setSource(s.id)));
       li.append(b);
       ul.append(li);
     }
@@ -193,6 +230,7 @@ function renderCounts() {
   for (const b of $("#kinds").children) {
     const k = b.dataset.kind;
     const n = k === "saved" ? Object.keys(saved).length
+      : k === "foryou" ? feed.items.filter((i) => matches(i, { skipKind: true }) && forYou(i) > 0).length
       : feed.items.filter((i) => (k === "all" || i.kind === k) && matches(i, { skipKind: true })).length;
     b.querySelector(".n").textContent = n;
     b.setAttribute("aria-selected", String(k === state.kind));
@@ -210,7 +248,7 @@ function renderCounts() {
     const b = el("button");
     b.type = "button";
     b.setAttribute("aria-pressed", String(state.topic === k));
-    b.append(el("span", null, label), el("span", "n", String(n)));
+    b.append(el("span", null, (follow.includes(k) ? "★ " : "") + label), el("span", "n", String(n)));
     b.addEventListener("click", () => { state.topic = k; state.limit = PAGE; update(); });
     li.append(b);
     tl.append(li);
@@ -239,15 +277,58 @@ function card(i, featured) {
     h.title = `Engagement: ${i.score} (top ${100 - i.heat + 1}% for ${i.source})`;
   }
   if (featured) node.querySelector(".card-meta").prepend(el("span", "featured-label", "Top story ·"));
+  const badges = node.querySelector(".badges");
+  if (i.archived) badges.append(el("span", "badge", "Archive"));
+  if (i.signal) {
+    const b = el("button", "badge badge-signal", "Signal");
+    b.type = "button";
+    b.title = `Part of the rising signal “${i.signal}”. Click to see related stories`;
+    b.addEventListener("click", () => searchFor(i.signal));
+    badges.append(b);
+  }
+  if (i.paywall) {
+    const b = el("span", "badge badge-paywall", i.paywall);
+    b.title = i.paywall === "Paywall" ? "This publisher usually requires a subscription" : "This publisher limits free articles per month";
+    badges.append(b);
+  }
 
   const a = node.querySelector(".card-title a");
   a.textContent = i.title;
   const href = safeUrl(i.url);
   if (href) a.href = href;
 
+  a.addEventListener("click", () => learn(i, 1));
+  if (i.ai) {
+    const w = node.querySelector(".card-why");
+    w.hidden = false;
+    w.append(el("b", null, "Why it matters "), document.createTextNode(i.ai));
+  }
   const sum = node.querySelector(".card-summary");
   sum.textContent = i.summary || "";
   sum.addEventListener("click", () => node.classList.toggle("expanded"));
+  if ((i.also || []).length) {
+    const box = node.querySelector(".card-also");
+    const t = el("button", "badge badge-cover", `+${i.also.length} more source${i.also.length > 1 ? "s" : ""}`);
+    t.type = "button";
+    t.title = "This story was also covered by other sources";
+    t.addEventListener("click", () => { box.hidden = !box.hidden; });
+    badges.append(t);
+    for (const o of i.also) {
+      const row = el("div", "also-row");
+      const href2 = safeUrl(o.url);
+      const l = el("a", null, o.source);
+      if (href2) { l.href = href2; l.target = "_blank"; l.rel = "noopener noreferrer nofollow"; }
+      row.append(el("span", "kind-dot"), l);
+      const c = safeUrl(o.comments);
+      if (c && c !== href2) {
+        const d = el("a", "also-discuss", "discussion");
+        d.href = c; d.target = "_blank"; d.rel = "noopener noreferrer nofollow";
+        row.append(d);
+      }
+      row.dataset.kind = o.kind;
+      box.append(row);
+    }
+  }
 
   const tops = node.querySelector(".card-topics");
   for (const k of i.topics || []) {
@@ -263,6 +344,7 @@ function card(i, featured) {
   if (alt) { const d = node.querySelector(".act-alt"); d.hidden = false; d.href = alt; }
 
   node.querySelector(".act-freya").addEventListener("click", () => copyForFreya(i));
+  node.querySelector(".act-mute").addEventListener("click", () => toggleMute(i.sourceId));
   const sv = node.querySelector(".act-save");
   const paint = () => { const on = !!saved[i.id]; sv.setAttribute("aria-pressed", String(on)); sv.textContent = on ? "Saved" : "Save"; };
   paint();
@@ -317,16 +399,129 @@ function render() {
   if (state.q) pill(`“${state.q}”`, () => { state.q = ""; $("#q").value = ""; });
 
   for (const b of document.querySelectorAll(".seg button")) b.setAttribute("aria-pressed", String(b.dataset.sort === state.sort));
+  const fb = $("#follow");
+  fb.hidden = !state.topic;
+  if (state.topic) {
+    const on = follow.includes(state.topic);
+    fb.textContent = on ? "★ Following" : "☆ Follow topic";
+    fb.setAttribute("aria-pressed", String(on));
+  }
+  const ab = $("#archive-btn");
+  ab.hidden = !state.q || !!archive || state.kind === "saved";
+  if (state.kind === "foryou" && !items.length) {
+    $("#empty").querySelector(".empty-title").textContent = "Your For you view is empty";
+    $("#empty").querySelector("p:not(.empty-title)").textContent =
+      "Follow a topic (pick one, then press Follow) or open and save a few stories. It learns in your browser only.";
+  } else {
+    $("#empty").querySelector("p:not(.empty-title)").textContent =
+      "Try another topic, clear your search, or check back after the next refresh.";
+  }
+  renderBrief();
   renderCounts();
+}
+
+function renderBrief() {
+  const box = $("#brief");
+  const b = feed.brief;
+  const home = !state.q && !state.topic && !state.source && state.kind === "all";
+  if (!b || !b.text || !home) { box.hidden = true; return; }
+  box.hidden = false;
+  box.replaceChildren();
+  const head = el("div", "brief-head");
+  head.append(el("h2", null, "Today's brief"), el("span", "brief-note", "AI-written from today's top stories · check sources"));
+  const ul = el("ul");
+  for (const line of b.text.split("\n")) {
+    const t = line.replace(/^\s*[•\-*]\s*/, "").trim();
+    if (t) ul.append(el("li", null, t));
+  }
+  box.append(head, ul);
+}
+
+function renderSignals() {
+  const ol = $("#signals");
+  ol.replaceChildren();
+  const sigs = feed.signals || [];
+  if (!sigs.length) {
+    ol.append(el("li", "panel-note", "Signals appear as an idea spreads across independent sources. Check back soon."));
+    return;
+  }
+  for (const s of sigs.slice(0, 8)) {
+    const li = el("li");
+    const b = el("button", "signal");
+    b.type = "button";
+    b.title = `${s.mentions} mentions across ${s.sources} source groups${s.mainstream ? " (some mainstream coverage)" : ""}`;
+    const top = el("span", "signal-top");
+    top.append(el("span", "signal-term", s.term), el("span", "signal-score", String(s.score)));
+    const stages = el("span", "stages");
+    for (const [k, label] of [["paper", "Papers"], ["code", "Code"], ["talk", "Talk"], ["news", "News"]]) {
+      const d = el("span", "stage" + ((s.stages || {})[k] ? " on" : ""), label);
+      stages.append(d);
+    }
+    b.append(top, stages);
+    b.addEventListener("click", () => searchFor(s.term));
+    li.append(b);
+    ol.append(li);
+  }
+}
+
+function searchFor(term) {
+  state.q = term; $("#q").value = term; state.kind = "all"; state.topic = ""; state.source = ""; state.limit = PAGE;
+  update();
+  window.scrollTo({ top: $("#feed").offsetTop - 140, behavior: "smooth" });
 }
 function update() { writeHash(); render(); }
 
 // ---------- actions ----------
 function toggleSave(i) {
   if (saved[i.id]) { delete saved[i.id]; toast("Removed from saved"); }
-  else { saved[i.id] = i; toast("Saved to this browser"); }
+  else { saved[i.id] = i; learn(i, 2); toast("Saved to this browser"); }
   store.set("mct-saved", saved);
   if (state.kind === "saved") render(); else renderCounts();
+}
+function learn(i, w) {
+  for (const k of i.topics || []) affinity.t[k] = (affinity.t[k] || 0) + w;
+  affinity.s[i.sourceId] = (affinity.s[i.sourceId] || 0) + w;
+  store.set("mct-affinity", affinity);
+}
+function toggleMute(sid) {
+  const name = sourceName(sid);
+  if (mute.includes(sid)) {
+    mute = mute.filter((x) => x !== sid);
+    toast(`Showing ${name} again`);
+  } else {
+    mute.push(sid);
+    if (state.source === sid) state.source = "";
+    toast(`Hidden ${name}`, "Undo", () => toggleMute(sid));
+  }
+  store.set("mct-mute", mute);
+  renderSides();
+  update();
+}
+function toggleFollow() {
+  const k = state.topic;
+  if (!k) return;
+  follow = follow.includes(k) ? follow.filter((x) => x !== k) : follow.concat(k);
+  store.set("mct-follow", follow);
+  toast(follow.includes(k) ? `Following ${feed.topics[k]}. It's in For you now` : `Unfollowed ${feed.topics[k]}`);
+  render();
+}
+async function loadArchive() {
+  const btn = $("#archive-btn");
+  btn.textContent = "Loading the archive…";
+  try {
+    const r = await fetch("data/archive.json", { cache: "no-cache" });
+    if (!r.ok) throw new Error(r.status);
+    const raw = await r.json();
+    archive = raw.map((a) => ({
+      id: a.id, title: a.t, url: a.u, source: a.s, sourceId: a.sid, kind: a.k, published: a.p,
+      topics: a.tp || [], summary: a.sm || "", ai: a.ai, coverage: a.cv || 1, comments: a.c, archived: true,
+    }));
+    toast(`Searching ${archive.length.toLocaleString()} stories from the last 30 days`);
+  } catch {
+    btn.textContent = "Archive unavailable";
+    return;
+  }
+  render();
 }
 async function copyForFreya(i) {
   const brief = [
@@ -335,6 +530,7 @@ async function copyForFreya(i) {
     i.authors && i.authors.length ? `Authors: ${i.authors.join(", ")}` : null,
     i.topics && i.topics.length ? `Topics: ${i.topics.map((k) => feed.topics[k] || k).join(", ")}` : null,
     `Link: ${i.url}`,
+    i.ai ? `Why it matters: ${i.ai}` : null,
     i.summary ? `\nSummary: ${i.summary}` : null,
     `\nFreya, summarise this, explain why it matters, and list related work.`,
   ].filter(Boolean).join("\n");
@@ -369,6 +565,8 @@ function init() {
   $("#more").addEventListener("click", () => { state.limit += PAGE; render(); });
   $("#reset").addEventListener("click", () => { Object.assign(state, { kind: "all", topic: "", source: "", q: "", limit: PAGE }); q.value = ""; update(); });
   $("#about-btn").addEventListener("click", () => $("#about").showModal());
+  $("#follow").addEventListener("click", toggleFollow);
+  $("#archive-btn").addEventListener("click", loadArchive);
   $("#theme").addEventListener("click", toggleTheme);
   window.addEventListener("hashchange", () => { readHash(); q.value = state.q; render(); });
 
@@ -385,6 +583,7 @@ function init() {
     else if (e.key === "j") moveFocus(1);
     else if (e.key === "k") moveFocus(-1);
     else if (e.key === "t") toggleTheme();
+    else if (e.key === "f") { state.kind = "foryou"; state.limit = PAGE; update(); }
     else if (e.key === "o" && cur) cur.querySelector(".card-title a").click();
     else if (e.key === "s" && cur) cur.querySelector(".act-save").click();
   });

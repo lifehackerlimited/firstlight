@@ -31,6 +31,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
+
+import enrich
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
@@ -39,6 +41,7 @@ from email.utils import parsedate_to_datetime
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT_DIR = os.path.join(ROOT, "site", "data")
 SOURCES = os.path.join(ROOT, "scripts", "sources.json")
+CONFIG = json.load(open(os.path.join(ROOT, "config.json")))
 
 UA = "Nascent-Collector/2.0 (open-source emerging-tech reader; built on MCT)"
 TIMEOUT = 20
@@ -461,10 +464,14 @@ def h_bluesky(src):
         if len(re.findall(r"#\w+", raw)) >= 4:
             continue  # hashtag-stuffed promo posts
         text = clean(re.sub(r"(?:\s*#\w+)+\s*$", "", raw), 600)  # drop trailing hashtag blocks
-        if ext.get("uri") and ext.get("title"):
+        ext_title = (ext.get("title") or "").strip()
+        if re.fullmatch(r"[\w.-]+\.[a-z]{2,}(/\S*)?", ext_title, re.I) or len(ext_title.split()) < 3:
+            ext_title = ""  # link previews that only carry the domain name aren't a headline
+        if ext.get("uri") and ext_title:
+            ext["title"] = ext_title
             title, url, summary = ext["title"], ext["uri"], text or ext.get("description")
         else:
-            if len(text) < 40:
+            if len(text) < 40 or re.fullmatch(r"\S+", text):
                 continue  # too short to stand alone as a story
             title, url, summary = clean(text, 140), post_url, text
         out.append(item(src, title, url, rec.get("createdAt") or p.get("indexedAt"), summary, score=likes,
@@ -589,15 +596,23 @@ def trending(items):
 
 
 def digest(feed):
-    lines = [f"# Nascent digest — {feed['generated']}", "",
+    lines = [f"# {feed['name']} digest — {feed['generated']}", "",
              "Latest emerging-tech research, news, analysis and launches.", ""]
+    if feed.get("brief"):
+        lines += ["## Today's brief", "", feed["brief"]["text"], ""]
+    if feed.get("signals"):
+        lines += ["## Nascent signals (rising before the mainstream)", ""]
+        for sg in feed["signals"]:
+            st = ", ".join(f"{k} {v}" for k, v in sg["stages"].items() if v)
+            lines.append(f"- **{sg['term']}** (score {sg['score']}; {sg['mentions']} mentions across {sg['sources']} source groups: {st})")
+        lines.append("")
     for key, (label, _) in TOPICS.items():
         its = [i for i in feed["items"] if key in i["topics"]][:10]
         if not its:
             continue
         lines += [f"## {label}", ""]
         for i in its:
-            s = f" — {i['summary'][:200]}" if i["summary"] else ""
+            s = f" — {(i.get('ai') or i['summary'])[:200]}" if (i.get("ai") or i["summary"]) else ""
             lines.append(f"- [{i['title']}]({i['url']}) ({i['source']}, {i['published'][:10]}){s}")
         lines.append("")
     return "\n".join(lines)
@@ -611,15 +626,19 @@ def main():
     with ThreadPoolExecutor(max_workers=16) as ex:
         results = list(ex.map(run_source, sources))
 
-    items, status, seen = [], [], set()
+    items, status, dropped_lang = [], [], 0
     for src, its, err, secs in results:
         cutoff = (NOW - timedelta(days=src["days"])).strftime("%Y-%m-%dT%H:%M:%SZ")
         kept = 0
         for i in its:
-            key = re.sub(r"^https?://(www\.)?|[/#?]+$", "", i["url"].lower())
-            if key in seen or i["published"] < cutoff:
+            if i["published"] < cutoff:
                 continue
-            seen.add(key)
+            if not enrich.is_english(f"{i['title']} {i['summary']}"):
+                dropped_lang += 1
+                continue
+            pw = enrich.paywall(i["url"])
+            if pw:
+                i["paywall"] = pw
             items.append(i)
             kept += 1
         off = bool(err and err.startswith("off:"))
@@ -635,23 +654,65 @@ def main():
     if only:
         return
 
+    # Engagement first (per source), then merge the same story across sources.
+    add_heat(items, {s['id']: s.get('weight', TYPE_WEIGHT.get(s['type'], 1.0)) for s in sources})
+    before = len(items)
+    items = enrich.merge_stories(items)
     items.sort(key=lambda i: i["published"], reverse=True)
     items = items[:MAX_ITEMS]
-    add_heat(items, {s['id']: s.get('weight', TYPE_WEIGHT.get(s['type'], 1.0)) for s in sources})
+
+    # State carried between runs lives on the published site (no repo write access needed).
+    site_url = os.environ.get("SITE_URL") or CONFIG["site_url"]
+    prev_state = enrich.fetch_previous(site_url, "data/state.json", {})
+    prev_archive = enrich.fetch_previous(site_url, "data/archive.json", [])
+    ai_cache = prev_state.get("ai", {})
+    for i in items:
+        if i["id"] in ai_cache:
+            i["ai"] = ai_cache[i["id"]]
+    archive = enrich.update_archive(prev_archive, items, days=30, cap=15000)
+    first_seen = enrich.update_first_seen(prev_state.get("first_seen", {}), archive)
+    signals = enrich.nascent_signals(archive, first_seen)
+    in_signal = {x["id"]: s["term"] for s in signals for x in s["items"]}
+    for i in items:
+        if i["id"] in in_signal:
+            i["signal"] = in_signal[i["id"]]
+
     feed = {
-        "version": 2,
-        "name": "Nascent",
+        "version": 3,
+        "name": CONFIG["site_name"],
         "generated": NOW.strftime("%Y-%m-%dT%H:%M:%SZ"),
         "topics": {k: v[0] for k, v in TOPICS.items()},
         "trending": trending(items),
+        "signals": signals,
+        "brief": prev_state.get("brief"),
         "sources": status,
         "items": items,
     }
+    state = {
+        "updated": feed["generated"],
+        "first_seen": first_seen,
+        "ai": {a["id"]: a["ai"] for a in archive if a.get("ai")},
+        "brief": prev_state.get("brief"),
+    }
     os.makedirs(OUT_DIR, exist_ok=True)
-    with open(os.path.join(OUT_DIR, "feed.json"), "w") as f:
-        json.dump(feed, f, ensure_ascii=False, separators=(",", ":"))
+    dump = lambda name, obj: json.dump(obj, open(os.path.join(OUT_DIR, name), "w"), ensure_ascii=False, separators=(",", ":"))
+    dump("feed.json", feed)
+    dump("archive.json", archive)
+    dump("state.json", state)
     with open(os.path.join(OUT_DIR, "latest.md"), "w") as f:
         f.write(digest(feed))
+
+    # Private 180-day archive for Team plans, at an unguessable path derived from a secret.
+    key = os.environ.get("ARCHIVE_KEY")
+    if key:
+        path = enrich.private_archive_path(key)
+        prev = enrich.fetch_previous(site_url, path, [])
+        full = enrich.update_archive(prev, items, days=180, cap=60000, summary_len=400)
+        os.makedirs(os.path.dirname(os.path.join(ROOT, "site", path)), exist_ok=True)
+        json.dump(full, open(os.path.join(ROOT, "site", path), "w"), ensure_ascii=False, separators=(",", ":"))
+        print(f"Private archive: {len(full)} items", file=sys.stderr)
+    print(f"Merged {before} items into {len(items)} stories; dropped {dropped_lang} non-English; "
+          f"{len(signals)} signals; archive {len(archive)}.", file=sys.stderr)
     ok = sum(s["ok"] for s in status)
     print(f"\nWrote {len(items)} items from {ok}/{len(status)} sources.", file=sys.stderr)
 

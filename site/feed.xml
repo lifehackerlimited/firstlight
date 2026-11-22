@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nascent — latest</title>
+  <subtitle>Technology, at the moment it&#x27;s born.</subtitle>
+  <link href="https://lifehackerlimited.github.io/nascent/"/>
+  <link rel="self" href="https://lifehackerlimited.github.io/nascent/feed.xml"/>
+  <id>https://lifehackerlimited.github.io/nascent/feed.xml</id>
+  <updated>2026-11-22T18:25:29Z</updated>
+  <entry>
+    <title>Calculate radio link placement and node amount for your city&#x27;s mesh network</title>
+    <link href="https://meshcoveragecalculator.lalala.ing/"/>
+    <id>https://meshcoveragecalculator.lalala.ing/</id>
+    <updated>2026-11-22T18:17:44Z</updated>
+    <author><name>Lobsters</name></author>
+    <category term="discussion"/>
+    <summary>FSPL + Delta-Bullington based local-first WASM radio mesh network calculator with the end goal of making calls over mesh networks possible **without** pissing off anybody in the process (yes, I&#x27;m talking about you, Meshtastic maintainers). Feel free to tell me how this idea *does* or doesn&#x27;t make sense and I&#x27;ll continue vibing away in the meantime. Peace!</summary>
+  </entry>
+  <entry>
+    <title>Warm Homes Loan Scheme: Factsheet</title>
+    <link href="https://www.gov.uk/government/news/warm-homes-loan-scheme-factsheet"/>
+    <id>https://www.gov.uk/government/news/warm-homes-loan-scheme-factsheet</id>
+    <updated>2026-11-22T18:13:45Z</updated>
+    <author><name>Bluesky · Tech (Flipboard)</name></author>
+    <category term="discussion"/>
+    <summary>Government help to install heat pumps, solar and batteries, factsheet www.gov.uk/government/n...</summary>
+  </entry>
+  <entry>
+    <title>Why data centers are at the center of the Big Tech backlash</title>
+    <link href="https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"/>
+    <id>https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/</id>
+    <updated>2026-11-22T18:08:43Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>Journalist Paris Marx unpacks his new book &quot;Hyperscale.&quot;</summary>
+  </entry>
+  <entry>
+    <title>Building a Single-Chip USB GPU</title>
+    <link href="https://hackaday.com/2026/11/22/building-a-single-chip-usb-gpu/"/>
+    <id>https://hackaday.com/2026/11/22/building-a-single-chip-usb-gpu/</id>
+    <updated>2026-11-22T18:00:49Z</updated>
+    <author><name>Hackaday</name></author>
+    <category term="solution"/>
+    <summary>Considering how powerful they’ve become and how many other tasks they’ve been repurposed for, it’s easy to forget that a GPU’s primary purpose is to generate graphics. With this definition …read more</summary>
+  </entry>
+  <entry>
+    <title>Delta flights in and out of Atlanta delayed due to system outage</title>
+    <link href="https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage"/>
+    <id>https://www.theverge.com/transportation/1039779/delta-flights-delayed-system-outage</id>
+    <updated>2026-11-22T17:46:44Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>All Delta flights in and out of Atlanta are facing significant delays on Sunday due to a problem with the system that calculates a plane&#x27;s weight and balance. Hartsfield-Jackson Atlanta International Airport is Delta&#x27;s largest hub and one of the busiest airports in the world. While only Delta is impacted at the moment, disruptions at […]</summary>
+  </entry>
+  <entry>
+    <title>How Does GTA 6 Depict Electric Cars?</title>
+    <link href="https://games.slashdot.org/story/26/11/22/0457218/how-does-gta-6-depict-electric-cars?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+    <id>https://games.slashdot.org/story/26/11/22/0457218/how-does-gta-6-depict-electric-cars?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+    <updated>2026-11-22T17:34:00Z</updated>
+    <author><name>Slashdot</name></author>
+    <category term="discussion"/>
+    <summary>Grand Theft Auto 6 as seen by the EV news site Electrek: GTA works as a mirror. In 2013, the EV was a punchline: a Tesla parody that overheated if you drove it too fast. In 2026, it&#x27;s just another car in Vice City traffic, and the joke is on the guy in the pickup parked in the charging stall. That&#x27;s a good sign of where EVs actually are. Satire goes after…</summary>
+  </entry>
+  <entry>
+    <title>Binding of Isaac developer removes AI music from Repentance Plus</title>
+    <link href="https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"/>
+    <id>https://www.theverge.com/games/1039770/binding-of-isaac-ai-music</id>
+    <updated>2026-11-22T17:25:20Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to […]</summary>
+  </entry>
+  <entry>
+    <title>TechCrunch Mobility: A/B testing robots vs. humans</title>
+    <link href="https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/"/>
+    <id>https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/</id>
+    <updated>2026-11-22T17:06:00Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it.</summary>
+  </entry>
+  <entry>
+    <title>The Insurance Affordability Crisis: Risks, Resilience, and Solutions</title>
+    <link href="https://cleantechnica.com/2026/11/22/the-insurance-affordability-crisis-risks-resilience-and-solutions/"/>
+    <id>https://cleantechnica.com/2026/11/22/the-insurance-affordability-crisis-risks-resilience-and-solutions/</id>
+    <updated>2026-11-22T17:03:31Z</updated>
+    <author><name>CleanTechnica</name></author>
+    <category term="news"/>
+    <summary>NRDC resources on insurance affordability, market availability, climate risk, resilience investments, and strategies to protect homeowners, businesses, and communities. For property owners, insurance provides a critical financial safety net that protects homes, businesses, and other assets from unexpected losses, helping owners recover and rebuild when…</summary>
+  </entry>
+  <entry>
+    <title>Some of our favorite Switch 2 games are cheaper through Black Friday</title>
+    <link href="https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale"/>
+    <id>https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale</id>
+    <updated>2026-11-22T17:00:00Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>Black Friday is a great time to expand your game library because it’s a chance to catch deals that aren’t normally happening throughout the year. That’s true for Nintendo Switch 2 games, as well. In addition to a $50 off sale on one of its console bundles, Nintendo is also knocking $20 off some of […]</summary>
+  </entry>
+  <entry>
+    <title>Fun fact: I went to both undergrad (Caltech physics) and grad school (Princeton astro/physics) with Dario Amodei! This is useless…</title>
+    <link href="https://bsky.app/profile/astrokatie.com/post/3n2w2flw47c2v"/>
+    <id>https://bsky.app/profile/astrokatie.com/post/3n2w2flw47c2v</id>
+    <updated>2026-11-22T16:37:17Z</updated>
+    <author><name>Bluesky · SciGuy Space</name></author>
+    <category term="discussion"/>
+    <summary>Fun fact: I went to both undergrad (Caltech physics) and grad school (Princeton astro/physics) with Dario Amodei! This is useless information in every way because while I&#x27;m pretty sure we were in the same general friend group (at least at Princeton), somehow I remember absolutely nothing else.</summary>
+  </entry>
+  <entry>
+    <title>Falsehoods Programmers Believe About ATProto</title>
+    <link href="https://reiver.link/atproto/falsehoods-programmers-believe/"/>
+    <id>https://reiver.link/atproto/falsehoods-programmers-believe/</id>
+    <updated>2026-11-22T16:37:12Z</updated>
+    <author><name>Lobsters</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Python Devs Document &#x27;De-fanging Dangerous Triggers In GitHub Actions&#x27;</title>
+    <link href="https://it.slashdot.org/story/26/11/22/0625233/python-devs-document-de-fanging-dangerous-triggers-in-github-actions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+    <id>https://it.slashdot.org/story/26/11/22/0625233/python-devs-document-de-fanging-dangerous-triggers-in-github-actions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+    <updated>2026-11-22T16:34:00Z</updated>
+    <author><name>Slashdot</name></author>
+    <category term="discussion"/>
+    <summary>&quot;A handful of GitHub Actions triggers let a stranger on the internet start a workflow that may have access to your secrets,&quot; warn two security developers at the Python Software Foundation. Have dangerous triggers caused real incidents? Yes, repeatedly... The maintainers behind these projects weren&#x27;t careless. These triggers look harmless in a workflow file…</summary>
+  </entry>
+  <entry>
+    <title>Sheherazaad’s Khudgarzi is gorgeous, ‘genre-chaotic’ South Asian folk</title>
+    <link href="https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review"/>
+    <id>https://www.theverge.com/entertainment/1039762/sheherazaad-khudgarzi-review</id>
+    <updated>2026-11-22T16:33:29Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>Sheherazaad started making ripples in the music world a few years ago with her EP Qasr, which was produced by Grammy Award winner Arooj Aftab. Now she&#x27;s back with Khudgarzi, her reverb-drenched folk-noir debut LP that&#x27;s primarily sung in Urdu. The instrumentation on Khudgarzi draws on traditional South Asian music, including Carnatic and Hindustani styles…</summary>
+  </entry>
+  <entry>
+    <title>Anode-free sodium batteries last longer thanks to an electrolyte that forms its own shield</title>
+    <link href="https://techxplore.com/news/2026-11-anode-free-sodium-batteries-longer.html"/>
+    <id>https://techxplore.com/news/2026-11-anode-free-sodium-batteries-longer.html</id>
+    <updated>2026-11-22T16:20:01Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>Sodium batteries, which store and release electrical energy by moving sodium ions between their two electrodes, could be a more affordable alternative to lithium-based batteries. This is because sodium is highly abundant on Earth and can be sourced from widely available raw materials.</summary>
+  </entry>
+  <entry>
+    <title>As cars go digital, US consumers pay an extra $12 billion a year for repairs</title>
+    <link href="https://www.theregister.com/personal-tech/2026/11/22/as-cars-go-digital-us-consumers-pay-an-extra-12-billion-a-year-for-repairs/5311412"/>
+    <id>https://www.theregister.com/personal-tech/2026/11/22/as-cars-go-digital-us-consumers-pay-an-extra-12-billion-a-year-for-repairs/5311412</id>
+    <updated>2026-11-22T16:08:00Z</updated>
+    <author><name>The Register</name></author>
+    <category term="news"/>
+    <summary>Today&#x27;s vehicles need software tools to make repairs, and the subscriptions inflate insurance fees</summary>
+  </entry>
+  <entry>
+    <title>A study, using #JWST, shows that the spectra of Uranus’s ring system and small inner moons match the chemical makeup of Kuiper Belt Objects…</title>
+    <link href="https://bsky.app/profile/drnereide.bsky.social/post/3n2vyfbl7xs2h"/>
+    <id>https://bsky.app/profile/drnereide.bsky.social/post/3n2vyfbl7xs2h</id>
+    <updated>2026-11-22T16:01:18Z</updated>
+    <author><name>Bluesky · Science</name></author>
+    <category term="discussion"/>
+    <summary>A study, using #JWST, shows that the spectra of Uranus’s ring system and small inner moons match the chemical makeup of Kuiper Belt Objects (KBOs). That suggests scenarios alternative or complementary to impact theory about the planet’s axial tilt. Pic by NASA/ESA; E. Karkoschka/U of A 🔭🧪⚛️</summary>
+  </entry>
+  <entry>
+    <title>Discovered a meteor on one of my exposures of the Jupiter/Mars/Regulus triangle from 20 November 2026. 🔭 🧪 🎨</title>
+    <link href="https://bsky.app/profile/davidbflower.bsky.social/post/3n2vy4chfa224"/>
+    <id>https://bsky.app/profile/davidbflower.bsky.social/post/3n2vy4chfa224</id>
+    <updated>2026-11-22T15:56:17Z</updated>
+    <author><name>Bluesky · Science</name></author>
+    <category term="discussion"/>
+    <summary>Discovered a meteor on one of my exposures of the Jupiter/Mars/Regulus triangle from 20 November 2026. 🔭 🧪 🎨</summary>
+  </entry>
+  <entry>
+    <title>3Draft: Five Percent — 30 Minutes to Deadline</title>
+    <link href="https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk"/>
+    <id>https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk</id>
+    <updated>2026-11-22T15:53:46Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>This is probably the most improvised demo video I&#x27;ve ever made. I recorded it roughly 30 minutes...</summary>
+  </entry>
+  <entry>
+    <title>Cleverbridge warns hackers stole credit card numbers, CVVs in data breach</title>
+    <link href="https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/"/>
+    <id>https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/</id>
+    <updated>2026-11-22T15:43:04Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers&#x27; payment card information, including credit card numbers and CVV security codes. [...]</summary>
+  </entry>
+  <entry>
+    <title>Nvidia faces US accounting probe amid deepening turmoil</title>
+    <link href="https://techxplore.com/news/2026-11-nvidia-accounting-probe-deepening-turmoil.html"/>
+    <id>https://techxplore.com/news/2026-11-nvidia-accounting-probe-deepening-turmoil.html</id>
+    <updated>2026-11-22T15:40:01Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>U.S. securities regulators are investigating the accounting practices of Nvidia, according to U.S. media, adding to the turmoil engulfing the artificial intelligence chip giant following the resignation of its chief executive.</summary>
+  </entry>
+  <entry>
+    <title>I joined the NTP Pool, but not with my Stratum 1 Pi</title>
+    <link href="https://www.jeffgeerling.com/blog/2026/i-joined-the-ntp-pool/"/>
+    <id>https://www.jeffgeerling.com/blog/2026/i-joined-the-ntp-pool/</id>
+    <updated>2026-11-22T15:35:24Z</updated>
+    <author><name>Hacker News</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Ask Slashdot: Should an Indie Game Developer Outsource Their Art?</title>
+    <link href="https://games.slashdot.org/story/26/11/21/231233/ask-slashdot-should-an-indie-game-developer-outsource-their-art?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+    <id>https://games.slashdot.org/story/26/11/21/231233/ask-slashdot-should-an-indie-game-developer-outsource-their-art?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+    <updated>2026-11-22T15:34:00Z</updated>
+    <author><name>Slashdot</name></author>
+    <category term="discussion"/>
+    <summary>Slashdot reader MillerMark has been working on his own small indie game &quot;for about eight months now. And the art side is honestly killing me...&quot; I can draw basic stuff, but nothing close to what I had in mind when I started this project. Is it even worth outsourcing 2D character and environment art at this stage, or should I just push through and do it…</summary>
+  </entry>
+  <entry>
+    <title>Open Social Web Alliance</title>
+    <link href="https://osw-alliance.net/en/"/>
+    <id>https://osw-alliance.net/en/</id>
+    <updated>2026-11-22T15:24:32Z</updated>
+    <author><name>Hacker News</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Memo To Musk: Denial Is Just The First Step On The Long Road To Recovery</title>
+    <link href="https://cleantechnica.com/2026/11/22/elon-musk-ukraine-spacex-starshield-democrats-government-contracts-risk/"/>
+    <id>https://cleantechnica.com/2026/11/22/elon-musk-ukraine-spacex-starshield-democrats-government-contracts-risk/</id>
+    <updated>2026-11-22T15:20:11Z</updated>
+    <author><name>CleanTechnica</name></author>
+    <category term="news"/>
+    <summary>The incoming US Congress plans to call Elon Musk to account for manipulating SpaceX satellite services in Ukraine, crippling that country&#x27;s ability to defend itself against Russian attacks. The post Memo To Musk: Denial Is Just The First Step On The Long Road To Recovery appeared first on CleanTechnica .</summary>
+  </entry>
+  <entry>
+    <title>Movies at 30,000 feet: Hollywood&#x27;s high-flying market</title>
+    <link href="https://techxplore.com/news/2026-11-movies-feet-hollywood-high-flying.html"/>
+    <id>https://techxplore.com/news/2026-11-movies-feet-hollywood-high-flying.html</id>
+    <updated>2026-11-22T15:20:03Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>Airlines carried almost as many passengers last year as cinemas sold tickets worldwide, turning in-flight entertainment into a major market for Hollywood.</summary>
+  </entry>
+  <entry>
+    <title>Backblaze customers worried of personal data sale/sharing after policy update</title>
+    <link href="https://www.neowin.net/news/backblaze-customers-worried-of-personal-data-salesharing-after-policy-update/"/>
+    <id>https://www.neowin.net/news/backblaze-customers-worried-of-personal-data-salesharing-after-policy-update/</id>
+    <updated>2026-11-22T15:16:02Z</updated>
+    <author><name>Hacker News</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Signal to block Siri, Gemini AI from capturing chats on iOS, Android</title>
+    <link href="https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/"/>
+    <id>https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/</id>
+    <updated>2026-11-22T15:15:25Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]</summary>
+  </entry>
+  <entry>
+    <title>Protesters storm Meta offices in India</title>
+    <link href="https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india"/>
+    <id>https://www.theverge.com/tech/1039732/protesters-storm-meta-offices-in-india</id>
+    <updated>2026-11-22T15:15:07Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>Members of the opposition Congress party protested outside Meta&#x27;s offices in Delhi on Friday and appear to have entered the building in a video shared by CNN. Members of the party&#x27;s youth wing are demanding the company restore accounts of party leaders and warned of more protests to come. The Congress party has criticized Meta […]</summary>
+  </entry>
+  <entry>
+    <title>COP31 fails to agree on climate deal in chaotic finale</title>
+    <link href="https://phys.org/news/2026-11-cop31-climate-chaotic.html"/>
+    <id>https://phys.org/news/2026-11-cop31-climate-chaotic.html</id>
+    <updated>2026-11-22T15:07:54Z</updated>
+    <author><name>Mastodon · mstdn.science trending</name></author>
+    <category term="discussion"/>
+    <summary>The COP31 climate talks headed for a historic defeat Sunday after the EU and other countries refused to endorse a pact that omitted fossil fuels as the summit lurched into record overtime in Turkey.</summary>
+  </entry>
+  <entry>
+    <title>FBI investigating apparent hack of its key national criminal justice database</title>
+    <link href="https://techxplore.com/news/2026-11-fbi-apparent-hack-key-national.html"/>
+    <id>https://techxplore.com/news/2026-11-fbi-apparent-hack-key-national.html</id>
+    <updated>2026-11-22T15:04:37Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>The FBI is investigating an apparent hack of a national law enforcement database that it maintains, a person familiar with the matter said Saturday.</summary>
+  </entry>
+  <entry>
+    <title>Soft Robot Made for the Races</title>
+    <link href="https://hackaday.com/2026/11/22/soft-robot-made-for-the-races/"/>
+    <id>https://hackaday.com/2026/11/22/soft-robot-made-for-the-races/</id>
+    <updated>2026-11-22T15:00:49Z</updated>
+    <author><name>Hackaday</name></author>
+    <category term="solution"/>
+    <summary>Soft robotics is a relatively untapped field of robotics. However, that doesn’t mean there aren’t some good examples of what it could do in the near future. Speed is a …read more</summary>
+  </entry>
+  <entry>
+    <title>RANSAC, Explained: Consensus Fitting for Image Feature Matching</title>
+    <link href="https://towardsdatascience.com/ransac-explained-consensus-fitting-for-image-feature-matching/"/>
+    <id>https://towardsdatascience.com/ransac-explained-consensus-fitting-for-image-feature-matching/</id>
+    <updated>2026-11-22T15:00:00Z</updated>
+    <author><name>Towards Data Science</name></author>
+    <category term="learn"/>
+    <summary>How random sampling of 4 matched pairs, an error threshold, and inlier counts turn noisy SIFT matches into an accurate homography matrix. The post RANSAC, Explained: Consensus Fitting for Image Feature Matching appeared first on Towards Data Science .</summary>
+  </entry>
+  <entry>
+    <title>Can a TV be too large? An investigation</title>
+    <link href="https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation/"/>
+    <id>https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation/</id>
+    <updated>2026-11-22T15:00:00Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>Can a TV be too large? This writer&#x27;s recent upgrade to a 65-inch OLED came with some unexpected challenges.</summary>
+  </entry>
+  <entry>
+    <title>What If Netscape Did SSL the HTTP Way?</title>
+    <link href="https://owl.billpg.com/what-if-netscape-did-ssl-the-http-way/"/>
+    <id>https://owl.billpg.com/what-if-netscape-did-ssl-the-http-way/</id>
+    <updated>2026-11-22T14:48:20Z</updated>
+    <author><name>Lobsters</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Seasonal mass vaccination with R21/Matrix-M against malaria in The Gambia and Burkina Faso: an open-label, cluster-randomised, controlled trial</title>
+    <link href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01562-X/fulltext"/>
+    <id>https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(26)01562-X/fulltext</id>
+    <updated>2026-11-22T14:48:15Z</updated>
+    <author><name>Bluesky · Science</name></author>
+    <category term="discussion"/>
+    <summary>💉 Mass vaccination cut malaria 70% In villages in The Gambia and Burkina Faso, vaccinating everyone with R21 before peak malaria season cut the odds of infection by 70%. Another tool against malaria. 🔗 www.thelancet.com/journals/lan... #Malaria #Vaccines #GlobalHealth 🧪</summary>
+  </entry>
+  <entry>
+    <title>How LLMs Actually Work</title>
+    <link href="https://www.0xkato.xyz/how-llms-actually-work/"/>
+    <id>https://www.0xkato.xyz/how-llms-actually-work/</id>
+    <updated>2026-11-22T14:43:59Z</updated>
+    <author><name>Bluesky · Machine Learning</name></author>
+    <category term="discussion"/>
+    <summary>Un excellent résumé de comment marche un LLM dans ses tréfonds : www.0xkato.xyz/how-llms-act... (et sans être mathématique), on passe en révu les différentes étapes: token, embed, positional encoding, attention (QKV) + multihead, feed-forward network, residual stream, layer normalization, prediction</summary>
+  </entry>
+  <entry>
+    <title>Tech support request: What to do about an end-of-life Android tablet?</title>
+    <link href="https://tildes.net/~tech/1x0y/tech_support_request_what_to_do_about_an_end_of_life_android_tablet"/>
+    <id>https://tildes.net/~tech/1x0y/tech_support_request_what_to_do_about_an_end_of_life_android_tablet</id>
+    <updated>2026-11-22T14:15:42Z</updated>
+    <author><name>Tildes · ~tech</name></author>
+    <category term="discussion"/>
+    <summary>The Preamble The Galaxy Tab S7 FE was released in June of 2021, and I bought mine in June of 2023. Apparently, the device reached its end of life in June 2025. I didn&#x27;t get any notice about this or anything, I just thought it was odd that the system hadn&#x27;t updated Android in a while, and as that kept happening I started getting more concerned. The device is…</summary>
+  </entry>
+  <entry>
+    <title>“When researchers tested AI-detection software on essays written by nonnative English speakers, the software incorrectly flagged more than…</title>
+    <link href="https://bsky.app/profile/jennanewman.bsky.social/post/3n2vs5edlj22a"/>
+    <id>https://bsky.app/profile/jennanewman.bsky.social/post/3n2vs5edlj22a</id>
+    <updated>2026-11-22T14:09:30Z</updated>
+    <author><name>Bluesky · Science</name></author>
+    <category term="discussion"/>
+    <summary>“When researchers tested AI-detection software on essays written by nonnative English speakers, the software incorrectly flagged more than half as AI-generated. Now, guess how many essays by American students got the this-is-human stamp of approval? Go on, guess. Almost all of them.”🧪</summary>
+  </entry>
+  <entry>
+    <title>The Next Wave: What Africa’s instant payment systems keep getting wrong on the way to maturity</title>
+    <link href="https://techcabal.com/2026/11/22/africa-instant-payment-systems-maturity/"/>
+    <id>https://techcabal.com/2026/11/22/africa-instant-payment-systems-maturity/</id>
+    <updated>2026-11-22T14:04:28Z</updated>
+    <author><name>TechCabal (Africa)</name></author>
+    <category term="news"/>
+    <summary>Only one of Africa’s 39 instant payment systems earned AfricaNenda’s highest rating. Kenya’s PesaLink shows why the next step is so hard. The banks that own the network can decide what they charge for transfers, while fintechs and other non-bank members have no vote in how it’s run.</summary>
+  </entry>
+  <entry>
+    <title>Nintendo’s Switch 2 console is $50 off for Black Friday</title>
+    <link href="https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale"/>
+    <id>https://www.theverge.com/gadgets/1038181/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle-2026-sale</id>
+    <updated>2026-11-22T14:00:00Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>Those hoping to save some cash on a Nintendo Switch 2 can do so starting today, November 22nd, through Saturday, December 5th, giving you plenty of time to think about it after Cyber Monday has passed. For a limited time, Nintendo has knocked $50 off one of its two current console bundles, temporarily rolling back […]</summary>
+  </entry>
+  <entry>
+    <title>‘The show is starting soon. Please turn on your headphones.’</title>
+    <link href="https://www.theverge.com/tech/1038879/off-broadway-love-me-auracast"/>
+    <id>https://www.theverge.com/tech/1038879/off-broadway-love-me-auracast</id>
+    <updated>2026-11-22T14:00:00Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>Up a few concrete steps and through the front door of a 200-year-old row house in New York City, I follow a crowd of people into the 178-seat SoHo Playhouse. As we filter to our seats, ushers hand each person a black drawstring bag with a pair of wired headphones connected to a small Auracast […]</summary>
+  </entry>
+  <entry>
+    <title>Show HN: I built a game where you are an LLM&#x27;s subagent</title>
+    <link href="https://github.com/gulivan/worker755"/>
+    <id>https://github.com/gulivan/worker755</id>
+    <updated>2026-11-22T13:56:58Z</updated>
+    <author><name>Show HN</name></author>
+    <category term="launch"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Necoz Is Building a New House!! 🛸 All Cats, Follow Me!! 🐈🚀</title>
+    <link href="https://dev.to/necoz/necoz-is-building-a-new-house-all-cats-follow-me-530n"/>
+    <id>https://dev.to/necoz/necoz-is-building-a-new-house-all-cats-follow-me-530n</id>
+    <updated>2026-11-22T13:27:10Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>Hoi hoi! 😸 Last week, we successfully abducted 28 cats! 🛸🐈 But there was one tiny problem WHERE...</summary>
+  </entry>
+  <entry>
+    <title>How Tamagotchis got us hooked on digital pets</title>
+    <link href="https://www.theverge.com/podcast/1039716/tamagotchi-history-digital-pets-anniversary"/>
+    <id>https://www.theverge.com/podcast/1039716/tamagotchi-history-digital-pets-anniversary</id>
+    <updated>2026-11-22T13:15:27Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>If you were are a kid in the late 1990s, there&#x27;s a near-100 percent chance you either had a Tamagotchi or knew someone who did. The tiny digital pets came out of nowhere and became an overnight sensation, as millions of kids signed up to parent a crying, hungry, constantly dirty creature. Until they went […]</summary>
+  </entry>
+  <entry>
+    <title>Testing Terraform with AWS Emulator</title>
+    <link href="https://notes.hatedabamboo.me/terraform-tests-with-aws-emulator/"/>
+    <id>https://notes.hatedabamboo.me/terraform-tests-with-aws-emulator/</id>
+    <updated>2026-11-22T13:00:36Z</updated>
+    <author><name>Hacker News</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Your questions about Apple HomeView’s audio, answered</title>
+    <link href="https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay"/>
+    <id>https://www.theverge.com/tech/1038713/apple-homeview-audio-smart-speaker-spotify-airplay</id>
+    <updated>2026-11-22T13:00:00Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>After I published my review of the HomeView, Apple&#x27;s first smart display, y&#x27;all still had a ton of questions about how it works as a smart speaker. So, I spent a bunch more time testing its audio capabilities and support for third-party music apps - and found a few more frustrations along the way. Here […]</summary>
+  </entry>
+  <entry>
+    <title>The vibe-coding revolution is coming to all the gadgets</title>
+    <link href="https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera"/>
+    <id>https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera</id>
+    <updated>2026-11-22T13:00:00Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers&#x27; inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it&#x27;s not […]</summary>
+  </entry>
+  <entry>
+    <title>How AI Changes the Four Types of Analytics for Data Scientists</title>
+    <link href="https://towardsdatascience.com/how-ai-changes-the-four-types-of-analytics-for-data-scientists/"/>
+    <id>https://towardsdatascience.com/how-ai-changes-the-four-types-of-analytics-for-data-scientists/</id>
+    <updated>2026-11-22T13:00:00Z</updated>
+    <author><name>Towards Data Science</name></author>
+    <category term="learn"/>
+    <summary>Treat AI agents as junior teammates and move up the abstraction ladder, owning problem framing, model evaluation, and business partnership. The post How AI Changes the Four Types of Analytics for Data Scientists appeared first on Towards Data Science .</summary>
+  </entry>
+  <entry>
+    <title>Cop31 climate talks break down as key deal rejected</title>
+    <link href="https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected"/>
+    <id>https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected</id>
+    <updated>2026-11-22T12:54:41Z</updated>
+    <author><name>Mastodon · mastodon.social trending</name></author>
+    <category term="discussion"/>
+    <summary>EU, UK and some of developing world object to main text that ‘failed to meet the moment’ and did not mention fossil fuels</summary>
+  </entry>
+  <entry>
+    <title>E-quipment highlight: Tadano rolls out 35-ton V320RC electric crane</title>
+    <link href="https://electrek.co/2026/11/22/e-quipment-highlight-tadano-rolls-out-35-ton-v320rc-electric-crane/"/>
+    <id>https://electrek.co/2026/11/22/e-quipment-highlight-tadano-rolls-out-35-ton-v320rc-electric-crane/</id>
+    <updated>2026-11-22T12:43:47Z</updated>
+    <author><name>Bluesky · Science</name></author>
+    <category term="discussion"/>
+    <summary>The use cases for fossil fuels are vanishing. Electric motors are highly efficient, scalable, and can be run on 100% renewable electricity. 🧪💡🔌☀️💨💧🔋 electrek.co/2026/11/22/e...</summary>
+  </entry>
+  <entry>
+    <title>Aptera Completes Its First Solar Electric Vehicle for Customer Delivery</title>
+    <link href="https://tech.slashdot.org/story/26/11/22/0514226/aptera-completes-its-first-solar-electric-vehicle-for-customer-delivery?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+    <id>https://tech.slashdot.org/story/26/11/22/0514226/aptera-completes-its-first-solar-electric-vehicle-for-customer-delivery?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+    <updated>2026-11-22T12:34:00Z</updated>
+    <author><name>Slashdot</name></author>
+    <category term="discussion"/>
+    <summary>Car-maker Aptera announced Thursday it &quot;completed its first vehicle for sale to a customer, a milestone years in the making.&quot; Aptera&#x27;s three-wheeled solar electric vehicle charges from solar panels integrated into its body, and it plugs in like any other electric vehicle. Its built-in solar panels are designed to add up to approximately 40 miles of driving…</summary>
+  </entry>
+  <entry>
+    <title>Fixing Google’s Feedburner problem, and caching that half works</title>
+    <link href="https://joshua.hu/fixing-google-feedburner-cache-problem-atom-rss"/>
+    <id>https://joshua.hu/fixing-google-feedburner-cache-problem-atom-rss</id>
+    <updated>2026-11-22T12:30:56Z</updated>
+    <author><name>Lobsters</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Potatoes Grow in Simulated Lunar Soil as Well as on Earth</title>
+    <link href="https://hackaday.com/2026/11/22/potatoes-grow-in-simulated-lunar-soil-as-well-as-on-earth/"/>
+    <id>https://hackaday.com/2026/11/22/potatoes-grow-in-simulated-lunar-soil-as-well-as-on-earth/</id>
+    <updated>2026-11-22T12:00:53Z</updated>
+    <author><name>Hackaday</name></author>
+    <category term="solution"/>
+    <summary>Popularized by a certain book about a Martian, growing potatoes in very non-Earth-like environments has become somewhat of a meme. Perhaps unsurprisingly, it’s not so far from actual science being …read more</summary>
+  </entry>
+  <entry>
+    <title>BepiColombo spacecraft arrives at Mercury after eight years</title>
+    <link href="https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro"/>
+    <id>https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro</id>
+    <updated>2026-11-22T11:06:14Z</updated>
+    <author><name>Bluesky · Science</name></author>
+    <category term="discussion"/>
+    <summary>Mysterious Mercury gets a visitor - after spacecraft&#x27;s eight-year epic voyage. Finally BepiColombo has arrived. 🔭 🧪 www.bbc.co.uk/news/article...</summary>
+  </entry>
+  <entry>
+    <title>Banks Have Had It Up to Here With Your AI Agent</title>
+    <link href="https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/"/>
+    <id>https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/</id>
+    <updated>2026-11-22T11:00:00Z</updated>
+    <author><name>WIRED · AI</name></author>
+    <category term="news"/>
+    <summary>Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem.</summary>
+  </entry>
+  <entry>
+    <title>Scientists Tried to Kill This Dirt, but It Wouldn’t Die</title>
+    <link href="https://www.wired.com/story/scientists-tried-to-kill-this-dirt-but-it-wouldnt-die/"/>
+    <id>https://www.wired.com/story/scientists-tried-to-kill-this-dirt-but-it-wouldnt-die/</id>
+    <updated>2026-11-22T10:30:00Z</updated>
+    <author><name>WIRED · Science</name></author>
+    <category term="news"/>
+    <summary>Biologically important chemical reactions persisted in the sterilized soil for six years—offering clues to how life on Earth may have gotten its start.</summary>
+  </entry>
+  <entry>
+    <title>As science increasingly shows the role chemical substances play in &#x27;lifestyle diseases,&#x27; Europe weakens its regulations</title>
+    <link href="https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html"/>
+    <id>https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html</id>
+    <updated>2026-11-22T10:26:07Z</updated>
+    <author><name>Mastodon · Hachyderm trending</name></author>
+    <category term="discussion"/>
+    <summary>A report by the World Health Organization (WHO) and the United Nations Environment Programme (UNEP) reveals that, for just seven of the best-known molecules or groups of substances, the burden of health damage amounts to €1 trillion per year, highlights Le Monde columnist Stéphane Foucart.</summary>
+  </entry>
+  <entry>
+    <title>Local AI Code Review Before a PR: Tools That Catch Bugs Before You Push</title>
+    <link href="https://dev.to/dev_kiran/local-ai-code-review-before-a-pr-tools-that-catch-bugs-before-you-push-b8e"/>
+    <id>https://dev.to/dev_kiran/local-ai-code-review-before-a-pr-tools-that-catch-bugs-before-you-push-b8e</id>
+    <updated>2026-11-22T10:17:47Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>Hello Devs 👋 Here&#x27;s a situation many developers will recognize. You&#x27;ve finished implementing a...</summary>
+  </entry>
+  <entry>
+    <title>How This Year’s Super El Niño Will Worsen Global Hunger</title>
+    <link href="https://www.wired.com/story/how-this-years-super-el-nino-will-worsen-global-hunger/"/>
+    <id>https://www.wired.com/story/how-this-years-super-el-nino-will-worsen-global-hunger/</id>
+    <updated>2026-11-22T10:00:00Z</updated>
+    <author><name>WIRED · Science</name></author>
+    <category term="news"/>
+    <summary>While some regions get wetter, others face massive drought. On top of wars and cuts to foreign aid, the weather phenomenon could leave millions of people in vulnerable countries without enough to eat.</summary>
+  </entry>
+</feed>

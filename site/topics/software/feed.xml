@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nascent — Software &amp; Dev</title>
+  <subtitle>Technology, at the moment it&#x27;s born.</subtitle>
+  <link href="https://lifehackerlimited.github.io/nascent/"/>
+  <link rel="self" href="https://lifehackerlimited.github.io/nascent/topics/software/feed.xml"/>
+  <id>https://lifehackerlimited.github.io/nascent/topics/software/feed.xml</id>
+  <updated>2026-11-22T18:25:29Z</updated>
+  <entry>
+    <title>Binding of Isaac developer removes AI music from Repentance Plus</title>
+    <link href="https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"/>
+    <id>https://www.theverge.com/games/1039770/binding-of-isaac-ai-music</id>
+    <updated>2026-11-22T17:25:20Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to […]</summary>
+  </entry>
+  <entry>
+    <title>Some of our favorite Switch 2 games are cheaper through Black Friday</title>
+    <link href="https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale"/>
+    <id>https://www.theverge.com/gadgets/1037313/nintendo-switch-2-game-black-friday-cyber-monday-deal-sale</id>
+    <updated>2026-11-22T17:00:00Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>Black Friday is a great time to expand your game library because it’s a chance to catch deals that aren’t normally happening throughout the year. That’s true for Nintendo Switch 2 games, as well. In addition to a $50 off sale on one of its console bundles, Nintendo is also knocking $20 off some of […]</summary>
+  </entry>
+  <entry>
+    <title>Falsehoods Programmers Believe About ATProto</title>
+    <link href="https://reiver.link/atproto/falsehoods-programmers-believe/"/>
+    <id>https://reiver.link/atproto/falsehoods-programmers-believe/</id>
+    <updated>2026-11-22T16:37:12Z</updated>
+    <author><name>Lobsters</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Python Devs Document &#x27;De-fanging Dangerous Triggers In GitHub Actions&#x27;</title>
+    <link href="https://it.slashdot.org/story/26/11/22/0625233/python-devs-document-de-fanging-dangerous-triggers-in-github-actions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+    <id>https://it.slashdot.org/story/26/11/22/0625233/python-devs-document-de-fanging-dangerous-triggers-in-github-actions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+    <updated>2026-11-22T16:34:00Z</updated>
+    <author><name>Slashdot</name></author>
+    <category term="discussion"/>
+    <summary>&quot;A handful of GitHub Actions triggers let a stranger on the internet start a workflow that may have access to your secrets,&quot; warn two security developers at the Python Software Foundation. Have dangerous triggers caused real incidents? Yes, repeatedly... The maintainers behind these projects weren&#x27;t careless. These triggers look harmless in a workflow file…</summary>
+  </entry>
+  <entry>
+    <title>3Draft: Five Percent — 30 Minutes to Deadline</title>
+    <link href="https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk"/>
+    <id>https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk</id>
+    <updated>2026-11-22T15:53:46Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>This is probably the most improvised demo video I&#x27;ve ever made. I recorded it roughly 30 minutes...</summary>
+  </entry>
+  <entry>
+    <title>Ask Slashdot: Should an Indie Game Developer Outsource Their Art?</title>
+    <link href="https://games.slashdot.org/story/26/11/21/231233/ask-slashdot-should-an-indie-game-developer-outsource-their-art?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+    <id>https://games.slashdot.org/story/26/11/21/231233/ask-slashdot-should-an-indie-game-developer-outsource-their-art?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+    <updated>2026-11-22T15:34:00Z</updated>
+    <author><name>Slashdot</name></author>
+    <category term="discussion"/>
+    <summary>Slashdot reader MillerMark has been working on his own small indie game &quot;for about eight months now. And the art side is honestly killing me...&quot; I can draw basic stuff, but nothing close to what I had in mind when I started this project. Is it even worth outsourcing 2D character and environment art at this stage, or should I just push through and do it…</summary>
+  </entry>
+  <entry>
+    <title>FBI investigating apparent hack of its key national criminal justice database</title>
+    <link href="https://techxplore.com/news/2026-11-fbi-apparent-hack-key-national.html"/>
+    <id>https://techxplore.com/news/2026-11-fbi-apparent-hack-key-national.html</id>
+    <updated>2026-11-22T15:04:37Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>The FBI is investigating an apparent hack of a national law enforcement database that it maintains, a person familiar with the matter said Saturday.</summary>
+  </entry>
+  <entry>
+    <title>Necoz Is Building a New House!! 🛸 All Cats, Follow Me!! 🐈🚀</title>
+    <link href="https://dev.to/necoz/necoz-is-building-a-new-house-all-cats-follow-me-530n"/>
+    <id>https://dev.to/necoz/necoz-is-building-a-new-house-all-cats-follow-me-530n</id>
+    <updated>2026-11-22T13:27:10Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>Hoi hoi! 😸 Last week, we successfully abducted 28 cats! 🛸🐈 But there was one tiny problem WHERE...</summary>
+  </entry>
+  <entry>
+    <title>Cop31 climate talks break down as key deal rejected</title>
+    <link href="https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected"/>
+    <id>https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected</id>
+    <updated>2026-11-22T12:54:41Z</updated>
+    <author><name>Mastodon · mastodon.social trending</name></author>
+    <category term="discussion"/>
+    <summary>EU, UK and some of developing world object to main text that ‘failed to meet the moment’ and did not mention fossil fuels</summary>
+  </entry>
+  <entry>
+    <title>Local AI Code Review Before a PR: Tools That Catch Bugs Before You Push</title>
+    <link href="https://dev.to/dev_kiran/local-ai-code-review-before-a-pr-tools-that-catch-bugs-before-you-push-b8e"/>
+    <id>https://dev.to/dev_kiran/local-ai-code-review-before-a-pr-tools-that-catch-bugs-before-you-push-b8e</id>
+    <updated>2026-11-22T10:17:47Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>Hello Devs 👋 Here&#x27;s a situation many developers will recognize. You&#x27;ve finished implementing a...</summary>
+  </entry>
+  <entry>
+    <title>New COP31 draft deal tabled as countries race to salvage climate talks</title>
+    <link href="https://www.euronews.com/2026/11/22/new-cop31-draft-deal-tabled-as-countries-scramble-to-salvage-climate-talks"/>
+    <id>https://www.euronews.com/2026/11/22/new-cop31-draft-deal-tabled-as-countries-scramble-to-salvage-climate-talks</id>
+    <updated>2026-11-22T07:50:54Z</updated>
+    <author><name>Mastodon · mastodon.social trending</name></author>
+    <category term="discussion"/>
+    <summary>The latest draft again failed to mention fossil fuels, which have become a flashpoint at the talks.</summary>
+  </entry>
+  <entry>
+    <title>Hacks, AI and conspiracy theories: why are we having so many outages?</title>
+    <link href="https://www.theguardian.com/technology/2026/nov/22/hacks-ai-internet-outages-airlines-banks-microsoft-apple"/>
+    <id>https://www.theguardian.com/technology/2026/nov/22/hacks-ai-internet-outages-airlines-banks-microsoft-apple</id>
+    <updated>2026-11-22T06:00:19Z</updated>
+    <author><name>Mastodon · mastodon.social trending</name></author>
+    <category term="discussion"/>
+    <summary>After chaos at airlines, banks and companies from Microsoft to Apple, people have become convinced the world’s systems are under attack</summary>
+  </entry>
+  <entry>
+    <title>Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps</title>
+    <link href="https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"/>
+    <id>https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html</id>
+    <updated>2026-11-22T05:03:41Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>A now-patched flaw in Ghostscript allows a crafted file to escape the program&#x27;s security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed…</summary>
+  </entry>
+  <entry>
+    <title>Since last year, we asked: “What if AI solved the Riemann Hypothesis?”</title>
+    <link href="https://www.youtube.com/watch?v=zqzk43bSdDI"/>
+    <id>https://www.youtube.com/watch?v=zqzk43bSdDI</id>
+    <updated>2026-11-22T02:02:12Z</updated>
+    <author><name>3Blue1Brown (YouTube)</name></author>
+    <category term="learn"/>
+    <summary>Hypothetical no more Announcement by Levent Alpöge: https://alpo.ge/remark.pdf Announcement by Alessandro Masullo on his (human) proof: ------------------ These animations are largely made using a custom Python library, manim. See the FAQ comments here: https://3b1b.co/faq#manim Music by Vincent Rubinetti…</summary>
+  </entry>
+  <entry>
+    <title>No AI slop: A manifesto</title>
+    <link href="https://gist.github.com/dexhorthy/4cc96f01be5b1208519e75dad250a948"/>
+    <id>https://gist.github.com/dexhorthy/4cc96f01be5b1208519e75dad250a948</id>
+    <updated>2026-11-22T01:19:50Z</updated>
+    <author><name>Tildes · ~comp</name></author>
+    <category term="discussion"/>
+    <summary>Link URL: https://gist.github.com/dexhorthy/4cc96f01be5b1208519e75dad250a948 Comments URL: https://tildes.net/~comp/1x0s/no_ai_slop_a_manifesto Votes: 15 Comments: 5</summary>
+  </entry>
+  <entry>
+    <title>Perplexity and Intelligence</title>
+    <link href="https://openai.com/index/perplexity-and-intelligence"/>
+    <id>https://openai.com/index/perplexity-and-intelligence</id>
+    <updated>2026-11-22T00:00:00Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="insight"/>
+    <summary>How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.</summary>
+  </entry>
+  <entry>
+    <title>Thousands of UK fridges secured from hackers in secret operation</title>
+    <link href="https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o"/>
+    <id>https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o</id>
+    <updated>2026-11-22T00:00:00Z</updated>
+    <author><name>Mastodon · mastodon.social trending</name></author>
+    <category term="discussion"/>
+    <summary>Supermarkets, warehouses, restaurants and stadiums have been scrambling to make their devices safe.</summary>
+  </entry>
+  <entry>
+    <title>Cop31: Talks deadlocked as EU signals willingness to walk away if no move on fossil fuels</title>
+    <link href="https://www.irishtimes.com/environment/2026/11/21/cop31-talks-deadlocked-as-eu-signals-willingness-to-walk-away-if-no-move-on-fossil-fuels/"/>
+    <id>https://www.irishtimes.com/environment/2026/11/21/cop31-talks-deadlocked-as-eu-signals-willingness-to-walk-away-if-no-move-on-fossil-fuels/</id>
+    <updated>2026-11-22T00:00:00Z</updated>
+    <author><name>Mastodon · Fosstodon trending</name></author>
+    <category term="discussion"/>
+    <summary>Potential compromise would exclude fossil fuel wording but delete controversial support of carbon capture</summary>
+  </entry>
+  <entry>
+    <title>Muru</title>
+    <link href="https://simonwillison.net/2026/Nov/21/muru/"/>
+    <id>https://simonwillison.net/2026/Nov/21/muru/</id>
+    <updated>2026-11-21T23:56:28Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="insight"/>
+    <summary>Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he&#x27;s been…</summary>
+  </entry>
+  <entry>
+    <title>Advice for the next 100 Rust GUIs</title>
+    <link href="https://linebender.org/blog/next-100-guis/"/>
+    <id>https://linebender.org/blog/next-100-guis/</id>
+    <updated>2026-11-21T23:10:07Z</updated>
+    <author><name>Lobsters</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Rackspace Spot breach let hackers access customer Kubernetes secrets</title>
+    <link href="https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/"/>
+    <id>https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/</id>
+    <updated>2026-11-21T22:59:58Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters. [...]</summary>
+  </entry>
+  <entry>
+    <title>PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors</title>
+    <link href="https://github.com/sebaandrada-cell/PcapAnalyzer"/>
+    <id>https://github.com/sebaandrada-cell/PcapAnalyzer</id>
+    <updated>2026-11-21T22:09:58Z</updated>
+    <author><name>Hacker News</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>LLM users: how do you feel about it?</title>
+    <link href="https://tildes.net/~comp/1x0p/llm_users_how_do_you_feel_about_it"/>
+    <id>https://tildes.net/~comp/1x0p/llm_users_how_do_you_feel_about_it</id>
+    <updated>2026-11-21T20:33:36Z</updated>
+    <author><name>Tildes · ~comp</name></author>
+    <category term="discussion"/>
+    <summary>I’ve been using LLMs more lately. For reference, I’m a PhD student (in computer science). I’ve been an LLM sceptic for a long time, and on pretty much all fronts: concern about their output quality, business practices of the companies that run them, data privacy and ethics concerns, and about their negative impact on our cognition and emotions (studies…</summary>
+  </entry>
+  <entry>
+    <title>How I Got Postgres into a Single Binary</title>
+    <link href="https://progrium.xyz/articles/2026/single-binary-postgres"/>
+    <id>https://progrium.xyz/articles/2026/single-binary-postgres</id>
+    <updated>2026-11-21T19:32:22Z</updated>
+    <author><name>Lobsters</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Will AI-Fueled Cyberattacks Lead to Better Funding for Critical Open Source Projects?</title>
+    <link href="https://news.slashdot.org/story/26/11/21/0651203/will-ai-fueled-cyberattacks-lead-to-better-funding-for-critical-open-source-projects?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+    <id>https://news.slashdot.org/story/26/11/21/0651203/will-ai-fueled-cyberattacks-lead-to-better-funding-for-critical-open-source-projects?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+    <updated>2026-11-21T19:00:00Z</updated>
+    <author><name>Slashdot</name></author>
+    <category term="discussion"/>
+    <summary>Remember that famous XKCD comic joking that all modern digital infrastructure rests on &quot;a project some random person in Nebraska has been thanklessly maintaining since 2003.&quot; Politico Europe&#x27;s cybersecurity reporter wonders if this recent spate of outages suggests that supporting block is coming loose? (Especially after Politico reported Thursday that…</summary>
+  </entry>
+  <entry>
+    <title>Trump says reported FBI database hack is ‘not good’</title>
+    <link href="https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/"/>
+    <id>https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/</id>
+    <updated>2026-11-21T18:44:53Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>The FBI is reportedly investigating a hack of the National Crime Information Center.</summary>
+  </entry>
+  <entry>
+    <title>cueback: What If Tutorials Waited for You?</title>
+    <link href="https://dev.to/arjuncodess/cueback-what-if-tutorials-waited-for-you-4fec"/>
+    <id>https://dev.to/arjuncodess/cueback-what-if-tutorials-waited-for-you-4fec</id>
+    <updated>2026-11-21T18:08:05Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>This is a submission for the Presage SmartSpectra SDK Challenge What I Built You&#x27;re...</summary>
+  </entry>
+  <entry>
+    <title>Signal Blocks Siri, Gemini and Other AI Agents From Reading Your Messages - gHacks Tech News</title>
+    <link href="https://www.ghacks.net/2026/11/21/signal-blocks-siri-gemini-and-other-ai-agents-from-reading-your-messages/"/>
+    <id>https://www.ghacks.net/2026/11/21/signal-blocks-siri-gemini-and-other-ai-agents-from-reading-your-messages/</id>
+    <updated>2026-11-21T18:01:36Z</updated>
+    <author><name>Mastodon · Fosstodon trending</name></author>
+    <category term="discussion"/>
+    <summary>Signal now blocks screenshots on iOS 27 and AI screen capture on Android to keep OS-level AI agents out of chats.</summary>
+  </entry>
+  <entry>
+    <title>CETPROAR/rob-run-ares-enhancer</title>
+    <link href="https://github.com/CETPROAR/rob-run-ares-enhancer"/>
+    <id>https://github.com/CETPROAR/rob-run-ares-enhancer</id>
+    <updated>2026-11-21T17:09:17Z</updated>
+    <author><name>GitHub · Rising repos</name></author>
+    <category term="solution"/>
+    <summary>Rob Run Ares Enhancer - Elevate Your Gameplay</summary>
+  </entry>
+  <entry>
+    <title>EL4CTEO/fast-anything</title>
+    <link href="https://github.com/EL4CTEO/fast-anything"/>
+    <id>https://github.com/EL4CTEO/fast-anything</id>
+    <updated>2026-11-21T14:40:27Z</updated>
+    <author><name>GitHub · Rising repos</name></author>
+    <category term="solution"/>
+    <summary>Don&#x27;t rewrite it in Rust. Rewrite the 5% that&#x27;s slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.</summary>
+  </entry>
+  <entry>
+    <title>FBI reportedly hacked again, this time targeting nationwide police database</title>
+    <link href="https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/"/>
+    <id>https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/</id>
+    <updated>2026-11-21T14:26:04Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>FBI systems have reportedly been breached for the second time in two months, this time targeting the agency&#x27;s National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies. [...]</summary>
+  </entry>
+  <entry>
+    <title>Test the npm Package, Not Just the Monorepo</title>
+    <link href="https://dev.to/gde/test-the-npm-package-not-just-the-monorepo-2j1e"/>
+    <id>https://dev.to/gde/test-the-npm-package-not-just-the-monorepo-2j1e</id>
+    <updated>2026-11-21T14:20:00Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>A tracing adapter can pass its internal tests while capturing nothing in an installed...</summary>
+  </entry>
+  <entry>
+    <title>Censored vs. Truncated Regression in Python, Explained</title>
+    <link href="https://towardsdatascience.com/censored-vs-truncated-regression-in-python-explained/"/>
+    <id>https://towardsdatascience.com/censored-vs-truncated-regression-in-python-explained/</id>
+    <updated>2026-11-21T13:00:00Z</updated>
+    <author><name>Towards Data Science</name></author>
+    <category term="learn"/>
+    <summary>A simulated salary survey shows OLS shrinking a $5k-per-year effect to $3.2k, then recovers it with Tobit and truncated likelihoods built from scratch. The post Censored vs. Truncated Regression in Python, Explained appeared first on Towards Data Science .</summary>
+  </entry>
+  <entry>
+    <title>I Got Tired of Noisy Terminal Output, So I Built a Tiny CLI in C++</title>
+    <link href="https://dev.to/thavarshan/i-got-tired-of-noisy-terminal-output-so-i-built-a-tiny-cli-in-c-21em"/>
+    <id>https://dev.to/thavarshan/i-got-tired-of-noisy-terminal-output-so-i-built-a-tiny-cli-in-c-21em</id>
+    <updated>2026-11-21T12:18:12Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>I&#x27;ve been working with different languages and frameworks for years, and there&#x27;s one thing that has...</summary>
+  </entry>
+  <entry>
+    <title>A VS Code extension to turn any free chatbot in your browser into an AI agent</title>
+    <link href="https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1n21"/>
+    <id>https://dev.to/effessdev/a-vs-code-extension-to-turn-any-free-chatbot-website-into-an-ai-agent-kind-of-1n21</id>
+    <updated>2026-11-21T11:49:40Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>If you&#x27;ve ever pasted ten files into ChatGPT, asked for a fix, then manually copied the result back...</summary>
+  </entry>
+  <entry>
+    <title>Changes on freedesktop.org</title>
+    <link href="https://blog.tenstral.net/2026/11/new-fdo-website.html"/>
+    <id>https://blog.tenstral.net/2026/11/new-fdo-website.html</id>
+    <updated>2026-11-21T11:41:23Z</updated>
+    <author><name>Lobsters</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys</title>
+    <link href="https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html"/>
+    <id>https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html</id>
+    <updated>2026-11-21T11:05:53Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG. The GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions. The bug, tracked as CVE-2026-129975, affects all software that…</summary>
+  </entry>
+  <entry>
+    <title>Why Is the World Still Counting on Unproven Carbon Capture Technology?</title>
+    <link href="https://www.propublica.org/article/carbon-capture-and-storage-climate-models"/>
+    <id>https://www.propublica.org/article/carbon-capture-and-storage-climate-models</id>
+    <updated>2026-11-21T10:00:00Z</updated>
+    <author><name>Mastodon · mastodon.social trending</name></author>
+    <category term="discussion"/>
+    <summary>The proposed solution to climate change is based on scientific models that offer little transparency into how they’re made. So I spoke with three leading climate modelers about their work — and what assumptions go into it.</summary>
+  </entry>
+  <entry>
+    <title>Right to Repair Starts at the Debug Header, Not at the Store</title>
+    <link href="https://dev.to/numbpill3d/right-to-repair-starts-at-the-debug-header-not-at-the-store-1lpm"/>
+    <id>https://dev.to/numbpill3d/right-to-repair-starts-at-the-debug-header-not-at-the-store-1lpm</id>
+    <updated>2026-11-21T09:09:48Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>Your device was never really yours. It was just leased to you with better branding. Let us...</summary>
+  </entry>
+  <entry>
+    <title>Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS</title>
+    <link href="https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html"/>
+    <id>https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html</id>
+    <updated>2026-11-21T08:49:20Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is &quot;incomplete.&quot; The feature applies to agentic systems built into iOS 27 and on Android versions where the encrypted messaging platform can detect an AI…</summary>
+  </entry>
+  <entry>
+    <title>omonkeyz/xbox-emulator</title>
+    <link href="https://github.com/omonkeyz/xbox-emulator"/>
+    <id>https://github.com/omonkeyz/xbox-emulator</id>
+    <updated>2026-11-21T08:08:39Z</updated>
+    <author><name>GitHub · Rising repos</name></author>
+    <category term="solution"/>
+    <summary>Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)</summary>
+  </entry>
+  <entry>
+    <title>Omi CLI</title>
+    <link href="https://www.producthunt.com/products/omi-cli"/>
+    <id>https://www.producthunt.com/products/omi-cli</id>
+    <updated>2026-11-21T08:05:31Z</updated>
+    <author><name>Product Hunt</name></author>
+    <category term="launch"/>
+    <summary>AI coding agents that work while you&#x27;re away. Discussion | Link</summary>
+  </entry>
+  <entry>
+    <title>w01fb0ss/PiBot</title>
+    <link href="https://github.com/w01fb0ss/PiBot"/>
+    <id>https://github.com/w01fb0ss/PiBot</id>
+    <updated>2026-11-21T06:54:24Z</updated>
+    <author><name>GitHub · Rising AI repos</name></author>
+    <category term="solution"/>
+    <summary>Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.</summary>
+  </entry>
+  <entry>
+    <title>Cut self-hosted LLM cost and latency with the distributed KV caching agent skill</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/</id>
+    <updated>2026-11-21T00:14:26Z</updated>
+    <author><name>AWS Machine Learning Blog</name></author>
+    <category term="insight"/>
+    <summary>Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up the cache from your coding agent.</summary>
+  </entry>
+  <entry>
+    <title>Harvard Says Most Organizations are Using AI Write More Code but Don&#x27;t Deliver More. Here&#x27;s How to Fix It.</title>
+    <link href="https://dev.to/remojansen/harvard-says-most-organizations-are-using-ai-write-more-code-but-dont-deliver-more-heres-how-to-1jjk"/>
+    <id>https://dev.to/remojansen/harvard-says-most-organizations-are-using-ai-write-more-code-but-dont-deliver-more-heres-how-to-1jjk</id>
+    <updated>2026-11-20T23:19:25Z</updated>
+    <author><name>DEV Community · AI</name></author>
+    <category term="solution"/>
+    <summary>We gave developers coding agents but kept the old way of working. Then we were surprised when nothing...</summary>
+  </entry>
+  <entry>
+    <title>Introducing managed cluster extensions for observability and user management in Amazon SageMaker HyperPod Slurm</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/introducing-managed-cluster-extensions-for-observability-and-user-management-in-amazon-sagemaker-hyperpod-slurm/</id>
+    <updated>2026-11-20T23:07:03Z</updated>
+    <author><name>AWS Machine Learning Blog</name></author>
+    <category term="insight"/>
+    <summary>Amazon SageMaker HyperPod now offers managed cluster extensions for observability and user management, bringing declarative, API- and console-driven configuration to the software running on Slurm cluster nodes. This post explains how the extensions work and follows a platform team through a quarter of running a shared Slurm cluster with them.</summary>
+  </entry>
+  <entry>
+    <title>hatsunemiku-ai/google-one-tools</title>
+    <link href="https://github.com/hatsunemiku-ai/google-one-tools"/>
+    <id>https://github.com/hatsunemiku-ai/google-one-tools</id>
+    <updated>2026-11-20T22:12:47Z</updated>
+    <author><name>GitHub · Rising repos</name></author>
+    <category term="solution"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>How best to store gpg passphrases?</title>
+    <link href="https://tildes.net/~tech/1x0a/how_best_to_store_gpg_passphrases"/>
+    <id>https://tildes.net/~tech/1x0a/how_best_to_store_gpg_passphrases</id>
+    <updated>2026-11-20T22:01:46Z</updated>
+    <author><name>Tildes · ~tech</name></author>
+    <category term="discussion"/>
+    <summary>I have 3 personal computers that I use for interacting with my github account. a laptop, a desktop and a nuc that is my server. they all run debian. I have generated gpg on all 3 computers for signing my git commits. An issue is I never really settled on a workflow I like for storing and regularly using the gpg keys across all 3 computers. When I was…</summary>
+  </entry>
+  <entry>
+    <title>Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.</title>
+    <link href="https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"/>
+    <id>https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/</id>
+    <updated>2026-11-20T20:59:08Z</updated>
+    <author><name>Ars Technica</name></author>
+    <category term="news"/>
+    <summary>Test using prompts with unique, trackable secrets proves that data doesn&#x27;t stay private.</summary>
+  </entry>
+  <entry>
+    <title>Signal slams door on prying AI agents to protect privacy</title>
+    <link href="https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466"/>
+    <id>https://www.theregister.com/security/2026/11/20/signal-slams-door-on-prying-ai-agents-to-protect-privacy/5311466</id>
+    <updated>2026-11-20T20:42:04Z</updated>
+    <author><name>The Register</name></author>
+    <category term="news"/>
+    <summary>Apple, Google, and Microsoft called out for failing to provide developers with adequate AI agent controls</summary>
+  </entry>
+</feed>

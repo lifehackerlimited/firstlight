@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nascent — AI &amp; ML</title>
+  <subtitle>Technology, at the moment it&#x27;s born.</subtitle>
+  <link href="https://lifehackerlimited.github.io/nascent/"/>
+  <link rel="self" href="https://lifehackerlimited.github.io/nascent/topics/ai/feed.xml"/>
+  <id>https://lifehackerlimited.github.io/nascent/topics/ai/feed.xml</id>
+  <updated>2026-11-22T18:25:29Z</updated>
+  <entry>
+    <title>Why data centers are at the center of the Big Tech backlash</title>
+    <link href="https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/"/>
+    <id>https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/</id>
+    <updated>2026-11-22T18:08:43Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>Journalist Paris Marx unpacks his new book &quot;Hyperscale.&quot;</summary>
+  </entry>
+  <entry>
+    <title>Binding of Isaac developer removes AI music from Repentance Plus</title>
+    <link href="https://www.theverge.com/games/1039770/binding-of-isaac-ai-music"/>
+    <id>https://www.theverge.com/games/1039770/binding-of-isaac-ai-music</id>
+    <updated>2026-11-22T17:25:20Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>The Binding of Isaac: Repentance Plus has spent the last few days getting review-bombed on Steam after it was discovered that a particular segment of the game used AI music. Reddit user ShweetsStuff discovered the songs used during a Grand Theft Auto-themed section. They found several audio files with Suno metadata that pointed back to […]</summary>
+  </entry>
+  <entry>
+    <title>TechCrunch Mobility: A/B testing robots vs. humans</title>
+    <link href="https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/"/>
+    <id>https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/</id>
+    <updated>2026-11-22T17:06:00Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it.</summary>
+  </entry>
+  <entry>
+    <title>3Draft: Five Percent — 30 Minutes to Deadline</title>
+    <link href="https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk"/>
+    <id>https://dev.to/pengeszikra/3draft-five-percent-30-minutes-to-deadline-1kfk</id>
+    <updated>2026-11-22T15:53:46Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>This is probably the most improvised demo video I&#x27;ve ever made. I recorded it roughly 30 minutes...</summary>
+  </entry>
+  <entry>
+    <title>Nvidia faces US accounting probe amid deepening turmoil</title>
+    <link href="https://techxplore.com/news/2026-11-nvidia-accounting-probe-deepening-turmoil.html"/>
+    <id>https://techxplore.com/news/2026-11-nvidia-accounting-probe-deepening-turmoil.html</id>
+    <updated>2026-11-22T15:40:01Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>U.S. securities regulators are investigating the accounting practices of Nvidia, according to U.S. media, adding to the turmoil engulfing the artificial intelligence chip giant following the resignation of its chief executive.</summary>
+  </entry>
+  <entry>
+    <title>Signal to block Siri, Gemini AI from capturing chats on iOS, Android</title>
+    <link href="https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/"/>
+    <id>https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/</id>
+    <updated>2026-11-22T15:15:25Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices. [...]</summary>
+  </entry>
+  <entry>
+    <title>RANSAC, Explained: Consensus Fitting for Image Feature Matching</title>
+    <link href="https://towardsdatascience.com/ransac-explained-consensus-fitting-for-image-feature-matching/"/>
+    <id>https://towardsdatascience.com/ransac-explained-consensus-fitting-for-image-feature-matching/</id>
+    <updated>2026-11-22T15:00:00Z</updated>
+    <author><name>Towards Data Science</name></author>
+    <category term="learn"/>
+    <summary>How random sampling of 4 matched pairs, an error threshold, and inlier counts turn noisy SIFT matches into an accurate homography matrix. The post RANSAC, Explained: Consensus Fitting for Image Feature Matching appeared first on Towards Data Science .</summary>
+  </entry>
+  <entry>
+    <title>How LLMs Actually Work</title>
+    <link href="https://www.0xkato.xyz/how-llms-actually-work/"/>
+    <id>https://www.0xkato.xyz/how-llms-actually-work/</id>
+    <updated>2026-11-22T14:43:59Z</updated>
+    <author><name>Bluesky · Machine Learning</name></author>
+    <category term="discussion"/>
+    <summary>Un excellent résumé de comment marche un LLM dans ses tréfonds : www.0xkato.xyz/how-llms-act... (et sans être mathématique), on passe en révu les différentes étapes: token, embed, positional encoding, attention (QKV) + multihead, feed-forward network, residual stream, layer normalization, prediction</summary>
+  </entry>
+  <entry>
+    <title>“When researchers tested AI-detection software on essays written by nonnative English speakers, the software incorrectly flagged more than…</title>
+    <link href="https://bsky.app/profile/jennanewman.bsky.social/post/3n2vs5edlj22a"/>
+    <id>https://bsky.app/profile/jennanewman.bsky.social/post/3n2vs5edlj22a</id>
+    <updated>2026-11-22T14:09:30Z</updated>
+    <author><name>Bluesky · Science</name></author>
+    <category term="discussion"/>
+    <summary>“When researchers tested AI-detection software on essays written by nonnative English speakers, the software incorrectly flagged more than half as AI-generated. Now, guess how many essays by American students got the this-is-human stamp of approval? Go on, guess. Almost all of them.”🧪</summary>
+  </entry>
+  <entry>
+    <title>Show HN: I built a game where you are an LLM&#x27;s subagent</title>
+    <link href="https://github.com/gulivan/worker755"/>
+    <id>https://github.com/gulivan/worker755</id>
+    <updated>2026-11-22T13:56:58Z</updated>
+    <author><name>Show HN</name></author>
+    <category term="launch"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>The vibe-coding revolution is coming to all the gadgets</title>
+    <link href="https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera"/>
+    <id>https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera</id>
+    <updated>2026-11-22T13:00:00Z</updated>
+    <author><name>The Verge</name></author>
+    <category term="news"/>
+    <summary>This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers&#x27; inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Like so many things with AI, it&#x27;s not […]</summary>
+  </entry>
+  <entry>
+    <title>How AI Changes the Four Types of Analytics for Data Scientists</title>
+    <link href="https://towardsdatascience.com/how-ai-changes-the-four-types-of-analytics-for-data-scientists/"/>
+    <id>https://towardsdatascience.com/how-ai-changes-the-four-types-of-analytics-for-data-scientists/</id>
+    <updated>2026-11-22T13:00:00Z</updated>
+    <author><name>Towards Data Science</name></author>
+    <category term="learn"/>
+    <summary>Treat AI agents as junior teammates and move up the abstraction ladder, owning problem framing, model evaluation, and business partnership. The post How AI Changes the Four Types of Analytics for Data Scientists appeared first on Towards Data Science .</summary>
+  </entry>
+  <entry>
+    <title>Banks Have Had It Up to Here With Your AI Agent</title>
+    <link href="https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/"/>
+    <id>https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/</id>
+    <updated>2026-11-22T11:00:00Z</updated>
+    <author><name>WIRED · AI</name></author>
+    <category term="news"/>
+    <summary>Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem.</summary>
+  </entry>
+  <entry>
+    <title>Local AI Code Review Before a PR: Tools That Catch Bugs Before You Push</title>
+    <link href="https://dev.to/dev_kiran/local-ai-code-review-before-a-pr-tools-that-catch-bugs-before-you-push-b8e"/>
+    <id>https://dev.to/dev_kiran/local-ai-code-review-before-a-pr-tools-that-catch-bugs-before-you-push-b8e</id>
+    <updated>2026-11-22T10:17:47Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>Hello Devs 👋 Here&#x27;s a situation many developers will recognize. You&#x27;ve finished implementing a...</summary>
+  </entry>
+  <entry>
+    <title>Stanli speedup on my M3 Max running ~2.2x across my standard test models. I really should refactor all this so the different engines are…</title>
+    <link href="https://bsky.app/profile/rmcelreath.bsky.social/post/3n2vdifbn222q"/>
+    <id>https://bsky.app/profile/rmcelreath.bsky.social/post/3n2vdifbn222q</id>
+    <updated>2026-11-22T09:47:14Z</updated>
+    <author><name>Bluesky · Machine Learning</name></author>
+    <category term="discussion"/>
+    <summary>Stanli speedup on my M3 Max running ~2.2x across my standard test models. I really should refactor all this so the different engines are templates. I could even send ulam models to JAX with a little work. Just need a cleaner abstraction layer I think. Anyway, Stanli support growing</summary>
+  </entry>
+  <entry>
+    <title>Building a Robotic Hand on a Budget</title>
+    <link href="https://hackaday.com/2026/11/21/building-a-robotic-hand-on-a-budget/"/>
+    <id>https://hackaday.com/2026/11/21/building-a-robotic-hand-on-a-budget/</id>
+    <updated>2026-11-22T06:00:20Z</updated>
+    <author><name>Hackaday</name></author>
+    <category term="solution"/>
+    <summary>For all the recent advances in robot control enabled by machine learning, there are still a few problems which remain stubbornly difficult: locomotion, for example, or whole-body balance for humanoids. …read more</summary>
+  </entry>
+  <entry>
+    <title>Hacks, AI and conspiracy theories: why are we having so many outages?</title>
+    <link href="https://www.theguardian.com/technology/2026/nov/22/hacks-ai-internet-outages-airlines-banks-microsoft-apple"/>
+    <id>https://www.theguardian.com/technology/2026/nov/22/hacks-ai-internet-outages-airlines-banks-microsoft-apple</id>
+    <updated>2026-11-22T06:00:19Z</updated>
+    <author><name>Mastodon · mastodon.social trending</name></author>
+    <category term="discussion"/>
+    <summary>After chaos at airlines, banks and companies from Microsoft to Apple, people have become convinced the world’s systems are under attack</summary>
+  </entry>
+  <entry>
+    <title>OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms</title>
+    <link href="https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html"/>
+    <id>https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html</id>
+    <updated>2026-11-22T05:06:55Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week. Some of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt is never stored. OpenRouter, a gateway that routes…</summary>
+  </entry>
+  <entry>
+    <title>Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps</title>
+    <link href="https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html"/>
+    <id>https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html</id>
+    <updated>2026-11-22T05:03:41Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>A now-patched flaw in Ghostscript allows a crafted file to escape the program&#x27;s security sandbox and run commands on the server that processes it. Ghostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the application calling it directly. Security firm pwn.ai showed…</summary>
+  </entry>
+  <entry>
+    <title>🔮 Certified human, twin primes, Anthropic++ #611</title>
+    <link href="https://www.exponentialview.co/p/ev-611"/>
+    <id>https://www.exponentialview.co/p/ev-611</id>
+    <updated>2026-11-22T04:59:51Z</updated>
+    <author><name>Exponential View (Substack)</name></author>
+    <category term="insight"/>
+    <summary>Your Sunday briefing on AI and exponential technologies</summary>
+  </entry>
+  <entry>
+    <title>It seems like it’s kind of like this: Before AI proof: We are reasonably sure this thing is true, but we don’t know why or how it connects…</title>
+    <link href="https://bsky.app/profile/astrokatie.com/post/3n2uq44hmhs2m"/>
+    <id>https://bsky.app/profile/astrokatie.com/post/3n2uq44hmhs2m</id>
+    <updated>2026-11-22T04:00:21Z</updated>
+    <author><name>Bluesky · SciGuy Space</name></author>
+    <category term="discussion"/>
+    <summary>It seems like it’s kind of like this: Before AI proof: We are reasonably sure this thing is true, but we don’t know why or how it connects to deeper concepts in mathematics After AI proof: We are certain this thing is true, but we don’t know why or how it connects to deeper concepts in mathematics</summary>
+  </entry>
+  <entry>
+    <title>Data Processing Incidents on Inference Providers</title>
+    <link href="https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/"/>
+    <id>https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/</id>
+    <updated>2026-11-22T02:14:14Z</updated>
+    <author><name>Hacker News</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>The Mythology of Conscious AI</title>
+    <link href="https://www.noemamag.com/the-mythology-of-conscious-ai/"/>
+    <id>https://www.noemamag.com/the-mythology-of-conscious-ai/</id>
+    <updated>2026-11-22T02:10:02Z</updated>
+    <author><name>Hacker News</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Since last year, we asked: “What if AI solved the Riemann Hypothesis?”</title>
+    <link href="https://www.youtube.com/watch?v=zqzk43bSdDI"/>
+    <id>https://www.youtube.com/watch?v=zqzk43bSdDI</id>
+    <updated>2026-11-22T02:02:12Z</updated>
+    <author><name>3Blue1Brown (YouTube)</name></author>
+    <category term="learn"/>
+    <summary>Hypothetical no more Announcement by Levent Alpöge: https://alpo.ge/remark.pdf Announcement by Alessandro Masullo on his (human) proof: ------------------ These animations are largely made using a custom Python library, manim. See the FAQ comments here: https://3b1b.co/faq#manim Music by Vincent Rubinetti…</summary>
+  </entry>
+  <entry>
+    <title>Meta ads is now available in AWS Quick</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/</id>
+    <updated>2026-11-22T01:59:13Z</updated>
+    <author><name>AWS Machine Learning Blog</name></author>
+    <category term="insight"/>
+    <summary>AWS Quick now has a Meta ads AI connector. Meta advertisers can use natural language in Quick to create, manage, and analyze campaigns while staying connected to the Meta ad management network, and combine Meta ad data with first- and third-party sources to build dashboards, documents, slide decks, and automated workflows.</summary>
+  </entry>
+  <entry>
+    <title>No AI slop: A manifesto</title>
+    <link href="https://gist.github.com/dexhorthy/4cc96f01be5b1208519e75dad250a948"/>
+    <id>https://gist.github.com/dexhorthy/4cc96f01be5b1208519e75dad250a948</id>
+    <updated>2026-11-22T01:19:50Z</updated>
+    <author><name>Tildes · ~comp</name></author>
+    <category term="discussion"/>
+    <summary>Link URL: https://gist.github.com/dexhorthy/4cc96f01be5b1208519e75dad250a948 Comments URL: https://tildes.net/~comp/1x0s/no_ai_slop_a_manifesto Votes: 15 Comments: 5</summary>
+  </entry>
+  <entry>
+    <title>this is up there with Gradient Descent by Grad Student</title>
+    <link href="https://bsky.app/profile/bekavalentine.bsky.social/post/3n2uelvop222d"/>
+    <id>https://bsky.app/profile/bekavalentine.bsky.social/post/3n2uelvop222d</id>
+    <updated>2026-11-22T00:34:26Z</updated>
+    <author><name>Bluesky · Machine Learning</name></author>
+    <category term="discussion"/>
+    <summary>this is up there with Gradient Descent by Grad Student</summary>
+  </entry>
+  <entry>
+    <title>Perplexity and Intelligence</title>
+    <link href="https://openai.com/index/perplexity-and-intelligence"/>
+    <id>https://openai.com/index/perplexity-and-intelligence</id>
+    <updated>2026-11-22T00:00:00Z</updated>
+    <author><name>OpenAI News</name></author>
+    <category term="insight"/>
+    <summary>How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.</summary>
+  </entry>
+  <entry>
+    <title>AI is being used to clone real people&#x27;s videos</title>
+    <link href="https://www.bbc.co.uk/news/articles/cm7527kp4qrpo"/>
+    <id>https://www.bbc.co.uk/news/articles/cm7527kp4qrpo</id>
+    <updated>2026-11-22T00:00:00Z</updated>
+    <author><name>Mastodon · Hachyderm trending</name></author>
+    <category term="discussion"/>
+    <summary>Musicians, comedians and dancers are among those finding their videos cloned with AI generated characters.</summary>
+  </entry>
+  <entry>
+    <title>Muru</title>
+    <link href="https://simonwillison.net/2026/Nov/21/muru/"/>
+    <id>https://simonwillison.net/2026/Nov/21/muru/</id>
+    <updated>2026-11-21T23:56:28Z</updated>
+    <author><name>Simon Willison</name></author>
+    <category term="insight"/>
+    <summary>Muru Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since. Muru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Python apps both in development and production. As he did with wrapture , he&#x27;s been…</summary>
+  </entry>
+  <entry>
+    <title>US DOJ Charges Suspected Russian Agent for Stalking Palantir Employees in California</title>
+    <link href="https://news.slashdot.org/story/26/11/21/212248/us-doj-charges-suspected-russian-agent-for-stalking-palantir-employees-in-california?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+    <id>https://news.slashdot.org/story/26/11/21/212248/us-doj-charges-suspected-russian-agent-for-stalking-palantir-employees-in-california?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+    <updated>2026-11-21T23:00:00Z</updated>
+    <author><name>Slashdot</name></author>
+    <category term="discussion"/>
+    <summary>America&#x27;s Justice Department is prosecuting a suspected foreign agent in &quot;a state-sponsored operation&quot; that targeted tech workers in Palo Alto, California. &quot;We will not tolerate any efforts — by foreign governments or otherwise — to turn Silicon Valley into a base for foreign intelligence operations,&quot; said U.S. Attorney Craig H. Missakian. The alleged…</summary>
+  </entry>
+  <entry>
+    <title>The manufacturing data gap holding back physical AI</title>
+    <link href="https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/"/>
+    <id>https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/</id>
+    <updated>2026-11-21T22:25:35Z</updated>
+    <author><name>The Robot Report</name></author>
+    <category term="news"/>
+    <summary>Manufacturers looking to deploy autonomous robots must close gaps in industrial data collection, interoperability, and quality feedback to enable reliable decision-making and improve production efficiency. The post The manufacturing data gap holding back physical AI appeared first on The Robot Report .</summary>
+  </entry>
+  <entry>
+    <title>Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance</title>
+    <link href="https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/"/>
+    <id>https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/</id>
+    <updated>2026-11-21T21:37:10Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>Signal is limiting users&#x27; ability to take screenshots in both its Android and iOS apps.</summary>
+  </entry>
+  <entry>
+    <title>A tale of two Nvidias</title>
+    <link href="https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"/>
+    <id>https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/</id>
+    <updated>2026-11-21T21:07:42Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.</summary>
+  </entry>
+  <entry>
+    <title>LLM users: how do you feel about it?</title>
+    <link href="https://tildes.net/~comp/1x0p/llm_users_how_do_you_feel_about_it"/>
+    <id>https://tildes.net/~comp/1x0p/llm_users_how_do_you_feel_about_it</id>
+    <updated>2026-11-21T20:33:36Z</updated>
+    <author><name>Tildes · ~comp</name></author>
+    <category term="discussion"/>
+    <summary>I’ve been using LLMs more lately. For reference, I’m a PhD student (in computer science). I’ve been an LLM sceptic for a long time, and on pretty much all fronts: concern about their output quality, business practices of the companies that run them, data privacy and ethics concerns, and about their negative impact on our cognition and emotions (studies…</summary>
+  </entry>
+  <entry>
+    <title>oovi</title>
+    <link href="https://www.producthunt.com/products/oovi"/>
+    <id>https://www.producthunt.com/products/oovi</id>
+    <updated>2026-11-21T20:02:03Z</updated>
+    <author><name>Product Hunt</name></author>
+    <category term="launch"/>
+    <summary>Your own team of AI on your desktop Discussion | Link</summary>
+  </entry>
+  <entry>
+    <title>Can teams of AI agents recreate the chain reaction of human decisions?</title>
+    <link href="https://techxplore.com/news/2026-11-teams-ai-agents-recreate-chain.html"/>
+    <id>https://techxplore.com/news/2026-11-teams-ai-agents-recreate-chain.html</id>
+    <updated>2026-11-21T19:00:06Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>At the start of the COVID-19 pandemic in 2020, people hoarded toilet paper. Australians alone bought 39.7 million rolls from the Woolworths supermarket chain in a single week, according to the store&#x27;s 2020 annual report. It&#x27;s not the only time that fear of a shortage spiraled into one.</summary>
+  </entry>
+  <entry>
+    <title>Will AI-Fueled Cyberattacks Lead to Better Funding for Critical Open Source Projects?</title>
+    <link href="https://news.slashdot.org/story/26/11/21/0651203/will-ai-fueled-cyberattacks-lead-to-better-funding-for-critical-open-source-projects?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+    <id>https://news.slashdot.org/story/26/11/21/0651203/will-ai-fueled-cyberattacks-lead-to-better-funding-for-critical-open-source-projects?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+    <updated>2026-11-21T19:00:00Z</updated>
+    <author><name>Slashdot</name></author>
+    <category term="discussion"/>
+    <summary>Remember that famous XKCD comic joking that all modern digital infrastructure rests on &quot;a project some random person in Nebraska has been thanklessly maintaining since 2003.&quot; Politico Europe&#x27;s cybersecurity reporter wonders if this recent spate of outages suggests that supporting block is coming loose? (Especially after Politico reported Thursday that…</summary>
+  </entry>
+  <entry>
+    <title>Dead Keys: I Brought Back the Typing Games. Kiro Did the Heavy Lifting.</title>
+    <link href="https://dev.to/earlgreyhot1701d/dead-keys-i-brought-back-the-typing-games-kiro-did-the-heavy-lifting-5gc2"/>
+    <id>https://dev.to/earlgreyhot1701d/dead-keys-i-brought-back-the-typing-games-kiro-did-the-heavy-lifting-5gc2</id>
+    <updated>2026-11-21T18:23:38Z</updated>
+    <author><name>DEV Community · AI</name></author>
+    <category term="solution"/>
+    <summary>The keys you miss become the lesson. TL;DR: Dead Keys is my entry for the Kiroween 2026 hackathon,...</summary>
+  </entry>
+  <entry>
+    <title>Signal Blocks Siri, Gemini and Other AI Agents From Reading Your Messages - gHacks Tech News</title>
+    <link href="https://www.ghacks.net/2026/11/21/signal-blocks-siri-gemini-and-other-ai-agents-from-reading-your-messages/"/>
+    <id>https://www.ghacks.net/2026/11/21/signal-blocks-siri-gemini-and-other-ai-agents-from-reading-your-messages/</id>
+    <updated>2026-11-21T18:01:36Z</updated>
+    <author><name>Mastodon · Fosstodon trending</name></author>
+    <category term="discussion"/>
+    <summary>Signal now blocks screenshots on iOS 27 and AI screen capture on Android to keep OS-level AI agents out of chats.</summary>
+  </entry>
+  <entry>
+    <title>GuzmanJacqueline93/copy-ai-pro-win</title>
+    <link href="https://github.com/GuzmanJacqueline93/copy-ai-pro-win"/>
+    <id>https://github.com/GuzmanJacqueline93/copy-ai-pro-win</id>
+    <updated>2026-11-21T17:04:23Z</updated>
+    <author><name>GitHub · Rising AI repos</name></author>
+    <category term="solution"/>
+    <summary>Copy Ai Pro - AI copywriting assistant for content generation, tone rewriting and SEO text optimization on Windows 10/11</summary>
+  </entry>
+  <entry>
+    <title>Here are the top AI agents that can live in your text messages</title>
+    <link href="https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/"/>
+    <id>https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/</id>
+    <updated>2026-11-21T17:00:00Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.</summary>
+  </entry>
+  <entry>
+    <title>Juanlabs1989/descript-pro-win</title>
+    <link href="https://github.com/Juanlabs1989/descript-pro-win"/>
+    <id>https://github.com/Juanlabs1989/descript-pro-win</id>
+    <updated>2026-11-21T16:02:55Z</updated>
+    <author><name>GitHub · Rising AI repos</name></author>
+    <category term="solution"/>
+    <summary>Descript - AI-powered video and podcast editor for text-based editing, transcription and screen recording on Windows 10/11</summary>
+  </entry>
+  <entry>
+    <title>suryacode04/jasper-ai-win</title>
+    <link href="https://github.com/suryacode04/jasper-ai-win"/>
+    <id>https://github.com/suryacode04/jasper-ai-win</id>
+    <updated>2026-11-21T16:02:51Z</updated>
+    <author><name>GitHub · Rising AI repos</name></author>
+    <category term="solution"/>
+    <summary>Jasper AI - AI content generation platform for marketing copy creation, brand voice customization and long-form article drafting on Windows 10/11</summary>
+  </entry>
+  <entry>
+    <title>Is selling an AI version of your face to this microdrama startup the future of Hollywood?</title>
+    <link href="https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/"/>
+    <id>https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/</id>
+    <updated>2026-11-21T16:00:00Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>An actor has licensed his face to a microdrama startup — in a trend that&#x27;s already popular in China. Experts question the long-term consequences if this becomes a trend in Hollywood, too.</summary>
+  </entry>
+  <entry>
+    <title>AI may not work like the human brain after all, scientists discover</title>
+    <link href="https://www.sciencedaily.com/releases/2026/11/261120075701.htm"/>
+    <id>https://www.sciencedaily.com/releases/2026/11/261120075701.htm</id>
+    <updated>2026-11-21T15:24:58Z</updated>
+    <author><name>ScienceDaily · Technology</name></author>
+    <category term="news"/>
+    <summary>AI may not think like the human brain after all, according to a striking new discovery that challenges how scientists understand artificial intelligence. Researchers found that even AI models that closely predict brain activity may rely on internal processes the brain doesn&#x27;t use, raising important questions about their reliability in neuroscience research.</summary>
+  </entry>
+  <entry>
+    <title>Cloudcode04/runway-ml-pro-win</title>
+    <link href="https://github.com/Cloudcode04/runway-ml-pro-win"/>
+    <id>https://github.com/Cloudcode04/runway-ml-pro-win</id>
+    <updated>2026-11-21T15:17:17Z</updated>
+    <author><name>GitHub · Rising AI repos</name></author>
+    <category term="solution"/>
+    <summary>Runway - AI video generation platform for text-to-video synthesis, image animation and motion brush editing on Windows 10/11</summary>
+  </entry>
+  <entry>
+    <title>isanders5152/descript-pro-win</title>
+    <link href="https://github.com/isanders5152/descript-pro-win"/>
+    <id>https://github.com/isanders5152/descript-pro-win</id>
+    <updated>2026-11-21T15:07:26Z</updated>
+    <author><name>GitHub · Rising AI repos</name></author>
+    <category term="solution"/>
+    <summary>Descript - AI-powered video and podcast editor for text-based editing, transcription and screen recording on Windows 10/11</summary>
+  </entry>
+  <entry>
+    <title>How to Learn Supply Chain Analytics in 2027 with Claude Code</title>
+    <link href="https://towardsdatascience.com/how-to-learn-supply-chain-analytics-in-2027-with-claude-code/"/>
+    <id>https://towardsdatascience.com/how-to-learn-supply-chain-analytics-in-2027-with-claude-code/</id>
+    <updated>2026-11-21T15:00:00Z</updated>
+    <author><name>Towards Data Science</name></author>
+    <category term="learn"/>
+    <summary>Each 5-minute case study pairs operational context, a problem statement, and documented code, so data scientists and non-coding planners learn together. The post How to Learn Supply Chain Analytics in 2027 with Claude Code appeared first on Towards Data Science .</summary>
+  </entry>
+  <entry>
+    <title>Morriswawan05/elevenlabs-pro-win</title>
+    <link href="https://github.com/Morriswawan05/elevenlabs-pro-win"/>
+    <id>https://github.com/Morriswawan05/elevenlabs-pro-win</id>
+    <updated>2026-11-21T14:47:10Z</updated>
+    <author><name>GitHub · Rising AI repos</name></author>
+    <category term="solution"/>
+    <summary>ElevenLabs - AI voice synthesis platform for text-to-speech generation, voice cloning and multilingual dubbing on Windows 10/11</summary>
+  </entry>
+</feed>

@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nascent — Materials &amp; Physics</title>
+  <subtitle>Technology, at the moment it&#x27;s born.</subtitle>
+  <link href="https://lifehackerlimited.github.io/nascent/"/>
+  <link rel="self" href="https://lifehackerlimited.github.io/nascent/topics/materials/feed.xml"/>
+  <id>https://lifehackerlimited.github.io/nascent/topics/materials/feed.xml</id>
+  <updated>2026-11-22T18:25:29Z</updated>
+  <entry>
+    <title>Fun fact: I went to both undergrad (Caltech physics) and grad school (Princeton astro/physics) with Dario Amodei! This is useless…</title>
+    <link href="https://bsky.app/profile/astrokatie.com/post/3n2w2flw47c2v"/>
+    <id>https://bsky.app/profile/astrokatie.com/post/3n2w2flw47c2v</id>
+    <updated>2026-11-22T16:37:17Z</updated>
+    <author><name>Bluesky · SciGuy Space</name></author>
+    <category term="discussion"/>
+    <summary>Fun fact: I went to both undergrad (Caltech physics) and grad school (Princeton astro/physics) with Dario Amodei! This is useless information in every way because while I&#x27;m pretty sure we were in the same general friend group (at least at Princeton), somehow I remember absolutely nothing else.</summary>
+  </entry>
+  <entry>
+    <title>Anode-free sodium batteries last longer thanks to an electrolyte that forms its own shield</title>
+    <link href="https://techxplore.com/news/2026-11-anode-free-sodium-batteries-longer.html"/>
+    <id>https://techxplore.com/news/2026-11-anode-free-sodium-batteries-longer.html</id>
+    <updated>2026-11-22T16:20:01Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>Sodium batteries, which store and release electrical energy by moving sodium ions between their two electrodes, could be a more affordable alternative to lithium-based batteries. This is because sodium is highly abundant on Earth and can be sourced from widely available raw materials.</summary>
+  </entry>
+  <entry>
+    <title>Scientists Tried to Kill This Dirt, but It Wouldn’t Die</title>
+    <link href="https://www.wired.com/story/scientists-tried-to-kill-this-dirt-but-it-wouldnt-die/"/>
+    <id>https://www.wired.com/story/scientists-tried-to-kill-this-dirt-but-it-wouldnt-die/</id>
+    <updated>2026-11-22T10:30:00Z</updated>
+    <author><name>WIRED · Science</name></author>
+    <category term="news"/>
+    <summary>Biologically important chemical reactions persisted in the sterilized soil for six years—offering clues to how life on Earth may have gotten its start.</summary>
+  </entry>
+  <entry>
+    <title>Quantum Computing&#x27;s First Real-world Payoff May Come In Energy Solutions</title>
+    <link href="https://hardware.slashdot.org/story/26/11/22/078255/quantum-computings-first-real-world-payoff-may-come-in-energy-solutions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+    <id>https://hardware.slashdot.org/story/26/11/22/078255/quantum-computings-first-real-world-payoff-may-come-in-energy-solutions?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+    <updated>2026-11-22T08:34:00Z</updated>
+    <author><name>Slashdot</name></author>
+    <category term="discussion"/>
+    <summary>While quantum computing&#x27;s biggest breakthroughs &quot;are still likely to be years, if not decades, away,&quot; CNBC reports the technology is already being tested in energy applications, &quot;from keeping power grids stable to finding better materials for solar cells and hydrogen production.&quot; Quantinuum, which was formed by the merger of Cambridge Quantum and Honeywell…</summary>
+  </entry>
+  <entry>
+    <title>Taming blue light: Researchers bring precision lasers onto a chip</title>
+    <link href="https://techxplore.com/news/2026-11-blue-precision-lasers-chip.html"/>
+    <id>https://techxplore.com/news/2026-11-blue-precision-lasers-chip.html</id>
+    <updated>2026-11-21T13:00:06Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>Blue lasers are already widely available. But making their light extremely stable while also changing its frequency at high speed is a much harder challenge, and one that has limited the development of compact, high-performance laser systems.</summary>
+  </entry>
+  <entry>
+    <title>A decades-old mystery about light could hold the key to faster internet</title>
+    <link href="https://www.sciencedaily.com/releases/2026/11/261119194544.htm"/>
+    <id>https://www.sciencedaily.com/releases/2026/11/261119194544.htm</id>
+    <updated>2026-11-21T00:02:01Z</updated>
+    <author><name>ScienceDaily · Technology</name></author>
+    <category term="news"/>
+    <summary>A promising material for ultra-fast optical communications has held a secret for decades, but scientists may have finally cracked it. Researchers at KAIST and Caltech have precisely measured how barium titanate controls and absorbs light, resolving longstanding uncertainties that have slowed its development. Their findings could make it easier to build…</summary>
+  </entry>
+  <entry>
+    <title>New approach enables physically consistent AI models of chaotic systems</title>
+    <link href="https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120"/>
+    <id>https://news.mit.edu/new-approach-enables-physically-consistent-ai-models-chaotic-systems-1120</id>
+    <updated>2026-11-20T20:00:00Z</updated>
+    <author><name>MIT News</name></author>
+    <category term="news"/>
+    <summary>Enforcing physics-based constraints prevents AI models from generating unreliable predictions for complex nonlinear systems in weather, climate, and turbulent flows.</summary>
+  </entry>
+  <entry>
+    <title>Harvard-led team receives $12 million in federal funds to advance quantum computing with AI</title>
+    <link href="https://news.harvard.edu/gazette/story/2026/11/harvard-led-team-receives-12-million-in-federal-funds-to-advance-quantum-computing-with-ai/"/>
+    <id>https://news.harvard.edu/gazette/story/2026/11/harvard-led-team-receives-12-million-in-federal-funds-to-advance-quantum-computing-with-ai/</id>
+    <updated>2026-11-20T19:00:00Z</updated>
+    <author><name>Harvard Gazette</name></author>
+    <category term="news"/>
+    <summary>Project unites MIT, Cornell, three national labs, tech partners as part of Genesis Mission</summary>
+  </entry>
+  <entry>
+    <title>Uneven by design: 3D-printed titanium alloy keeps hardening as distinct regions share deformation</title>
+    <link href="https://techxplore.com/news/2026-11-uneven-3d-titanium-alloy-hardening.html"/>
+    <id>https://techxplore.com/news/2026-11-uneven-3d-titanium-alloy-hardening.html</id>
+    <updated>2026-11-20T18:00:12Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>A research team led by Zhang Tianlong, assistant professor in the Department of Mechanical and Aerospace Engineering at The Hong Kong University of Science and Technology (HKUST), has developed a novel titanium alloy design strategy utilizing &quot;three-dimensional (3D) compositional waves enabled by additive manufacturing.&quot; By leveraging in situ alloying…</summary>
+  </entry>
+  <entry>
+    <title>Engineered structures generate internal tensile stress under external compression without changing external response</title>
+    <link href="https://techxplore.com/news/2026-11-generate-internal-tensile-stress-external.html"/>
+    <id>https://techxplore.com/news/2026-11-generate-internal-tensile-stress-external.html</id>
+    <updated>2026-11-20T17:30:02Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>In elastic mechanics, when a material is externally compressed, the naturally developed internal stresses are in the same direction as the applied load. The possibility of intentionally reversing the internal stress direction under such loading conditions has largely been overlooked in conventional structural design. Yet the ability to tailor internal…</summary>
+  </entry>
+  <entry>
+    <title>Where do ions go? Hidden differences inside next-generation battery materials</title>
+    <link href="https://techxplore.com/news/2026-11-ions-hidden-differences-generation-battery.html"/>
+    <id>https://techxplore.com/news/2026-11-ions-hidden-differences-generation-battery.html</id>
+    <updated>2026-11-20T17:20:08Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>When a rechargeable battery operates, ions move into and out of its electrode materials. But where exactly do these ions settle inside the crystal structure? And does their location affect how well a battery performs? These questions are particularly important for next-generation batteries that use abundant elements such as sodium, magnesium and calcium…</summary>
+  </entry>
+  <entry>
+    <title>Scientists turn Moon dust into LEGO-like bricks for future lunar bases</title>
+    <link href="https://www.sciencedaily.com/releases/2026/11/261119194525.htm"/>
+    <id>https://www.sciencedaily.com/releases/2026/11/261119194525.htm</id>
+    <updated>2026-11-20T12:34:56Z</updated>
+    <author><name>ScienceDaily · Technology</name></author>
+    <category term="news"/>
+    <summary>Scientists have found a way to 3D-print Moon dust into LEGO-like bricks, raising the possibility of building lunar bases using materials already on the Moon. The experimental blocks still need to be strengthened, but the technology could transform how humans construct permanent settlements beyond Earth.</summary>
+  </entry>
+  <entry>
+    <title>CERN scientists finally find evidence of a particle decay so rare it took 40 years to detect</title>
+    <link href="https://www.sciencedaily.com/releases/2026/11/261119194530.htm"/>
+    <id>https://www.sciencedaily.com/releases/2026/11/261119194530.htm</id>
+    <updated>2026-11-20T12:23:23Z</updated>
+    <author><name>ScienceDaily · Technology</name></author>
+    <category term="news"/>
+    <summary>Scientists at CERN have found the first evidence of an incredibly rare particle decay after more than 40 years of searching, detecting a process expected to occur just once in every 10 billion beauty particles. The breakthrough could help physicists explore a mysterious microscopic realm where unknown particles and forces may be hiding.</summary>
+  </entry>
+  <entry>
+    <title>Using lasers to kill weeds</title>
+    <link href="https://www.youtube.com/watch?v=PpnCu8SUGCU"/>
+    <id>https://www.youtube.com/watch?v=PpnCu8SUGCU</id>
+    <updated>2026-11-20T12:21:44Z</updated>
+    <author><name>Tildes · ~tech</name></author>
+    <category term="discussion"/>
+    <summary>Link URL: https://www.youtube.com/watch?v=PpnCu8SUGCU Comments URL: https://tildes.net/~tech/1wzt/using_lasers_to_kill_weeds Votes: 10 Comments: 1</summary>
+  </entry>
+  <entry>
+    <title>Guest Post: Building the Conditions for a Quantum Breakthrough</title>
+    <link href="https://thequantuminsider.com/2026/11/20/guest-post-building-the-conditions-for-a-quantum-breakthrough/"/>
+    <id>https://thequantuminsider.com/2026/11/20/guest-post-building-the-conditions-for-a-quantum-breakthrough/</id>
+    <updated>2026-11-20T09:09:29Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Guest Post by Dr. Juan Bernabé-Moreno and Ivan Houlihan There is a class of problems in materials science that classical computers cannot solve. The math involved grows exponentially more complex as the system being studied gets larger. Add more dimensions to a quantum system or introduce realistic interactions between particles, and the number of variables…</summary>
+  </entry>
+  <entry>
+    <title>Two massive stars may be secretly feeding the Milky Way’s supermassive black hole</title>
+    <link href="https://www.sciencedaily.com/releases/2026/11/261119194605.htm"/>
+    <id>https://www.sciencedaily.com/releases/2026/11/261119194605.htm</id>
+    <updated>2026-11-20T05:41:16Z</updated>
+    <author><name>ScienceDaily · Technology</name></author>
+    <category term="news"/>
+    <summary>Astronomers have traced mysterious gas clouds near the Milky Way&#x27;s central supermassive black hole to a massive pair of stars whose colliding winds appear to create dense clumps of material. These clouds may eventually feed the black hole, revealing a surprising connection between stellar activity and the growth of cosmic giants.</summary>
+  </entry>
+  <entry>
+    <title>Improving compatibility in mixed-matrix membranes</title>
+    <link href="https://www.nature.com/articles/s41560-026-02174-8"/>
+    <id>https://www.nature.com/articles/s41560-026-02174-8</id>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <author><name>Nature Energy</name></author>
+    <category term="research"/>
+    <summary>Nature Energy, Published online: 20 November 2026; doi:10.1038/s41560-026-02174-8 Mixed-matrix membranes promise to combine the processability of polymers with the transport advantages of porous fillers, yet poor compatibility between the two limits their performance. New research shows that tailoring interfaces between polymers and covalent organic…</summary>
+  </entry>
+  <entry>
+    <title>Environmental and material implications of global climate mitigation pathways</title>
+    <link href="https://www.nature.com/articles/s41560-026-02171-x"/>
+    <id>https://www.nature.com/articles/s41560-026-02171-x</id>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <author><name>Nature Energy</name></author>
+    <category term="research"/>
+    <summary>Nature Energy, Published online: 20 November 2026; doi:10.1038/s41560-026-02171-x Deep decarbonization benefits health and ecosystems but does not necessarily reduce land, water or mineral pressures. Here the researchers show that different pathways can shift when metals are extracted without changing total demand.</summary>
+  </entry>
+  <entry>
+    <title>Physicists send an unblockable message using gravity</title>
+    <link href="https://phys.org/news/2026-11-physicists-unblockable-message-gravity.html"/>
+    <id>https://phys.org/news/2026-11-physicists-unblockable-message-gravity.html</id>
+    <updated>2026-11-19T21:22:41Z</updated>
+    <author><name>Tildes · ~science</name></author>
+    <category term="discussion"/>
+    <summary>Link URL: Comments URL: Votes: 16 Comments: 2</summary>
+  </entry>
+  <entry>
+    <title>Ultrasound imaging without the gel</title>
+    <link href="https://news.mit.edu/2026/ultrasound-imaging-without-gel-1119"/>
+    <id>https://news.mit.edu/2026/ultrasound-imaging-without-gel-1119</id>
+    <updated>2026-11-19T19:00:00Z</updated>
+    <author><name>MIT News</name></author>
+    <category term="news"/>
+    <summary>A new dry material could replace the traditional goopy gel for wearable ultrasound patches.</summary>
+  </entry>
+  <entry>
+    <title>Fractional Charge at Dislocations from Band-Inversion Cancellation</title>
+    <link href="https://arxiv.org/abs/2611.26616v1"/>
+    <id>https://arxiv.org/abs/2611.26616v1</id>
+    <updated>2026-11-19T18:58:11Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>Band inversions with opposite Chern numbers cancel in the Hall response and yield counterpropagating boundary modes that can gap out. However, a bulk probe of the topology that survives such a cancellation is lacking. We here show that dislocations in inversion-symmetric two-band crystals with cancelling band inversions bind a half-integer charge, which…</summary>
+  </entry>
+  <entry>
+    <title>Local velocimetry for atomic superfluids: from Riemann rarefaction waves to quantized vortices</title>
+    <link href="https://arxiv.org/abs/2611.26608v1"/>
+    <id>https://arxiv.org/abs/2611.26608v1</id>
+    <updated>2026-11-19T18:56:37Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>We demonstrate local velocimetry for atomic superfluids in two dimensions (2D). Using matter-wave interferometry based on Raman--Bragg beam splitters, we map the local gradient of the phase of the superfluid&#x27;s wavefunction onto displacement of the interference fringes and reconstruct the 2D velocity field. We illustrate the capabilities of this technique by…</summary>
+  </entry>
+  <entry>
+    <title>Scalable Simulation of Strongly Correlated Fermions with Neural Gaussian Tensor Networks</title>
+    <link href="https://arxiv.org/abs/2611.26604v1"/>
+    <id>https://arxiv.org/abs/2611.26604v1</id>
+    <updated>2026-11-19T18:55:44Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Accurate simulations of strongly correlated electrons remain a central challenge in computational physics. We introduce neural-network Gaussian projected entangled-pair states (NN-GPEPS), which exploit the locally-entangled subspace of Gaussian states to give an architecture more compatible with modern neural networks and an exact contraction cost of…</summary>
+  </entry>
+  <entry>
+    <title>High-Accuracy Neural-Network Quantum States via Randomized Real-Time Dynamics</title>
+    <link href="https://arxiv.org/abs/2611.26587v1"/>
+    <id>https://arxiv.org/abs/2611.26587v1</id>
+    <updated>2026-11-19T18:45:45Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Neural-network quantum states (NQSs) exhibit a disparity in converging to the ground state during energy minimization: while the energy converges quadratically with the error in the variational wave function, other observables converge only linearly, which limits the accuracy of physical predictions. Here we show how to close this gap by introducing a new…</summary>
+  </entry>
+  <entry>
+    <title>Emergent Fatigue Dynamics from Foundational Interatomic Potentials</title>
+    <link href="https://arxiv.org/abs/2611.26533v1"/>
+    <id>https://arxiv.org/abs/2611.26533v1</id>
+    <updated>2026-11-19T18:15:30Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>Foundational machine-learned interatomic potentials are trained on large, diverse DFT datasets, but their validation rests on equilibrium states, which does not guarantee correct emergent behavior in large-scale molecular dynamics. Where no direct experimental validation is available, comparisons to physically motivated potentials are valuable for drawing…</summary>
+  </entry>
+  <entry>
+    <title>Constitutive Kolmogorov-Arnold Networks in Finite Element Model Updating: Closed-Form Hyperelastic Strain Energies from Heterogeneous Experiments</title>
+    <link href="https://arxiv.org/abs/2611.26528v1"/>
+    <id>https://arxiv.org/abs/2611.26528v1</id>
+    <updated>2026-11-19T18:10:33Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>Calibrating a hyperelastic constitutive model for a soft material traditionally poses two problems: an expert must choose its functional form, and several homogeneous tests must determine its parameters. Neural constitutive models solve the first, but either remain black boxes or draw on a library of candidate terms fixed in advance. Full-field…</summary>
+  </entry>
+  <entry>
+    <title>Two distinct notions of speed in antiferromagnets</title>
+    <link href="https://arxiv.org/abs/2611.26482v1"/>
+    <id>https://arxiv.org/abs/2611.26482v1</id>
+    <updated>2026-11-19T17:40:29Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>The terahertz resonance frequencies of antiferromagnets characterize their precessional dynamics but do not necessarily imply faster laser-induced quenching of magnetic order. Here, we investigate the distinct roles of magnetic compensation and electronic scattering phase space by comparing ultrafast demagnetization in the antiferromagnetic charge-transfer…</summary>
+  </entry>
+  <entry>
+    <title>Scaling classical hardware for accurate real-time quantum error correction</title>
+    <link href="https://arxiv.org/abs/2611.26447v1"/>
+    <id>https://arxiv.org/abs/2611.26447v1</id>
+    <updated>2026-11-19T17:16:21Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Fault-tolerant quantum computation requires a classical decoder fast enough to process syndrome measurements at the rate at which they are generated, and to return its decisions with low latency. This is most demanding for superconducting processors, whose fast syndrome cycles force a trade-off between decoding speed and accuracy. Decoders fast enough to…</summary>
+  </entry>
+  <entry>
+    <title>Low-Latency Alerts of Massive Black Hole Binaries in LISA</title>
+    <link href="https://arxiv.org/abs/2611.26411v1"/>
+    <id>https://arxiv.org/abs/2611.26411v1</id>
+    <updated>2026-11-19T16:59:35Z</updated>
+    <author><name>arXiv · Space Instrumentation</name></author>
+    <category term="research"/>
+    <summary>The Laser Interferometer Space Antenna (LISA) will observe massive black hole binaries (MBHBs) for days to months before merger, offering opportunities for advance electromagnetic follow-up. To enable such observations, inference methods must provide rapid, continuously updated, and statistically calibrated posterior estimates, while remaining robust to…</summary>
+  </entry>
+  <entry>
+    <title>Efficient Classical Algorithms for Ground Energy Estimation of Fermions with Conjugate-Pair Orbital Interactions</title>
+    <link href="https://arxiv.org/abs/2611.26382v1"/>
+    <id>https://arxiv.org/abs/2611.26382v1</id>
+    <updated>2026-11-19T16:40:14Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Estimating the ground energy of interacting fermions is central to quantum many-body physics, and recent quantum algorithms provide polynomial-time guarantees for some structured families. Classical approaches commonly rely on quantum Monte Carlo, where the sign problem is a major obstacle. However, even when a nonnegative expansion without sign problem is…</summary>
+  </entry>
+  <entry>
+    <title>Perfumer: A Large Language Model-based Agentic Framework Accelerating Structural Relaxation and Electronic Band Prediction for First-Principle Calculation</title>
+    <link href="https://arxiv.org/abs/2611.26349v1"/>
+    <id>https://arxiv.org/abs/2611.26349v1</id>
+    <updated>2026-11-19T16:23:33Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>First-principles structural relaxation and band calculations require substantial computation and expertise. Here we present Perfumer, a large language model-based agentic framework that couples Quantum ESPRESSO with two predictive models. Across tested structures, pre-relaxation with Perfumer-relax model followed by QE refinement yielded a 2.75-fold overall…</summary>
+  </entry>
+  <entry>
+    <title>Hybrid Plasmon-Phonon Eigenmodes and Vortex States in a Graphene Ring on a Silica Substrate</title>
+    <link href="https://arxiv.org/abs/2611.26314v1"/>
+    <id>https://arxiv.org/abs/2611.26314v1</id>
+    <updated>2026-11-19T16:03:02Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>We investigate hybrid plasmon-phonon eigenmodes and localized electromagnetic vortex states in a graphene ring supported by a dispersive silica substrate. The interaction between graphene plasmons and infrared-active optical phonons of the substrate gives rise to distinct spectral branches of surface polaritons, whose dispersion characteristics are…</summary>
+  </entry>
+  <entry>
+    <title>Making the case for optical</title>
+    <link href="https://spacenews.com/making-the-case-for-optical/"/>
+    <id>https://spacenews.com/making-the-case-for-optical/</id>
+    <updated>2026-11-19T15:38:18Z</updated>
+    <author><name>SpaceNews</name></author>
+    <category term="news"/>
+    <summary>In this episode of Space Minds, SpaceNews’ Mike Gruss speaks with Jean-François Morizur, the co-founder and CEO of Cailabs, at Space Tech Expo Europe. Morizur discusses the misconceptions with laser […] The post Making the case for optical appeared first on SpaceNews .</summary>
+  </entry>
+  <entry>
+    <title>If tiny “primordial” black holes exist, here’s how we might find them</title>
+    <link href="https://news.mit.edu/2026/if-tiny-primordial-black-holes-exist-heres-how-we-might-find-them-1119"/>
+    <id>https://news.mit.edu/2026/if-tiny-primordial-black-holes-exist-heres-how-we-might-find-them-1119</id>
+    <updated>2026-11-19T15:00:00Z</updated>
+    <author><name>MIT News</name></author>
+    <category term="news"/>
+    <summary>When engulfed by a star, the small but massive object should devour the star from within, leading to a detectable explosion, a new study proposes.</summary>
+  </entry>
+  <entry>
+    <title>Unusual increase in electrical and thermal conductivity of severely deformed CrMnFeCoNi high-entropy alloy: Roles of disordering and nanostructuring in electron and phonon transport</title>
+    <link href="https://arxiv.org/abs/2611.26213v1"/>
+    <id>https://arxiv.org/abs/2611.26213v1</id>
+    <updated>2026-11-19T14:52:10Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>This work investigates how defect engineering and nanostructuring via severe plastic deformation influence electrical and thermal transport in the high-entropy alloy CrMnFeCoNi. High-pressure torsion (HPT) for up to N = 4 turns produces a hierarchical defect structure, including deformation twins at low strains, dislocations and Lomer-Cottrell locks at…</summary>
+  </entry>
+  <entry>
+    <title>Reward misalignment as an opportunity for materials discovery</title>
+    <link href="https://arxiv.org/abs/2611.26186v1"/>
+    <id>https://arxiv.org/abs/2611.26186v1</id>
+    <updated>2026-11-19T14:36:15Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>Reward misalignment is usually regarded as a failure of artificial intelligence. In materials discovery with generative AI models, however, disagreement between predefined rewards and expert judgment may reveal materials that the rewards overlook. We investigate this possibility using electronic flat bands as a prime example. Experts mostly agree with a…</summary>
+  </entry>
+  <entry>
+    <title>The long-term divergence exponent and the temporal structure of step-to-step perturbations: a simulation study in two passive walking models</title>
+    <link href="https://arxiv.org/abs/2611.26182v1"/>
+    <id>https://arxiv.org/abs/2611.26182v1</id>
+    <updated>2026-11-19T14:34:32Z</updated>
+    <author><name>arXiv · Quantitative Biology</name></author>
+    <category term="research"/>
+    <summary>Purpose. Divergence exponents are used to assess the local dynamic stability of gait. Human experiments have related the long-term exponent ($λ_L$) to the complexity of gait fluctuations. Model studies used perturbations without controlled temporal structure. The question was whether $λ_L$ responds to the temporal structure of perturbations in walkers…</summary>
+  </entry>
+  <entry>
+    <title>Sliding-ferroelectric control of dipolar and quadrupolar excitons in R-stacked WSe$_2$</title>
+    <link href="https://arxiv.org/abs/2611.26158v1"/>
+    <id>https://arxiv.org/abs/2611.26158v1</id>
+    <updated>2026-11-19T14:14:57Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>A fundamental property of interlayer excitons is their dipolar character, enabling electrical tunability, enhanced exciton-exciton interactions and extended lifetime. It is important for studying collective phenomena and realizing novel optoelectronic devices. However, in homo- or heterostructures based on two-dimensional semiconductors, the magnitude and…</summary>
+  </entry>
+  <entry>
+    <title>Photonic processors that carry their own unclonable fingerprint</title>
+    <link href="https://arxiv.org/abs/2611.26079v1"/>
+    <id>https://arxiv.org/abs/2611.26079v1</id>
+    <updated>2026-11-19T13:19:26Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>Physically unclonable functions (PUFs) derive cryptographic keys from uncontrollable fabrication disorder, removing the need to store secrets in vulnerable non-volatile memory. Programmable photonic processors are natural candidates for PUFs, because each of their many tunable interferometers carries its own fabrication imperfections. However, we show that…</summary>
+  </entry>
+  <entry>
+    <title>SlotFlow-GB: A Neural Framework for Trans-Dimensional Inference of Overlapping Galactic Binaries</title>
+    <link href="https://arxiv.org/abs/2611.26057v1"/>
+    <id>https://arxiv.org/abs/2611.26057v1</id>
+    <updated>2026-11-19T13:01:48Z</updated>
+    <author><name>arXiv · Space Instrumentation</name></author>
+    <category term="research"/>
+    <summary>The Laser Interferometer Space Antenna (LISA) will observe the millihertz gravitational-wave sky, including millions of long-lived Galactic binaries (GBs), tens of thousands of which are expected to be individually resolvable throughout the mission&#x27;s lifetime. Extracting these sources requires jointly determining their number and physical parameters from…</summary>
+  </entry>
+  <entry>
+    <title>The Ionospheric Cut-off as a Potential Radio Technosignature</title>
+    <link href="https://arxiv.org/abs/2611.26025v1"/>
+    <id>https://arxiv.org/abs/2611.26025v1</id>
+    <updated>2026-11-19T12:38:04Z</updated>
+    <author><name>arXiv · Space Instrumentation</name></author>
+    <category term="research"/>
+    <summary>Radio emission generated on a planetary surface must cross the planet&#x27;s ionosphere before escaping into space: below the local plasma frequency it is reflected back towards the surface. We investigate this process for broadband radio technosignatures (BRaTs) using a Chapman-layer description of photoionised atmospheres. The plasma frequency depends only…</summary>
+  </entry>
+  <entry>
+    <title>Topology-Enabled Self-Verification of Quantum Hall Resistance Standards</title>
+    <link href="https://arxiv.org/abs/2611.26016v1"/>
+    <id>https://arxiv.org/abs/2611.26016v1</id>
+    <updated>2026-11-19T12:33:15Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>The scaling of multi-element quantized Hall array resistance standards necessitates rigorous validation that internal quantization has not broken down without relying on the verification of dissipationless edge state transport. One proposed solution is to use a Symmetric Precision Quantization Reliability criterion, a mathematical framework that…</summary>
+  </entry>
+  <entry>
+    <title>Lattice dynamics study of (Bi1-xSbx)2Te3 compounds: Comparative compositional study of force constants and Grüneisen parameters</title>
+    <link href="https://arxiv.org/abs/2611.26010v1"/>
+    <id>https://arxiv.org/abs/2611.26010v1</id>
+    <updated>2026-11-19T12:29:16Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>We performed a comprehensive Raman spectroscopy study of (Bi1-xSbx)2Te3 (BST-x) compounds, with varying Sb concentration, under ambient and high-pressure conditions. At ambient conditions, the frequency of all observed Raman-active modes (E1g, A11g, E2g, A21g) is blue-shifting with increasing Sb concentration, albeit with varying concentration-dependent…</summary>
+  </entry>
+  <entry>
+    <title>Multicharged Kramers-Weyl Fermions, Quantum Geometric Hall Responses and de Haas-van Alphen Oscillations in WAl$_2$</title>
+    <link href="https://arxiv.org/abs/2611.25987v1"/>
+    <id>https://arxiv.org/abs/2611.25987v1</id>
+    <updated>2026-11-19T12:09:28Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>Quantum geometry of Bloch wave functions and crystalline symmetries play a central role in condensed matter physics, shaping the electronic topology and physical responses of solids. In particular, Kramers-Weyl fermions, spin-split Fermi surfaces probed through quantum oscillations and quantum geometric nonlinear Hall and intrinsic spin Hall responses have…</summary>
+  </entry>
+  <entry>
+    <title>Voyager Is a Light-Day Away. Here’s How Far That Really Is</title>
+    <link href="https://www.wired.com/story/voyager-light-day-away-how-far-that-really-is/"/>
+    <id>https://www.wired.com/story/voyager-light-day-away-how-far-that-really-is/</id>
+    <updated>2026-11-19T12:00:00Z</updated>
+    <author><name>WIRED · Science</name></author>
+    <category term="news"/>
+    <summary>The distance and forces shaping the venerable craft’s trajectory are mind-boggling reminders of the vastness of space.</summary>
+  </entry>
+  <entry>
+    <title>Alloying effects on the interface cohesion of grain boundaries in the Ni--Fe--Cr system</title>
+    <link href="https://arxiv.org/abs/2611.25944v1"/>
+    <id>https://arxiv.org/abs/2611.25944v1</id>
+    <updated>2026-11-19T11:30:51Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>Grain boundaries (GBs) in polycrystalline Ni-based alloys strongly influence mechanical strength and fracture behavior, yet the effect of alloying elements such as Fe and Cr on GB cohesion remains difficult to quantify systematically. Using density functional theory (DFT), we compute rigid-body separation (RBS) curves for six symmetric-tilt Ni GBs…</summary>
+  </entry>
+  <entry>
+    <title>Thermal investigation of buffer and transition layers in AlGaN HEMT stacks</title>
+    <link href="https://arxiv.org/abs/2611.25928v1"/>
+    <id>https://arxiv.org/abs/2611.25928v1</id>
+    <updated>2026-11-19T11:10:34Z</updated>
+    <author><name>arXiv · Materials &amp; Applied Physics</name></author>
+    <category term="research"/>
+    <summary>In this work, we investigate thermal transport in a set of thin-film layers used in modern HEMT designs. Our theoretical analysis employs three phonon-transport models of increasing sophistication, ranging from a relatively simple Debye-approximation model to a first-principles framework that incorporates Density Functional Theory (DFT)-derived harmonic and…</summary>
+  </entry>
+  <entry>
+    <title>What a billion-dollar deal says about the US battery market</title>
+    <link href="https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/"/>
+    <id>https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/</id>
+    <updated>2026-11-19T11:00:00Z</updated>
+    <author><name>MIT Technology Review</name></author>
+    <category term="news"/>
+    <summary>After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, a possible key to smaller, lighter batteries. It’s a deal that Sila says could be worth more than…</summary>
+  </entry>
+  <entry>
+    <title>TWIN-2: Timing Solar Radio Bursts between 180-350 MHz Against GOES and Aditya-L1 X-ray Detections</title>
+    <link href="https://arxiv.org/abs/2611.25642v1"/>
+    <id>https://arxiv.org/abs/2611.25642v1</id>
+    <updated>2026-11-19T07:27:26Z</updated>
+    <author><name>arXiv · Space Instrumentation</name></author>
+    <category term="research"/>
+    <summary>We have conducted continuous solar observations for approximately two and half years using the Two-Element Interferometer (TWIN) at Gauribidanur Radio Observatory (RRI). During which several solar events have been detected. Our observational period coincides with the maximum events phase of the Solar Cycle 25, providing us opportunity to analyse the…</summary>
+  </entry>
+  <entry>
+    <title>Atoms in Sync: Superradiance Offers a New Kind of Frequency Comb</title>
+    <link href="https://www.caltech.edu/about/news/atoms-in-sync-superradiance-offers-a-new-kind-of-frequency-comb"/>
+    <id>https://www.caltech.edu/about/news/atoms-in-sync-superradiance-offers-a-new-kind-of-frequency-comb</id>
+    <updated>2026-11-18T16:55:00Z</updated>
+    <author><name>Caltech News</name></author>
+    <category term="news"/>
+    <summary>When scientists shine a laser beam into a crystal, they typically expect a steady glow as the crystal&#x27;s atoms are energized and begin to emit light. But in early 2024, while searching for something else entirely, researchers in the lab of Caltech&#x27;s Andrei Faraon saw a crystal flash in a regular rhythm, like a metronome keeping a beat. The flashes came from…</summary>
+  </entry>
+</feed>

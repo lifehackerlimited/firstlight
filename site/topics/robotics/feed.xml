@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nascent — Robotics</title>
+  <subtitle>Technology, at the moment it&#x27;s born.</subtitle>
+  <link href="https://lifehackerlimited.github.io/nascent/"/>
+  <link rel="self" href="https://lifehackerlimited.github.io/nascent/topics/robotics/feed.xml"/>
+  <id>https://lifehackerlimited.github.io/nascent/topics/robotics/feed.xml</id>
+  <updated>2026-11-22T18:25:29Z</updated>
+  <entry>
+    <title>TechCrunch Mobility: A/B testing robots vs. humans</title>
+    <link href="https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/"/>
+    <id>https://techcrunch.com/2026/11/22/techcrunch-mobility-a-b-testing-robots-vs-humans/</id>
+    <updated>2026-11-22T17:06:00Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>Welcome back to TechCrunch Mobility, your hub for the future of transportation and, now more than ever, the role AI is playing in it.</summary>
+  </entry>
+  <entry>
+    <title>Soft Robot Made for the Races</title>
+    <link href="https://hackaday.com/2026/11/22/soft-robot-made-for-the-races/"/>
+    <id>https://hackaday.com/2026/11/22/soft-robot-made-for-the-races/</id>
+    <updated>2026-11-22T15:00:49Z</updated>
+    <author><name>Hackaday</name></author>
+    <category term="solution"/>
+    <summary>Soft robotics is a relatively untapped field of robotics. However, that doesn’t mean there aren’t some good examples of what it could do in the near future. Speed is a …read more</summary>
+  </entry>
+  <entry>
+    <title>Building a Robotic Hand on a Budget</title>
+    <link href="https://hackaday.com/2026/11/21/building-a-robotic-hand-on-a-budget/"/>
+    <id>https://hackaday.com/2026/11/21/building-a-robotic-hand-on-a-budget/</id>
+    <updated>2026-11-22T06:00:20Z</updated>
+    <author><name>Hackaday</name></author>
+    <category term="solution"/>
+    <summary>For all the recent advances in robot control enabled by machine learning, there are still a few problems which remain stubbornly difficult: locomotion, for example, or whole-body balance for humanoids. …read more</summary>
+  </entry>
+  <entry>
+    <title>Several Waymo Self-Driving Cars Stalled in Traffic as San Francisco&#x27;s Streets Flooded</title>
+    <link href="https://tech.slashdot.org/story/26/11/22/0016228/several-waymo-self-driving-cars-stalled-in-traffic-as-san-franciscos-streets-flooded?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+    <id>https://tech.slashdot.org/story/26/11/22/0016228/several-waymo-self-driving-cars-stalled-in-traffic-as-san-franciscos-streets-flooded?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+    <updated>2026-11-22T02:34:00Z</updated>
+    <author><name>Slashdot</name></author>
+    <category term="discussion"/>
+    <summary>San Francisco&#x27;s streets flooded this week after heavy rainfall — confusing several Waymo self-driving cars. The San Francisco blog Sfist describes what happened after the flooding in some places rose as high as three feet: Two lanes of Oak Street by the Golden Gate Park Panhandle were flooded Wednesday morning, with water spouting out of manhole covers…</summary>
+  </entry>
+  <entry>
+    <title>The manufacturing data gap holding back physical AI</title>
+    <link href="https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/"/>
+    <id>https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/</id>
+    <updated>2026-11-21T22:25:35Z</updated>
+    <author><name>The Robot Report</name></author>
+    <category term="news"/>
+    <summary>Manufacturers looking to deploy autonomous robots must close gaps in industrial data collection, interoperability, and quality feedback to enable reliable decision-making and improve production efficiency. The post The manufacturing data gap holding back physical AI appeared first on The Robot Report .</summary>
+  </entry>
+  <entry>
+    <title>Who Needs Automatic Driving? You Love to Drive! However, for Many Handicapped, Tesla’s Full Self Driving Is the Only Option. It’s Use It, or Don’t Drive!</title>
+    <link href="https://cleantechnica.com/2026/11/21/who-needs-automatic-driving-you-love-to-drive-however-for-many-handicapped-teslas-full-self-driving-is-the-only-option-its-use-it-or-dont-drive/"/>
+    <id>https://cleantechnica.com/2026/11/21/who-needs-automatic-driving-you-love-to-drive-however-for-many-handicapped-teslas-full-self-driving-is-the-only-option-its-use-it-or-dont-drive/</id>
+    <updated>2026-11-21T21:34:39Z</updated>
+    <author><name>CleanTechnica</name></author>
+    <category term="news"/>
+    <summary>Editor’s note: In my opinion, a person should not be using Tesla FSD to drive somewhere if they aren’t capable of driving the trip fully themselves. Fritz makes the argument here that it is easier to supervise FSD and that is why someone with a handicap can use it when ... [continued] The post Who Needs Automatic Driving? You Love to Drive! However, for…</summary>
+  </entry>
+  <entry>
+    <title>Attackers&#x27; AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access</title>
+    <link href="https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html"/>
+    <id>https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html</id>
+    <updated>2026-11-21T11:03:17Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week. The flaw allows an attacker with no account to write files outside the server&#x27;s storage folder, and it affects MONAI Label…</summary>
+  </entry>
+  <entry>
+    <title>Waymo Pulls Robotaxis from Highways</title>
+    <link href="https://cleantechnica.com/2026/11/21/waymo-pulls-robotaxis-from-highways/"/>
+    <id>https://cleantechnica.com/2026/11/21/waymo-pulls-robotaxis-from-highways/</id>
+    <updated>2026-11-21T05:21:09Z</updated>
+    <author><name>CleanTechnica</name></author>
+    <category term="news"/>
+    <summary>Waymo has apparently run into some issues with its robotaxis on highways in California, and it has pulled its robotaxis off of highways across the United States as a result. The main issue is that Waymo robotaxis have entered active construction zones. (Yikes!) Earlier this week, in response to the ... [continued] The post Waymo Pulls Robotaxis from…</summary>
+  </entry>
+  <entry>
+    <title>Medtronic’s Hugo surgical robot ready for bigger operation</title>
+    <link href="https://www.therobotreport.com/medtronics-hugo-surgical-robot-ready-for-bigger-operation/"/>
+    <id>https://www.therobotreport.com/medtronics-hugo-surgical-robot-ready-for-bigger-operation/</id>
+    <updated>2026-11-21T00:55:45Z</updated>
+    <author><name>The Robot Report</name></author>
+    <category term="news"/>
+    <summary>Globally, the Hugo surgical system is on track to surpass 50,000 cumulative procedures by the end of Medtronic&#x27;s fiscal year. The post Medtronic’s Hugo surgical robot ready for bigger operation appeared first on The Robot Report .</summary>
+  </entry>
+  <entry>
+    <title>One tiny optical sensor uses AI to pinpoint touch and measure movement</title>
+    <link href="https://techxplore.com/news/2026-11-tiny-optical-sensor-ai-movement.html"/>
+    <id>https://techxplore.com/news/2026-11-tiny-optical-sensor-ai-movement.html</id>
+    <updated>2026-11-20T18:20:08Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>Picture a keyboard that knows not only which key you pressed, but also how hard you pressed it, using just one tiny sensor. Research from Washington University in St. Louis is paving the way for smaller, smarter sensors that bring this idea closer to reality. The new work has potential applications for robotics, human health monitoring and cybersecurity.</summary>
+  </entry>
+  <entry>
+    <title>Hackers use autonomous AI tool Cairn to find zero-day, take over server</title>
+    <link href="https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/"/>
+    <id>https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/</id>
+    <updated>2026-11-20T17:30:00Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>Threat actors used the open-source AI penetration-testing framework Cairn to find a previously unknown vulnerability in a medical imaging application. [...]</summary>
+  </entry>
+  <entry>
+    <title>MassRobotics launching marine robotics facility on Boston Harbor</title>
+    <link href="https://www.therobotreport.com/massrobotics-launching-marine-robotics-facility-on-boston-harbor/"/>
+    <id>https://www.therobotreport.com/massrobotics-launching-marine-robotics-facility-on-boston-harbor/</id>
+    <updated>2026-11-20T17:04:28Z</updated>
+    <author><name>The Robot Report</name></author>
+    <category term="news"/>
+    <summary>MassRobotics plans to open the marine-focused facility in early 2028, with programming starting throughout 2027. The post MassRobotics launching marine robotics facility on Boston Harbor appeared first on The Robot Report .</summary>
+  </entry>
+  <entry>
+    <title>Outdoor 3D tracking technology uses a drone&#x27;s flight path as a &#x27;moving ruler&#x27;</title>
+    <link href="https://techxplore.com/news/2026-11-outdoor-3d-tracking-technology-drone.html"/>
+    <id>https://techxplore.com/news/2026-11-outdoor-3d-tracking-technology-drone.html</id>
+    <updated>2026-11-20T16:00:28Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>The secret behind the lifelike movements of the characters in the film &quot;Avatar&quot; was motion capture, a technology that records movement in three dimensions by attaching markers to actors&#x27; bodies and filming them with multiple cameras inside a studio. However, bringing such precise measurement into wide outdoor spaces such as sports fields has never been easy.</summary>
+  </entry>
+  <entry>
+    <title>NASA’s Curiosity Mars Rover Collects Samples</title>
+    <link href="https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/"/>
+    <id>https://www.nasa.gov/image-article/nasas-curiosity-mars-rover-collects-samples/</id>
+    <updated>2026-11-20T15:53:24Z</updated>
+    <author><name>NASA</name></author>
+    <category term="news"/>
+    <summary>This Nov. 16 collage shows 49 drill holes captured by NASA’s Curiosity Mars rover as of November 2026. Each hole represents a sample collected from rocks on the Martian surface; Curiosity’s drill, located on the end of its robotic arm, drops pulverized rock samples into instruments in its belly that analyze their composition. Learn more […]</summary>
+  </entry>
+  <entry>
+    <title>US, Russia and China look set to block ban on autonomous weapons</title>
+    <link href="https://www.newscientist.com/article/2599904-us-russia-and-china-look-set-to-block-ban-on-autonomous-weapons/?utm_campaign=RSS|NSNS&amp;utm_content=technology&amp;utm_medium=RSS&amp;utm_source=NSNS"/>
+    <id>https://www.newscientist.com/article/2599904-us-russia-and-china-look-set-to-block-ban-on-autonomous-weapons/?utm_campaign=RSS|NSNS&amp;utm_content=technology&amp;utm_medium=RSS&amp;utm_source=NSNS</id>
+    <updated>2026-11-20T14:38:10Z</updated>
+    <author><name>New Scientist · Technology</name></author>
+    <category term="news"/>
+    <summary>More than 70 countries are ready to begin negotiations on prohibiting lethal autonomous weapons, but large militarised nations are expected to obstruct efforts to agree a ban</summary>
+  </entry>
+  <entry>
+    <title>Rocket Report: A weekend of ups and downs; Stoke celebrates engine milestone</title>
+    <link href="https://arstechnica.com/space/2026/11/rocket-report-a-weekend-of-ups-and-downs-stoke-celebrates-engine-milestone/"/>
+    <id>https://arstechnica.com/space/2026/11/rocket-report-a-weekend-of-ups-and-downs-stoke-celebrates-engine-milestone/</id>
+    <updated>2026-11-20T13:35:45Z</updated>
+    <author><name>Ars Technica · Science</name></author>
+    <category term="news"/>
+    <summary>Russia launched a Soyuz rocket with satellites to help enable drone attacks over Ukraine.</summary>
+  </entry>
+  <entry>
+    <title>Inside Slush 2026: Robots, riches and the race to superintelligence</title>
+    <link href="https://sifted.eu/articles/inside-slush-2026-robots-riches-and-the-race-to-superintelligence/"/>
+    <id>https://sifted.eu/articles/inside-slush-2026-robots-riches-and-the-race-to-superintelligence/</id>
+    <updated>2026-11-20T05:00:44Z</updated>
+    <author><name>Sifted (Europe)</name></author>
+    <category term="news"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>Robotics enters its post-Jensen Huang era</title>
+    <link href="https://www.therobotreport.com/robotics-enters-its-post-jensen-huang-era/"/>
+    <id>https://www.therobotreport.com/robotics-enters-its-post-jensen-huang-era/</id>
+    <updated>2026-11-20T03:06:28Z</updated>
+    <author><name>The Robot Report</name></author>
+    <category term="news"/>
+    <summary>One of robotics&#x27; most influential advocates is gone. Can the industry sustain its momentum without him? The post Robotics enters its post-Jensen Huang era appeared first on The Robot Report .</summary>
+  </entry>
+  <entry>
+    <title>Enabling lab autonomy with reward functions and executable workflows</title>
+    <link href="https://www.nature.com/articles/s42256-026-01339-0"/>
+    <id>https://www.nature.com/articles/s42256-026-01339-0</id>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <author><name>Nature Machine Intelligence</name></author>
+    <category term="research"/>
+    <summary>Nature Machine Intelligence, Published online: 20 November 2026; doi:10.1038/s42256-026-01339-0 Kalinin et al. argue that for self-driving laboratories to achieve autonomy in the physical world, large language model hypothesis generation needs to be complemented by bottom-up optimization translating hypotheses into executable workflows.</summary>
+  </entry>
+  <entry>
+    <title>AgentRoboCritic: Understanding the Capability of Frontier Agents on Direct Robot Control</title>
+    <link href="https://arxiv.org/abs/2611.26613v1"/>
+    <id>https://arxiv.org/abs/2611.26613v1</id>
+    <updated>2026-11-19T18:57:25Z</updated>
+    <author><name>arXiv · AI &amp; ML</name></author>
+    <category term="research"/>
+    <summary>Frontier multimodal language agents such as GPT-6 Astra have demonstrated strong capabilities in controlling robots directly via low-level numerical actions without high-level primitives. However, existing benchmarks report only episode-level success rates, which show neither how these agents succeed nor where they fail. In this paper, we present a…</summary>
+  </entry>
+  <entry>
+    <title>A Tutorial on Complementarity-Based Contact Models for Robotics</title>
+    <link href="https://arxiv.org/abs/2611.26600v1"/>
+    <id>https://arxiv.org/abs/2611.26600v1</id>
+    <updated>2026-11-19T18:54:07Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Simulating rigid-body dynamics with contact is fundamental to robotics, from motion synthesis and control to mechanism design. Many widely used simulators rely on cone complementarity formulations, whose physical assumptions and numerical solution require substantial background. While excellent surveys, monographs, and course notes exist, they mostly…</summary>
+  </entry>
+  <entry>
+    <title>PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation</title>
+    <link href="https://arxiv.org/abs/2611.26596v1"/>
+    <id>https://arxiv.org/abs/2611.26596v1</id>
+    <updated>2026-11-19T18:52:18Z</updated>
+    <author><name>arXiv · AI &amp; ML</name></author>
+    <category term="research"/>
+    <summary>Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and precision are tightly coupled within a monolithic model. We propose Physically Grounded Execution (PGX), a framework that offloads temporal and precision…</summary>
+  </entry>
+  <entry>
+    <title>PhyDEX: A Benchmark for Physical Reasoning in Vision-Language-Action Models via Dynamic Extrinsic Dexterity</title>
+    <link href="https://arxiv.org/abs/2611.26565v1"/>
+    <id>https://arxiv.org/abs/2611.26565v1</id>
+    <updated>2026-11-19T18:33:43Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Vision-Language-Action (VLA) models have advanced rapidly in language-conditioned robotic manipulation, yet existing benchmarks mainly evaluate gripper--object contact and largely ignore how objects interact with the environment through gravity, friction, inertia, and mass distribution. As a result, it remains unclear whether current policies truly…</summary>
+  </entry>
+  <entry>
+    <title>ACE-Brain-0.7: Learning Execution-Grounded Reasoning for Embodied Agents</title>
+    <link href="https://arxiv.org/abs/2611.26519v1"/>
+    <id>https://arxiv.org/abs/2611.26519v1</id>
+    <updated>2026-11-19T17:59:37Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Reliable reasoning for long-horizon embodied tasks requires predictions grounded in the observed execution state. We present ACE-Brain-0.7, a 9B vision--language model that combines spatial grounding, task understanding, and progress estimation. To train the model, we curate 3.7 million question--answer pairs, drawing execution supervision from egocentric…</summary>
+  </entry>
+  <entry>
+    <title>AutoMaster: Autonomous Post-Training by Making the Same Model a Better Teacher</title>
+    <link href="https://arxiv.org/abs/2611.26510v1"/>
+    <id>https://arxiv.org/abs/2611.26510v1</id>
+    <updated>2026-11-19T17:57:59Z</updated>
+    <author><name>arXiv · AI &amp; ML</name></author>
+    <category term="research"/>
+    <summary>Task success alone does not specify which behaviors post-training should reinforce. Even successful teacher trajectories can contain unsupported assumptions, unproductive repetition, or superficial verification. We propose Skill-FT (Skill-Guided Fine-Tuning), which uses natural-language skills to suppress undesirable habits and elicit underrepresented…</summary>
+  </entry>
+  <entry>
+    <title>JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own</title>
+    <link href="https://arxiv.org/abs/2611.26503v1"/>
+    <id>https://arxiv.org/abs/2611.26503v1</id>
+    <updated>2026-11-19T17:53:30Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Power electronics is central to the energy transition, but developing new hardware still relies on human-led design, fabrication, testing, and iteration. We present JARVIS, an embodied AI agent that autonomously closes this loop for circuit boards. JARVIS maintains machine-specific capabilities and constraints, scans its workspace using a robot-mounted 3D…</summary>
+  </entry>
+  <entry>
+    <title>An Open-Source ROS 2 Framework for Shared Control in Surgical Teleoperation: Integrating the Haply Inverse3 with the da Vinci Research Kit</title>
+    <link href="https://arxiv.org/abs/2611.26485v1"/>
+    <id>https://arxiv.org/abs/2611.26485v1</id>
+    <updated>2026-11-19T17:41:08Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Surgical teleoperation deprives surgeons of touch, forcing visual inference of tissue forces; the commercial platforms now restoring force feedback remain closed, preventing open research on haptic shared control. This paper provides a system contribution: it presents an open-source, ROS 2-native framework that integrates the compact…</summary>
+  </entry>
+  <entry>
+    <title>HumanCOIN: A 12,500-Hour Dataset for Human Intent in Egocentric Manipulation</title>
+    <link href="https://arxiv.org/abs/2611.26434v1"/>
+    <id>https://arxiv.org/abs/2611.26434v1</id>
+    <updated>2026-11-19T17:09:25Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>First-person manipulation datasets treat the observation-action pair as the atomic unit and compress the generation and execution of an action into a policy network&#x27;s weights, rendering the intent state behind the action unobservable. Human motor control research shows that intent mediates between observation and action and leaves observable traces along…</summary>
+  </entry>
+  <entry>
+    <title>Awaken-HI: Scaling Humanoid Intelligence with Whole-Body Human Experience</title>
+    <link href="https://arxiv.org/abs/2611.26420v1"/>
+    <id>https://arxiv.org/abs/2611.26420v1</id>
+    <updated>2026-11-19T17:03:03Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>A central goal of humanoid robotics is for robots to perform the everyday work people do in homes and workplaces. Existing egocentric video datasets cover many of these activities but provide little synchronized whole-body motion data for learning loco-manipulation at scale. We build Awaken-Human, which pairs approximately 50,000 hours of egocentric stereo…</summary>
+  </entry>
+  <entry>
+    <title>What industrial drone deployments reveal about real-world autonomy challenges</title>
+    <link href="https://www.therobotreport.com/what-industrial-drone-deployments-reveal-about-real-world-autonomy-challenges/"/>
+    <id>https://www.therobotreport.com/what-industrial-drone-deployments-reveal-about-real-world-autonomy-challenges/</id>
+    <updated>2026-11-19T17:01:55Z</updated>
+    <author><name>The Robot Report</name></author>
+    <category term="news"/>
+    <summary>The engineering challenges of industrial drone autonomy include GNSS reliability, SLAM, sensor fusion, obstacle avoidance, and UAV validation. The post What industrial drone deployments reveal about real-world autonomy challenges appeared first on The Robot Report .</summary>
+  </entry>
+  <entry>
+    <title>Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents</title>
+    <link href="https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"/>
+    <id>https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/</id>
+    <updated>2026-11-19T17:00:35Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="insight"/>
+    <summary>Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs…</summary>
+  </entry>
+  <entry>
+    <title>TacInno: Teaching Vision-Language-Action Models the Contact Dynamics Beyond Vision and Action</title>
+    <link href="https://arxiv.org/abs/2611.26405v1"/>
+    <id>https://arxiv.org/abs/2611.26405v1</id>
+    <updated>2026-11-19T16:53:19Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Vision-Language-Action (VLA) models have recently been equipped with tactile sensing to perceive visually subtle contact events in contact-rich manipulation. However, adding tactile input yields inconsistent gains, and some visuo-tactile VLA models rely little on tactile input, because much of the tactile change, such as the gel deformation during gripper…</summary>
+  </entry>
+  <entry>
+    <title>SpecFlow: Flow Matching in the Acceleration Spectrum for Multi-Agent Trajectory Forecasting</title>
+    <link href="https://arxiv.org/abs/2611.26390v1"/>
+    <id>https://arxiv.org/abs/2611.26390v1</id>
+    <updated>2026-11-19T16:44:10Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Multimodal trajectory forecasting must cover diverse future behaviors without sacrificing dynamical coherence. Most generative forecasters evolve frame-wise positions directly, leaving the relationships among position, velocity, and acceleration implicit. We present SpecFlow, a conditional flow-matching framework that treats the Discrete Cosine Transform…</summary>
+  </entry>
+  <entry>
+    <title>Beyond the Sink Interpretation: Radial Attention in Flow-Based VLA Policies</title>
+    <link href="https://arxiv.org/abs/2611.26385v1"/>
+    <id>https://arxiv.org/abs/2611.26385v1</id>
+    <updated>2026-11-19T16:41:07Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Prior work calls the high attention on the first and last action tokens of a flow-based VLA policy a radial action sink, and uses these tokens to set the execution horizon. In language models, a sink is a token with high incoming attention, a small value, and little effect on the output. We test whether that profile holds, not the horizon rule, in one…</summary>
+  </entry>
+  <entry>
+    <title>Alignment Drives Reuse: Learning Generalizable Robot-Use Agents from Heterogeneous Experience</title>
+    <link href="https://arxiv.org/abs/2611.26376v1"/>
+    <id>https://arxiv.org/abs/2611.26376v1</id>
+    <updated>2026-11-19T16:37:10Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Vision-language models (VLMs) demonstrate broad generalization across tasks and domains. However, comparable generalization in robot manipulation remains challenging. Heterogeneity in robot embodiments, task formulations, geometric conventions, and action interfaces fragments interaction experience across benchmarks and hardware. We rethink robot skill…</summary>
+  </entry>
+  <entry>
+    <title>PUPPET: Physical-Unified Platform for Presence, Embodiment, and Teleoperation</title>
+    <link href="https://arxiv.org/abs/2611.26350v1"/>
+    <id>https://arxiv.org/abs/2611.26350v1</id>
+    <updated>2026-11-19T16:23:39Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Remote access to robotics hardware does not by itself guarantee usable experimental data. A teleoperated trial can complete the task and still produce an incomplete or inconsistent record. PUPPET aims to solve this problem by presenting a cyber-physical framework that opens a physical robotics laboratory through a continuously synchronized VR replica of the…</summary>
+  </entry>
+  <entry>
+    <title>Reasoning on Call: Efficient Agentic Robot Control for Long-Horizon Robot Manipulation</title>
+    <link href="https://arxiv.org/abs/2611.26341v1"/>
+    <id>https://arxiv.org/abs/2611.26341v1</id>
+    <updated>2026-11-19T16:18:14Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Large multimodal models can support long-horizon robot manipulation, but frequent model calls incur substantial latency and token costs. The central challenge is determining when agent assistance or intervention is needed and whether errors require correcting robot execution, subtask planning, or both. To address this problem, we propose RoC (Reasoning on…</summary>
+  </entry>
+  <entry>
+    <title>Exposure-Aware Informative Path Planning Using Deep Reinforcement Learning</title>
+    <link href="https://arxiv.org/abs/2611.26302v1"/>
+    <id>https://arxiv.org/abs/2611.26302v1</id>
+    <updated>2026-11-19T15:54:04Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>This paper addresses the finite-budget exposure-aware informative path planning (IPP) problem for a fleet of mobile sensing agents. The agents map an unknown scalar field while limiting exposure to high field intensity. Existing IPP methods optimize informativeness under motion or resource constraints, but do not address field exposure constraints. We…</summary>
+  </entry>
+  <entry>
+    <title>LocoMuJoCo: A Comprehensive Imitation Learning Benchmark for Whole-Body Control</title>
+    <link href="https://arxiv.org/abs/2611.26293v1"/>
+    <id>https://arxiv.org/abs/2611.26293v1</id>
+    <updated>2026-11-19T15:48:40Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>LocoMuJoCo is an open-source benchmark for imitation learning (IL) and reinforcement learning (RL) on whole-body control. The library couples MuJoCo (CPU) with MJX and the MjWarp backend (GPU) under a single API, exposes 9 humanoid, 3 (musculo-)skeletal, and 4 quadruped embodiments, and ships a curated native motion-capture dataset for every humanoid, to…</summary>
+  </entry>
+  <entry>
+    <title>I See You: Initial Multi-Robot LiDAR Registration with Mutual-Observation Checks</title>
+    <link href="https://arxiv.org/abs/2611.26276v1"/>
+    <id>https://arxiv.org/abs/2611.26276v1</id>
+    <updated>2026-11-19T15:40:30Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Compared to single-robot deployments, multi-robot teams can significantly improve search-and-rescue (SAR) mission success by covering large areas in parallel. To collaborate effectively, these robots must be registered in a common reference frame. Standard registration methods typically rely on external infrastructure or significant map overlap, but real…</summary>
+  </entry>
+  <entry>
+    <title>Detecting Formation-Preserving GNSS Spoofing of UAV Swarms through Transmitter Parallax in Pseudorange and Doppler</title>
+    <link href="https://arxiv.org/abs/2611.26023v1"/>
+    <id>https://arxiv.org/abs/2611.26023v1</id>
+    <updated>2026-11-19T12:35:04Z</updated>
+    <author><name>arXiv · Security</name></author>
+    <category term="research"/>
+    <summary>Swarms of unmanned aerial vehicles (UAVs) detect Global Navigation Satellite System (GNSS) spoofing by checking the drones&#x27; reported positions against their known formation. Formation-preserving spoofing evades this check: in GNSS-WASP, one transmitter per satellite, a few kilometres away, shifts the whole swarm while keeping its formation. We show that…</summary>
+  </entry>
+  <entry>
+    <title>Law at the Speed of AI: Critical Legal Infrastructure for the Machine Age: Autonomy Under Law Architecture (AULA)</title>
+    <link href="https://arxiv.org/abs/2611.25985v1"/>
+    <id>https://arxiv.org/abs/2611.25985v1</id>
+    <updated>2026-11-19T12:09:19Z</updated>
+    <author><name>arXiv · Emerging Tech &amp; Hardware</name></author>
+    <category term="research"/>
+    <summary>The global deployment of autonomous AI agents within and across organisations exceeds the governance infrastructure available to constrain it. Agent communication and authentication protocols, principally the Model Context Protocol and the Agent2Agent Protocol, are maturing quickly, but maturity at the protocol layer does not produce legal legibility at the…</summary>
+  </entry>
+  <entry>
+    <title>Embodied Human-Data Interaction</title>
+    <link href="https://arxiv.org/abs/2611.25744v1"/>
+    <id>https://arxiv.org/abs/2611.25744v1</id>
+    <updated>2026-11-19T08:50:58Z</updated>
+    <author><name>arXiv · Computers &amp; Society</name></author>
+    <category term="research"/>
+    <summary>We propose the concept of human-data interaction (HDI) as the human manipulation, analysis, and sensemaking of large, unstructured, and complex datasets. We then proceed to suggest an embodied approach to HDI to build physical reasoning environments for these difficult and polymorphic tasks. We illustrate our approach with two examples: tangible lenses for…</summary>
+  </entry>
+  <entry>
+    <title>Can AI Make Its Own Manufacturing Decisions?</title>
+    <link href="https://semiengineering.com/can-ai-make-its-own-manufacturing-decisions/"/>
+    <id>https://semiengineering.com/can-ai-make-its-own-manufacturing-decisions/</id>
+    <updated>2026-11-19T08:01:02Z</updated>
+    <author><name>Semiconductor Engineering</name></author>
+    <category term="news"/>
+    <summary>AI can optimize processes and find defects, but autonomous decisions require better data and strict process controls. The post Can AI Make Its Own Manufacturing Decisions? appeared first on Semiconductor Engineering .</summary>
+  </entry>
+  <entry>
+    <title>One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning</title>
+    <link href="https://huggingface.co/papers/2611.26617"/>
+    <id>https://huggingface.co/papers/2611.26617</id>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <author><name>Hugging Face Papers</name></author>
+    <category term="research"/>
+    <summary>Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and forward dynamics. We introduce O^{2}LaF…</summary>
+  </entry>
+  <entry>
+    <title>Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation</title>
+    <link href="https://huggingface.co/papers/2611.26444"/>
+    <id>https://huggingface.co/papers/2611.26444</id>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <author><name>Hugging Face Papers</name></author>
+    <category term="research"/>
+    <summary>Embodied intelligence aims to let robots perform complex physical tasks with human-like adaptability and reliability, which requires three complementary capabilities: history-based cognitive reasoning, precise and timely physical execution, and the composition of reasoning and execution through environmental feedback. Yet existing benchmarks either evaluate…</summary>
+  </entry>
+  <entry>
+    <title>Teaching Vision-Language-Action Models to Stop Safely</title>
+    <link href="https://huggingface.co/papers/2611.26239"/>
+    <id>https://huggingface.co/papers/2611.26239</id>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <author><name>Hugging Face Papers</name></author>
+    <category term="research"/>
+    <summary>Vision-language-action (VLA) models enable robots to perform diverse tasks from visual observations and language instructions. While prior work has explored task suppression and refusal, stopping prohibited behavior once execution is underway and controlling the resulting physical response remain challenging. Our evaluation reveals that policies which…</summary>
+  </entry>
+  <entry>
+    <title>PAD: Policy-Aware Data Valuation for Autonomous Driving</title>
+    <link href="https://huggingface.co/papers/2611.25604"/>
+    <id>https://huggingface.co/papers/2611.25604</id>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <author><name>Hugging Face Papers</name></author>
+    <category term="research"/>
+    <summary>End-to-end autonomous driving increasingly depends on scaling training demonstrations, yet data growth does not guarantee proportional gains. However, additional data do not guarantee better policies: a demonstration that benefits one planner may be redundant or harmful to another. Existing curation methods typically infer data value from intrinsic sample…</summary>
+  </entry>
+  <entry>
+    <title>Learning What Actions Change: Action Effect Matching for Dynamics-Faithful World Models</title>
+    <link href="https://huggingface.co/papers/2611.25980"/>
+    <id>https://huggingface.co/papers/2611.25980</id>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <author><name>Hugging Face Papers</name></author>
+    <category term="research"/>
+    <summary>World models aim to predict environment dynamics under actions, enabling the prediction of action consequences without executing them in the real world. Yet despite producing increasingly realistic videos, current world models often fail to capture how small action changes affect future observations. This limits their use in tasks such as robotic policy…</summary>
+  </entry>
+  <entry>
+    <title>Learning from Hypervectors: A Survey on Hyperdimensional Encoding</title>
+    <link href="https://doi.org/10.1145/3863975"/>
+    <id>https://doi.org/10.1145/3863975</id>
+    <updated>2026-11-19T00:00:00Z</updated>
+    <author><name>OpenAlex · Quantum</name></author>
+    <category term="research"/>
+    <summary>Hyperdimensional computing (HDC) is an emerging computing paradigm that imitates the brain’s structure to offer a powerful and efficient processing and learning model. In HDC, the data are encoded with long vectors, called hypervectors , which typically range from 1, 000 to 10, 000 in length. The literature provides several encoding methods to generate…</summary>
+  </entry>
+</feed>

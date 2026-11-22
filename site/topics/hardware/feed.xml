@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Nascent — Chips &amp; Hardware</title>
+  <subtitle>Technology, at the moment it&#x27;s born.</subtitle>
+  <link href="https://lifehackerlimited.github.io/nascent/"/>
+  <link rel="self" href="https://lifehackerlimited.github.io/nascent/topics/hardware/feed.xml"/>
+  <id>https://lifehackerlimited.github.io/nascent/topics/hardware/feed.xml</id>
+  <updated>2026-11-22T18:25:29Z</updated>
+  <entry>
+    <title>Calculate radio link placement and node amount for your city&#x27;s mesh network</title>
+    <link href="https://meshcoveragecalculator.lalala.ing/"/>
+    <id>https://meshcoveragecalculator.lalala.ing/</id>
+    <updated>2026-11-22T18:17:44Z</updated>
+    <author><name>Lobsters</name></author>
+    <category term="discussion"/>
+    <summary>FSPL + Delta-Bullington based local-first WASM radio mesh network calculator with the end goal of making calls over mesh networks possible **without** pissing off anybody in the process (yes, I&#x27;m talking about you, Meshtastic maintainers). Feel free to tell me how this idea *does* or doesn&#x27;t make sense and I&#x27;ll continue vibing away in the meantime. Peace!</summary>
+  </entry>
+  <entry>
+    <title>Building a Single-Chip USB GPU</title>
+    <link href="https://hackaday.com/2026/11/22/building-a-single-chip-usb-gpu/"/>
+    <id>https://hackaday.com/2026/11/22/building-a-single-chip-usb-gpu/</id>
+    <updated>2026-11-22T18:00:49Z</updated>
+    <author><name>Hackaday</name></author>
+    <category term="solution"/>
+    <summary>Considering how powerful they’ve become and how many other tasks they’ve been repurposed for, it’s easy to forget that a GPU’s primary purpose is to generate graphics. With this definition …read more</summary>
+  </entry>
+  <entry>
+    <title>Nvidia faces US accounting probe amid deepening turmoil</title>
+    <link href="https://techxplore.com/news/2026-11-nvidia-accounting-probe-deepening-turmoil.html"/>
+    <id>https://techxplore.com/news/2026-11-nvidia-accounting-probe-deepening-turmoil.html</id>
+    <updated>2026-11-22T15:40:01Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>U.S. securities regulators are investigating the accounting practices of Nvidia, according to U.S. media, adding to the turmoil engulfing the artificial intelligence chip giant following the resignation of its chief executive.</summary>
+  </entry>
+  <entry>
+    <title>Soft Robot Made for the Races</title>
+    <link href="https://hackaday.com/2026/11/22/soft-robot-made-for-the-races/"/>
+    <id>https://hackaday.com/2026/11/22/soft-robot-made-for-the-races/</id>
+    <updated>2026-11-22T15:00:49Z</updated>
+    <author><name>Hackaday</name></author>
+    <category term="solution"/>
+    <summary>Soft robotics is a relatively untapped field of robotics. However, that doesn’t mean there aren’t some good examples of what it could do in the near future. Speed is a …read more</summary>
+  </entry>
+  <entry>
+    <title>Can a TV be too large? An investigation</title>
+    <link href="https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation/"/>
+    <id>https://techcrunch.com/2026/11/22/can-a-tv-be-too-large-an-investigation/</id>
+    <updated>2026-11-22T15:00:00Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>Can a TV be too large? This writer&#x27;s recent upgrade to a 65-inch OLED came with some unexpected challenges.</summary>
+  </entry>
+  <entry>
+    <title>Potatoes Grow in Simulated Lunar Soil as Well as on Earth</title>
+    <link href="https://hackaday.com/2026/11/22/potatoes-grow-in-simulated-lunar-soil-as-well-as-on-earth/"/>
+    <id>https://hackaday.com/2026/11/22/potatoes-grow-in-simulated-lunar-soil-as-well-as-on-earth/</id>
+    <updated>2026-11-22T12:00:53Z</updated>
+    <author><name>Hackaday</name></author>
+    <category term="solution"/>
+    <summary>Popularized by a certain book about a Martian, growing potatoes in very non-Earth-like environments has become somewhat of a meme. Perhaps unsurprisingly, it’s not so far from actual science being …read more</summary>
+  </entry>
+  <entry>
+    <title>Quick WIFI Adapter Through USB</title>
+    <link href="https://hackaday.com/2026/11/22/quick-wifi-adapter-through-usb/"/>
+    <id>https://hackaday.com/2026/11/22/quick-wifi-adapter-through-usb/</id>
+    <updated>2026-11-22T09:00:44Z</updated>
+    <author><name>Hackaday</name></author>
+    <category term="solution"/>
+    <summary>There’s breaking news! Quick, check your computer and look it up! What? Your computer doesn’t have internet right now because its WiFi chip fried itself? Well, it’s a good thing …read more</summary>
+  </entry>
+  <entry>
+    <title>A Replacement PCB for the Echo Dot</title>
+    <link href="https://hackaday.com/2026/11/22/a-replacement-pcb-for-the-echo-dot/"/>
+    <id>https://hackaday.com/2026/11/22/a-replacement-pcb-for-the-echo-dot/</id>
+    <updated>2026-11-22T09:00:03Z</updated>
+    <author><name>Hackaday</name></author>
+    <category term="solution"/>
+    <summary>The Amazon Echo and other voice-controlled home assistants provide so much promise of a Jetsons style future of machines at your service. They would be a must-have accessory, were it not …read more</summary>
+  </entry>
+  <entry>
+    <title>Building a Robotic Hand on a Budget</title>
+    <link href="https://hackaday.com/2026/11/21/building-a-robotic-hand-on-a-budget/"/>
+    <id>https://hackaday.com/2026/11/21/building-a-robotic-hand-on-a-budget/</id>
+    <updated>2026-11-22T06:00:20Z</updated>
+    <author><name>Hackaday</name></author>
+    <category term="solution"/>
+    <summary>For all the recent advances in robot control enabled by machine learning, there are still a few problems which remain stubbornly difficult: locomotion, for example, or whole-body balance for humanoids. …read more</summary>
+  </entry>
+  <entry>
+    <title>Capturing and Mineralizing Atmospheric Carbon Dioxide</title>
+    <link href="https://hackaday.com/2026/11/21/capturing-and-mineralizing-atmospheric-carbon-dioxide/"/>
+    <id>https://hackaday.com/2026/11/21/capturing-and-mineralizing-atmospheric-carbon-dioxide/</id>
+    <updated>2026-11-22T03:00:36Z</updated>
+    <author><name>Hackaday</name></author>
+    <category term="solution"/>
+    <summary>Although the various panicked noises about there being ‘too much’ CO2 in the atmosphere might make one think that we’re pretty much breathing in pure CO2 at this point, Earth’s …read more</summary>
+  </entry>
+  <entry>
+    <title>NixOS bring-up on an Alibaba RISC-V board</title>
+    <link href="https://feyor.sh/blog/nixos-bringup-on-an-alibaba-riscv-board/"/>
+    <id>https://feyor.sh/blog/nixos-bringup-on-an-alibaba-riscv-board/</id>
+    <updated>2026-11-22T00:30:07Z</updated>
+    <author><name>Lobsters</name></author>
+    <category term="discussion"/>
+    <summary></summary>
+  </entry>
+  <entry>
+    <title>US DOJ Charges Suspected Russian Agent for Stalking Palantir Employees in California</title>
+    <link href="https://news.slashdot.org/story/26/11/21/212248/us-doj-charges-suspected-russian-agent-for-stalking-palantir-employees-in-california?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed"/>
+    <id>https://news.slashdot.org/story/26/11/21/212248/us-doj-charges-suspected-russian-agent-for-stalking-palantir-employees-in-california?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</id>
+    <updated>2026-11-21T23:00:00Z</updated>
+    <author><name>Slashdot</name></author>
+    <category term="discussion"/>
+    <summary>America&#x27;s Justice Department is prosecuting a suspected foreign agent in &quot;a state-sponsored operation&quot; that targeted tech workers in Palo Alto, California. &quot;We will not tolerate any efforts — by foreign governments or otherwise — to turn Silicon Valley into a base for foreign intelligence operations,&quot; said U.S. Attorney Craig H. Missakian. The alleged…</summary>
+  </entry>
+  <entry>
+    <title>A tale of two Nvidias</title>
+    <link href="https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/"/>
+    <id>https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/</id>
+    <updated>2026-11-21T21:07:42Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.</summary>
+  </entry>
+  <entry>
+    <title>BADBOX botnet returns with record-breaking 40 billion daily ad requests</title>
+    <link href="https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/"/>
+    <id>https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/</id>
+    <updated>2026-11-21T15:17:27Z</updated>
+    <author><name>BleepingComputer</name></author>
+    <category term="news"/>
+    <summary>The BADBOX malware found in a broad range of generic Android TV boxes has returned to large-scale ad-fraud operations following last year&#x27;s disruptions. [...]</summary>
+  </entry>
+  <entry>
+    <title>Taming blue light: Researchers bring precision lasers onto a chip</title>
+    <link href="https://techxplore.com/news/2026-11-blue-precision-lasers-chip.html"/>
+    <id>https://techxplore.com/news/2026-11-blue-precision-lasers-chip.html</id>
+    <updated>2026-11-21T13:00:06Z</updated>
+    <author><name>TechXplore</name></author>
+    <category term="news"/>
+    <summary>Blue lasers are already widely available. But making their light extremely stable while also changing its frequency at high speed is a much harder challenge, and one that has limited the development of compact, high-performance laser systems.</summary>
+  </entry>
+  <entry>
+    <title>Right to Repair Starts at the Debug Header, Not at the Store</title>
+    <link href="https://dev.to/numbpill3d/right-to-repair-starts-at-the-debug-header-not-at-the-store-1lpm"/>
+    <id>https://dev.to/numbpill3d/right-to-repair-starts-at-the-debug-header-not-at-the-store-1lpm</id>
+    <updated>2026-11-21T09:09:48Z</updated>
+    <author><name>DEV Community · Open source</name></author>
+    <category term="solution"/>
+    <summary>Your device was never really yours. It was just leased to you with better branding. Let us...</summary>
+  </entry>
+  <entry>
+    <title>Cut self-hosted LLM cost and latency with the distributed KV caching agent skill</title>
+    <link href="https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/"/>
+    <id>https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/</id>
+    <updated>2026-11-21T00:14:26Z</updated>
+    <author><name>AWS Machine Learning Blog</name></author>
+    <category term="insight"/>
+    <summary>Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up the cache from your coding agent.</summary>
+  </entry>
+  <entry>
+    <title>Experts warn: Nearly everyone in AI is susceptible to a honey-trap scheme right now</title>
+    <link href="https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/"/>
+    <id>https://techcrunch.com/2026/11/20/experts-warn-nearly-everyone-in-ai-is-susceptible-to-a-honey-trap-scheme-right-now/</id>
+    <updated>2026-11-20T20:58:29Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>Techies are building technology that can advance all aspects of the world — but can they protect their hearts? That&#x27;s the vulnerability that honey pots exploit.</summary>
+  </entry>
+  <entry>
+    <title>How interaction nets could be used to design more efficient hardware</title>
+    <link href="https://tendrils.co/blog/2026-04-26/on-inets"/>
+    <id>https://tendrils.co/blog/2026-04-26/on-inets</id>
+    <updated>2026-11-20T20:10:12Z</updated>
+    <author><name>Tildes · ~comp</name></author>
+    <category term="discussion"/>
+    <summary>Link URL: https://tendrils.co/blog/2026-04-26/on-inets Comments URL: Votes: 6 Comments: 1</summary>
+  </entry>
+  <entry>
+    <title>Jensen Huang’s ‘Lying’ Alarmed Nvidia Board Ahead of His Resignation</title>
+    <link href="https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/"/>
+    <id>https://www.wired.com/story/jensen-huangs-lying-alarmed-nvidia-board-ahead-of-his-resignation/</id>
+    <updated>2026-11-20T19:52:21Z</updated>
+    <author><name>WIRED · AI</name></author>
+    <category term="news"/>
+    <summary>Amid allegations of multiple affairs, including with a direct report and an alleged Chinese intelligence asset, sources tell WIRED the Nvidia board’s main issue was the former CEO’s “lack of candor.”</summary>
+  </entry>
+  <entry>
+    <title>Nvidia’s journey to forge the one CPU SKU to rule them all</title>
+    <link href="https://www.theregister.com/systems/2026/11/20/nvidias-journey-to-forge-the-one-cpu-sku-to-rule-them-all/5311438"/>
+    <id>https://www.theregister.com/systems/2026/11/20/nvidias-journey-to-forge-the-one-cpu-sku-to-rule-them-all/5311438</id>
+    <updated>2026-11-20T18:45:50Z</updated>
+    <author><name>The Register</name></author>
+    <category term="news"/>
+    <summary>A deeper look at Vera</summary>
+  </entry>
+  <entry>
+    <title>R0Y00/Xbox2Windows</title>
+    <link href="https://github.com/R0Y00/Xbox2Windows"/>
+    <id>https://github.com/R0Y00/Xbox2Windows</id>
+    <updated>2026-11-20T17:43:52Z</updated>
+    <author><name>GitHub · Rising repos</name></author>
+    <category term="solution"/>
+    <summary>GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game startup is unverified.</summary>
+  </entry>
+  <entry>
+    <title>Chips can survive the space environment — can their financing?</title>
+    <link href="https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/"/>
+    <id>https://techcrunch.com/2026/11/20/chips-can-survive-the-space-environment-can-their-financing/</id>
+    <updated>2026-11-20T17:40:01Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>Lenders don&#x27;t want SpaceX shooting their collateral into orbit. What does that mean for space data centers writ large?</summary>
+  </entry>
+  <entry>
+    <title>AI boom threatens circuit board crunch to rival pandemic-era chip shortage</title>
+    <link href="https://www.theregister.com/systems/2026/11/20/ai-boom-threatens-circuit-board-crunch-to-rival-pandemic-era-chip-shortage/5311335"/>
+    <id>https://www.theregister.com/systems/2026/11/20/ai-boom-threatens-circuit-board-crunch-to-rival-pandemic-era-chip-shortage/5311335</id>
+    <updated>2026-11-20T16:01:00Z</updated>
+    <author><name>The Register</name></author>
+    <category term="news"/>
+    <summary>Trade body warns automotive, medical, and defense orders are being crowded out, with relief unlikely before mid-2028</summary>
+  </entry>
+  <entry>
+    <title>Six AI-powered gadgets that could make your home office smarter</title>
+    <link href="https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/"/>
+    <id>https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/</id>
+    <updated>2026-11-20T14:00:00Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.</summary>
+  </entry>
+  <entry>
+    <title>Behind Jensen Huang’s exit, questions about a management style reportedly built on fear</title>
+    <link href="https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/"/>
+    <id>https://techcrunch.com/2026/11/20/behind-jensen-huangs-exit-questions-about-a-management-style-reportedly-built-on-fear/</id>
+    <updated>2026-11-20T13:25:00Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>Elon Musk may have been overstating it when he said Nvidia’s employees “love” the ousted Jensen Huang.</summary>
+  </entry>
+  <entry>
+    <title>California AG subpoenas Nvidia over worries about Huang’s ties with China</title>
+    <link href="https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/"/>
+    <id>https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china/</id>
+    <updated>2026-11-20T13:21:11Z</updated>
+    <author><name>TechCrunch</name></author>
+    <category term="launch"/>
+    <summary>&quot;The conduct of Nvidia and its former CEO raises bright red flags, including about the ways in which the company may have misled investors,&quot; California AG Rob Bonta said.</summary>
+  </entry>
+  <entry>
+    <title>Quantus Launches a Quantum-Secure Cold Wallet That Runs on Any Spare Phone</title>
+    <link href="https://thequantuminsider.com/2026/11/20/quantus-quantum-secure-cold-wallet-spare-phone/"/>
+    <id>https://thequantuminsider.com/2026/11/20/quantus-quantum-secure-cold-wallet-spare-phone/</id>
+    <updated>2026-11-20T12:58:37Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Insider Brief PRESS RELEASE — Quantus has released the Quantus Cold Wallet, an open-source mobile app that converts any spare smartphone into an entirely air-gapped, offline crypto wallet. The launch aims to eliminate the hidden vulnerabilities of traditional hardware wallets, which frequently expose buyers to both digital supply-chain tampering and…</summary>
+  </entry>
+  <entry>
+    <title>Linux KVM Flaw CVE-2026-99312 Lets Guest VMs Access Host Memory on AMD Hosts</title>
+    <link href="https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html"/>
+    <id>https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html</id>
+    <updated>2026-11-20T12:20:00Z</updated>
+    <author><name>The Hacker News (security)</name></author>
+    <category term="news"/>
+    <summary>A flaw in KVM, the hypervisor built into the Linux kernel, let researchers read about 127 GB of a cloud server&#x27;s memory from inside a virtual machine of their own on DigitalOcean. On a shared server, that memory can include other customers&#x27; virtual machines. The flaw, tracked as CVE-2026-99312, affects only hosts with AMD processors and nested…</summary>
+  </entry>
+  <entry>
+    <title>How Jensen Huang Made Humiliation Routine at Nvidia</title>
+    <link href="https://www.nytimes.com/2026/11/20/technology/jensen-huang-nvidia-culture.html"/>
+    <id>https://www.nytimes.com/2026/11/20/technology/jensen-huang-nvidia-culture.html</id>
+    <updated>2026-11-20T10:03:50Z</updated>
+    <author><name>Mastodon · mstdn.science trending</name></author>
+    <category term="discussion"/>
+    <summary>The Nvidia co-founder’s belittling behavior toward employees goes back decades. It once led to a confidential settlement agreement with an executive who said Mr. Huang “terrorized” staff.</summary>
+  </entry>
+  <entry>
+    <title>Chip Industry Week In Review</title>
+    <link href="https://semiengineering.com/chip-industry-week-in-review-165/"/>
+    <id>https://semiengineering.com/chip-industry-week-in-review-165/</id>
+    <updated>2026-11-20T08:01:14Z</updated>
+    <author><name>Semiconductor Engineering</name></author>
+    <category term="news"/>
+    <summary>Intel&#x27;s first 18A-P external customer; Siemens buys Breker; backside clock distribution; Microsoft taps EMIB; export controls tighten around China; Nvidia expands packaging capacity; SC26 brings new HPC HW; JEDEC previews DDR6; Europe pushes ahead with €33B in chip projects. The post Chip Industry Week In Review appeared first on Semiconductor Engineering .</summary>
+  </entry>
+  <entry>
+    <title>Robotics enters its post-Jensen Huang era</title>
+    <link href="https://www.therobotreport.com/robotics-enters-its-post-jensen-huang-era/"/>
+    <id>https://www.therobotreport.com/robotics-enters-its-post-jensen-huang-era/</id>
+    <updated>2026-11-20T03:06:28Z</updated>
+    <author><name>The Robot Report</name></author>
+    <category term="news"/>
+    <summary>One of robotics&#x27; most influential advocates is gone. Can the industry sustain its momentum without him? The post Robotics enters its post-Jensen Huang era appeared first on The Robot Report .</summary>
+  </entry>
+  <entry>
+    <title>CMOS surprises</title>
+    <link href="https://www.nature.com/articles/s41928-026-01748-4"/>
+    <id>https://www.nature.com/articles/s41928-026-01748-4</id>
+    <updated>2026-11-20T00:00:00Z</updated>
+    <author><name>Nature Electronics</name></author>
+    <category term="research"/>
+    <summary>Nature Electronics, Published online: 20 November 2026; doi:10.1038/s41928-026-01748-4 Unexpected effects are still being discovered in complementary metal–oxide–semiconductor (CMOS) circuits, and the results could have implications for the advance of quantum computing.</summary>
+  </entry>
+  <entry>
+    <title>What’s With All These Outages?</title>
+    <link href="https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/"/>
+    <id>https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/</id>
+    <updated>2026-11-19T21:57:01Z</updated>
+    <author><name>WIRED · AI</name></author>
+    <category term="news"/>
+    <summary>This week on “Uncanny Valley,” we discuss the outages that have swept digital life over the past week, where new money from Anthropic’s IPO is going, and the AI chip world post-Jensen Huang.</summary>
+  </entry>
+  <entry>
+    <title>The Jensen Huang Blast Radius Has Hit His Favorite Restaurants</title>
+    <link href="https://www.wired.com/story/jensen-huangs-favorite-restaurants-are-caught-up-in-his-scandals-too/"/>
+    <id>https://www.wired.com/story/jensen-huangs-favorite-restaurants-are-caught-up-in-his-scandals-too/</id>
+    <updated>2026-11-19T20:34:17Z</updated>
+    <author><name>WIRED · AI</name></author>
+    <category term="news"/>
+    <summary>In Taiwan, some food vendors are distancing themselves from Nvidia’s former CEO. Others stand by him. “It’s not as if he killed someone or set something on fire,” says one shop owner.</summary>
+  </entry>
+  <entry>
+    <title>Google’s Quantum Chip Beats Classical Limits in Tests of Teamwork</title>
+    <link href="https://thequantuminsider.com/2026/11/19/googles-quantum-chip-beats-classical-limits-in-tests-of-teamwork/"/>
+    <id>https://thequantuminsider.com/2026/11/19/googles-quantum-chip-beats-classical-limits-in-tests-of-teamwork/</id>
+    <updated>2026-11-19T20:31:49Z</updated>
+    <author><name>The Quantum Insider</name></author>
+    <category term="news"/>
+    <summary>Insider Brief It turns out teamwork can indeed make the dream work, even when the team isn’t allowed to talk. It helps to have a few entangled qubits, though. In a study, a Google-led team of researchers used a quantum chip to beat the best classical strategies in games that barred players from communicating, demonstrating […]</summary>
+  </entry>
+  <entry>
+    <title>Man hired by Russia spied on Silicon Valley tech and defense company, feds say</title>
+    <link href="https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/"/>
+    <id>https://arstechnica.com/security/2026/11/man-charged-with-spying-on-silicon-valley-tech-and-defense-company-for-russia/</id>
+    <updated>2026-11-19T20:29:46Z</updated>
+    <author><name>Ars Technica</name></author>
+    <category term="news"/>
+    <summary>25-year-old accused of stalking employees at coffee shop and in an &quot;aggressive&quot; car pursuit.</summary>
+  </entry>
+  <entry>
+    <title>NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs</title>
+    <link href="https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/"/>
+    <id>https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/</id>
+    <updated>2026-11-19T20:00:15Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="insight"/>
+    <summary>NVIDIA and Microsoft are extending their full-stack collaboration to help organizations build, customize and deploy intelligent applications — from next-generation infrastructure on Azure to industrial systems and Windows PCs. At Microsoft Ignite, the companies are expanding access to Azure virtual machines powered by NVIDIA Vera Rubin NVL72 systems, as…</summary>
+  </entry>
+  <entry>
+    <title>Show HN: IT Thinks – Build a GPU from a Single NAND Gate</title>
+    <link href="https://store.steampowered.com/app/5196330/IT_THINKS_Build_Your_Own_GPU/"/>
+    <id>https://store.steampowered.com/app/5196330/IT_THINKS_Build_Your_Own_GPU/</id>
+    <updated>2026-11-19T19:35:03Z</updated>
+    <author><name>Show HN</name></author>
+    <category term="launch"/>
+    <summary>Hi HN, I built a hardware puzzle game, you start with one NAND gate and every chip you finish becomes a part of next one. basic gates, adders, decoders, latches and finally GPU. last one are a chip that recognises handwritten digits. I am happy to discuss how we can create better levels to for those concepts. you can try demo/full game on Steam</summary>
+  </entry>
+  <entry>
+    <title>TideCache: Efficient Hybrid LLM Serving with Transparent Cache Management and Layer-Wise Streaming</title>
+    <link href="https://arxiv.org/abs/2611.26619v1"/>
+    <id>https://arxiv.org/abs/2611.26619v1</id>
+    <updated>2026-11-19T18:58:31Z</updated>
+    <author><name>arXiv · AI &amp; ML</name></author>
+    <category term="research"/>
+    <summary>Hybrid architectures have become mainstream among open-weight language models. Their global-attention and bounded-state layers maintain heterogeneous caches whose demands vary with context length and concurrency. We present TideCache, a serving system on CPU--GPU superchips with three components for allocating GPU memory among caches and managing their…</summary>
+  </entry>
+  <entry>
+    <title>Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards</title>
+    <link href="https://arxiv.org/abs/2611.26588v1"/>
+    <id>https://arxiv.org/abs/2611.26588v1</id>
+    <updated>2026-11-19T18:45:54Z</updated>
+    <author><name>arXiv · AI &amp; ML</name></author>
+    <category term="research"/>
+    <summary>A passing UVM regression shows the design agrees with the reference model on what the scoreboard checks, not that it meets the specification. Bugs that pass every test yet violate the specification, termed scoreboard escapes, survive mature testbenches. We present Verify the Verifier, to our knowledge the first framework whose LLM-based Anomaly…</summary>
+  </entry>
+  <entry>
+    <title>Efficient and Variation-Tolerant Tree Inference via Compact and Scalable Mapping in Analog CAMs</title>
+    <link href="https://arxiv.org/abs/2611.26567v1"/>
+    <id>https://arxiv.org/abs/2611.26567v1</id>
+    <updated>2026-11-19T18:35:20Z</updated>
+    <author><name>arXiv · Emerging Tech &amp; Hardware</name></author>
+    <category term="research"/>
+    <summary>Tree-based machine learning methods are widely adopted for their interpretability and state-of-the-art accuracy on tabular data. These methods face efficiency challenges on conventional architectures due to irregular memory access patterns during tree traversal. Prior work uses analog CAM to accelerate tree traversal, but inefficient mapping requires…</summary>
+  </entry>
+  <entry>
+    <title>From Seed to BLOOM: Autonomously Growing a Better Out-of-Order Core</title>
+    <link href="https://arxiv.org/abs/2611.26517v1"/>
+    <id>https://arxiv.org/abs/2611.26517v1</id>
+    <updated>2026-11-19T17:59:02Z</updated>
+    <author><name>arXiv · Emerging Tech &amp; Hardware</name></author>
+    <category term="research"/>
+    <summary>Improving microprocessor performance while meeting ASIC implementation constraints like area and frequency is a complex and labor-intensive task that requires expertise across computer architecture, hardware design, and performance analysis and profiling. While large teams in industry can afford the engineering resources to target this problem across…</summary>
+  </entry>
+  <entry>
+    <title>JARVIS: An Agent That Designs, Builds, and Tests Circuit Boards on Its Own</title>
+    <link href="https://arxiv.org/abs/2611.26503v1"/>
+    <id>https://arxiv.org/abs/2611.26503v1</id>
+    <updated>2026-11-19T17:53:30Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Power electronics is central to the energy transition, but developing new hardware still relies on human-led design, fabrication, testing, and iteration. We present JARVIS, an embodied AI agent that autonomously closes this loop for circuit boards. JARVIS maintains machine-specific capabilities and constraints, scans its workspace using a robot-mounted 3D…</summary>
+  </entry>
+  <entry>
+    <title>FoldSim: Scaling Cycle-Exact RTL Simulation with Hierarchical Folding and Static Scheduling</title>
+    <link href="https://arxiv.org/abs/2611.26472v1"/>
+    <id>https://arxiv.org/abs/2611.26472v1</id>
+    <updated>2026-11-19T17:33:28Z</updated>
+    <author><name>arXiv · Emerging Tech &amp; Hardware</name></author>
+    <category term="research"/>
+    <summary>RTL simulation is essential for hardware design and verification, yet its execution time grows rapidly with design scale and complexity. CPU- and GPU-based simulators exploit parallelism to accelerate RTL evaluation, but achieving high simulation throughput for large designs remains challenging. FPGA-based simulators offer higher throughput by mapping RTL…</summary>
+  </entry>
+  <entry>
+    <title>Scaling classical hardware for accurate real-time quantum error correction</title>
+    <link href="https://arxiv.org/abs/2611.26447v1"/>
+    <id>https://arxiv.org/abs/2611.26447v1</id>
+    <updated>2026-11-19T17:16:21Z</updated>
+    <author><name>arXiv · Quantum</name></author>
+    <category term="research"/>
+    <summary>Fault-tolerant quantum computation requires a classical decoder fast enough to process syndrome measurements at the rate at which they are generated, and to return its decisions with low latency. This is most demanding for superconducting processors, whose fast syndrome cycles force a trade-off between decoding speed and accuracy. Decoders fast enough to…</summary>
+  </entry>
+  <entry>
+    <title>Aggron: Aggressive Compression of Agentic KV Caches during Head-of-Line Stalls in the Request Queue</title>
+    <link href="https://arxiv.org/abs/2611.26435v1"/>
+    <id>https://arxiv.org/abs/2611.26435v1</id>
+    <updated>2026-11-19T17:09:37Z</updated>
+    <author><name>arXiv · Emerging Tech &amp; Hardware</name></author>
+    <category term="research"/>
+    <summary>LLM agents run long, multi-turn programs whose contexts grow at every step, and serving them is limited by KV cache capacity. To alleviate this limitation, systems use context compression techniques, which typically wait until the KV cache crosses a large threshold and then summarize large spans of history at once, either in the background while the agent…</summary>
+  </entry>
+  <entry>
+    <title>MaskPE: One Mask, Two Roles: Weight Placement and MAC Gating in Systolic Arrays</title>
+    <link href="https://arxiv.org/abs/2611.26432v1"/>
+    <id>https://arxiv.org/abs/2611.26432v1</id>
+    <updated>2026-11-19T17:08:22Z</updated>
+    <author><name>arXiv · Emerging Tech &amp; Hardware</name></author>
+    <category term="research"/>
+    <summary>Unstructured pruning reduces weight storage but does not inherently reduce execution cost in conventional weight-stationary systolic arrays. Packed nonzero weights must be restored to fixed processing-element positions, while zero-weight positions must preserve data forwarding. This paper presents MaskPE, a mask-directed systolic architecture that uses…</summary>
+  </entry>
+  <entry>
+    <title>Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents</title>
+    <link href="https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"/>
+    <id>https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/</id>
+    <updated>2026-11-19T17:00:35Z</updated>
+    <author><name>NVIDIA Blog</name></author>
+    <category term="insight"/>
+    <summary>Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to help carry out that work — building applications for exploring scenarios, investigating failures and improving designs…</summary>
+  </entry>
+  <entry>
+    <title>Alignment Drives Reuse: Learning Generalizable Robot-Use Agents from Heterogeneous Experience</title>
+    <link href="https://arxiv.org/abs/2611.26376v1"/>
+    <id>https://arxiv.org/abs/2611.26376v1</id>
+    <updated>2026-11-19T16:37:10Z</updated>
+    <author><name>arXiv · Robotics</name></author>
+    <category term="research"/>
+    <summary>Vision-language models (VLMs) demonstrate broad generalization across tasks and domains. However, comparable generalization in robot manipulation remains challenging. Heterogeneity in robot embodiments, task formulations, geometric conventions, and action interfaces fragments interaction experience across benchmarks and hardware. We rethink robot skill…</summary>
+  </entry>
+</feed>

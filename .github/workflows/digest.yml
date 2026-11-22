@@ -1,0 +1,28 @@
+name: Email digests
+
+on:
+  schedule:
+    - cron: "7 7 * * *"   # every morning, ~07:00 UK time (08:00 in summer); weekly digests go out on Mondays
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  send:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Send digests
+        run: python scripts/digest.py daily
+        env:
+          STRIPE_KEY: ${{ secrets.STRIPE_KEY }}            # Stripe restricted key, read-only
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          DIGEST_FROM: ${{ vars.DIGEST_FROM }}             # e.g. Nascent <digest@nascent.news>
+          ARCHIVE_KEY: ${{ secrets.ARCHIVE_KEY }}
