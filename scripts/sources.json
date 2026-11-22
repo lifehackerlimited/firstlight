@@ -1,5 +1,5 @@
 {
-  "_readme": "Grouped by content type. Add a source by adding one line. Types: rss (any RSS/Atom feed, incl. Substack '/feed'), arxiv (cats), youtube (channel id), reddit (sub; needs REDDIT_CLIENT_ID/SECRET), biorxiv (server, cats), hn, lobsters, hf_papers, hf_models, github (q), devto, openalex (query), producthunt. Optional per-source: limit, days, topics.",
+  "_readme": "Grouped by content type. Add a source by adding one line. Types: rss (any RSS/Atom feed, incl. Substack '/feed'), arxiv (cats), youtube (channel id), reddit (sub; needs REDDIT_CLIENT_ID/SECRET), biorxiv (server, cats), mastodon (instance), bluesky (feed at:// URI). require_topic: keep only items matching a tech topic. min_likes: Bluesky engagement floor, hn, lobsters, hf_papers, hf_models, github (q), devto, openalex (query), producthunt. Optional per-source: limit, days, topics.",
 
   "research": [
     {"id": "arxiv-ai", "name": "arXiv · AI & ML", "type": "arxiv", "cats": ["cs.AI", "cs.LG", "cs.CL"], "limit": 30, "topics": ["ai"]},
@@ -135,6 +135,20 @@
     {"id": "hn-front", "name": "Hacker News", "type": "hn", "url": "https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=30", "limit": 30},
     {"id": "lobsters", "name": "Lobsters", "type": "lobsters", "url": "https://lobste.rs/hottest.json", "limit": 20},
     {"id": "slashdot", "name": "Slashdot", "url": "https://rss.slashdot.org/Slashdot/slashdotMain"},
+    {"id": "tildes-tech", "name": "Tildes \u00b7 ~tech", "url": "https://tildes.net/~tech/topics.atom", "limit": 10, "require_topic": true},
+    {"id": "tildes-science", "name": "Tildes \u00b7 ~science", "url": "https://tildes.net/~science/topics.atom", "limit": 10, "require_topic": true},
+    {"id": "tildes-comp", "name": "Tildes \u00b7 ~comp", "url": "https://tildes.net/~comp/topics.atom", "limit": 10, "topics": ["software"]},
+    {"id": "masto-social", "name": "Mastodon \u00b7 mastodon.social trending", "type": "mastodon", "instance": "mastodon.social", "require_topic": true},
+    {"id": "masto-fosstodon", "name": "Mastodon \u00b7 Fosstodon trending", "type": "mastodon", "instance": "fosstodon.org", "require_topic": true, "topics": ["software"]},
+    {"id": "masto-hachyderm", "name": "Mastodon \u00b7 Hachyderm trending", "type": "mastodon", "instance": "hachyderm.io", "require_topic": true},
+    {"id": "masto-infosec", "name": "Mastodon \u00b7 Infosec.Exchange trending", "type": "mastodon", "instance": "infosec.exchange", "require_topic": true, "topics": ["security"]},
+    {"id": "masto-science", "name": "Mastodon \u00b7 mstdn.science trending", "type": "mastodon", "instance": "mstdn.science", "require_topic": true},
+    {"id": "bsky-science", "name": "Bluesky \u00b7 Science", "type": "bluesky", "feed": "at://did:plc:jfhpnnst6flqway4eaeqzj2a/app.bsky.feed.generator/for-science", "require_topic": true, "min_likes": 10},
+    {"id": "bsky-tech", "name": "Bluesky \u00b7 Tech (Flipboard)", "type": "bluesky", "feed": "at://did:plc:cndfx4udwgvpjaakvxvh7wm5/app.bsky.feed.generator/flipboard-tech", "require_topic": true, "min_likes": 3},
+    {"id": "bsky-ml", "name": "Bluesky \u00b7 Machine Learning", "type": "bluesky", "feed": "at://did:plc:n4f3molnjibtpe3hbjsnjjil/app.bsky.feed.generator/aaafafihkhwz4", "topics": ["ai"], "min_likes": 5},
+    {"id": "bsky-quantum", "name": "Bluesky \u00b7 Quantum", "type": "bluesky", "feed": "at://did:plc:nzfzcflbfnwmufzw32yactua/app.bsky.feed.generator/aaabbk3dwnxoy", "topics": ["quantum"], "min_likes": 3, "days": 21},
+    {"id": "bsky-space", "name": "Bluesky \u00b7 SciGuy Space", "type": "bluesky", "feed": "at://did:plc:b5nzrt7sqrcma2vki5r7ychg/app.bsky.feed.generator/aaabevvzfqk2w", "topics": ["space"], "min_likes": 10},
+    {"id": "bsky-security", "name": "Bluesky \u00b7 #cybersecurity", "type": "bluesky", "feed": "at://did:plc:tenurhgjptubkk5zf5qhi3og/app.bsky.feed.generator/h-cybersecurity", "topics": ["security"], "min_likes": 3},
     {"type": "reddit", "sub": "MachineLearning", "topics": ["ai"]},
     {"type": "reddit", "sub": "LocalLLaMA", "topics": ["ai"]},
     {"type": "reddit", "sub": "singularity", "topics": ["ai"]},

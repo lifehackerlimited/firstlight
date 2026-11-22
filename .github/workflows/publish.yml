@@ -34,6 +34,7 @@ jobs:
           # (Settings → Secrets and variables → Actions). They never reach the website.
           REDDIT_CLIENT_ID: ${{ secrets.REDDIT_CLIENT_ID }}
           REDDIT_CLIENT_SECRET: ${{ secrets.REDDIT_CLIENT_SECRET }}
+          REDDIT_USERNAME: ${{ secrets.REDDIT_USERNAME }}
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
       - uses: actions/configure-pages@v5

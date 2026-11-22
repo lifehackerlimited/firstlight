@@ -73,7 +73,7 @@ TOPICS = {
     "quantum": ("Quantum", r"\b(quantum|qubits?|entangle\w*)\b"),
     "space": ("Space", r"\b(nasa|esa|spacex|satellites?|orbit\w*|rockets?|mars|lunar|moon|astronom\w*|telescopes?|spacecraft|spaceflight|exoplanets?|galax\w*|asteroids?|astrophys\w*)\b"),
     "bio": ("Bio & Health", r"\b(biotech\w*|genom\w*|genes?|crispr|proteins?|drugs?|medical|medicine|health\w*|clinical|dna|rna|vaccines?|neuro\w*|brain|cancer|patients?|synthetic biology|biolog\w*)\b"),
-    "energy": ("Energy & Climate", r"\b(energy|batter(y|ies)|solar|fusion|nuclear|climate|carbon|power grid|grid-scale|hydrogen|electric vehicles?|evs?|renewables?|emissions?|geothermal)\b"),
+    "energy": ("Energy & Climate", r"\b((?<!dark )energy|batter(y|ies)|solar|fusion|nuclear|climate|carbon|power grid|grid-scale|hydrogen|electric vehicles?|evs?|renewables?|emissions?|geothermal)\b"),
     "robotics": ("Robotics", r"\b(robot\w*|drones?|autonomous|humanoids?|self-driving|manipulation)\b"),
     "security": ("Security", r"\b(security|cyber\w*|vulnerabilit\w*|exploits?|malware|ransomware|encryption|privacy|cves?|breach\w*|zero-day|phishing|attackers?|hackers?)\b"),
     "hardware": ("Chips & Hardware", r"\b(chips?|semiconductors?|gpus?|cpus?|tpus?|processors?|silicon|hardware|risc-v|fpgas?|transistors?|photonic\w*|lithography|tsmc|nvidia)\b"),
@@ -112,6 +112,9 @@ def fetch(url: str, headers: dict | None = None, data: bytes | None = None) -> b
     h = {"User-Agent": UA, "Accept": "application/json, application/atom+xml, application/rss+xml, text/xml, */*"}
     if host == "api.github.com" and ENV("GITHUB_TOKEN"):
         h["Authorization"] = "Bearer " + ENV("GITHUB_TOKEN")
+    if host.endswith("reddit.com") and ENV("REDDIT_USERNAME"):
+        # Reddit's API rules ask for "<platform>:<app id>:<version> (by /u/<username>)".
+        h["User-Agent"] = f"web:firstlight:2.0 (by /u/{ENV('REDDIT_USERNAME')})"
     h.update(headers or {})
     with _sem(host):
         try:
@@ -423,6 +426,53 @@ def h_biorxiv(src):
     return out[: lim(src)]
 
 
+def h_mastodon(src):
+    """Links trending on a Mastodon server (public, no login). Scored by how many people shared them."""
+    data = get_json(f"https://{src['instance']}/api/v1/trends/links?limit={min(lim(src) * 2, 40)}")
+    out = []
+    for l in data:
+        title = l.get("title") or ""
+        if re.search(r"\(@[^)\s]+@[^)\s]+\)", title):
+            continue  # a trending fediverse profile/post rather than an article
+        hist = l.get("history") or []
+        shares = sum(int(h.get("uses", 0)) for h in hist)
+        # Without a publish date, use the day it started trending, not "now" (which would pin it to the top).
+        when = l.get("published_at") or (int(hist[0]["day"]) if hist and str(hist[0].get("day", "")).isdigit() else None)
+        out.append(item(src, title, l.get("url"), when, l.get("description"),
+                        score=shares, authors=[l.get("author_name")], tags=[l.get("provider_name")]))
+    return out
+
+
+def h_bluesky(src):
+    """Posts from a public Bluesky custom feed. Posts that share a link use the link's title and URL."""
+    q = urllib.parse.urlencode({"feed": src["feed"], "limit": 60})
+    data = get_json(f"https://public.api.bsky.app/xrpc/app.bsky.feed.getFeed?{q}")
+    out = []
+    for f in data.get("feed", []):
+        p = f.get("post", {})
+        likes = p.get("likeCount", 0) + 2 * p.get("repostCount", 0)
+        if likes < src.get("min_likes", 5):
+            continue
+        rec, author = p.get("record", {}), p.get("author", {})
+        handle, rkey = author.get("handle"), (p.get("uri") or "").rsplit("/", 1)[-1]
+        post_url = f"https://bsky.app/profile/{handle}/post/{rkey}"
+        ext = ((p.get("embed") or {}).get("external") or ((p.get("embed") or {}).get("media") or {}).get("external") or {})
+        raw = rec.get("text") or ""
+        if len(re.findall(r"#\w+", raw)) >= 4:
+            continue  # hashtag-stuffed promo posts
+        text = clean(re.sub(r"(?:\s*#\w+)+\s*$", "", raw), 600)  # drop trailing hashtag blocks
+        if ext.get("uri") and ext.get("title"):
+            title, url, summary = ext["title"], ext["uri"], text or ext.get("description")
+        else:
+            if len(text) < 40:
+                continue  # too short to stand alone as a story
+            title, url, summary = clean(text, 140), post_url, text
+        out.append(item(src, title, url, rec.get("createdAt") or p.get("indexedAt"), summary, score=likes,
+                        comments=post_url, authors=[author.get("displayName") or handle]))
+    out.sort(key=lambda i: -(i["score"] or 0) if i else 0)
+    return out[: lim(src)]
+
+
 def h_producthunt(src):
     tok = ENV("PRODUCTHUNT_TOKEN")
     if not tok:
@@ -448,6 +498,7 @@ HANDLERS = {
     "rss": h_rss, "arxiv": h_arxiv, "youtube": h_youtube, "hn": h_hn, "lobsters": h_lobsters, "reddit": h_reddit,
     "hf_papers": h_hf_papers, "hf_models": h_hf_models, "github": h_github, "devto": h_devto,
     "openalex": h_openalex, "producthunt": h_producthunt, "biorxiv": h_biorxiv,
+    "mastodon": h_mastodon, "bluesky": h_bluesky,
 }
 # Sources that only work once the named secrets are configured; skipped quietly otherwise.
 NEEDS = {"reddit": ["REDDIT_CLIENT_ID", "REDDIT_CLIENT_SECRET"]}
@@ -487,6 +538,10 @@ def run_source(src):
             hay = f"{i['title']} {i['summary']} {' '.join(i['tags'])}"
             found = [k for k, rx in TOPIC_RX.items() if rx.search(hay)]
             i["topics"] = list(dict.fromkeys(src.get("topics", []) + found))[:4]
+        if src.get("require_topic"):
+            # General-interest sources (e.g. Mastodon trends): keep only items that match a tech topic.
+            text = lambda i: f"{i['title']} {i['summary']}"
+            items = [i for i in items if any(rx.search(text(i)) for rx in TOPIC_RX.values())][: lim(src)]
         return src, items, None, time.time() - t0
     except Exception as e:  # one bad source never breaks the build
         return src, [], f"{type(e).__name__}: {e}"[:160], time.time() - t0

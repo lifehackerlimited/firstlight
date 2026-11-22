@@ -1,6 +1,6 @@
 # Firstlight
 
-**Emerging tech, first.** A free, open-source media outlet for the frontier: the latest **research, news, analysis, open-source solutions, launches, learning material and community discussion** on emerging technology, collected from ~130 public sources every few hours and presented in one calm, fast feed.
+**Emerging tech, first.** A free, open-source media outlet for the frontier: the latest **research, news, analysis, open-source solutions, launches, learning material and community discussion** on emerging technology, collected from ~140 public sources every few hours and presented in one calm, fast feed.
 
 Built on **MCT (Media Collection Tool)**. No server, no database, no accounts, cookies, analytics or third-party scripts. It runs entirely on **GitHub Actions + GitHub Pages**, for free.
 
@@ -25,9 +25,9 @@ All defined in [`scripts/sources.json`](scripts/sources.json), grouped by conten
 | **Solutions** | Things you can use | GitHub rising repos (all + AI), Hugging Face trending models, DEV Community, Hackaday, r/selfhosted, r/opensource |
 | **Launches** | New products | Product Hunt, Show HN, TechCrunch |
 | **Learn** | Explainers & courses | YouTube: Two Minute Papers, 3Blue1Brown, Computerphile, Fireship, Veritasium, Scott Manley, Real Engineering, MIT OpenCourseWare, Stanford Online, freeCodeCamp · freeCodeCamp News, Class Central, EdSurge, Hechinger Report, Lil'Log, fast.ai, Towards Data Science |
-| **Discussions** | Communities | Hacker News, Lobsters, Slashdot, Reddit (r/MachineLearning, LocalLLaMA, singularity, Futurology, QuantumComputing, space, robotics, biotech, energy, netsec, hardware, programming, EverythingScience, edtech) |
+| **Discussions** | Communities | Hacker News, Lobsters, Slashdot, Tildes (~tech, ~science, ~comp), Mastodon trending links (mastodon.social, Fosstodon, Hachyderm, Infosec.Exchange, mstdn.science), Bluesky feeds (Science, Tech, Machine Learning, Quantum, SciGuy Space, #cybersecurity), Reddit (r/MachineLearning, LocalLLaMA, singularity, Futurology, QuantumComputing, space, robotics, biotech, energy, netsec, hardware, programming, EverythingScience, edtech) |
 
-Source types: `rss` (any RSS/Atom feed, including any Substack's `/feed`), `arxiv`, `openalex`, `biorxiv`, `youtube`, `reddit`, `hn`, `lobsters`, `hf_papers`, `hf_models`, `github`, `devto`, `producthunt`. Every item is auto-tagged into topics (AI, Quantum, Space, Bio & Health, Energy & Climate, Robotics, Security, Chips & Hardware, Software, Materials & Physics, Education).
+Source types: `rss` (any RSS/Atom feed, including any Substack's `/feed`), `arxiv`, `openalex`, `biorxiv`, `youtube`, `reddit`, `hn`, `lobsters`, `hf_papers`, `hf_models`, `github`, `devto`, `producthunt`, `mastodon`, `bluesky`. General-interest sources use `require_topic` so only emerging-tech items get through. Every item is auto-tagged into topics (AI, Quantum, Space, Bio & Health, Energy & Climate, Robotics, Security, Chips & Hardware, Software, Materials & Physics, Education).
 
 **Why not Google Scholar?** It has no API and its terms forbid automated scraping (it also blocks it). Firstlight uses **OpenAlex** instead: an open index of 250M+ scholarly works covering the same journals, conferences and repositories, plus arXiv, bioRxiv and medRxiv for preprints.
 
@@ -37,7 +37,7 @@ Add these under **Settings → Secrets and variables → Actions**. They are onl
 
 | Secret | Unlocks | How to get it |
 |---|---|---|
-| `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET` | The 16 Reddit communities (Reddit blocks anonymous access) | reddit.com/prefs/apps → *create app* → type **script** |
+| `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USERNAME` | The 16 Reddit communities (Reddit blocks anonymous access). The username goes into the User-Agent Reddit's rules require | reddit.com/prefs/apps → *create app* → type **script**. Since Nov 2025 Reddit may require you to request API access and wait for approval |
 | `PRODUCTHUNT_TOKEN` | Product Hunt votes & topics (otherwise the public RSS feed is used) | api.producthunt.com/v2/oauth/applications → *Developer token* |
 | `OPENALEX_API_KEY` | Higher OpenAlex limits | openalex.org (free account) |
 
