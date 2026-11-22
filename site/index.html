@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; manifest-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="color-scheme" content="dark light">
+  <title>Firstlight — Emerging Tech, First</title>
+  <meta name="description" content="Firstlight is a free, open-source media outlet: the latest emerging-tech news, research, solutions and launches from public sources, in one calm feed.">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/theme.js"></script>
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#feed">Skip to feed</a>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#" aria-label="Firstlight home">
+        <img src="assets/icon.svg" alt="" width="28" height="28">
+        <span class="brand-name">Firstlight</span>
+        <span class="brand-sub">Emerging tech, first</span>
+      </a>
+      <label class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <span class="sr">Search the feed</span>
+        <input id="q" type="search" placeholder="Search papers, launches, topics…" autocomplete="off" spellcheck="false" maxlength="120">
+        <kbd>/</kbd>
+      </label>
+      <div class="top-actions">
+        <button class="icon-btn" id="theme" type="button" aria-label="Toggle light and dark theme" title="Theme (t)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+        </button>
+        <button class="icon-btn" id="about-btn" type="button" aria-label="About Firstlight" title="About">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow"><span class="pulse-dot"></span> Live from public research &amp; tech endpoints</p>
+      <h1>The frontier, <em>before</em> it's front&nbsp;page.</h1>
+      <p class="lede">Research papers, lab breakthroughs, open-source projects, launches, newsletters and explainers from <span id="lede-sources">over a hundred</span> public sources, refreshed every few hours. Free, ad-free, tracker-free.</p>
+      <dl class="stats">
+        <div><dt>Stories</dt><dd id="stat-items">—</dd></div>
+        <div><dt>Sources</dt><dd id="stat-sources">—</dd></div>
+        <div><dt>Updated</dt><dd id="stat-updated">—</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <nav class="tabs" aria-label="Content type">
+    <div class="tabs-inner" id="kinds" role="tablist"></div>
+  </nav>
+
+  <main class="layout">
+    <aside class="rail rail-left" aria-label="Topics">
+      <h2 class="rail-title">Topics</h2>
+      <ul class="topic-list" id="topics"></ul>
+    </aside>
+
+    <section class="feed" id="feed" aria-live="polite">
+      <div class="feed-bar">
+        <p class="feed-count" id="count">Loading the feed…</p>
+        <div class="seg" role="group" aria-label="Sort">
+          <button type="button" data-sort="latest" aria-pressed="true">Latest</button>
+          <button type="button" data-sort="top" aria-pressed="false">Top</button>
+        </div>
+      </div>
+      <div id="active-filters" class="active-filters"></div>
+      <div id="list" class="list"></div>
+      <button id="more" class="more" type="button" hidden>Show more</button>
+      <div id="empty" class="empty" hidden>
+        <p class="empty-title">Nothing here yet</p>
+        <p>Try another topic, clear your search, or check back after the next refresh.</p>
+        <button type="button" class="ghost" id="reset">Reset filters</button>
+      </div>
+    </section>
+
+    <aside class="rail rail-right" aria-label="Pulse">
+      <section class="panel">
+        <h2 class="rail-title">Trending terms</h2>
+        <div class="chips" id="trending"></div>
+      </section>
+      <section class="panel">
+        <h2 class="rail-title">Sources</h2>
+        <ul class="source-list" id="sources"></ul>
+      </section>
+      <section class="panel panel-api">
+        <h2 class="rail-title">Open data</h2>
+        <p>Everything here is a public, read-only file. Point Freya or your own tools at it — no keys, no server.</p>
+        <a class="api-link" href="data/feed.json">data/feed.json</a>
+        <a class="api-link" href="data/latest.md">data/latest.md</a>
+      </section>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <p>Firstlight is open source, built on MCT (Media Collection Tool), and runs entirely on GitHub Pages. Content belongs to the original publishers; every card links to its source.</p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <dialog id="about" class="about">
+    <form method="dialog" class="about-inner">
+      <h2>About Firstlight</h2>
+      <p>Firstlight gathers the latest emerging-technology research, news, analysis, open-source projects, launches and learning material from public sources: preprint servers and journals, university and lab newsrooms, specialist outlets, Substack newsletters, Reddit, Hacker News, Product Hunt, GitHub, Hugging Face and educational channels. It is built on MCT, the Media Collection Tool.</p>
+      <h3>Privacy</h3>
+      <p>No accounts, cookies, analytics or third-party scripts. Your saved items stay in this browser only. Your browser never contacts anything except this site until you open a link.</p>
+      <h3>Shortcuts</h3>
+      <ul class="keys">
+        <li><kbd>/</kbd> search</li><li><kbd>j</kbd>/<kbd>k</kbd> next / previous</li>
+        <li><kbd>o</kbd> open</li><li><kbd>s</kbd> save</li><li><kbd>t</kbd> theme</li><li><kbd>Esc</kbd> clear</li>
+      </ul>
+      <button class="primary" value="close">Close</button>
+    </form>
+  </dialog>
+
+  <template id="card-tpl">
+    <article class="card" tabindex="-1">
+      <div class="card-meta">
+        <span class="kind"></span>
+        <button type="button" class="source" title="Show only this source"></button>
+        <span class="dot" aria-hidden="true">·</span>
+        <time></time>
+        <span class="heat" hidden></span>
+      </div>
+      <h3 class="card-title"><a target="_blank" rel="noopener noreferrer nofollow"></a></h3>
+      <p class="card-summary"></p>
+      <div class="card-foot">
+        <div class="card-topics"></div>
+        <div class="card-actions">
+          <a class="act act-discuss" target="_blank" rel="noopener noreferrer nofollow" hidden>Discuss</a>
+          <a class="act act-alt" target="_blank" rel="noopener noreferrer nofollow" hidden>arXiv</a>
+          <button type="button" class="act act-freya" title="Copy a Freya-ready brief">Copy for Freya</button>
+          <button type="button" class="act act-save" aria-pressed="false">Save</button>
+        </div>
+      </div>
+    </article>
+  </template>
+</body>
+</html>
