@@ -92,7 +92,7 @@ async function load() {
   $("#stat-items").textContent = feed.items.length.toLocaleString();
   const live = feed.sources.filter((s) => s.ok).length;
   $("#stat-sources").textContent = live;
-  $("#lede-sources").textContent = `${live} public sources`;
+  $("#lede-sources").textContent = String(live);
   $("#stat-updated").textContent = ago(feed.generated);
   $("#stat-updated").title = new Date(feed.generated).toLocaleString();
   renderSides();

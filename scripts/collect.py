@@ -64,7 +64,7 @@ HOST_DELAY = {
     "www.reddit.com": 2.5,
     "oauth.reddit.com": 0.8,
     "api.github.com": 1.0,
-    "api.openalex.org": 0.3,
+    "api.openalex.org": 1.5,
     "www.youtube.com": 0.3,
 }
 
@@ -123,7 +123,8 @@ def fetch(url: str, headers: dict | None = None, data: bytes | None = None) -> b
                     break
                 except urllib.error.HTTPError as e:
                     if e.code in (429, 502, 503) and attempt == 0:
-                        time.sleep(6)
+                        ra = (e.headers.get("Retry-After") or "").strip()
+                        time.sleep(min(int(ra), 35) if ra.isdigit() else 6)
                         continue
                     raise
         finally:

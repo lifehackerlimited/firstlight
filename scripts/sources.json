@@ -70,13 +70,12 @@
   ],
 
   "insight": [
-    {"id": "import-ai", "name": "Import AI (Substack)", "url": "https://importai.substack.com/feed", "topics": ["ai"]},
+    {"id": "import-ai", "name": "Import AI (Jack Clark)", "url": "https://jack-clark.net/feed/", "topics": ["ai"]},
     {"id": "interconnects", "name": "Interconnects (Substack)", "url": "https://www.interconnects.ai/feed", "topics": ["ai"]},
     {"id": "one-useful-thing", "name": "One Useful Thing (Substack)", "url": "https://www.oneusefulthing.org/feed", "topics": ["ai"]},
     {"id": "latent-space", "name": "Latent Space (Substack)", "url": "https://www.latent.space/feed", "topics": ["ai"]},
     {"id": "ahead-of-ai", "name": "Ahead of AI (Substack)", "url": "https://magazine.sebastianraschka.com/feed", "topics": ["ai"]},
     {"id": "ai-snake-oil", "name": "AI as Normal Technology (Substack)", "url": "https://www.aisnakeoil.com/feed", "topics": ["ai"]},
-    {"id": "gary-marcus", "name": "Marcus on AI (Substack)", "url": "https://garymarcus.substack.com/feed", "topics": ["ai"]},
     {"id": "exponential-view", "name": "Exponential View (Substack)", "url": "https://www.exponentialview.co/feed"},
     {"id": "pragmatic-engineer", "name": "The Pragmatic Engineer (Substack)", "url": "https://newsletter.pragmaticengineer.com/feed", "topics": ["software"]},
     {"id": "semianalysis", "name": "SemiAnalysis (Substack)", "url": "https://newsletter.semianalysis.com/feed", "topics": ["hardware"]},
