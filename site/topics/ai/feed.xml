@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nascent — AI &amp; ML</title>
   <subtitle>Technology, at the moment it&#x27;s born.</subtitle>
-  <link href="https://lifehackerlimited.github.io/nascent/"/>
-  <link rel="self" href="https://lifehackerlimited.github.io/nascent/topics/ai/feed.xml"/>
-  <id>https://lifehackerlimited.github.io/nascent/topics/ai/feed.xml</id>
+  <link href="https://nascent.today/"/>
+  <link rel="self" href="https://nascent.today/topics/ai/feed.xml"/>
+  <id>https://nascent.today/topics/ai/feed.xml</id>
   <updated>2026-11-22T18:25:29Z</updated>
   <entry>
     <title>Why data centers are at the center of the Big Tech backlash</title>

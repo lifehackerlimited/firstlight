@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Disallow: /nascent/account/
-Disallow: /nascent/api/
+Disallow: /account/
+Disallow: /api/
 
-Sitemap: https://lifehackerlimited.github.io/nascent/sitemap.xml
+Sitemap: https://nascent.today/sitemap.xml

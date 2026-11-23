@@ -4,7 +4,7 @@
   "tagline": "Technology, at the moment it's born.",
   "hero": "Catch it before it hits the mainstream.",
   "description": "Free, open-source feed of the latest emerging-tech research, news, open-source projects, launches and learning, from 140+ public sources, refreshed every few hours.",
-  "site_url": "https://lifehackerlimited.github.io/nascent",
+  "site_url": "https://nascent.today",
   "github_repo": "lifehackerlimited/nascent",
   "company": {
     "name": "Betttech Global Ventures Ltd.",
@@ -13,6 +13,7 @@
     "email": "info@betttech.co.uk"
   },
   "analytics": {
+    "gtm": "GTM-TBB3674D",
     "goatcounter": ""
   },
   "plans": {

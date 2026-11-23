@@ -27,7 +27,7 @@ NAME = CFG["site_name"]
 BASE = (os.environ.get("SITE_URL") or CFG["site_url"]).rstrip("/")  # SITE_URL overrides for local testing
 ABS = (urllib.parse.urlparse(BASE).path.rstrip("/") or "") + "/"  # e.g. "/nascent/" or "/"
 NOW = datetime.now(timezone.utc)
-UPDATED = "22 November 2026"
+UPDATED = "23 November 2026"
 P = CFG["plans"]
 CUR = P["currency"]
 KIND_ONE = {"research": "Research", "news": "News", "insight": "Insight", "solution": "Solution",
@@ -35,6 +35,11 @@ KIND_ONE = {"research": "Research", "news": "News", "insight": "Insight", "solut
 
 
 # ------------------------------------------------------------------ shared bits
+def gtm_id() -> str:
+    g = (CFG.get("analytics") or {}).get("gtm", "").strip()
+    return g if re.fullmatch(r"GTM-[A-Z0-9]+", g) else ""
+
+
 def csp() -> str:
     gc = (CFG.get("analytics") or {}).get("goatcounter", "").strip()
     script, img, connect = "'self'", "'self' data:", "'self'"
@@ -42,15 +47,22 @@ def csp() -> str:
         script += " https://gc.zgo.at"
         img += f" https://{gc}.goatcounter.com"
         connect += f" https://{gc}.goatcounter.com"
+    if gtm_id():  # Google Tag Manager + GA4 (Google's documented CSP hosts)
+        script += " https://*.googletagmanager.com"
+        img += " https://*.google-analytics.com https://*.googletagmanager.com"
+        connect += " https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com"
     return (f"default-src 'none'; script-src {script}; style-src 'self'; img-src {img}; connect-src {connect}; "
             "manifest-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'none'")
 
 
 def analytics_tag() -> str:
+    tags = []
+    if gtm_id():  # loads GTM only after the visitor accepts cookies (see assets/consent.js)
+        tags.append(f'<script src="{ABS}assets/consent.js" data-gtm="{E(gtm_id())}"></script>')
     gc = (CFG.get("analytics") or {}).get("goatcounter", "").strip()
-    if not gc:
-        return ""
-    return f'<script data-goatcounter="https://{E(gc)}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>'
+    if gc:
+        tags.append(f'<script data-goatcounter="https://{E(gc)}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>')
+    return "\n  ".join(tags)
 
 
 def meta(title: str, desc: str, path: str, noindex: bool = False) -> str:
@@ -88,6 +100,10 @@ def meta(title: str, desc: str, path: str, noindex: bool = False) -> str:
     return "\n  ".join(lines)
 
 
+def cookie_link() -> str:
+    return f'<a href="{ABS}privacy/#cookies" data-consent-open>Cookie settings</a>' if gtm_id() else ""
+
+
 def footer() -> str:
     repo = CFG["github_repo"]
     c = CFG["company"]
@@ -95,7 +111,7 @@ def footer() -> str:
     <nav class="footer-links" aria-label="Site">
       <a href="{ABS}topics/">Topics</a><a href="{ABS}pricing/">Pricing</a><a href="{ABS}account/">Account</a>
       <a href="{ABS}feed.xml">RSS</a><a href="https://github.com/{E(repo)}/issues/new?template=suggest-source.yml" rel="noopener">Suggest a source</a>
-      <a href="{ABS}privacy/">Privacy</a><a href="{ABS}terms/">Terms</a><a href="{ABS}contact/">Contact</a>
+      <a href="{ABS}privacy/">Privacy</a>{cookie_link()}<a href="{ABS}terms/">Terms</a><a href="{ABS}contact/">Contact</a>
       <a href="https://github.com/{E(repo)}" rel="noopener">Open source</a>
     </nav>
     <p>{E(NAME)} is open source, built on MCT (Media Collection Tool), and run by {E(c["name"].rstrip("."))}. Content belongs to the original publishers; every story links to its source.</p>
@@ -310,14 +326,23 @@ def build_legal():
     c = CFG["company"]
     em = E(c["email"])
     t = P["trial_days"]
+    if gtm_id():
+        READ_COOKIES = "We use no advertising. Analytics cookies are only set if you accept them (see <a href=\"#cookies\">Cookies and analytics</a>)."
+        COOKIES_SECTION = f"""</p>
+      <h2 id="cookies">Cookies and analytics</h2>
+      <p>If you click <b>Accept</b> on the cookie banner, we load Google Tag Manager and Google Analytics (Google Ireland Ltd / Google LLC) to count visits and see which pages and features are used. This sets first-party cookies named <code>_ga</code> and <code>_ga_*</code>, kept for up to 13 months, and sends Google your page views, an approximate location, your device and browser type, and a pseudonymous ID. Google Analytics doesn't store IP addresses. We don't use Google's advertising features or share this data for ads. The lawful basis is your <b>consent</b>.</p>
+      <p>If you click <b>Reject</b> or ignore the banner, nothing is loaded from Google and no analytics cookies are set. Your choice is remembered in your browser's local storage. You can change it at any time with <a href=\"#cookies\" data-consent-open>Cookie settings</a> (also in the footer of every page); withdrawing deletes the analytics cookies."""
+    else:
+        READ_COOKIES = "The site sets <b>no cookies</b> and loads no advertising or tracking scripts."
+        COOKIES_SECTION = ""
     privacy = f"""    <section class="prose">
       <p class="eyebrow">Legal</p>
       <h1>Privacy policy</h1>
       <p class="muted">Last updated {UPDATED}</p>
       <p>{E(NAME)} is run by {company_line()}. We are the data controller for the personal data described here. We collect as little as possible.</p>
       <h2>Reading the site</h2>
-      <p>You don't need an account to read {E(NAME)}. The site sets <b>no cookies</b> and loads no advertising or tracking scripts. Saved stories, followed topics, muted sources, your theme and your <b>For you</b> preferences are stored in your browser's local storage on your device only. They're never sent to us, and you can clear them at any time from the <a href="{ABS}account/">account page</a>.</p>
-      <p>The site is hosted on GitHub Pages. GitHub processes visitors' IP addresses to deliver the site and keep it secure (see GitHub's privacy statement).{" We count visits with GoatCounter, which uses no cookies and does not identify individual visitors." if (CFG.get("analytics") or {}).get("goatcounter") else ""}</p>
+      <p>You don't need an account to read {E(NAME)}. {READ_COOKIES} Saved stories, followed topics, muted sources, your theme and your <b>For you</b> preferences are stored in your browser's local storage on your device only. They're never sent to us, and you can clear them at any time from the <a href="{ABS}account/">account page</a>.</p>
+      <p>The site is hosted on GitHub Pages. GitHub processes visitors' IP addresses to deliver the site and keep it secure (see GitHub's privacy statement).{COOKIES_SECTION}{" We count visits with GoatCounter, which uses no cookies and does not identify individual visitors." if (CFG.get("analytics") or {}).get("goatcounter") else ""}</p>
       <h2>Subscriptions and email digests</h2>
       <p>If you sign up for a plan (including the free weekly digest), we process your name, email address, plan, digest keywords and billing history to provide the service. The lawful basis is <b>performance of a contract</b>. For the free digest, the basis is your <b>consent</b>, which you can withdraw at any time by unsubscribing.</p>
       <ul>
@@ -331,7 +356,7 @@ def build_legal():
       <h2>Your rights</h2>
       <p>You can ask to access, correct, export or delete your personal data, or object to how we use it, by emailing <a href="mailto:{em}">{em}</a>. We reply within one month. If you're unhappy with how we handle your data, you can complain to the Information Commissioner's Office (ico.org.uk).</p>
     </section>"""
-    page("privacy/", f"Privacy policy — {NAME}", f"How {NAME} handles personal data: no cookies, no trackers, minimal data.", privacy)
+    page("privacy/", f"Privacy policy — {NAME}", f"How {NAME} handles personal data: no advertising, analytics only with consent, minimal data.", privacy)
 
     terms = f"""    <section class="prose">
       <p class="eyebrow">Legal</p>

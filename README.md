@@ -2,7 +2,7 @@
 
 **Technology, at the moment it's born.** Catch it before it hits the mainstream at [nascent.news](https://nascent.news). A free, open-source media outlet for the frontier: the latest **research, news, analysis, open-source solutions, launches, learning material and community discussion** on emerging technology, collected from ~140 public sources every few hours and presented in one calm, fast feed.
 
-Built on **MCT (Media Collection Tool)**. No server, no database, no accounts, cookies, analytics or third-party scripts. It runs entirely on **GitHub Actions + GitHub Pages**, for free.
+Built on **MCT (Media Collection Tool)**. No server, no database and no ads. Google Analytics (via Tag Manager) loads only after a visitor accepts the cookie banner. It runs entirely on **GitHub Actions + GitHub Pages**, for free.
 
 ```
  ┌──────────────── GitHub (free) ────────────────┐
@@ -45,7 +45,7 @@ Secrets go in **Settings → Secrets and variables → Actions → Secrets**. Th
 | `PRODUCTHUNT_TOKEN` | Product Hunt votes and topics (otherwise the public RSS feed) |
 | `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USERNAME` | The 16 Reddit communities. Reddit currently isn't issuing new keys to most accounts |
 
-Public settings (name, site address, company details, prices, Stripe payment links, optional cookieless GoatCounter analytics) live in [`config.json`](config.json).
+Public settings (name, site address, company details, prices, Stripe payment links, Google Tag Manager ID, optional cookieless GoatCounter analytics) live in [`config.json`](config.json).
 
 ## How it fits together
 
@@ -82,8 +82,8 @@ python3 -m http.server -d site 8000 # open http://localhost:8000
 
 The portal never talks to Freya, and Freya's server is never exposed. Freya **pulls** the public files instead:
 
-- `https://<you>.github.io/nascent/data/feed.json` — structured feed (schema below)
-- `https://<you>.github.io/nascent/data/latest.md` — Markdown digest grouped by topic, ideal for RAG / summarisation
+- `https://nascent.today/data/feed.json` — structured feed (schema below)
+- `https://nascent.today/data/latest.md` — Markdown digest grouped by topic, ideal for RAG / summarisation
 
 Each card also has **Copy for Freya**, which copies a ready-made brief for pasting into a chat.
 
@@ -107,7 +107,7 @@ Minimal Freya ingestion (Python):
 
 ```python
 import json, urllib.request
-feed = json.load(urllib.request.urlopen("https://<you>.github.io/nascent/data/feed.json", timeout=20))
+feed = json.load(urllib.request.urlopen("https://nascent.today/data/feed.json", timeout=20))
 docs = [f"{i['title']}\n{i['summary']}\n{i['url']}" for i in feed["items"]]
 # → embed / index `docs` in Freya's vector store on your own schedule
 ```
@@ -115,7 +115,7 @@ docs = [f"{i['title']}\n{i['summary']}\n{i['url']}" for i in feed["items"]]
 ## Security model
 
 - **No attack surface you own.** Static files on GitHub's CDN; nothing to log into, no API, no database.
-- **Strict Content-Security-Policy**: only same-origin scripts, styles and data. No inline script, no third-party requests (not even fonts or images), so readers aren't tracked by anyone.
+- **Strict Content-Security-Policy**: only same-origin scripts, styles and data, plus Google Tag Manager/Analytics hosts when `analytics.gtm` is set. No inline script. Nothing is requested from Google until the visitor accepts the cookie banner (`site/assets/consent.js`).
 - **Untrusted content is never rendered as HTML.** The collector strips markup to plain text; the front end uses `textContent` only, and allows only `http(s)` links, opened with `noopener noreferrer nofollow`.
 - **Hardened collector**: https-only sources, per-host rate limits (honours arXiv's 3-second rule), 20 s timeouts, 5 MB response cap, XML DTD/entity rejection, per-source failure isolation, and it refuses to publish an empty feed.
 - **Least-privilege CI**: the build job is read-only; only the deploy job can write to Pages. Dependabot keeps Actions up to date (you can additionally pin them to commit SHAs).
