@@ -24,6 +24,7 @@ import html
 import json
 import os
 import re
+import socket
 import sys
 import threading
 import time
@@ -45,6 +46,7 @@ CONFIG = json.load(open(os.path.join(ROOT, "config.json")))
 
 UA = "Nascent-Collector/2.0 (open-source emerging-tech reader; built on MCT)"
 TIMEOUT = 20
+HOST_TIMEOUT = {"api.biorxiv.org": 45}  # slow API; occasionally takes 20s+ to answer
 MAX_BYTES = 6_000_000
 MAX_ITEMS = 2200
 NOW = datetime.now(timezone.utc)
@@ -124,13 +126,20 @@ def fetch(url: str, headers: dict | None = None, data: bytes | None = None) -> b
             for attempt in range(2):
                 try:
                     req = urllib.request.Request(url, headers=h, data=data)
-                    with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+                    with urllib.request.urlopen(req, timeout=HOST_TIMEOUT.get(host, TIMEOUT)) as r:
                         body = r.read(MAX_BYTES + 1)
                     break
                 except urllib.error.HTTPError as e:
                     if e.code in (429, 502, 503) and attempt == 0:
                         ra = (e.headers.get("Retry-After") or "").strip()
                         time.sleep(min(int(ra), 35) if ra.isdigit() else 6)
+                        continue
+                    raise
+                except (TimeoutError, socket.timeout, urllib.error.URLError) as e:
+                    timed_out = isinstance(e, (TimeoutError, socket.timeout)) or isinstance(
+                        getattr(e, "reason", None), (TimeoutError, socket.timeout))
+                    if timed_out and attempt == 0:  # a slow server gets one more try
+                        time.sleep(3)
                         continue
                     raise
         finally:

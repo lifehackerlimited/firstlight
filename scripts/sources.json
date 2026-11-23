@@ -37,7 +37,6 @@
     {"id": "wired-ai", "name": "WIRED · AI", "url": "https://www.wired.com/feed/tag/ai/latest/rss", "topics": ["ai"]},
     {"id": "new-scientist", "name": "New Scientist · Technology", "url": "https://www.newscientist.com/subject/technology/feed/"},
     {"id": "quanta", "name": "Quanta Magazine", "url": "https://www.quantamagazine.org/feed/", "days": 21},
-    {"id": "singularity-hub", "name": "Singularity Hub", "url": "https://singularityhub.com/feed/"},
     {"id": "techxplore", "name": "TechXplore", "url": "https://techxplore.com/rss-feed/", "limit": 20},
     {"id": "sd-tech", "name": "ScienceDaily · Technology", "url": "https://www.sciencedaily.com/rss/top/technology.xml"},
     {"id": "sd-computing", "name": "ScienceDaily · Computing", "url": "https://www.sciencedaily.com/rss/computers_math.xml"},

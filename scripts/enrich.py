@@ -215,6 +215,18 @@ analysis framework based using toward towards network networks via benchmark dat
 large small new first open source code app apps time world people year years technology tech science scientists
 llm llms gpt api apis""".split())
 
+# Household names and permanent topics: always in the news, so never an "early" signal on their own.
+ESTABLISHED = set("""github gitlab openai anthropic deepmind google alphabet microsoft apple meta facebook amazon aws nvidia
+intel amd tesla spacex nasa esa jaxa isro starship starlink chatgpt claude gemini copilot grok xai youtube tiktok
+linkedin reddit wikipedia huggingface hugging face samsung huawei tsmc arm qualcomm ibm oracle netflix uber
+openai's stackoverflow iphone ipad android windows linux macos ios""".split()) | {
+    "elon musk", "sam altman", "jensen huang", "sundar pichai", "satya nadella", "mark zuckerberg", "tim cook",
+    "dario amodei", "demis hassabis", "climate change", "global warming", "artificial intelligence", "hugging face",
+    "united states", "white house", "silicon valley", "supreme court", "european union", "data centers",
+    "data center", "stock market", "wall street", "social media", "electric vehicles", "renewable energy",
+    "nuclear power", "space station", "mars rover", "james webb", "webb telescope", "black holes", "black hole",
+}
+
 
 def family(sid: str) -> str:
     return sid.split("-")[0]
@@ -245,8 +257,26 @@ def nascent_signals(archive: list, first_seen: dict, limit: int = 12):
     for a in recent:
         for t in terms_of(a["t"]):
             by_term[t].append(a)
+    # Rising, not steady: once the archive holds 2+ weeks, a term must have at least 35% of its 30-day mentions in
+    # the last 7 days (an even spread would be ~23%). Terms that are always around never qualify.
+    span = 0
+    if archive:
+        oldest = min(a["p"] for a in archive)
+        span = (NOW - datetime.strptime(oldest, ISO).replace(tzinfo=timezone.utc)).days
+    total30, last7 = Counter(), Counter()
+    if span >= 14:
+        week = iso_ago(days=7)
+        for a in archive:
+            for t in terms_of(a["t"]):
+                total30[t] += 1
+                if a["p"] >= week:
+                    last7[t] += 1
     scored = []
     for t, docs in by_term.items():
+        if t in ESTABLISHED or all(w in ESTABLISHED or w in GENERIC_WORDS for w in t.split()):
+            continue  # a household name (or two of them, e.g. "spacex starship") isn't an early signal
+        if span >= 14 and total30[t] and last7[t] / total30[t] < 0.35:
+            continue
         fams = {family(a["sid"]) for a in docs}
         stages = {STAGE.get(a["k"], "news") for a in docs}
         if len(docs) < 3 or len(fams) < 3 or len(stages) < 2 or len(docs) / n_docs > 0.03:
@@ -331,5 +361,6 @@ def update_signal_history(prev: list, signals: list, keep_days: int = 180) -> li
         h["items"] = sorted(merged, key=lambda x: x.get("p", ""), reverse=True)[:12]
         hist[slug] = h
     cutoff = (NOW - timedelta(days=keep_days)).strftime("%Y-%m-%d")
-    out = [h for h in hist.values() if h.get("last_flagged", "") >= cutoff]
+    generic = lambda t: t in ESTABLISHED or all(w in ESTABLISHED or w in GENERIC_WORDS for w in t.split())
+    out = [h for h in hist.values() if h.get("last_flagged", "") >= cutoff and not generic(h.get("term", ""))]
     return sorted(out, key=lambda h: (h.get("last_flagged", ""), h.get("score", 0)), reverse=True)
