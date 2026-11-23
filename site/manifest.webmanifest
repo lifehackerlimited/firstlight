@@ -1,7 +1,7 @@
 {
   "name": "Nascent \u2014 Technology, at the moment it's born.",
   "short_name": "Nascent",
-  "description": "Free, open-source feed of the latest emerging-tech research, news, open-source projects, launches and learning, from 140+ public sources, refreshed every few hours.",
+  "description": "Free, open-source feed of the latest emerging-tech research, news, open-source projects, launches and learning, from 120+ public sources, refreshed every few hours.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",

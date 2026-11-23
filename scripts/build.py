@@ -225,7 +225,7 @@ def build_pricing():
         <p class="price"><span class="amt">{CUR}0</span></p>
         <p class="plan-for">For curious readers</p>
         <ul>
-          <li>The full live feed from 140+ sources</li>
+          <li>The full live feed from 120+ sources</li>
           <li>Search, topics, Nascent signals, merged stories</li>
           <li>Saved stories and a private <b>For you</b> view</li>
           <li>Weekly email digest</li>
