@@ -437,6 +437,16 @@ function renderBrief() {
   box.append(head, ul);
 }
 
+// Same capitalisation as the signal pages (scripts/build.py nice()).
+const SMALL_WORDS = new Set("a an and as at for in of on or the to vs via with".split(" "));
+const ACRONYMS = new Set("ai llm llms gpu gpus cpu api rag nasa esa iss agi vr ar ml nlp crispr mrna dna rna ev evs iot 5g 6g uk us eu mcp tpu npu".split(" "));
+function niceTerm(t) {
+  return t.split(" ").map((w, n) => ACRONYMS.has(w) ? w.toUpperCase()
+    : n && SMALL_WORDS.has(w) ? w
+    : /[0-9A-Z]/.test(w) ? w
+    : w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+}
+
 function renderSignals() {
   const ol = $("#signals");
   ol.replaceChildren();
@@ -451,7 +461,7 @@ function renderSignals() {
     b.type = "button";
     b.title = `${s.mentions} mentions across ${s.sources} source groups${s.mainstream ? " (some mainstream coverage)" : ""}`;
     const top = el("span", "signal-top");
-    top.append(el("span", "signal-term", s.term), el("span", "signal-score", String(s.score)));
+    top.append(el("span", "signal-term", niceTerm(s.term)), el("span", "signal-score", String(s.score)));
     const stages = el("span", "stages");
     for (const [k, label] of [["paper", "Papers"], ["code", "Code"], ["talk", "Talk"], ["news", "News"]]) {
       const d = el("span", "stage" + ((s.stages || {})[k] ? " on" : ""), label);
