@@ -43,6 +43,8 @@ Secrets go in **Settings → Secrets and variables → Actions → Secrets**. Th
 | `ARCHIVE_KEY` | The private 180-day archive for Team plans. Any long random string: `openssl rand -hex 32 \| gh secret set ARCHIVE_KEY` |
 | `OPENALEX_API_KEY` | Reliable scholarly search (anonymous OpenAlex search is often throttled) |
 | `PRODUCTHUNT_TOKEN` | Product Hunt votes and topics (otherwise the public RSS feed) |
+| `BLUESKY_HANDLE`, `BLUESKY_APP_PASSWORD` | Daily auto-post of the top signal to Bluesky (use an app password) |
+| `X_API_KEY`, `X_API_SECRET`, `X_ACCESS_TOKEN`, `X_ACCESS_SECRET` | Daily auto-post of the top signal to X (OAuth 1.0a keys with read and write access) |
 | `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_USERNAME` | The 16 Reddit communities. Reddit currently isn't issuing new keys to most accounts |
 
 Public settings (name, site address, company details, prices, Stripe payment links, Google Tag Manager ID, optional cookieless GoatCounter analytics) live in [`config.json`](config.json).
@@ -124,3 +126,10 @@ docs = [f"{i['title']}\n{i['summary']}\n{i['url']}" for i in feed["items"]]
 ## Licence
 
 MIT. Nascent is built on MCT (Media Collection Tool). Articles remain the property of their publishers; MCT shows titles, short excerpts and links back to the original.
+
+## Signal pages and social posts
+
+Every term that becomes a Nascent signal gets a permanent page at `/signals/<slug>/` (listed at `/signals/` and in the sitemap). The history is kept in `data/signals.json` for 180 days, and Claude writes a one-sentence explainer for each new signal.
+
+`scripts/social.py` posts once a day (first refresh after 12:00 UTC, change with the `SOCIAL_POST_HOUR` variable) to whichever of Bluesky and X has secrets set. It picks the strongest signal that mainstream outlets haven't picked up and that hasn't been posted in 14 days, linking to its signal page with UTM tags. To post straight away, run the *Publish* workflow manually and tick **Post today's signal now**.
+

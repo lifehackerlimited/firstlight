@@ -13,11 +13,13 @@ import html
 import json
 import os
 import re
+import sys
 import urllib.parse
 from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = os.path.join(ROOT, "site")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 CFG = json.load(open(os.path.join(ROOT, "config.json")))
 FEED_PATH = os.path.join(SITE, "data", "feed.json")
 FEED = json.load(open(FEED_PATH)) if os.path.exists(FEED_PATH) else {"items": [], "topics": {}, "sources": []}
@@ -109,7 +111,7 @@ def footer() -> str:
     c = CFG["company"]
     return f"""<footer class="footer">
     <nav class="footer-links" aria-label="Site">
-      <a href="{ABS}topics/">Topics</a><a href="{ABS}pricing/">Pricing</a><a href="{ABS}account/">Account</a>
+      <a href="{ABS}signals/">Signals</a><a href="{ABS}topics/">Topics</a><a href="{ABS}pricing/">Pricing</a><a href="{ABS}account/">Account</a>
       <a href="{ABS}feed.xml">RSS</a><a href="https://github.com/{E(repo)}/issues/new?template=suggest-source.yml" rel="noopener">Suggest a source</a>
       <a href="{ABS}privacy/">Privacy</a>{cookie_link()}<a href="{ABS}terms/">Terms</a><a href="{ABS}contact/">Contact</a>
       <a href="https://github.com/{E(repo)}" rel="noopener">Open source</a>
@@ -137,7 +139,7 @@ def page(path: str, title: str, desc: str, body: str, noindex: bool = False, scr
         <span class="brand-sub">Tech at the moment it's born</span>
       </a>
       <nav class="top-nav" aria-label="Main">
-        <a href="{ABS}">Feed</a><a href="{ABS}topics/">Topics</a><a href="{ABS}pricing/">Pricing</a><a href="{ABS}account/">Account</a>
+        <a href="{ABS}">Feed</a><a href="{ABS}signals/">Signals</a><a href="{ABS}topics/">Topics</a><a href="{ABS}pricing/">Pricing</a><a href="{ABS}account/">Account</a>
       </nav>
       <div class="top-actions">
         <button class="icon-btn" id="theme" type="button" aria-label="Toggle light and dark theme" title="Theme">
@@ -438,6 +440,127 @@ def build_topics():
     page("topics/", f"Topics — {NAME}", f"Emerging-tech topics on {NAME}: AI, quantum, space, biotech, energy, robotics, security, chips and more.", body)
 
 
+# ------------------------------------------------------------------ signal pages (SEO)
+def load_signal_history() -> list:
+    try:
+        return json.load(open(os.path.join(SITE, "data", "signals.json")))
+    except Exception:
+        return []
+
+
+SIGNALS = load_signal_history()
+STAGE_LABEL = (("paper", "Papers"), ("code", "Code"), ("talk", "Talk"), ("news", "News"))
+
+
+SMALL = {"a", "an", "and", "as", "at", "for", "in", "of", "on", "or", "the", "to", "vs", "via", "with"}
+ACRONYMS = {"ai", "llm", "llms", "gpu", "gpus", "cpu", "api", "rag", "nasa", "esa", "iss", "agi", "vr", "ar", "ml",
+            "nlp", "crispr", "mrna", "dna", "rna", "ev", "evs", "iot", "5g", "6g", "uk", "us", "eu", "mcp", "tpu", "npu"}
+
+
+def nice(term: str) -> str:
+    out = []
+    for n, w in enumerate(term.split()):
+        if w in ACRONYMS:
+            out.append(w.upper())
+        elif n and w in SMALL:
+            out.append(w)
+        elif any(c.isdigit() or c.isupper() for c in w):
+            out.append(w)
+        else:
+            out.append(w[:1].upper() + w[1:])
+    return " ".join(out)
+
+
+def active_slugs() -> set:
+    from enrich import slugify
+    return {sg.get("slug") or slugify(sg["term"]) for sg in FEED.get("signals", [])}
+
+
+def sparkline(history: list) -> str:
+    pts = [(d, v) for d, v in history if isinstance(v, (int, float))]
+    if len(pts) < 2:
+        return ""
+    w, h, n = 240, 48, len(pts)
+    xy = " ".join(f"{round(i * w / (n - 1), 1)},{round(h - 4 - (v / 99) * (h - 8), 1)}" for i, (_, v) in enumerate(pts))
+    return (f'<figure class="spark"><svg viewBox="0 0 {w} {h}" width="{w}" height="{h}" role="img" '
+            f'aria-label="Signal score from {E(fmt_date(pts[0][0]))} to {E(fmt_date(pts[-1][0]))}">'
+            f'<polyline points="{xy}" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>'
+            f'<figcaption>Daily signal score, {E(fmt_date(pts[0][0]))} – {E(fmt_date(pts[-1][0]))}</figcaption></figure>')
+
+
+def stage_pills(stages: dict) -> str:
+    return "".join(f'<span class="stage{" on" if stages.get(k) else ""}">{lbl} {stages.get(k, 0)}</span>' for k, lbl in STAGE_LABEL)
+
+
+def signal_card(h: dict, live: bool) -> str:
+    about = f'<p class="card-summary">{E(h["about"])}</p>' if h.get("about") else ""
+    when = f"Score {h.get('score', 0)}" if live else f"Last flagged {E(fmt_date(h.get('last_flagged', '')))} · peak {h.get('peak', 0)}"
+    return f"""      <a class="signal-card" href="{ABS}signals/{E(h["slug"])}/">
+        <span class="signal-top"><span class="signal-term">{E(nice(h["term"]))}</span><span class="signal-score">{when}</span></span>
+        {about}
+        <span class="stages">{stage_pills(h.get("stages", {}))}</span>
+      </a>"""
+
+
+def build_signals():
+    live = active_slugs()
+    for h in SIGNALS:
+        is_live = h["slug"] in live
+        term = nice(h["term"])
+        stories = [{"title": x.get("t", ""), "url": x.get("u"), "source": x.get("s", ""), "kind": x.get("k", ""),
+                    "published": x.get("p", "")} for x in h.get("items", [])]
+        status = (f'<span class="badge badge-live">Active signal</span> Score <b>{h.get("score", 0)}</b>/99'
+                  if is_live else f'<span class="badge">Earlier signal</span> Last flagged {E(fmt_date(h.get("last_flagged", "")))}, peak score <b>{h.get("peak", 0)}</b>/99')
+        about = h.get("about") or (f"“{term}” is showing up across {h.get('sources', 0)} independent source groups, "
+                                   f"in research or code as well as discussion, before most mainstream news coverage.")
+        q = urllib.parse.quote(h["term"])
+        body = f"""    <section class="page-hero">
+      <p class="eyebrow"><a href="{ABS}signals/">Nascent signals</a></p>
+      <h1>{E(term)}</h1>
+      <p class="signal-status">{status}</p>
+      <p class="lede">{E(about)}</p>
+      <dl class="stats">
+        <div><dt>First spotted</dt><dd>{E(fmt_date(h.get("first_seen") or h.get("first_flagged", "")))}</dd></div>
+        <div><dt>Flagged since</dt><dd>{E(fmt_date(h.get("first_flagged", "")))}</dd></div>
+        <div><dt>Source groups</dt><dd>{h.get("sources", 0)}</dd></div>
+        <div><dt>Mentions (21 days)</dt><dd>{h.get("mentions", 0)}</dd></div>
+      </dl>
+      <p class="stages stages-lg">{stage_pills(h.get("stages", {}))}</p>
+      {sparkline(h.get("history", []))}
+      <div class="btn-row"><a class="btn btn-primary" href="{ABS}pricing/">Get new signals by email</a><a class="btn" href="{ABS}#q={q}">Search the live feed</a></div>
+    </section>
+    <section class="list topic-list-static">
+      <h2 class="section-title">Where it's showing up</h2>
+{chr(10).join(story(i) for i in stories)}
+    </section>
+    <section class="prose signal-explainer">
+      <h2>What is a Nascent signal?</h2>
+      <p>A signal is a term that starts appearing across several independent kinds of source (research papers, open-source code, developer discussion) before it is mostly a news story. The score (0–99) rises with how many source groups and stages mention it and how recent and new it is, and falls as mainstream outlets pick it up. <a href="{ABS}signals/">See all signals</a>.</p>
+    </section>"""
+        desc = (h.get("about") or f"{term}: an early emerging-tech signal spotted by {NAME} across {h.get('sources', 0)} source groups.")[:300]
+        page(f"signals/{h['slug']}/", f"{term}: early emerging-tech signal — {NAME}", desc, body)
+
+    act = [h for h in SIGNALS if h["slug"] in live]
+    act.sort(key=lambda h: -h.get("score", 0))
+    old = [h for h in SIGNALS if h["slug"] not in live]
+    old_html = ('<section class="signal-grid">\n      <h2 class="section-title">Earlier signals</h2>\n'
+                + "\n".join(signal_card(h, False) for h in old[:120]) + "\n    </section>") if old else ""
+    act_html = "\n".join(signal_card(h, True) for h in act) or '      <p class="muted">No active signals right now. Check back after the next refresh.</p>'
+    body = f"""    <section class="page-hero">
+      <p class="eyebrow">Nascent signals</p>
+      <h1>Ideas before they hit the mainstream</h1>
+      <p class="lede">Terms spreading across research papers, open-source code and developer discussion before most news outlets cover them. Updated every few hours; each signal keeps its own page.</p>
+      <div class="btn-row"><a class="btn btn-primary" href="{ABS}pricing/">Get signals by email</a><a class="btn" href="{ABS}">Open the live feed</a></div>
+    </section>
+    <section class="signal-grid">
+      <h2 class="section-title">Active now</h2>
+{act_html}
+    </section>
+    {old_html}"""
+    page("signals/", f"Nascent signals: emerging tech before the mainstream — {NAME}",
+         "Early signals in emerging technology: ideas spreading across research papers, open-source code and discussion before mainstream news.", body)
+
+
 def atom(path: str, title: str, items: list) -> None:
     def x(s):
         return E(s or "", quote=True)
@@ -485,6 +608,7 @@ def build_404():
 
 def build_meta_files():
     paths = ["", "topics/", "pricing/", "privacy/", "terms/", "contact/"]
+    paths += ["signals/"] + [f"signals/{h['slug']}/" for h in SIGNALS]
     paths += [f"topics/{k}/" for k in FEED.get("topics", {}) if any(k in (i.get("topics") or []) for i in FEED.get("items", []))]
     day = NOW.strftime("%Y-%m-%d")
     urls = "\n".join(f"  <url><loc>{E(BASE)}/{p}</loc><lastmod>{day}</lastmod></url>" for p in paths)
@@ -534,6 +658,7 @@ def main():
     build_account()
     build_legal()
     build_topics()
+    build_signals()
     build_404()
     atom("feed.xml", f"{NAME} — latest", sorted(FEED.get("items", []), key=lambda i: i["published"], reverse=True)[:60])
     print(f"Built pages for {len(FEED.get('items', []))} items at {BASE}")

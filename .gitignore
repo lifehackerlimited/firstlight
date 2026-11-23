@@ -1,3 +1,6 @@
 __pycache__/
 .DS_Store
 digest-preview/
+# generated in CI on every run
+site/signals/
+site/data/signals.json

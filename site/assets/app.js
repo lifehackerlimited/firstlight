@@ -460,6 +460,12 @@ function renderSignals() {
     b.append(top, stages);
     b.addEventListener("click", () => searchFor(s.term));
     li.append(b);
+    if (s.slug && /^[a-z0-9-]+$/.test(s.slug)) {
+      const a = el("a", "signal-more", "Signal page");
+      a.href = `signals/${s.slug}/`;
+      a.setAttribute("aria-label", `${s.term}: signal page`);
+      li.append(a);
+    }
     ol.append(li);
   }
 }

@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "17 */3 * * *"   # every 3 hours
   workflow_dispatch:
+    inputs:
+      social_now:
+        description: "Post today's signal to Bluesky/X now (ignores the once-a-day timing)"
+        type: boolean
+        default: false
   push:
     branches: [main]
 
@@ -52,6 +57,17 @@ jobs:
           ARCHIVE_KEY: ${{ secrets.ARCHIVE_KEY }}
       - name: Build pages
         run: python scripts/build.py
+      - name: Post the daily signal to Bluesky / X (optional)
+        run: python scripts/social.py
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+          SOCIAL_POST_HOUR: ${{ vars.SOCIAL_POST_HOUR }}
+          SOCIAL_FORCE: ${{ inputs.social_now && '1' || '' }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

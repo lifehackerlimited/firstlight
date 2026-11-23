@@ -299,3 +299,37 @@ def update_first_seen(first_seen: dict, archive: list) -> dict:
         if c >= 2 and (t not in fs or earliest[t] < fs[t]):
             fs[t] = earliest[t]
     return fs
+
+
+def slugify(term: str) -> str:
+    s = re.sub(r"[^a-z0-9]+", "-", term.lower()).strip("-")
+    return s[:60] or "signal"
+
+
+def update_signal_history(prev: list, signals: list, keep_days: int = 180) -> list:
+    """Every term that has ever been a Nascent signal, so each one keeps a permanent page (signals/<slug>/)
+    after it drops off the live panel. Stored publicly at data/signals.json."""
+    today = NOW.strftime("%Y-%m-%d")
+    hist = {h["slug"]: h for h in prev if isinstance(h, dict) and h.get("slug")}
+    for s in signals:
+        slug = slugify(s["term"])
+        h = hist.get(slug) or {"slug": slug, "term": s["term"], "first_flagged": today, "peak": 0, "history": [], "items": []}
+        h.update({
+            "term": s["term"], "last_flagged": today, "score": s["score"], "first_seen": s.get("first_seen"),
+            "stages": s.get("stages", {}), "sources": s.get("sources", 0), "mentions": s.get("mentions", 0),
+            "mainstream": s.get("mainstream", False),
+        })
+        h["peak"] = max(h.get("peak", 0), s["score"])
+        days = dict(h.get("history", []))
+        days[today] = max(days.get(today, 0), s["score"])
+        h["history"] = sorted(days.items())[-90:]
+        seen, merged = set(), []
+        for it in list(s.get("items", [])) + h.get("items", []):
+            if it.get("id") and it["id"] not in seen:
+                seen.add(it["id"])
+                merged.append(it)
+        h["items"] = sorted(merged, key=lambda x: x.get("p", ""), reverse=True)[:12]
+        hist[slug] = h
+    cutoff = (NOW - timedelta(days=keep_days)).strftime("%Y-%m-%d")
+    out = [h for h in hist.values() if h.get("last_flagged", "") >= cutoff]
+    return sorted(out, key=lambda h: (h.get("last_flagged", ""), h.get("score", 0)), reverse=True)

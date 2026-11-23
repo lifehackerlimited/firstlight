@@ -672,6 +672,12 @@ def main():
     archive = enrich.update_archive(prev_archive, items, days=30, cap=15000)
     first_seen = enrich.update_first_seen(prev_state.get("first_seen", {}), archive)
     signals = enrich.nascent_signals(archive, first_seen)
+    signal_hist = enrich.update_signal_history(enrich.fetch_previous(site_url, "data/signals.json", []), signals)
+    about = {h["slug"]: h.get("about") for h in signal_hist if h.get("about")}
+    for s in signals:
+        s["slug"] = enrich.slugify(s["term"])
+        if about.get(s["slug"]):
+            s["about"] = about[s["slug"]]
     in_signal = {x["id"]: s["term"] for s in signals for x in s["items"]}
     for i in items:
         if i["id"] in in_signal:
@@ -693,12 +699,14 @@ def main():
         "first_seen": first_seen,
         "ai": {a["id"]: a["ai"] for a in archive if a.get("ai")},
         "brief": prev_state.get("brief"),
+        "social": prev_state.get("social", {}),
     }
     os.makedirs(OUT_DIR, exist_ok=True)
     dump = lambda name, obj: json.dump(obj, open(os.path.join(OUT_DIR, name), "w"), ensure_ascii=False, separators=(",", ":"))
     dump("feed.json", feed)
     dump("archive.json", archive)
     dump("state.json", state)
+    dump("signals.json", signal_hist)
     with open(os.path.join(OUT_DIR, "latest.md"), "w") as f:
         f.write(digest(feed))
 

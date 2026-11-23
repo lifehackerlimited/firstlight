@@ -34,6 +34,10 @@ for a smart reader who is not a specialist. Be concrete. No hype words ("groundb
 "This paper/article...", no restating the headline. If the record is too thin to say anything useful, return an
 empty string for that story.
 
+For each entry in `signals_to_explain`, write `about`: one plain-English sentence (at most 30 words) explaining what
+the term refers to and why it is turning up now, based only on the story titles given. If the titles don't make
+it clear, return an empty string.
+
 If asked for a brief, write `brief`: 4 to 6 short bullet lines (each starting with "• ") covering the most
 important developments across the stories and signals, most important first. Otherwise return an empty string."""
 
@@ -49,9 +53,18 @@ SCHEMA = {
                 "additionalProperties": False,
             },
         },
+        "signals": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {"slug": {"type": "string"}, "about": {"type": "string"}},
+                "required": ["slug", "about"],
+                "additionalProperties": False,
+            },
+        },
         "brief": {"type": "string"},
     },
-    "required": ["items", "brief"],
+    "required": ["items", "signals", "brief"],
     "additionalProperties": False,
 }
 
@@ -79,20 +92,24 @@ def main():
     rank = lambda i: (bool(i.get("signal")), i.get("coverage", 1), i.get("heat") or 0)
     todo = sorted([i for i in feed["items"] if not i.get("ai")], key=rank, reverse=True)[:LIMIT]
     need_brief = (feed.get("brief") or {}).get("date") != TODAY
-    if not todo and not need_brief:
+    hist = load("signals.json", [])
+    explain = [h for h in hist if h.get("last_flagged") == TODAY and not h.get("about")][:12]
+    if not todo and not need_brief and not explain:
         print("AI summaries: nothing new.", file=sys.stderr)
         return
 
     records = [{"id": i["id"], "title": i["title"], "source": i["source"], "type": i["kind"],
                 "excerpt": (i.get("summary") or "")[:500]} for i in todo]
-    payload = {"stories": records}
+    payload = {"stories": records,
+               "signals_to_explain": [{"slug": h["slug"], "term": h["term"],
+                                       "story_titles": [x["t"] for x in h.get("items", [])[:8]]} for h in explain]}
     if need_brief:
         top = sorted(feed["items"], key=rank, reverse=True)[:25]
         payload["brief_inputs"] = {
             "top_stories": [{"title": i["title"], "source": i["source"], "excerpt": (i.get("summary") or "")[:240]} for i in top],
             "signals": [{"term": s["term"], "mentions": s["mentions"], "stages": s["stages"]} for s in feed.get("signals", [])[:8]],
         }
-    task = ("Write `why` for every story in `stories`." +
+    task = ("Write `why` for every story in `stories`, and `about` for every entry in `signals_to_explain`." +
             (" Also write `brief` from `brief_inputs`." if need_brief else " Return an empty `brief`."))
 
     client = anthropic.Anthropic()
@@ -134,18 +151,27 @@ def main():
         if a["id"] in why:
             a["ai"] = why[a["id"]][:300]
     state.setdefault("ai", {}).update(why)
+    about = {o["slug"]: o["about"].strip()[:300] for o in out.get("signals", []) if o.get("about", "").strip()}
+    for h in hist:
+        if h["slug"] in about:
+            h["about"] = about[h["slug"]]
+    for sg in feed.get("signals", []):
+        if sg.get("slug") in about:
+            sg["about"] = about[sg["slug"]]
     if need_brief and out.get("brief", "").strip():
         feed["brief"] = state["brief"] = {"date": TODAY, "text": out["brief"].strip()[:1500]}
 
     save("feed.json", feed)
     save("archive.json", archive)
     save("state.json", state)
+    if about:
+        save("signals.json", hist)
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     from collect import digest  # refresh the Markdown digest with the new summaries
     with open(os.path.join(DATA, "latest.md"), "w") as f:
         f.write(digest(feed))
     u = resp.usage
-    print(f"AI summaries: {len(why)} stories, brief={'yes' if need_brief else 'no'}, model={resp.model}, "
+    print(f"AI summaries: {len(why)} stories, {len(about)} signal explainers, brief={'yes' if need_brief else 'no'}, model={resp.model}, "
           f"tokens in/out {u.input_tokens}/{u.output_tokens}", file=sys.stderr)
 
 
