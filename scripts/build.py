@@ -98,7 +98,7 @@ def footer() -> str:
       <a href="{ABS}privacy/">Privacy</a><a href="{ABS}terms/">Terms</a><a href="{ABS}contact/">Contact</a>
       <a href="https://github.com/{E(repo)}" rel="noopener">Open source</a>
     </nav>
-    <p>{E(NAME)} is open source, built on MCT (Media Collection Tool), and run by {E(c["name"])}. Content belongs to the original publishers; every story links to its source.</p>
+    <p>{E(NAME)} is open source, built on MCT (Media Collection Tool), and run by {E(c["name"].rstrip("."))}. Content belongs to the original publishers; every story links to its source.</p>
   </footer>"""
 
 
