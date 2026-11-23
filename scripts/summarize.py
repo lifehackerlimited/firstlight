@@ -95,7 +95,7 @@ def main():
     todo = sorted([i for i in feed["items"] if not i.get("ai")], key=rank, reverse=True)[:LIMIT]
     need_brief = (feed.get("brief") or {}).get("date") != TODAY
     hist = load("signals.json", [])
-    stale = re.compile(r"\b(these|the) (titles|stories|posts)\b", re.I)  # earlier wording that referred to the input
+    stale = re.compile(r"\btitles?\b|\b(these|the) (stories|posts)\b", re.I)  # earlier wording that referred to the input
     explain = [h for h in hist if h.get("last_flagged") == TODAY
                and (not h.get("about") or stale.search(h["about"]))][:12]
     if not todo and not need_brief and not explain:
