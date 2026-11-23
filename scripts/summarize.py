@@ -16,6 +16,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 
@@ -35,8 +36,9 @@ for a smart reader who is not a specialist. Be concrete. No hype words ("groundb
 empty string for that story.
 
 For each entry in `signals_to_explain`, write `about`: one plain-English sentence (at most 30 words) explaining what
-the term refers to and why it is turning up now, based only on the story titles given. If the titles don't make
-it clear, return an empty string.
+the term refers to and why it is turning up now, based only on the story titles given. It is published on its own
+page, so write it for readers as a standalone sentence: never mention "titles", "stories", "these posts" or the
+input. If the titles don't make it clear, return an empty string.
 
 If asked for a brief, write `brief`: 4 to 6 short bullet lines (each starting with "• ") covering the most
 important developments across the stories and signals, most important first. Otherwise return an empty string."""
@@ -93,7 +95,9 @@ def main():
     todo = sorted([i for i in feed["items"] if not i.get("ai")], key=rank, reverse=True)[:LIMIT]
     need_brief = (feed.get("brief") or {}).get("date") != TODAY
     hist = load("signals.json", [])
-    explain = [h for h in hist if h.get("last_flagged") == TODAY and not h.get("about")][:12]
+    stale = re.compile(r"\b(these|the) (titles|stories|posts)\b", re.I)  # earlier wording that referred to the input
+    explain = [h for h in hist if h.get("last_flagged") == TODAY
+               and (not h.get("about") or stale.search(h["about"]))][:12]
     if not todo and not need_brief and not explain:
         print("AI summaries: nothing new.", file=sys.stderr)
         return
