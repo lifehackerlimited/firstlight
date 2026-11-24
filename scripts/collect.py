@@ -593,7 +593,7 @@ week month year today's company companies firm users user team teams source sour
 code find finds found problem problems test tests testing thing things part parts power control
 shows showing reveals revealed explains explained makes making used uses
 early earlier later latest intelligence artificial software technology technologies tech digital online
-keep keeps design designs network networks""".split())
+keep keeps design designs network networks center centers centre centres customer customers""".split())
 
 
 def trending(items, limit: int = 16):
