@@ -34,7 +34,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 import enrich
-from collections import Counter
+from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
@@ -584,24 +584,56 @@ def add_heat(items, weights):
             i["heat"] = round(100 * (rank + 1) / n * weights.get(i["sourceId"], 1.0))
 
 
-def trending(items):
+# Headline filler: common in titles but says nothing about what's trending.
+TREND_STOP = set("""next work help critical today latest report reports update updates news announces announced launch
+launches launched world people best top inside could would should every many much really better big biggest major
+amid plans plan wants calls call warns warn returns return back gets takes take goes going look looks deal deals
+says said following around without against during while where which still ever never another other first last
+week month year today's company companies firm users user team teams source sources official officially
+code find finds found problem problems test tests testing thing things part parts power control
+shows showing reveals revealed explains explained makes making used uses""".split())
+
+
+def trending(items, limit: int = 16):
+    """Most-mentioned word pairs, then words, in the last 72 hours of headlines, with one tag per story cluster:
+    a term is skipped when most of its stories are already covered by a term picked before it
+    (so "jensen huang", "nvidia ceo" and "huang reinstated" collapse into one tag)."""
     since = (NOW - timedelta(hours=72)).strftime("%Y-%m-%dT%H:%M:%SZ")
     recent = [i for i in items if i["published"] >= since]
-    words, bigrams = Counter(), Counter()
-    for i in recent:
-        low = [t.lower() for t in re.findall(r"[A-Za-z][A-Za-z0-9+\-]{2,}", i["title"])]
-        seen = set()
-        for t in low:
-            if t not in STOP and len(t) > 3 and t not in seen:
-                words[t] += 1
-                seen.add(t)
-        for a, b in set(zip(low, low[1:])):
-            if a not in STOP and b not in STOP:
-                bigrams[f"{a} {b}"] += 1
-    terms = [(b, c) for b, c in bigrams.most_common(10) if c >= 3]
-    used = {w for b, _ in terms for w in b.split()}
-    terms += [(w, c) for w, c in words.most_common(40) if w not in used and c >= 4]
-    return [{"term": t, "count": c} for t, c in terms[:16]]
+    stop = STOP | TREND_STOP
+    stories, sources, proper = defaultdict(set), defaultdict(set), Counter()
+    for n, i in enumerate(recent):
+        raw = re.findall(r"[A-Za-z][A-Za-z0-9+\-]{2,}", i["title"])
+        low = [t.lower() for t in raw]
+        for k, w in enumerate(raw[1:], 1):  # capitalised mid-headline = a name (Huang, Google, NASA, COP31)
+            if w[0].isupper():
+                proper[low[k]] += 1
+        terms = {t for t in low if t not in stop and len(t) > 3}
+        terms |= {f"{a} {b}" for a, b in zip(low, low[1:]) if a not in stop and b not in stop}
+        for t in terms:
+            stories[t].add(n)
+            sources[t].add(i.get("sourceId"))
+
+    def ok(t):
+        if len(sources[t]) < 2:
+            return False  # one prolific feed isn't a trend
+        if " " in t:
+            return len(stories[t]) >= 3
+        is_name = proper[t] >= len(stories[t]) / 2
+        return len(stories[t]) >= (4 if is_name else 6)
+
+    pairs = sorted((t for t in stories if " " in t and ok(t)), key=lambda t: len(stories[t]), reverse=True)
+    words = sorted((t for t in stories if " " not in t and ok(t)), key=lambda t: len(stories[t]), reverse=True)
+    picked, covered = [], []
+    for t in pairs[:limit] + words:  # pairs say more ("jensen huang" beats "huang"), so they go first
+        st = stories[t]
+        if any(len(st & c) / len(st) >= 0.5 for c in covered):
+            continue  # same story cluster as a tag we already have
+        picked.append(t)
+        covered.append(st)
+        if len(picked) >= limit:
+            break
+    return [{"term": t, "count": len(stories[t])} for t in picked]
 
 
 def digest(feed):
