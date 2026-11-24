@@ -49,7 +49,7 @@ Would you be open to trying it, or could you point me to the right person?
 
 Best wishes,
 Joseph Bett
-Founder, Nascent · Betttech Global Ventures Ltd
+Founder, Nascent (part of BGV)
 https://nascent.today/pricing/?utm_source=email&utm_campaign=uni#institutions
 
 ---
@@ -71,7 +71,7 @@ Would it be worth a quick chat?
 
 Best wishes,
 Joseph Bett
-Founder, Nascent · Betttech Global Ventures Ltd
+Founder, Nascent (part of BGV)
 https://nascent.today/pricing/?utm_source=email&utm_campaign=uni#institutions
 
 ---
@@ -93,7 +93,7 @@ Would someone on the team be open to trying it?
 
 Best wishes,
 Joseph Bett
-Founder, Nascent · Betttech Global Ventures Ltd
+Founder, Nascent (part of BGV)
 https://nascent.today/pricing/?utm_source=email&utm_campaign=uni#institutions
 
 ---
@@ -115,7 +115,7 @@ Would you be open to it, or could you forward this to the right team?
 
 Best wishes,
 Joseph Bett
-Founder, Nascent · Betttech Global Ventures Ltd
+Founder, Nascent (part of BGV)
 https://nascent.today/pricing/?utm_source=email&utm_campaign=uni#institutions
 
 ---
@@ -135,7 +135,7 @@ There's no cost to Discovery Park or your tenants. Would you be open to a quick 
 
 Best wishes,
 Joseph Bett
-Founder, Nascent · Betttech Global Ventures Ltd
+Founder, Nascent (part of BGV)
 https://nascent.today/pricing/?utm_source=email&utm_campaign=rd#institutions
 
 ---
@@ -157,7 +157,7 @@ Would someone on your team be open to trying it?
 
 Best wishes,
 Joseph Bett
-Founder, Nascent · Betttech Global Ventures Ltd
+Founder, Nascent (part of BGV)
 https://nascent.today/topics/space/?utm_source=email&utm_campaign=rd
 
 ---
@@ -179,7 +179,7 @@ Would it be worth a short conversation?
 
 Best wishes,
 Joseph Bett
-Founder, Nascent · Betttech Global Ventures Ltd
+Founder, Nascent (part of BGV)
 https://nascent.today/?utm_source=email&utm_campaign=rd
 
 ---
@@ -197,7 +197,7 @@ Given Digital Catapult's work helping UK businesses adopt advanced digital techn
 
 Would someone be open to trying it?
 
-Joseph Bett, Founder, Nascent (Betttech Global Ventures Ltd)
+Joseph Bett, Founder, Nascent (part of BGV)
 info@betttech.co.uk · https://nascent.today
 
 ---
@@ -219,7 +219,7 @@ Interested?
 
 Best,
 Joseph Bett
-Founder, Nascent
+Founder, Nascent (part of BGV)
 https://nascent.today/?utm_source=email&utm_campaign=vc
 
 ---
@@ -239,7 +239,7 @@ Would your team be open to trying it?
 
 Best,
 Joseph Bett
-Founder, Nascent
+Founder, Nascent (part of BGV)
 https://nascent.today/?utm_source=email&utm_campaign=vc
 
 ---
@@ -256,7 +256,7 @@ I'd like to offer your accelerator startups free access as a programme perk: eac
 
 I'd also be glad to offer your investment team a free 3-month Team pilot. Would you be open to a quick chat?
 
-Joseph Bett, Founder, Nascent (Betttech Global Ventures Ltd)
+Joseph Bett, Founder, Nascent (part of BGV)
 info@betttech.co.uk · https://nascent.today/?utm_source=form&utm_campaign=accelerator
 
 ---
@@ -273,7 +273,7 @@ I think it could help the venture scientists you back keep track of their field 
 
 Would you be open to a short call about it?
 
-Joseph Bett, Founder, Nascent (Betttech Global Ventures Ltd)
+Joseph Bett, Founder, Nascent (part of BGV)
 info@betttech.co.uk · https://nascent.today/?utm_source=form&utm_campaign=phd
 
 ---
@@ -293,7 +293,7 @@ I'd also welcome any advice on Kent networks or events where it would be worth s
 
 Best wishes,
 Joseph Bett
-Founder, Nascent · Betttech Global Ventures Ltd
+Founder, Nascent (part of BGV)
 https://nascent.today/?utm_source=email&utm_campaign=kent
 
 ---
