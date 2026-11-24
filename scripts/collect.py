@@ -591,7 +591,9 @@ amid plans plan wants calls call warns warn returns return back gets takes take 
 says said following around without against during while where which still ever never another other first last
 week month year today's company companies firm users user team teams source sources official officially
 code find finds found problem problems test tests testing thing things part parts power control
-shows showing reveals revealed explains explained makes making used uses""".split())
+shows showing reveals revealed explains explained makes making used uses
+early earlier later latest intelligence artificial software technology technologies tech digital online
+keep keeps design designs network networks""".split())
 
 
 def trending(items, limit: int = 16):
@@ -613,6 +615,14 @@ def trending(items, limit: int = 16):
         for t in terms:
             stories[t].add(n)
             sources[t].add(i.get("sourceId"))
+
+    # Merge singular/plural single words ("agent" + "agents") under the more common form.
+    for t in [t for t in stories if " " not in t and t.endswith("s") and t[:-1] in stories]:
+        one, many = t[:-1], t
+        keep, drop = (many, one) if len(stories[many]) >= len(stories[one]) else (one, many)
+        stories[keep] |= stories.pop(drop)
+        sources[keep] |= sources.pop(drop, set())
+        proper[keep] += proper[drop]
 
     def ok(t):
         if len(sources[t]) < 2:
