@@ -409,3 +409,13 @@ button.badge:hover { color: var(--text); border-color: var(--line-strong); }
 .signal-card .signal-term { font: 500 19px var(--serif); }
 .signal-card .card-summary { margin: 0; color: var(--muted); font-size: 14px; }
 .signal-explainer { margin-top: 32px; }
+
+/* ---------- institution pilot (pricing) ---------- */
+.institutions { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 32px; align-items: start; margin-top: 28px; padding: 32px; border-radius: 18px; background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow); }
+.institutions h2 { font: 500 30px/1.15 var(--serif); margin: 0 0 12px; }
+.institutions p { margin: 0 0 12px; line-height: 1.6; }
+.institutions .code { font-family: var(--mono); color: var(--text); letter-spacing: .04em; }
+.inst-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.inst-list li { padding: 14px 16px; border-radius: 12px; background: var(--surface-2); font-size: 14.5px; line-height: 1.5; }
+.inst-list b { display: block; margin-bottom: 2px; }
+@media (max-width: 760px) { .institutions { grid-template-columns: 1fr; padding: 22px; } }

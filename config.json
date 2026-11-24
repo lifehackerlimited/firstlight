@@ -33,5 +33,10 @@
     "team": "https://buy.stripe.com/eVq28rfWe2FU5X7eK9d3i05",
     "portal": "https://billing.stripe.com/p/login/4gM4gz6lE80egBLdG5d3i01"
   },
-  "founder_code": "FOUNDER"
+  "founder_code": "FOUNDER",
+  "institution_pilot": {
+    "code": "PILOT",
+    "months": 3,
+    "places": 25
+  }
 }

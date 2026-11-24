@@ -199,6 +199,31 @@ def company_line() -> str:
 
 
 # ------------------------------------------------------------------ pages
+def institutions_block() -> str:
+    ip = CFG.get("institution_pilot") or {}
+    if not ip.get("code"):
+        return ""
+    em = CFG["company"]["email"]
+    mail = f"mailto:{em}?subject=" + urllib.parse.quote(f"{NAME} founding institution pilot")
+    team = safe(CFG["stripe"].get("team"))
+    start = (f'<a class="btn btn-primary" href="{E(team)}" rel="noopener">Start the pilot</a>' if team else "")
+    return f"""    <section class="institutions" id="institutions">
+      <div>
+        <p class="eyebrow">For institutions</p>
+        <h2>Founding institution pilot: {ip.get("months", 3)} months of Team, free</h2>
+        <p>For university research offices and centres, libraries, innovation teams and corporate R&amp;D. Your team gets daily digests filtered to the fields you track, the Nascent signals report, and a private JSON feed with a 180-day archive you can plug into your own tools.</p>
+        <p class="muted">Open to the first {ip.get("places", 25)} organisations. Use code <b class="code">{E(ip["code"])}</b> at checkout: the first {P["trial_days"]} days are a free trial and the code covers the next two months. Cancel any time before it ends and you pay nothing. All we ask is a 15-minute feedback call.</p>
+        <div class="btn-row">{start}<a class="btn" href="{E(mail)}">Email us about a pilot</a></div>
+      </div>
+      <ul class="inst-list">
+        <li><b>Horizon scanning</b> without the manual trawl through journals and newsrooms</li>
+        <li><b>Early signals</b> on ideas moving from papers to code, before they're news</li>
+        <li><b>Up to {P["team_seats"]} people</b> on one plan, each with their own keywords</li>
+        <li><b>Your data, your tools</b> with a private feed for dashboards, Slack or an internal assistant</li>
+      </ul>
+    </section>"""
+
+
 def build_pricing():
     s = CFG["stripe"]
 
@@ -273,6 +298,7 @@ def build_pricing():
         {btn("team", f"Start {t}-day free trial")}
       </article>
     </section>
+{institutions_block()}
     <section class="prose faq">
       <h2>Questions</h2>
       <h3>Will I be charged during the trial?</h3>
@@ -281,6 +307,8 @@ def build_pricing():
       <p>Yes, always. Paid plans pay for the extras: personal email briefings, AI summaries and the team API. They also keep the site ad-free.</p>
       <h3>Who handles my payment?</h3>
       <p>Stripe. Your card details go straight to Stripe and never touch {E(NAME)}. For paid plans Stripe acts as the reseller (merchant of record), so your receipt comes from Stripe and VAT is handled correctly wherever you live. Prices include VAT where it applies.</p>
+      <h3>Do you offer licences for a whole university or company?</h3>
+      <p>Yes. Email <a href="mailto:{E(CFG["company"]["email"])}?subject={urllib.parse.quote(NAME + " institution licence")}">{E(CFG["company"]["email"])}</a> and we'll set up an annual licence with unlimited seats and invoice billing.</p>
       <h3>Can I get a refund?</h3>
       <p>Yes. If you're charged and change your mind within 14 days, email us for a full refund. See the <a href="{ABS}terms/">terms</a>.</p>
     </section>"""
